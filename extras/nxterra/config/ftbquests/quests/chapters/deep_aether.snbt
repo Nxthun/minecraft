@@ -1,0 +1,449 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "deep_aether"
+	group: "20434CE362D81358"
+	icon: {
+		id: "aether:zanite_gemstone"
+	}
+	id: "26EF828327E219B6"
+	images: [
+		{
+			height: 7.5d
+			id: "720E1233F282AC2B"
+			image: "nxterra:textures/quests/backdrop/deep_aether.png"
+			order: -1
+			rotation: 0.0d
+			width: 15.0d
+			x: 4.75d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "2156F767FB7012E2"
+			image: "nxterra:textures/quests/banner/deep_aether.png"
+			order: 1
+			rotation: 0.0d
+			width: 6.5d
+			x: 4.75d
+			y: -1.8248d
+		}
+	]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "deep_aether:aerglow_blossom"
+			}
+			id: "6555D737AE7EB1CE"
+			rewards: [
+				{
+					id: "1E9861F5D55E528F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "640CDE04A5589186"
+					item: {
+						count: 1
+						id: "aether:ambrosium_shard"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "deep_aether:aerglow_forest"
+					id: "16C6F8B18230A0C6"
+					type: "biome"
+				}
+				{
+					biome: "deep_aether:golden_grove"
+					id: "70CF1A67CE0366D6"
+					type: "biome"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6555D737AE7EB1CE"]
+			icon: {
+				id: "deep_aether:skyjade"
+			}
+			id: "1EFD0B5205A292AD"
+			rewards: [
+				{
+					id: "5BD4CBF0F6F97B41"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "22EE5A595D4F19D3"
+					item: {
+						count: 1
+						id: "aether:holystone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 9L
+				id: "15BF96D18431FA45"
+				item: { count: 1, id: "deep_aether:skyjade" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1EFD0B5205A292AD"]
+			icon: {
+				id: "deep_aether:skyjade_chestplate"
+			}
+			id: "277536421F33391A"
+			rewards: [
+				{
+					id: "7DCC280FAFCDB5CB"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "665C874944B3F36A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "conquer"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "1D641C35E16C250A"
+					item: { count: 1, id: "deep_aether:skyjade_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3EDAA45E10871728"
+					item: { count: 1, id: "deep_aether:skyjade_chestplate" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1EFD0B5205A292AD"]
+			icon: {
+				id: "deep_aether:combiner"
+			}
+			id: "4102F0BC4802779F"
+			rewards: [
+				{
+					id: "5D05FDDEB9416236"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 16
+					id: "5DE3A47DC4FA420E"
+					item: {
+						count: 1
+						id: "aether:ambrosium_shard"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "1770A7878D36C2F6"
+				item: { count: 1, id: "deep_aether:combiner" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6555D737AE7EB1CE"]
+			icon: {
+				id: "deep_aether:antidote"
+			}
+			id: "3115DF7E327247CC"
+			rewards: [
+				{
+					id: "250D0875AE3349B6"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 2
+					id: "31FAC725FE07A3EA"
+					item: {
+						count: 1
+						id: "deep_aether:antidote"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "deep_aether:yagroot_swamp"
+					id: "77C262BBBCCE7BBD"
+					type: "biome"
+				}
+				{
+					entity: "deep_aether:venomite"
+					id: "7C9C43CE9565892D"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3115DF7E327247CC"]
+			icon: {
+				id: "deep_aether:cooked_quail"
+			}
+			id: "2B8949183BE78A95"
+			rewards: [
+				{
+					id: "60E08AE806157775"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "5E8109D0A27D3C1F"
+					item: {
+						count: 1
+						id: "deep_aether:quail_egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "deep_aether:quail"
+					id: "3C1C65D775B47DAE"
+					type: "kill"
+					value: 4L
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "558238621011979E"
+					item: { count: 1, id: "deep_aether:cooked_quail" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2B8949183BE78A95"]
+			icon: {
+				id: "deep_aether:sky_tulips"
+			}
+			id: "5B794983E126F043"
+			rewards: [
+				{
+					id: "5D6308D953FC725B"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "76697D14C43DDB36"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "conquer"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "59D3362664EAB81A"
+				structure: "deep_aether:altar_camp"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4102F0BC4802779F"]
+			icon: {
+				id: "deep_aether:brass_dungeon_key"
+			}
+			id: "7548C5EE9EE6121C"
+			rewards: [
+				{
+					id: "6081AF9522137833"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 16
+					id: "7A1B51A70B4BF420"
+					item: {
+						count: 1
+						id: "aether:zanite_gemstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6AB95109BA9B8E71"
+					structure: "deep_aether:brass_dungeon"
+					type: "structure"
+				}
+				{
+					entity: "deep_aether:eots_controller"
+					id: "538AEA9184548DB0"
+					type: "kill"
+					value: 1L
+				}
+				{
+					consume_items: false
+					id: "6D86AE437CE37AD3"
+					item: { count: 1, id: "deep_aether:brass_dungeon_key" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7548C5EE9EE6121C"]
+			icon: {
+				id: "deep_aether:storm_sword"
+			}
+			id: "39FA0CA9B3E96CC7"
+			rewards: [
+				{
+					id: "4DBD1001E1D8F575"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 8
+					id: "59E0B8A4F2C74622"
+					item: {
+						count: 1
+						id: "deep_aether:skyjade"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "5B30D73CF268AA08"
+				item: { count: 1, id: "deep_aether:storm_sword" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["39FA0CA9B3E96CC7"]
+			icon: {
+				id: "deep_aether:stratus_ingot"
+			}
+			id: "2C7383E356F10A61"
+			rewards: [
+				{
+					id: "14366301C3B32F2A"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "29538E93185C82AC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "conquer"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 5L
+					id: "731567360BC8AA61"
+					item: { count: 1, id: "deep_aether:chromatic_aercloud" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "26EEB6A8870F00A4"
+					item: { count: 1, id: "deep_aether:stratus_ingot" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2C7383E356F10A61"
+				"277536421F33391A"
+				"5B794983E126F043"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "deep_aether:stratus_block"
+			}
+			id: "3B0EE725CF460007"
+			rewards: [
+				{
+					id: "75518E4CDD12F3C8"
+					item: {
+						count: 1
+						id: "nxterra:moonpetal_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "48C2260033014D4D"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "44540348833F0E88"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "conquer"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "72D7F189A4BA193E"
+				type: "checkmark"
+			}]
+			x: 9.25d
+			y: 1.5d
+		}
+	]
+}

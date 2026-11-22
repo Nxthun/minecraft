@@ -1,0 +1,446 @@
+{
+  "config_version": "2.0.43",
+  "config_datetime": "2026-11-17_00-30-00",
+  "general": {
+    "disable_all_structures": false,
+    "prevent_structure_overlap": true,
+    "enable_global_spacing_and_separation_modifier": true,
+    "global_spacing_and_separation_modifier": 0.8
+  },
+  "structure_namespaces": [],
+  "structures": [
+    {
+      "name": "minecraft:village_plains",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "AUTO",
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "minecraft:village_desert",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "AUTO",
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "minecraft:village_savanna",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "AUTO",
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "minecraft:village_snowy",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "AUTO",
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "minecraft:village_taiga",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "AUTO",
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "minecraft:pillager_outpost",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "AUTO",
+      "flatness_check_allow_non_solid_blocks": false
+    }
+  ],
+  "structure_sets": [
+    {
+      "name": "cataclysm:abandoned_structures",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "cataclysm:acropolis",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "cataclysm:amethyst_nest",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "cataclysm:ancient_factory",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "cataclysm:burning_arena",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "cataclysm:cursed_pyramid",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "cataclysm:desert_structures",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "cataclysm:frosted_prison",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "cataclysm:ruined_citadel",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "cataclysm:soul_black_smith",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "cataclysm:sunken_city",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "bosses_of_mass_destruction:gauntlet_arena",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "bosses_of_mass_destruction:lich_tower",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "bosses_of_mass_destruction:obsidilith_arena",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "bosses_of_mass_destruction:void_blossom",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "mowziesmobs:frostmaw_spawns",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "mowziesmobs:monasteries",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "mowziesmobs:umvuthana_groves",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "mowziesmobs:wrought_chambers",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 24,
+      "separation": 8
+    },
+    {
+      "name": "graveyard:lich_prison_structure",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "iceandfire:dragon_cave",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "iceandfire:dragon_roost",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "iceandfire:hydra_cave",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "iceandfire:cyclops_cave",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "iceandfire:gorgon_temple",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "aether:bronze_dungeon",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "aether:large_aercloud",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "aether:silver_and_gold_dungeons",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "deep_aether:brass_dungeon",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "the_bumblezone:bumbling_beepartments",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "the_bumblezone:cell_maze",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "the_bumblezone:cherry_veteran_tree",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "the_bumblezone:hanging_structures",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "the_bumblezone:honey_cave_room",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "the_bumblezone:main_structures",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "the_bumblezone:pollinated_stream",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "the_bumblezone:sempiternal_sanctums",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "the_bumblezone:throne_pillar",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "the_bumblezone:tiny_structures",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "graveyard:dead_tree_structure",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "graveyard:giant_mushroom_structure",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "graveyard:memorial_tree_structure",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "graveyard:small_grave_structure",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 24,
+      "separation": 12
+    },
+    {
+      "name": "graveyard:small_mountain_grave_structure",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 24,
+      "separation": 12
+    },
+    {
+      "name": "graveyard:small_savanna_grave_structure",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 24,
+      "separation": 12
+    },
+    {
+      "name": "graveyard:small_desert_grave_structure",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "graveyard:mushroom_grave_structure",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "biomeswevegone:dripstone_arches",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "biomeswevegone:ironwood_gour_plateau",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "biomeswevegone:large_cold_lake",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "biomeswevegone:lush_arch",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "biomeswevegone:red_rock_arches",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "biomeswevegone:rugged_fossils",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "biomeswevegone:sharpened_rocks",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "nomansland:menhirs",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "nomansland:desert_wells",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "nomansland:desert_ruins",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "nomansland:small_dungeons",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 24,
+      "separation": 8
+    },
+    {
+      "name": "spawn:cold_island",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "spawn:sandy_island",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "spawn:tropical_island",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "spawn:volcanic_island",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "spawn:tide_pool",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "spawn:ant_mount",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "supplementaries:road_signs",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "spelunkery:cinnabar_wires",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "windswept:pine_totem",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "windswept:snowy_pine_totem",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "wetland_whimsy:wetland_ruins",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "stellarity:fossils",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "stellarity:obsidian_spikes",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "stellarity:return_gateways",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "fishofthieves:guardian_fruit_trees",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "hybrid_aquatic:whale_falls",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "butterflies:liangshanbo_grave",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "nyctophobia:mushroom_structure",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "caverns_and_chasms:tin_monoliths",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "explorify:guide_posts",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "betterdungeons:small_dungeons",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 20,
+      "separation": 8
+    },
+    {
+      "name": "betterdungeons:small_nether_dungeons",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "nova_structures:deepslate_camp",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "nova_structures:underground_house",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "iceandfire:pixie_village",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 16,
+      "separation": 6
+    },
+    {
+      "name": "eternal_starlight:portal_ruins_cold",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "eternal_starlight:portal_ruins_common",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "eternal_starlight:portal_ruins_desert",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "eternal_starlight:portal_ruins_forest",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "eternal_starlight:portal_ruins_jungle",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "eternal_starlight:stranghoul_den",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "caverns_and_chasms:forges",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 28,
+      "separation": 10
+    },
+    {
+      "name": "minecraft:villages",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 20,
+      "separation": 8
+    },
+    {
+      "name": "towns_and_towers:towns",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 32,
+      "separation": 12
+    }
+  ],
+  "structure_template_pools": []
+}

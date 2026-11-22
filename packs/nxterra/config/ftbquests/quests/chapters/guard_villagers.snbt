@@ -1,0 +1,256 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "guard_villagers"
+	group: "7FE7FE7068E22B2B"
+	icon: {
+		id: "minecraft:iron_sword"
+	}
+	id: "7FA1D61032B380B0"
+	images: [
+		{
+			height: 6.5d
+			id: "27DF9403EBCA8BA4"
+			image: "nxterra:textures/quests/backdrop/guard_villagers.png"
+			order: -1
+			rotation: 0.0d
+			width: 11.5d
+			x: 3.25d
+			y: 1.1497d
+		}
+		{
+			height: 1.5d
+			id: "1018C4DC153C010C"
+			image: "nxterra:textures/quests/banner/guard_villagers.png"
+			order: 1
+			rotation: 0.0d
+			width: 8.0d
+			x: 3.25d
+			y: -1.8248d
+		}
+	]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:iron_helmet"
+			}
+			id: "2C07676FF0D31C4E"
+			rewards: [
+				{
+					id: "272652E56531E63B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "51C64162F26D4DAC"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1EE190CACBBB62D0"
+				structure: "#minecraft:village"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2C07676FF0D31C4E"]
+			icon: {
+				id: "minecraft:lead"
+			}
+			id: "24976F6EF515441E"
+			rewards: [
+				{
+					id: "5B29BDDECB00221A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "3C78E799D83E825A"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "guardvillagers:adventure/recruit_guard"
+				criterion: ""
+				id: "13BA1F07E9871963"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["24976F6EF515441E"]
+			icon: {
+				id: "minecraft:iron_chestplate"
+			}
+			id: "705613F4AD598CD8"
+			rewards: [
+				{
+					id: "40B411F1A1D4CC1C"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "322711555E225F62"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "1B5DB1ED55E6C834"
+					item: { count: 1, id: "minecraft:iron_sword" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1BE60081CC497C0E"
+					item: { count: 1, id: "minecraft:shield" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1D7FBE68D29AA5D8"
+					item: { count: 1, id: "minecraft:iron_chestplate" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["24976F6EF515441E"]
+			icon: {
+				id: "minecraft:bell"
+			}
+			id: "3E7B68495234A5F3"
+			rewards: [
+				{
+					id: "6A94FA2DF9CE6E47"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "7D8C20C452492C0C"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "379DEB231F477211"
+				type: "kill"
+				value: 10L
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["705613F4AD598CD8"]
+			icon: {
+				id: "minecraft:crossbow"
+			}
+			id: "1E3A95E6BC21D7F5"
+			rewards: [
+				{
+					id: "410433D9CE198524"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 32
+					id: "151DB1234A4E8909"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3DB129DF3E541C55"
+					structure: "minecraft:pillager_outpost"
+					type: "structure"
+				}
+				{
+					entity: "minecraft:pillager"
+					id: "2F506EFDF51AF6E4"
+					type: "kill"
+					value: 4L
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3E7B68495234A5F3"
+				"1E3A95E6BC21D7F5"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "77E075D2FA96F382"
+			rewards: [
+				{
+					id: "39B815959958B30F"
+					item: {
+						count: 1
+						id: "nxterra:bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "692AADDDC7B6A63B"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "6ECAAC43C460D803"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5B505C54AF1BB3E8"
+				type: "checkmark"
+			}]
+			x: 6.25d
+			y: 1.5d
+		}
+	]
+}

@@ -1,0 +1,773 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "botania"
+	group: "73DE14B223317E58"
+	icon: {
+		id: "botania:pure_daisy"
+	}
+	id: "5C1B85A1C289EF0D"
+	images: [
+		{
+			height: 9.5d
+			id: "18E8ADB481B9AA53"
+			image: "nxterra:textures/quests/backdrop/botania.png"
+			order: -1
+			rotation: 0.0d
+			width: 18.5d
+			x: 6.25d
+			y: 2.4187d
+		}
+		{
+			height: 1.5d
+			id: "2356D3776EC7CBEF"
+			image: "nxterra:textures/quests/banner/botania.png"
+			order: 1
+			rotation: 0.0d
+			width: 5.0d
+			x: 6.25d
+			y: -1.8248d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "botania:white_mystical_petal"
+			}
+			id: "17674BDDA0AA6222"
+			rewards: [
+				{
+					id: "5668B399BC68D5BD"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 16
+					id: "43FDE0442C8430B1"
+					item: {
+						count: 1
+						id: "minecraft:cobblestone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 8L
+					id: "14C737ABE98D75D9"
+					item: { components: { "ftbfiltersystem:filter": "item_tag(botania:petals)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					advancement: "botania:main/flower_pickup"
+					criterion: ""
+					id: "21CC00583CFA9D8C"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["17674BDDA0AA6222"]
+			icon: {
+				id: "botania:petal_apothecary"
+			}
+			id: "2D4B5F644AF97849"
+			rewards: [
+				{
+					id: "74E64ECE81F3AA36"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "64BC3AF5635CD8DD"
+					item: {
+						count: 1
+						id: "botania:white_mystical_petal"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "42369128AACF91CB"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "644D3604BD3E1E96"
+				item: { count: 1, id: "botania:petal_apothecary" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2D4B5F644AF97849"]
+			icon: {
+				id: "botania:pure_daisy"
+			}
+			id: "2565C349C305BB05"
+			rewards: [
+				{
+					id: "188105B9F60D8931"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 16
+					id: "5BA5EF5461CB298F"
+					item: {
+						count: 1
+						id: "minecraft:stone"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1604F61BC3195EF7"
+					item: {
+						count: 1
+						id: "minecraft:oak_log"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "368FF2F381A2DDF9"
+				item: { count: 1, id: "botania:pure_daisy" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2565C349C305BB05"]
+			icon: {
+				id: "botania:livingrock"
+			}
+			id: "13480B79FEE0F99F"
+			rewards: [
+				{
+					id: "1FFDE5698A3F3441"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 8
+					id: "696E9B60D263274D"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 8L
+					id: "6485F6F61FA7674B"
+					item: { count: 1, id: "botania:livingrock" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "335F4ACFE333FF46"
+					item: { count: 1, id: "botania:livingwood_log" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["13480B79FEE0F99F"]
+			icon: {
+				id: "botania:mana_spreader"
+			}
+			id: "2418BD9A33284D73"
+			rewards: [{
+				id: "19F1B9508970F2B8"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6A43A3BA6AC05FB1"
+				item: { count: 1, id: "botania:mana_spreader" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2418BD9A33284D73"]
+			icon: {
+				id: "botania:mana_pool"
+			}
+			id: "2643AB7C0C6159BC"
+			rewards: [
+				{
+					id: "6FBC9A1AA40DF8AB"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "71E2F0B8EE71C09B"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "5014D0A1AABAC97D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "66C2963DD2D5B812"
+				item: { count: 1, id: "botania:mana_pool" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2643AB7C0C6159BC"]
+			icon: {
+				id: "botania:manasteel_ingot"
+			}
+			id: "27CAB569EA4DF3E1"
+			rewards: [
+				{
+					id: "4CF80EBF79184CB7"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "74C7BD8F1416E2D2"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "1AF3771AB7B9910D"
+				item: { count: 1, id: "botania:manasteel_ingot" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2643AB7C0C6159BC"]
+			icon: {
+				id: "botania:mana_diamond"
+			}
+			id: "6FBA6C6E202C0201"
+			rewards: [
+				{
+					id: "36BA4D3757093B83"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 4
+					id: "3C6ED44DE17A13B2"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "55C41C49A062FF73"
+				item: { count: 1, id: "botania:mana_diamond" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6FBA6C6E202C0201"]
+			icon: {
+				id: "botania:runic_altar"
+			}
+			id: "27C80BC3BF0368A9"
+			rewards: [
+				{
+					id: "190392D218C9162F"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "32651A55B1B89925"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "43A9605735F0F6DB"
+					item: { count: 1, id: "botania:runic_altar" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "324F7EB604BE4F71"
+					item: { count: 1, id: "botania:rune_of_water" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D4B5F644AF97849"]
+			icon: {
+				id: "botania:endoflame"
+			}
+			id: "4B9DB8257966B548"
+			rewards: [
+				{
+					id: "20843E84F78FE29B"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 8
+					id: "25F50F212FB4AFCC"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "2C9301E781092C44"
+				item: { count: 1, id: "botania:endoflame" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13480B79FEE0F99F"]
+			icon: {
+				id: "botania:wand_of_the_forest"
+			}
+			id: "1B816E600A2815CD"
+			rewards: [
+				{
+					id: "3D77F7728857EFD8"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 4
+					id: "6E0601AADCEB681D"
+					item: {
+						count: 1
+						id: "botania:livingwood_twig"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "136DFE2B6F73AD06"
+				item: { count: 1, id: "botania:wand_of_the_forest" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2418BD9A33284D73"]
+			icon: {
+				id: "botania:mana_spark"
+			}
+			id: "3F2264ACB3A48808"
+			rewards: [
+				{
+					id: "4D79A64E3973220D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "5B2DF8AD0D456E28"
+					item: {
+						count: 1
+						id: "minecraft:blaze_powder"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 2L
+				id: "214700E6899D096A"
+				item: { count: 1, id: "botania:mana_spark" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2418BD9A33284D73"]
+			icon: {
+				id: "botania:mana_lens"
+			}
+			id: "43619D5BD9D55C8F"
+			rewards: [
+				{
+					id: "191858DEEE01D091"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "3AE775A4495BE36B"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "3C024ECF40EC153F"
+				item: { count: 1, id: "botania:mana_lens" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2643AB7C0C6159BC"]
+			icon: {
+				id: "botania:tiny_potato"
+			}
+			id: "4A1A6BA4D0D41CAD"
+			rewards: [
+				{
+					id: "112D78A1DA7CC244"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "7137AB6E5C14D1B0"
+					item: {
+						count: 1
+						id: "minecraft:baked_potato"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "407942E0A2DA14EB"
+					item: { count: 1, id: "botania:tiny_potato" }
+					type: "item"
+				}
+				{
+					advancement: "botania:main/tiny_potato_pet"
+					criterion: ""
+					id: "1656BF6A3EB9F10D"
+					type: "advancement"
+				}
+			]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["27CAB569EA4DF3E1"]
+			icon: {
+				id: "botania:manaweave_cloth"
+			}
+			id: "2E65C87189646EB5"
+			rewards: [
+				{
+					id: "3726B36EB0C4BBD4"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 4
+					id: "58BCDEEB2581359F"
+					item: {
+						count: 1
+						id: "botania:mana_string"
+					}
+					type: "item"
+				}
+				{
+					id: "6C2AE152D6FBE439"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "420A8F1C86294A96"
+				item: { count: 1, id: "botania:manaweave_cloth" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"27CAB569EA4DF3E1"
+				"27C80BC3BF0368A9"
+			]
+			icon: {
+				id: "botania:terrasteel_ingot"
+			}
+			id: "46DEC88E694A26C4"
+			rewards: [
+				{
+					id: "5E7E64468B0A19F9"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "10323EF238941455"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 3
+					id: "61EA14FDF5AE9DAB"
+					item: {
+						count: 1
+						id: "botania:terrasteel_nugget"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					consume_items: false
+					id: "3AC966026AC3E721"
+					item: { count: 1, id: "botania:terrestrial_agglomeration_plate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "71AD5B55AC4C9E70"
+					item: { count: 1, id: "botania:terrasteel_ingot" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["46DEC88E694A26C4"]
+			icon: {
+				id: "botania:elementium_ingot"
+			}
+			id: "471E5A181F389EC5"
+			rewards: [
+				{
+					id: "55CB162AFB33DC9A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "2B853BA42353BDE1"
+					item: {
+						count: 1
+						id: "botania:manasteel_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "11C4E0F591044D0D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "botania:main/elf_portal_open"
+					criterion: ""
+					id: "2326661902750D66"
+					type: "advancement"
+				}
+				{
+					consume_items: false
+					count: 8L
+					id: "595B6E0C082E4D4F"
+					item: { count: 1, id: "botania:elementium_ingot" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["471E5A181F389EC5"]
+			icon: {
+				id: "botania:gaia_pylon"
+			}
+			id: "479C87B571265496"
+			rewards: [
+				{
+					id: "6A5C40B801660C34"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "22AB21744652FF43"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 8
+					id: "22C9DF1D2ABE1524"
+					item: {
+						count: 1
+						id: "botania:pixie_dust"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "1D0B5770D19C9B2B"
+					item: { count: 1, id: "botania:gaia_pylon" }
+					type: "item"
+				}
+				{
+					entity: "botania:gaia_guardian"
+					id: "7DDC19B5847DB149"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"4B9DB8257966B548"
+				"1B816E600A2815CD"
+				"3F2264ACB3A48808"
+				"43619D5BD9D55C8F"
+				"4A1A6BA4D0D41CAD"
+				"2E65C87189646EB5"
+				"479C87B571265496"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "botania:mana_pylon"
+			}
+			id: "1C99C9F89EE5CEFA"
+			rewards: [
+				{
+					id: "2A8E8E011A4AEB73"
+					item: {
+						count: 1
+						id: "nxterra:bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "2E04CB6C92D84F80"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "2F986E30A521A2D1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "493513EADBE0D931"
+				type: "checkmark"
+			}]
+			x: 12.25d
+			y: 1.5d
+		}
+	]
+}

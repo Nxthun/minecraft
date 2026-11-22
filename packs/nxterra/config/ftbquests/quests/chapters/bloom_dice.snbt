@@ -1,0 +1,172 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bloom_dice"
+	group: "7FE7FE7068E22B2B"
+	icon: {
+		id: "minecraft:amethyst_shard"
+	}
+	id: "1D68E06FFF699F6F"
+	images: [
+		{
+			height: 5.0d
+			id: "3775B7892C358774"
+			image: "nxterra:textures/quests/backdrop/bloom_dice.png"
+			order: -1
+			rotation: 0.0d
+			width: 9.5d
+			x: 2.5d
+			y: 1.7652d
+		}
+		{
+			height: 1.5d
+			id: "4419090543C73BEA"
+			image: "nxterra:textures/quests/banner/bloom_dice.png"
+			order: 1
+			rotation: 0.0d
+			width: 6.0d
+			x: 2.5d
+			y: -0.5748d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:amethyst_shard"
+			}
+			id: "53554FA3C61978FD"
+			rewards: [
+				{
+					id: "6A07AD11F60FE7EB"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "587ED130559C04C8"
+					item: {
+						count: 1
+						id: "minecraft:iron_pickaxe"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "7DC3AE5A1AAEBB8D"
+				item: { count: 1, id: "nxterra:bloom_dice" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["53554FA3C61978FD"]
+			icon: {
+				id: "minecraft:amethyst_cluster"
+			}
+			id: "72B4987AD1C7F658"
+			rewards: [
+				{
+					id: "27D8E69638383CFC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "2559E3EB0E24C63D"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "1A11E39CBC524750"
+				item: { count: 1, id: "minecraft:amethyst_shard" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["72B4987AD1C7F658"]
+			icon: {
+				id: "nxterra:moonpetal_dice"
+			}
+			id: "391F8C011ABF806F"
+			rewards: [
+				{
+					id: "44DCB5AF466FBE2A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "419FCFDFC5E0D2EE"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "6D68D32DE0AD9845"
+				item: { count: 1, id: "nxterra:moonpetal_dice" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["391F8C011ABF806F"]
+			hide_dependency_lines: true
+			icon: {
+				id: "nxterra:bloom_dice"
+			}
+			id: "6BD8197E86042655"
+			rewards: [
+				{
+					id: "5253E85BF36212EE"
+					item: {
+						count: 1
+						id: "nxterra:bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "559F800A505F8BB0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5B27DCA322EC8B38"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5B815DF499682015"
+				type: "checkmark"
+			}]
+			x: 4.75d
+			y: 1.5d
+		}
+	]
+}

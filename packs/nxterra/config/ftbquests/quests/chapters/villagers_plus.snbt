@@ -1,0 +1,290 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "villagers_plus"
+	group: "7FE7FE7068E22B2B"
+	icon: {
+		id: "minecraft:emerald"
+	}
+	id: "62CB725A8002E6B8"
+	images: [
+		{
+			height: 7.5d
+			id: "457C300768409024"
+			image: "nxterra:textures/quests/backdrop/villagers_plus.png"
+			order: -1
+			rotation: 0.0d
+			width: 9.5d
+			x: 2.5d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "44053F11DB0A7DE8"
+			image: "nxterra:textures/quests/banner/villagers_plus.png"
+			order: 1
+			rotation: 0.0d
+			width: 7.0d
+			x: 2.5d
+			y: -1.8248d
+		}
+	]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "villagersplus:oak_horticulturist_table"
+			}
+			id: "2013B85ABE77AD3F"
+			rewards: [
+				{
+					id: "336E14A7CF2FDE64"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "4836704D7E1A1985"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6883C5A494AEDB69"
+					structure: "#minecraft:village"
+					type: "structure"
+				}
+				{
+					consume_items: false
+					id: "66D6DBADDC547727"
+					item: { count: 1, id: "villagersplus:oak_horticulturist_table" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2013B85ABE77AD3F"]
+			icon: {
+				id: "villagersplus:alchemist_table"
+			}
+			id: "5B44FAB83F84AB17"
+			rewards: [
+				{
+					id: "4450AD6237C66613"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "6A70CC5E728686B8"
+					item: {
+						count: 1
+						id: "minecraft:glass_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "1B0A4FFC6C7C5C62"
+				item: { count: 1, id: "villagersplus:alchemist_table" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5B44FAB83F84AB17"]
+			icon: {
+				id: "villagersplus:occultist_table"
+			}
+			id: "1BE66220630AC694"
+			rewards: [
+				{
+					id: "7B6182D3540A7780"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "7F5E1B78D8B54A73"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "19F256AE9249A39B"
+				item: { count: 1, id: "villagersplus:occultist_table" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2013B85ABE77AD3F"]
+			icon: {
+				id: "villagersplus:oceanographer_table"
+			}
+			id: "74323B0251004AC5"
+			rewards: [
+				{
+					id: "107ED3AED29BB059"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "364D47D563953CA4"
+					item: {
+						count: 1
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "38FB4BA2FD15B933"
+				item: { count: 1, id: "villagersplus:oceanographer_table" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74323B0251004AC5"]
+			icon: {
+				id: "villagersplus:fish_food"
+			}
+			id: "2B361F9993224331"
+			rewards: [
+				{
+					id: "2C1B48E77BEAB28E"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "2DF5D3E37C734B3C"
+					item: {
+						count: 1
+						id: "minecraft:seagrass"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "30DC9D44F2A0AFFF"
+					item: { count: 1, id: "villagersplus:fish_food" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7FDA24D15790B1B1"
+					item: { count: 1, id: "villagersplus:calm_food" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3BEB0D7627B2E6E4"
+					item: { count: 1, id: "villagersplus:diet_food" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B44FAB83F84AB17"]
+			icon: {
+				id: "villagersplus:ore_grinder"
+			}
+			id: "3D296CE48D51E3D4"
+			rewards: [
+				{
+					id: "17C972815B08FA25"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "692AE971B982D6AA"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "72606496C19ABA02"
+				item: { count: 1, id: "villagersplus:ore_grinder" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1BE66220630AC694"
+				"2B361F9993224331"
+				"3D296CE48D51E3D4"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:emerald"
+			}
+			id: "67B32BBE9A6BFF94"
+			rewards: [
+				{
+					id: "5DEDB78ADDD7C8DB"
+					item: {
+						count: 1
+						id: "nxterra:bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "6A8A793EEE72A490"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "754E17E5A2821F88"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "14F31EFA8430D403"
+				type: "checkmark"
+			}]
+			x: 4.75d
+			y: 1.5d
+		}
+	]
+}

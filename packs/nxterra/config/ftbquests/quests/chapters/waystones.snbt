@@ -1,0 +1,267 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "waystones"
+	group: "20434CE362D81358"
+	icon: {
+		id: "waystones:waystone"
+	}
+	id: "130F21B4C8D4B61D"
+	images: [
+		{
+			height: 7.5d
+			id: "141FEB42CF599F52"
+			image: "nxterra:textures/quests/backdrop/waystones.png"
+			order: -1
+			rotation: 0.0d
+			width: 13.0d
+			x: 4.0d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "3973B021DDC18FA3"
+			image: "nxterra:textures/quests/banner/waystones.png"
+			order: 1
+			rotation: 0.0d
+			width: 5.5d
+			x: 4.0d
+			y: -1.8248d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:bell"
+			}
+			id: "2DF9DCA619841240"
+			rewards: [
+				{
+					id: "5D4903912A950469"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 6
+					id: "7FEC91EB5F491C26"
+					item: {
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "70EC082E5A9D566E"
+				structure: "#minecraft:village"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2DF9DCA619841240"]
+			icon: {
+				id: "waystones:return_scroll"
+			}
+			id: "1A5BC3943ED0B4A6"
+			rewards: [
+				{
+					id: "3351671ED4C6A7AB"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "1711242AECACFBBC"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 3L
+				id: "41059577E3121CCF"
+				item: { count: 1, id: "waystones:return_scroll" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A5BC3943ED0B4A6"]
+			icon: {
+				id: "waystones:warp_dust"
+			}
+			id: "5399AA158B520BB9"
+			rewards: [
+				{
+					id: "4128C281C86553A8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "3B0886EFCF19544A"
+					item: {
+						count: 1
+						id: "minecraft:flint"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:enderman"
+					id: "1E7153919E6C208F"
+					type: "kill"
+					value: 2L
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "127C32BF935C9B21"
+					item: { count: 1, id: "waystones:warp_dust" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5399AA158B520BB9"]
+			icon: {
+				id: "waystones:warp_plate"
+			}
+			id: "4A53F9D76631D536"
+			rewards: [
+				{
+					id: "19B1EFE62C1C3C1B"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "436C67754D578DCF"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 2L
+				id: "27BB68BF864DF453"
+				item: { count: 1, id: "waystones:warp_plate" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5399AA158B520BB9"]
+			icon: {
+				id: "waystones:warp_stone"
+			}
+			id: "33E610E1C1B32122"
+			rewards: [
+				{
+					id: "3230F4A597BFCE78"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 3
+					id: "12FFC38FCF75B2E7"
+					item: {
+						count: 1
+						id: "minecraft:obsidian"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "53296EF715A50E0B"
+				item: { count: 1, id: "waystones:warp_stone" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["33E610E1C1B32122"]
+			icon: {
+				id: "waystones:mossy_waystone"
+			}
+			id: "3C854D9AA5123185"
+			rewards: [{
+				id: "2E3AEA11B64BDCA7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2C28A1BA6FABCA37"
+				item: { count: 1, id: "waystones:waystone" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4A53F9D76631D536"
+				"3C854D9AA5123185"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "waystones:waystone"
+			}
+			id: "7F751E27B1D9773E"
+			rewards: [
+				{
+					id: "18C728B99CDE8E95"
+					item: {
+						count: 1
+						id: "nxterra:bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "4A98E6982514A41E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "73DB4D42C2F032E4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "55E072BAD5DD7F7B"
+				type: "checkmark"
+			}]
+			x: 7.75d
+			y: 1.5d
+		}
+	]
+}

@@ -1,0 +1,412 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aquamirae"
+	group: "6DDAA8A1DA8B5CDF"
+	icon: {
+		id: "minecraft:prismarine_shard"
+	}
+	id: "7FB7861975BFD94E"
+	images: [
+		{
+			height: 7.5d
+			id: "38D2300C51E07CDC"
+			image: "nxterra:textures/quests/backdrop/aquamirae.png"
+			order: -1
+			rotation: 0.0d
+			width: 11.5d
+			x: 3.25d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "2872DB73512CA3DA"
+			image: "nxterra:textures/quests/banner/aquamirae.png"
+			order: 1
+			rotation: 0.0d
+			width: 5.5d
+			x: 3.25d
+			y: -1.8248d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:prismarine_shard"
+			}
+			id: "27652596184FFAC6"
+			rewards: [
+				{
+					id: "2E7B07D450914BF8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "34A73CC6D4F99316"
+					item: {
+						count: 1
+						id: "minecraft:cooked_cod"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "aquamirae:adventure/find_ice_maze"
+					criterion: ""
+					id: "6A4B5A324FECD788"
+					type: "advancement"
+				}
+				{
+					biome: "#aquamirae:ice_maze"
+					id: "539B665EEF1EC4BD"
+					type: "biome"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["27652596184FFAC6"]
+			icon: {
+				id: "aquamirae:fin"
+			}
+			id: "5A91F78E46055954"
+			rewards: [
+				{
+					id: "2E2F30693C1C2A8D"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 8
+					id: "58D2406F999BCB20"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "aquamirae:anglerfish"
+					id: "34D6D1C0E1159CD6"
+					type: "kill"
+					value: 2L
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "34225F5315866E48"
+					item: { count: 1, id: "aquamirae:fin" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "6D80DC074A75B8C9"
+					item: { count: 1, id: "aquamirae:angler_fang" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A91F78E46055954"]
+			icon: {
+				id: "aquamirae:terrible_blade"
+			}
+			id: "3FCBFC1D35E8E2A0"
+			rewards: [
+				{
+					id: "54BF6F24DC7FA2C1"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 2
+					id: "373E9900DED96215"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "704E5ABC3795AE5F"
+					item: { count: 1, id: "aquamirae:terrible_blade" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1FC6B094B5B77D25"
+					item: { count: 1, id: "aquamirae:terrible_fang" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FCBFC1D35E8E2A0"]
+			icon: {
+				id: "aquamirae:shell_horn"
+			}
+			id: "66A82D559E4EA29A"
+			rewards: [
+				{
+					id: "56E028136719173B"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "2FFDBC65D90F4567"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "conquer"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "aquamirae:adventure/tame_shellback"
+				criterion: ""
+				id: "43F820C525137D01"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27652596184FFAC6"]
+			icon: {
+				id: "aquamirae:frozen_key"
+			}
+			id: "16B6E7C34DD35DB6"
+			rewards: [
+				{
+					id: "261AC6A04AFF71C6"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 2
+					id: "65AB50194DF3EA4E"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "120945448519C01E"
+				item: { count: 1, id: "aquamirae:frozen_key" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["16B6E7C34DD35DB6"]
+			icon: {
+				id: "aquamirae:maze_rose"
+			}
+			id: "7C85F59B1F4DAABD"
+			rewards: [
+				{
+					id: "5CFA139284F4670A"
+					item: {
+						count: 1
+						id: "nxterra:starbloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "41E52CE25961C107"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "7087788B42832AE0"
+					item: {
+						count: 1
+						id: "aquamirae:abyssal_amethyst"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				entity: "aquamirae:maze_mother"
+				id: "67E6745C3BBB1D87"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["27652596184FFAC6"]
+			icon: {
+				id: "aquamirae:pirate_pouch"
+			}
+			id: "1213B2D5EBA75AF9"
+			rewards: [
+				{
+					id: "4B4EC32B3F393F97"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 8
+					id: "30A8CB50FC665D92"
+					item: {
+						count: 1
+						id: "minecraft:leather"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "305AE088B21FB42F"
+					structure: "aquamirae:pirate_ship"
+					type: "structure"
+				}
+				{
+					entity: "aquamirae:captain_cornelia"
+					id: "2D95677EA542A40E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1213B2D5EBA75AF9"]
+			icon: {
+				id: "aquamirae:salvager_suit"
+			}
+			id: "2C62D0F9AB4F889E"
+			rewards: [
+				{
+					id: "30DB1802822E08E3"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 4
+					id: "10E9872B4E801968"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "52120A20DA0F0D81"
+				item: { count: 1, id: "aquamirae:salvager_suit" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2C62D0F9AB4F889E"]
+			icon: {
+				id: "aquamirae:shatterblade"
+			}
+			id: "4DECD5481F4AF681"
+			rewards: [
+				{
+					id: "105BE9528C4424AA"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "14A49668D2A20F0F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "conquer"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "7AB488F8D770E902"
+				item: { count: 1, id: "aquamirae:shatterblade" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"66A82D559E4EA29A"
+				"7C85F59B1F4DAABD"
+				"4DECD5481F4AF681"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "aquamirae:echo_compass"
+			}
+			id: "3C6D3F3FEFDCD2EA"
+			rewards: [
+				{
+					id: "203AB9C00C610912"
+					item: {
+						count: 1
+						id: "nxterra:moonpetal_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "399447E81917AB1E"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "10F0F3B71BE670DE"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "conquer"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "41DD487C84933E8F"
+				type: "checkmark"
+			}]
+			x: 6.25d
+			y: 1.5d
+		}
+	]
+}

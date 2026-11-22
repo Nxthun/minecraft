@@ -1,0 +1,323 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism_additions"
+	group: "30A3BF10FF493301"
+	icon: {
+		id: "mekanismadditions:white_glow_panel"
+	}
+	id: "38EAF8FB8AE8D875"
+	images: [
+		{
+			height: 7.5d
+			id: "68D9719F8846C3C4"
+			image: "nxterra:textures/quests/backdrop/mekanism_additions.png"
+			order: -1
+			rotation: 0.0d
+			width: 9.5d
+			x: 2.5d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "2917D67FCCDBCFFD"
+			image: "nxterra:textures/quests/banner/mekanism_additions.png"
+			order: 1
+			rotation: 0.0d
+			width: 9.0d
+			x: 2.5d
+			y: -1.8248d
+		}
+	]
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "mekanismadditions:white_glow_panel"
+			}
+			id: "34C7CD2ABF197966"
+			rewards: [
+				{
+					id: "6F6682F5C9960B0B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "30586BFC9E52009F"
+					item: {
+						count: 1
+						id: "minecraft:glowstone_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "1BBDB3FA9A8CEBD9"
+				item: { count: 1, id: "mekanismadditions:white_glow_panel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["34C7CD2ABF197966"]
+			icon: {
+				id: "mekanismadditions:white_plastic"
+			}
+			id: "556DBB20085C70BF"
+			rewards: [
+				{
+					id: "1FA5307F20E7E63B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "42962C10B952C733"
+					item: {
+						count: 1
+						id: "minecraft:slime_ball"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 8L
+					id: "7E760458F355D707"
+					item: { count: 1, id: "mekanismadditions:white_plastic" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 8L
+					id: "59D2423EDC5FD9E1"
+					item: { count: 1, id: "mekanismadditions:white_plastic_transparent" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["34C7CD2ABF197966"]
+			icon: {
+				id: "mekanismadditions:white_balloon"
+			}
+			id: "1257EFCB717A5398"
+			rewards: [
+				{
+					id: "598B8EAE69393063"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "2F75F1C679782AB5"
+					item: {
+						count: 1
+						id: "minecraft:leather"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 2L
+					id: "41B1910E7B5A5151"
+					item: { count: 1, id: "mekanismadditions:white_balloon" }
+					type: "item"
+				}
+				{
+					advancement: "mekanismadditions:balloon"
+					criterion: ""
+					id: "36925BB5854419FC"
+					type: "advancement"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["556DBB20085C70BF"]
+			icon: {
+				id: "mekanismadditions:white_slick_plastic"
+			}
+			id: "2B982D8BA8C66CDD"
+			rewards: [
+				{
+					id: "68223C45D84E47A1"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 32
+					id: "4FEAB93F978F344B"
+					item: {
+						count: 1
+						id: "minecraft:sand"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "2CB568BB9391B1E7"
+					item: { count: 1, id: "mekanismadditions:white_reinforced_plastic" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "1A47278C97075C67"
+					item: { count: 1, id: "mekanismadditions:white_slick_plastic" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 6L
+					id: "500C12D465DAE69B"
+					item: { count: 1, id: "mekanismadditions:white_plastic_road" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1257EFCB717A5398"]
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "6B2A9FDF0087E1CA"
+			rewards: [
+				{
+					id: "48371D85D36024B2"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 16
+					id: "1B3ED69C705E6EB5"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "31B5785352CB8DDC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "conquer"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "mekanismadditions:baby_skeleton"
+				id: "6BF7588F36BF1AEA"
+				type: "kill"
+				value: 2L
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["556DBB20085C70BF"]
+			icon: {
+				id: "mekanismadditions:walkie_talkie"
+			}
+			id: "5F4E73EA8F81BD64"
+			rewards: [
+				{
+					id: "6F7F8FA268853BF6"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 4
+					id: "7E3E7577C9987844"
+					item: {
+						count: 1
+						id: "minecraft:tnt"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "27E8CBD302B56907"
+					item: { count: 1, id: "mekanismadditions:walkie_talkie" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "14CE2327A7141F0F"
+					item: { count: 1, id: "mekanismadditions:obsidian_tnt" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"2B982D8BA8C66CDD"
+				"6B2A9FDF0087E1CA"
+				"5F4E73EA8F81BD64"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mekanismadditions:red_balloon"
+			}
+			id: "59E28BE0F99133A7"
+			rewards: [
+				{
+					id: "6D32431DA1DFDE80"
+					item: {
+						count: 1
+						id: "nxterra:moonpetal_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "67573B68DADD1388"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "5D188AE1CC64FDAF"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "conquer"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "24018A5CA02AE298"
+				type: "checkmark"
+			}]
+			x: 4.75d
+			y: 1.5d
+		}
+	]
+}

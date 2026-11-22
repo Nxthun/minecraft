@@ -1,0 +1,105 @@
+{
+    "name": "forest",
+    "features": [
+        "tree"
+    ],
+    "biomes": [
+        "pale*garden"
+    ],
+    "sounds": [
+        {
+            "name": "owl",
+            "files": [
+                "nxterra_ambience:ambience.night_owl_long_eared"
+            ],
+            "pause": {
+                "min": 400,
+                "max": 5000
+            },
+            "category": "bird_night",
+            "volume": 0.6
+        },
+        {
+            "name": "nx-forest-stream",
+            "files": [
+                "nxterra_ambience:ambience.forest_stream_birds_a",
+                "nxterra_ambience:ambience.forest_stream_birds_b"
+            ],
+            "category": "bird_day",
+            "features": [
+                "water"
+            ],
+            "length": {
+                "min": 2000,
+                "max": 3000
+            },
+            "transition": 400,
+            "volume": 0.6
+        },
+        {
+            "name": "nx-night-nightingale",
+            "files": [
+                "nxterra_ambience:ambience.night_nightingale"
+            ],
+            "category": "bird_night",
+            "length": {
+                "min": 2000,
+                "max": 3000
+            },
+            "transition": 400,
+            "volume": 0.5
+        },
+        {
+            "name": "nx-dawn",
+            "files": [
+                "nxterra_ambience:ambience.dawn_chorus"
+            ],
+            "time": {
+                "5": 0,
+                "6": 1,
+                "8": 1,
+                "9": 0
+            },
+            "length": {
+                "min": 2000,
+                "max": 3000
+            },
+            "transition": 400,
+            "volume": 0.7
+        },
+        {
+            "name": "nx-dusk",
+            "files": [
+                "nxterra_ambience:ambience.evening_birds"
+            ],
+            "time": {
+                "16": 0,
+                "17": 1,
+                "18": 1,
+                "19": 0
+            },
+            "length": {
+                "min": 2000,
+                "max": 3000
+            },
+            "transition": 400,
+            "volume": 0.6
+        },
+        {
+            "name": "nx-wind-in-tree",
+            "files": [
+                "nxterra_ambience:ambience.wind_in_tree"
+            ],
+            "category": "wind",
+            "air": {
+                "min": 0.6
+            },
+            "length": {
+                "min": 1000,
+                "max": 5000
+            },
+            "transition": 200,
+            "volume": 0.35
+        }
+    ]
+}

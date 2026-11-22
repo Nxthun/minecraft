@@ -1,0 +1,57 @@
+{
+    "name": "jungle",
+    "biomes": [
+        "#is_jungle",
+        "jungle",
+        "sacred springs",
+        "tropical",
+        "bamboo forest",
+        "bambona beach",
+        "encalyptus forest",
+        "overgrown cliffs",
+        "tropics",
+        "tyros",
+        "rainforest",
+        "crag_gardens"
+    ],
+    "bad-biomes": [
+        "tropics plains",
+        "tropics beach",
+        "tyros swamp",
+        "subtropical forest",
+        "tropical*extreme hills",
+        "pale-garden"
+    ],
+    "features": [
+        "tree"
+    ],
+    "temperature": {
+        "min": 0.5
+    },
+    "sounds": [
+        {
+            "name": "cricket-jungle",
+            "category": "cricket_day",
+            "files": [
+                "nxterra_ambience:ambience.day_cicadas"
+            ],
+            "volume": 0.3
+        },
+        {
+            "name": "cricket-jungle-night",
+            "category": "cricket_night",
+            "files": [
+                "nxterra_ambience:ambience.night_meadow_crickets_frogs"
+            ],
+            "volume": 0.5
+        },
+        {
+            "name": "bird-ambience-jungle",
+            "category": "bird_day",
+            "files": [
+                "nxterra_ambience:ambience.forest_day_birds"
+            ],
+            "volume": 0.6
+        }
+    ]
+}

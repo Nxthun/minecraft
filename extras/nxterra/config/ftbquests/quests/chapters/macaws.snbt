@@ -1,0 +1,326 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "macaws"
+	group: "2F49404BE5395B45"
+	icon: {
+		id: "mcwroofs:oak_roof"
+	}
+	id: "5C3F64A85B44CC2A"
+	images: [
+		{
+			height: 6.5d
+			id: "702DAF07C827DC93"
+			image: "nxterra:textures/quests/backdrop/macaws.png"
+			order: -1
+			rotation: 0.0d
+			width: 11.5d
+			x: 3.25d
+			y: 1.1497d
+		}
+		{
+			height: 1.5d
+			id: "3D3149214E9B00A8"
+			image: "nxterra:textures/quests/banner/macaws.png"
+			order: 1
+			rotation: 0.0d
+			width: 9.5d
+			x: 3.25d
+			y: -1.8248d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "mcwroofs:oak_roof"
+			}
+			id: "417368984083DC51"
+			rewards: [
+				{
+					id: "3EA5D21BC81672C2"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 16
+					id: "22E55B9B9C9D98C3"
+					item: {
+						count: 1
+						id: "minecraft:oak_log"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 8L
+				id: "1E50FCBD850B7EB2"
+				item: { count: 1, id: "mcwroofs:oak_roof" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["417368984083DC51"]
+			icon: {
+				id: "mcwwindows:oak_window"
+			}
+			id: "639C6E96AC0422C0"
+			rewards: [
+				{
+					id: "4136258578CC0709"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 8
+					id: "45DABC803E2B0BCA"
+					item: {
+						count: 1
+						id: "minecraft:glass_pane"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "4DDE7880E4A2006B"
+					item: { count: 1, id: "mcwwindows:oak_window" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 3L
+					id: "5CA938810CF44F5A"
+					item: { count: 1, id: "mcwwindows:oak_shutter" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["639C6E96AC0422C0"]
+			icon: {
+				id: "mcwdoors:oak_barn_door"
+			}
+			id: "714C0E7C6188ACF7"
+			rewards: [
+				{
+					id: "1DE8BB66A731C0E4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 16
+					id: "56E5B9E8A511021B"
+					item: {
+						count: 1
+						id: "minecraft:oak_planks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 2L
+					id: "4082D75107F0EBAD"
+					item: { count: 1, id: "mcwdoors:oak_barn_door" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 3L
+					id: "4C0803816C26F9D4"
+					item: { count: 1, id: "mcwdoors:oak_modern_door" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "6BF0AB7750817015"
+					item: { count: 1, id: "mcwtrpdoors:oak_barn_trapdoor" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["417368984083DC51"]
+			icon: {
+				id: "mcwfences:oak_picket_fence"
+			}
+			id: "2FFD947EF4A3CFA5"
+			rewards: [
+				{
+					id: "32882FE84A31B081"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "48C741C1876B5D8B"
+					item: {
+						count: 1
+						id: "minecraft:oak_leaves"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 6L
+					id: "20B9A4BFA6BF22D9"
+					item: { count: 1, id: "mcwfences:oak_picket_fence" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "5D7FFC1CC359D61D"
+					item: { count: 1, id: "mcwfences:oak_hedge" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FFD947EF4A3CFA5"]
+			icon: {
+				id: "mcwbridges:oak_log_bridge_middle"
+			}
+			id: "10BB8D80810F2BBB"
+			rewards: [
+				{
+					id: "618EA099288581B4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 16
+					id: "24BDF5E29E8BEE3B"
+					item: {
+						count: 1
+						id: "minecraft:oak_slab"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "1525A66032D7A0A7"
+					item: { count: 1, id: "mcwbridges:oak_log_bridge_middle" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 6L
+					id: "60F2FC7E9E470B3F"
+					item: { count: 1, id: "mcwpaths:oak_planks_path" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["714C0E7C6188ACF7"]
+			icon: {
+				id: "mcwlights:oak_tiki_torch"
+			}
+			id: "6E8499DEA6873742"
+			rewards: [
+				{
+					id: "3DA17CF8D1438F09"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "48E164D81E738DEE"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 2L
+					id: "6DBD933A4B51FA3B"
+					item: { count: 1, id: "mcwlights:oak_tiki_torch" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "2CF2AF303A98CA3D"
+					item: { count: 1, id: "mcwlights:white_paper_lamp" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6E8499DEA6873742"
+				"10BB8D80810F2BBB"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mcwroofs:oak_steep_roof"
+			}
+			id: "17F8EF564B2B7F1C"
+			rewards: [
+				{
+					id: "1CD7944CD3626BA8"
+					item: {
+						count: 1
+						id: "nxterra:bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "2CA4987772013AFB"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "1AE6FE404932CDE8"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "33E883111471A19B"
+				type: "checkmark"
+			}]
+			x: 6.25d
+			y: 1.5d
+		}
+	]
+}

@@ -1,0 +1,346 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "extended_ae"
+	group: "30A3BF10FF493301"
+	icon: {
+		id: "extendedae:ex_pattern_provider"
+	}
+	id: "5A6F5DB696D7F9B3"
+	images: [
+		{
+			height: 7.5d
+			id: "29BF75BFCF9888A3"
+			image: "nxterra:textures/quests/backdrop/extended_ae.png"
+			order: -1
+			rotation: 0.0d
+			width: 11.5d
+			x: 3.25d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "4F482DD1FE074FD7"
+			image: "nxterra:textures/quests/banner/extended_ae.png"
+			order: 1
+			rotation: 0.0d
+			width: 6.5d
+			x: 3.25d
+			y: -1.8248d
+		}
+	]
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "extendedae:entro_crystal"
+			}
+			id: "2E0B4C161D96DDFF"
+			rewards: [
+				{
+					id: "74124EF69B2B7AEC"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 8
+					id: "6846D22D2CB9F161"
+					item: {
+						count: 1
+						id: "ae2:fluix_crystal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "1A4F6A6648DF095F"
+					item: { count: 1, id: "extendedae:entro_crystal" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "49E7F19584A54006"
+					item: { count: 1, id: "extendedae:entro_ingot" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2E0B4C161D96DDFF"]
+			icon: {
+				id: "extendedae:crystal_assembler"
+			}
+			id: "2CEB5B8DEEC57E68"
+			rewards: [
+				{
+					id: "18EB4BBA1189BC66"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 4
+					id: "2D5AA09680303245"
+					item: {
+						count: 1
+						id: "ae2:capacity_card"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 2L
+					id: "2A02F83C991F7FBD"
+					item: { count: 1, id: "extendedae:machine_frame" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5C5D4957F53ACBEE"
+					item: { count: 1, id: "extendedae:crystal_assembler" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2CEB5B8DEEC57E68"]
+			icon: {
+				id: "extendedae:ex_pattern_provider"
+			}
+			id: "649F863B410250A3"
+			rewards: [
+				{
+					id: "4FAD1A3EF3A88948"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "6F3D02FA03077EA1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legend"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "20B31C28A1BF6B9A"
+					item: { count: 1, id: "extendedae:ex_pattern_provider" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "68ECB97E0646BF2F"
+					item: { count: 1, id: "extendedae:ex_interface" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "45D7F53B4DCBE1CF"
+					item: { count: 1, id: "extendedae:ex_molecular_assembler" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2CEB5B8DEEC57E68"]
+			icon: {
+				id: "extendedae:tag_export_bus"
+			}
+			id: "627915B178219379"
+			rewards: [
+				{
+					id: "251F9393B36D9802"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 4
+					id: "711F3143A132AD0B"
+					item: {
+						count: 1
+						id: "ae2:logic_processor"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "655B580466B38AB5"
+					item: { count: 1, id: "extendedae:tag_export_bus" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7614153D8212C08F"
+					item: { count: 1, id: "extendedae:mod_storage_bus" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "447967A47EFA56B8"
+					item: { count: 1, id: "extendedae:precise_export_bus" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["649F863B410250A3"]
+			icon: {
+				id: "extendedae:assembler_matrix_crafter"
+			}
+			id: "4787C2B90395BB17"
+			rewards: [
+				{
+					id: "7331AF74A4FEFEF8"
+					type: "xp"
+					xp: 350
+				}
+				{
+					count: 4
+					id: "551449477DD01738"
+					item: {
+						count: 1
+						id: "extendedae:concurrent_processor"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 8L
+					id: "7AEAB38B0F3D6DD2"
+					item: { count: 1, id: "extendedae:assembler_matrix_frame" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2B30BE6EA6E1F32C"
+					item: { count: 1, id: "extendedae:assembler_matrix_crafter" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7FE14358066C4AC6"
+					item: { count: 1, id: "extendedae:assembler_matrix_pattern" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2956468136362BF8"
+					item: { count: 1, id: "extendedae:assembler_matrix_speed" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"627915B178219379"
+				"649F863B410250A3"
+			]
+			icon: {
+				id: "extendedae:wireless_hub"
+			}
+			id: "2ECC4AFFE76A1278"
+			rewards: [
+				{
+					id: "2C15BC9E85A96C9B"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "3B3A4D25898DB751"
+					item: {
+						count: 1
+						id: "ae2:quantum_link"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "7B53D1A75D95362D"
+					item: { count: 1, id: "extendedae:wireless_connect" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "28BDB3E7A04D05B8"
+					item: { count: 1, id: "extendedae:wireless_hub" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4787C2B90395BB17"
+				"2ECC4AFFE76A1278"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "extendedae:ex_drive"
+			}
+			id: "45B0FF110F104730"
+			rewards: [
+				{
+					id: "268D98BE1F67CA5F"
+					item: {
+						count: 1
+						id: "nxterra:starbloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "5408968703C0D93A"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "5A6044B10683B368"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legend"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2CFF1A3E8AA97C88"
+				type: "checkmark"
+			}]
+			x: 6.25d
+			y: 1.5d
+		}
+	]
+}

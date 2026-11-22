@@ -1,0 +1,305 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fish_of_thieves"
+	group: "7FE7FE7068E22B2B"
+	icon: {
+		id: "minecraft:fishing_rod"
+	}
+	id: "719DF692DF88F660"
+	images: [
+		{
+			height: 7.5d
+			id: "2B1C8F18865498E1"
+			image: "nxterra:textures/quests/backdrop/fish_of_thieves.png"
+			order: -1
+			rotation: 0.0d
+			width: 11.5d
+			x: 3.25d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "54710AE28F050D73"
+			image: "nxterra:textures/quests/banner/fish_of_thieves.png"
+			order: 1
+			rotation: 0.0d
+			width: 8.0d
+			x: 3.25d
+			y: -1.8248d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:fishing_rod"
+			}
+			id: "4BFF74EE32AF2DD2"
+			rewards: [
+				{
+					id: "3430A0817A4B1B51"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "640E606D7FAB7D22"
+					item: {
+						count: 1
+						id: "minecraft:bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "1CBA4BD5D7B5C2A8"
+					item: { count: 1, id: "minecraft:fishing_rod" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "18BB566603870405"
+					item: { count: 1, id: "fishofthieves:earthworms" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4BFF74EE32AF2DD2"]
+			icon: {
+				id: "fishofthieves:pondie"
+			}
+			id: "3B39E42D602E82FA"
+			rewards: [
+				{
+					id: "31C3CBE2EACC36AF"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1BE1E63A520264B4"
+					item: {
+						count: 1
+						id: "minecraft:campfire"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 2L
+				id: "10681F50AACD050B"
+				item: { count: 1, id: "fishofthieves:pondie" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B39E42D602E82FA"]
+			icon: {
+				id: "fishofthieves:wrecker"
+			}
+			id: "14AE0E63702D6EF4"
+			rewards: [
+				{
+					id: "6A5337469532DFC8"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "125179EE71C6D54A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "61B442EEC87B01BA"
+					structure: "minecraft:shipwreck"
+					type: "structure"
+				}
+				{
+					consume_items: false
+					id: "7B0B2CBC8BAA222D"
+					item: { count: 1, id: "fishofthieves:wrecker" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B39E42D602E82FA"]
+			icon: {
+				id: "fishofthieves:ancientscale"
+			}
+			id: "5B84EE9633D94430"
+			rewards: [
+				{
+					id: "281CB08EF02102DF"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 2
+					id: "1D42B63EE489F388"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6F78972C2FC11703"
+					structure: "minecraft:ocean_ruin_warm"
+					type: "structure"
+				}
+				{
+					consume_items: false
+					id: "1C16DD1FF961D9DE"
+					item: { count: 1, id: "fishofthieves:ancientscale" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B39E42D602E82FA"]
+			icon: {
+				id: "fishofthieves:coconut"
+			}
+			id: "25F1851B3D7116CE"
+			rewards: [
+				{
+					id: "211ACD636BB17C5F"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "7E94D19CFC2AE863"
+					item: {
+						count: 1
+						id: "minecraft:cooked_cod"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "fishofthieves:tropical_island"
+					id: "229A701FC3821E18"
+					type: "biome"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "6DAC586BF95FD09C"
+					item: { count: 1, id: "fishofthieves:coconut" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "136FB3E78E487312"
+					item: { count: 1, id: "fishofthieves:mango" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["14AE0E63702D6EF4"]
+			icon: {
+				id: "fishofthieves:oak_fish_plaque"
+			}
+			id: "2F24676856EB503E"
+			rewards: [
+				{
+					id: "43F01EAE1ABAC4E0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "1C1EA93BD0A0EAD6"
+					item: {
+						count: 1
+						id: "minecraft:gold_nugget"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "6D93CB91BA48D90C"
+				item: { count: 1, id: "fishofthieves:oak_fish_plaque" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2F24676856EB503E"
+				"5B84EE9633D94430"
+				"25F1851B3D7116CE"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "fishofthieves:kraken_pottery_sherd"
+			}
+			id: "16B4B5512A0985B9"
+			rewards: [
+				{
+					id: "495FC932E0FDEAFD"
+					item: {
+						count: 1
+						id: "nxterra:bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "617740477D257E36"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "755758D9AC0CE803"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "52C3C87F202945AB"
+				type: "checkmark"
+			}]
+			x: 6.25d
+			y: 1.5d
+		}
+	]
+}

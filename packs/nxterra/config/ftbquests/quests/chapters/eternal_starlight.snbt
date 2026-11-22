@@ -1,0 +1,439 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "eternal_starlight"
+	group: "20434CE362D81358"
+	icon: {
+		id: "eternal_starlight:orb_of_prophecy"
+	}
+	id: "46F47F9E047ABC21"
+	images: [
+		{
+			height: 7.5d
+			id: "5C0FA7B48BD1D866"
+			image: "nxterra:textures/quests/backdrop/eternal_starlight.png"
+			order: -1
+			rotation: 0.0d
+			width: 15.0d
+			x: 4.75d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "1C4D4000247817C6"
+			image: "nxterra:textures/quests/banner/eternal_starlight.png"
+			order: 1
+			rotation: 0.0d
+			width: 8.5d
+			x: 4.75d
+			y: -1.8248d
+		}
+	]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "eternal_starlight:blue_starlight_crystal_shard"
+			}
+			id: "13DD851FA239CD23"
+			rewards: [
+				{
+					id: "34D6E926CEC02E35"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "6D774EF631929841"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "27EC11411C9B9729"
+					structure: "#eternal_starlight:portal_ruins"
+					type: "structure"
+				}
+				{
+					consume_items: false
+					count: 5L
+					id: "1ECCB6DCBCDD073D"
+					item: { count: 1, id: "eternal_starlight:blue_starlight_crystal_shard" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["13DD851FA239CD23"]
+			icon: {
+				id: "eternal_starlight:orb_of_prophecy"
+			}
+			id: "468B1BFD775E266C"
+			rewards: [
+				{
+					id: "4C622F376E224D1A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "5E0B312C4B54B05E"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "11EA6BAAFADED01B"
+				item: { count: 1, id: "eternal_starlight:orb_of_prophecy" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["468B1BFD775E266C"]
+			icon: {
+				id: "eternal_starlight:starlit_diamond"
+			}
+			id: "324FD417C4BACA14"
+			rewards: [
+				{
+					id: "56A973E9062B6132"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 8
+					id: "29B8DDB10239B435"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "eternal_starlight:starlight"
+				id: "4EAA60428268A31C"
+				type: "dimension"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["324FD417C4BACA14"]
+			icon: {
+				id: "eternal_starlight:aurora_deer_steak"
+			}
+			id: "1A1B97622A67B0D5"
+			rewards: [
+				{
+					id: "44FA48DC1E557F89"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 8
+					id: "2C35FC38820C1A24"
+					item: {
+						count: 1
+						id: "eternal_starlight:aurora_deer_steak"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "eternal_starlight:scarlet_forest"
+					id: "63B65A14CD00ACF5"
+					type: "biome"
+				}
+				{
+					biome: "eternal_starlight:torreya_forest"
+					id: "1DAF5A4781809945"
+					type: "biome"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["324FD417C4BACA14"]
+			icon: {
+				id: "eternal_starlight:glacite_shard"
+			}
+			id: "5FA1945CD49D73F5"
+			rewards: [
+				{
+					id: "58A38A870C143974"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 8
+					id: "36BBB8D15E01954A"
+					item: {
+						count: 1
+						id: "minecraft:blue_ice"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "eternal_starlight:permafrost_peaks"
+					id: "58B26E9C93397C5B"
+					type: "biome"
+				}
+				{
+					consume_items: false
+					count: 8L
+					id: "4CB347F9706A6F85"
+					item: { count: 1, id: "eternal_starlight:glacite_shard" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["324FD417C4BACA14"]
+			icon: {
+				id: "eternal_starlight:starcore"
+			}
+			id: "27EEE61EDAAD51B6"
+			rewards: [
+				{
+					id: "150F1CD6849A33B7"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "24DA2AFC2E0A06A6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "conquer"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "eternal_starlight:the_gatekeeper"
+				id: "70F18898D63AF5D1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A1B97622A67B0D5"]
+			icon: {
+				id: "eternal_starlight:nightfall_spider_eye"
+			}
+			id: "2CF7D0F4040FAFF4"
+			rewards: [
+				{
+					id: "1355BFDD4453334E"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "7DB9CFBF12998079"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "eternal_starlight:nightfall_spider"
+					id: "1A6F3E5CF00E8531"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "eternal_starlight:lonestar_skeleton"
+					id: "24C973A95F01C02A"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FA1945CD49D73F5"]
+			icon: {
+				id: "eternal_starlight:crystallized_sand"
+			}
+			id: "37217755F3846349"
+			rewards: [
+				{
+					id: "7C7CE2C3D07D4B6C"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 8
+					id: "17F1BC2A8999FC6A"
+					item: {
+						count: 1
+						id: "eternal_starlight:glacite_shard"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "eternal_starlight:crystallized_desert"
+					id: "54624E24EB6A0F68"
+					type: "biome"
+				}
+				{
+					consume_items: false
+					count: 16L
+					id: "3D66D8D8C3EB3F7E"
+					item: { count: 1, id: "eternal_starlight:crystallized_sand" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["27EEE61EDAAD51B6"]
+			icon: {
+				id: "eternal_starlight:deepsilver_ingot"
+			}
+			id: "2F8B25E3CD64E4F5"
+			rewards: [
+				{
+					id: "7CAD4A9DDB67D210"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 4
+					id: "2DEA3D3ACB621259"
+					item: {
+						count: 1
+						id: "minecraft:iron_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2B900D6A75BDEBCF"
+				structure: "eternal_starlight:golem_forge"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2F8B25E3CD64E4F5"
+				"2CF7D0F4040FAFF4"
+				"37217755F3846349"
+			]
+			icon: {
+				id: "eternal_starlight:golem_steel_block"
+			}
+			id: "6AECE7CA2C217DAB"
+			rewards: [
+				{
+					id: "5684276BC9119564"
+					item: {
+						count: 1
+						id: "nxterra:starbloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "5EEC4D54A1752FAA"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 4
+					id: "74974B82CD910C95"
+					item: {
+						count: 1
+						id: "eternal_starlight:starlit_diamond"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				entity: "eternal_starlight:starlight_golem"
+				id: "4F2E04C33B369DB7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6AECE7CA2C217DAB"]
+			hide_dependency_lines: true
+			icon: {
+				id: "eternal_starlight:blue_starlight_crystal_block"
+			}
+			id: "3AF8280C178D0384"
+			rewards: [
+				{
+					id: "78AB86FF3CDDAC9E"
+					item: {
+						count: 1
+						id: "nxterra:moonpetal_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "74B134C66E49A1CF"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "3DD0AC504D76C0BF"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "conquer"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "666F773E0C46AF71"
+				type: "checkmark"
+			}]
+			x: 9.25d
+			y: 1.5d
+		}
+	]
+}

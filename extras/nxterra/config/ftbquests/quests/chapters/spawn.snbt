@@ -1,0 +1,306 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "spawn"
+	group: "7FE7FE7068E22B2B"
+	icon: {
+		id: "minecraft:sea_pickle"
+	}
+	id: "3C3C870C8ECCE9B3"
+	images: [
+		{
+			height: 7.5d
+			id: "695CA8BCD24557EF"
+			image: "nxterra:textures/quests/backdrop/spawn.png"
+			order: -1
+			rotation: 0.0d
+			width: 9.5d
+			x: 2.5d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "261F67F8EDE46B24"
+			image: "nxterra:textures/quests/banner/spawn.png"
+			order: 1
+			rotation: 0.0d
+			width: 5.0d
+			x: 2.5d
+			y: -1.8248d
+		}
+	]
+	order_index: 15
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "spawn:casting_net"
+			}
+			id: "6FA53946D146D8DB"
+			rewards: [
+				{
+					id: "423C1F056A7BF011"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "2FE42D274149F6AB"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "121E39A39406F3D9"
+					item: { count: 1, id: "spawn:casting_net" }
+					type: "item"
+				}
+				{
+					advancement: "spawn:husbandry/catch_with_net"
+					criterion: ""
+					id: "5A97445CF33F07D8"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6FA53946D146D8DB"]
+			icon: {
+				id: "spawn:sea_star"
+			}
+			id: "2D973B58F4DC46D7"
+			rewards: [
+				{
+					id: "7AFB8EAD8DBCA1F5"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "31BD4B7E6EFD06F9"
+					item: {
+						count: 1
+						id: "minecraft:bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "spawn:tide_pool"
+					id: "16954A07A7784534"
+					type: "biome"
+				}
+				{
+					consume_items: false
+					id: "38DC52EB31C9FC0D"
+					item: { count: 1, id: "spawn:sea_star" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3F2590E5EF8CA690"
+					item: { count: 1, id: "spawn:sea_urchin" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6FA53946D146D8DB"]
+			icon: {
+				id: "spawn:ant_farm"
+			}
+			id: "18B8873A15B33F11"
+			rewards: [
+				{
+					id: "7540ACA3C27F2B73"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "30D7BFB67B480BD1"
+					item: {
+						count: 1
+						id: "minecraft:coarse_dirt"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "437AA6CB5A8C28CF"
+					item: { count: 1, id: "spawn:ant_pupa" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5BDF881452E38A3D"
+					item: { count: 1, id: "spawn:ant_farm" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D973B58F4DC46D7"]
+			icon: {
+				id: "spawn:dates"
+			}
+			id: "7CABE54E73144015"
+			rewards: [
+				{
+					id: "52567D72378367E1"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "1EC504C6045C9AB8"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "spawn:tropical_island"
+					id: "7ECEF4F1271B6317"
+					type: "biome"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "45E380115EAED0DB"
+					item: { count: 1, id: "spawn:dates" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7CABE54E73144015"]
+			icon: {
+				id: "spawn:dodo"
+			}
+			id: "56E149AD4829D440"
+			rewards: [
+				{
+					id: "2A07F6B5AFD2CD2F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "6181B1EA403DF15E"
+					item: {
+						count: 1
+						id: "minecraft:wheat"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "spawn:dodo_island"
+				id: "7D3EFBAD5396FF86"
+				type: "biome"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D973B58F4DC46D7"]
+			icon: {
+				id: "spawn:bluefish"
+			}
+			id: "26563070BBBF107D"
+			rewards: [
+				{
+					id: "56DD25F081179152"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "19E24F32D036E4A4"
+					item: {
+						count: 1
+						id: "minecraft:cooked_cod"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "220B54474392A380"
+				item: { components: { "ftbfiltersystem:filter": "or(item(spawn:herring)item(spawn:bluefish))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"18B8873A15B33F11"
+				"56E149AD4829D440"
+				"26563070BBBF107D"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:sea_pickle"
+			}
+			id: "77947077FDC9B93D"
+			rewards: [
+				{
+					id: "5BCD2E731DF2D53B"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "1FCD8C5FD830E200"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "1F21ADD917131D87"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "75E0DC158A8725F1"
+				type: "checkmark"
+			}]
+			x: 4.75d
+			y: 1.5d
+		}
+	]
+}

@@ -1,0 +1,314 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "my_nethers_delight"
+	group: "435CE345857D9297"
+	icon: {
+		id: "minecraft:crimson_fungus"
+	}
+	id: "14E9C6918D213F30"
+	images: [
+		{
+			height: 6.5d
+			id: "18C2D138F857841C"
+			image: "nxterra:textures/quests/backdrop/my_nethers_delight.png"
+			order: -1
+			rotation: 0.0d
+			width: 11.5d
+			x: 3.225d
+			y: 1.1497d
+		}
+		{
+			height: 1.5d
+			id: "598FD82AF9CBAF5C"
+			image: "nxterra:textures/quests/banner/my_nethers_delight.png"
+			order: 1
+			rotation: 0.0d
+			width: 9.5d
+			x: 3.225d
+			y: -1.8248d
+		}
+	]
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "mynethersdelight:nether_bricks_stove"
+			}
+			id: "22A31761778462F0"
+			rewards: [
+				{
+					id: "25218ACBFD4B8C51"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "451F30E334042979"
+					item: {
+						count: 1
+						id: "farmersdelight:iron_knife"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					id: "58EBA6AF851165DA"
+					type: "dimension"
+				}
+				{
+					consume_items: false
+					id: "19241083D2FEAB8D"
+					item: { count: 1, id: "mynethersdelight:nether_bricks_stove" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22A31761778462F0"]
+			icon: {
+				id: "mynethersdelight:bullet_pepper"
+			}
+			id: "70F777B5EC9C5099"
+			rewards: [
+				{
+					id: "7FFA6F4ADDCB96A8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "53EE20B85854FFC6"
+					item: {
+						count: 1
+						id: "minecraft:blaze_powder"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "5FB4C9576BFFBA52"
+					item: { count: 1, id: "mynethersdelight:bullet_pepper" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "1E136E4EB4FA15AA"
+					item: { count: 1, id: "mynethersdelight:pepper_powder" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22A31761778462F0"]
+			icon: {
+				id: "mynethersdelight:hoglin_loin"
+			}
+			id: "1BA1BC1CB119A4E3"
+			rewards: [
+				{
+					id: "790AE30DA56EBC23"
+					type: "xp"
+					xp: 125
+				}
+				{
+					id: "192C7087F73DB4EC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:hoglin"
+					id: "486A3D1841FD21E0"
+					type: "kill"
+					value: 3L
+				}
+				{
+					consume_items: false
+					count: 3L
+					id: "5D490D060BFE0410"
+					item: { count: 1, id: "mynethersdelight:hoglin_loin" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"70F777B5EC9C5099"
+				"1BA1BC1CB119A4E3"
+			]
+			icon: {
+				id: "mynethersdelight:fried_hoglin_chop"
+			}
+			id: "21C72AA1486486C2"
+			rewards: [
+				{
+					id: "7CE0157A8BE62864"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 4
+					id: "5C5A11AD002F8F5F"
+					item: {
+						count: 1
+						id: "mynethersdelight:cooked_loin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "2B2FEC23834347D4"
+				item: { count: 1, id: "mynethersdelight:fried_hoglin_chop" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BA1BC1CB119A4E3"]
+			icon: {
+				id: "mynethersdelight:striderloaf"
+			}
+			id: "404E49A59E3381BD"
+			rewards: [
+				{
+					id: "3FF5938D485D2EF2"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 8
+					id: "4331BBA6C19940AC"
+					item: {
+						count: 1
+						id: "minecraft:warped_fungus"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:strider"
+					id: "4CE4EB5A6DF94AB8"
+					type: "kill"
+					value: 1L
+				}
+				{
+					consume_items: false
+					id: "5D1EE160196BF599"
+					item: { count: 1, id: "mynethersdelight:striderloaf" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["404E49A59E3381BD"]
+			icon: {
+				id: "mynethersdelight:ghasta_with_cream"
+			}
+			id: "29D59978D03B958A"
+			rewards: [
+				{
+					id: "36243755CF5B4ED4"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "5B21F495D28EC9CC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:ghast"
+					id: "18E808A146026567"
+					type: "kill"
+					value: 1L
+				}
+				{
+					consume_items: false
+					id: "293E6D6DD0DB2CE6"
+					item: { count: 1, id: "mynethersdelight:ghasta_with_cream" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"21C72AA1486486C2"
+				"29D59978D03B958A"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mynethersdelight:blazier"
+			}
+			id: "19CED813E25B6581"
+			rewards: [
+				{
+					id: "66D349E5E08FE29D"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "74ABE555950710D1"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "1AD8203092DB4753"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6839A55427C5D8ED"
+				type: "checkmark"
+			}]
+			x: 6.2d
+			y: 1.5d
+		}
+	]
+}

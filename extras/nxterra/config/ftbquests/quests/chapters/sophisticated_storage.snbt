@@ -1,0 +1,285 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sophisticated_storage"
+	group: "30A3BF10FF493301"
+	icon: {
+		id: "sophisticatedstorage:chest"
+	}
+	id: "448116CFBAF4DF19"
+	images: [
+		{
+			height: 6.5d
+			id: "6FC930967F563758"
+			image: "nxterra:textures/quests/backdrop/sophisticated_storage.png"
+			order: -1
+			rotation: 0.0d
+			width: 13.0d
+			x: 4.0d
+			y: 1.1497d
+		}
+		{
+			height: 1.5d
+			id: "118F684B8EEB7AD7"
+			image: "nxterra:textures/quests/banner/sophisticated_storage.png"
+			order: 1
+			rotation: 0.0d
+			width: 10.0d
+			x: 4.0d
+			y: -1.8248d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "sophisticatedstorage:chest"
+			}
+			id: "5C724E7BD9679516"
+			rewards: [
+				{
+					id: "68CB9CAA3F292E22"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "1A6B772E7BDEFC2A"
+					item: {
+						count: 1
+						id: "minecraft:lever"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "4CABE9A9C1476B33"
+				item: { count: 1, id: "sophisticatedstorage:chest" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5C724E7BD9679516"]
+			icon: {
+				id: "sophisticatedstorage:barrel"
+			}
+			id: "23192F0B941BE922"
+			rewards: [
+				{
+					id: "6A181D8672451CBE"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 8
+					id: "4CA5EFD1DCA59F93"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "692C34B8C8B9295B"
+				item: { count: 1, id: "sophisticatedstorage:barrel" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["23192F0B941BE922"]
+			icon: {
+				id: "sophisticatedstorage:packing_tape"
+			}
+			id: "509B6AAB49028851"
+			rewards: [
+				{
+					id: "6EDD06EE938C7012"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 4
+					id: "11B7E6E7A3E302E2"
+					item: {
+						count: 1
+						id: "minecraft:slime_ball"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "460FFB9E29B92BC3"
+					item: { count: 1, id: "sophisticatedstorage:packing_tape" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7950F33E5B530C47"
+					item: { count: 1, id: "sophisticatedstorage:paintbrush" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23192F0B941BE922"]
+			icon: {
+				id: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+			}
+			id: "128DB032EBAD15A0"
+			rewards: [
+				{
+					id: "71DD0851A32FB20F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "46842E7A4B4C160F"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:upgrade_base"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "258305404A6776C7"
+				item: { count: 1, id: "sophisticatedstorage:basic_to_iron_tier_upgrade" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["128DB032EBAD15A0"]
+			icon: {
+				id: "sophisticatedstorage:stack_upgrade_tier_1"
+			}
+			id: "7717FCD5D4F5D893"
+			rewards: [
+				{
+					id: "5A97E5B13C8BAF04"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "31AA7035A8B08F51"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "290A8120E76C7D5D"
+					item: {
+						count: 1
+						id: "minecraft:comparator"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "5C797727D615163F"
+				item: { count: 1, id: "sophisticatedstorage:stack_upgrade_tier_1" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7717FCD5D4F5D893"]
+			icon: {
+				id: "sophisticatedstorage:controller"
+			}
+			id: "441A7919B0A20051"
+			rewards: [
+				{
+					id: "6CD8A5DA1A505D20"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 2
+					id: "50863353E5BF56B6"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "693FB2D0991709B0"
+				item: { count: 1, id: "sophisticatedstorage:controller" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"441A7919B0A20051"
+				"509B6AAB49028851"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "sophisticatedstorage:iron_chest"
+			}
+			id: "7E99878F537A840A"
+			rewards: [
+				{
+					id: "5A0EBC9CC0D0A654"
+					item: {
+						count: 1
+						id: "nxterra:bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "1191733A11C80594"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "260373AFE1BD0C67"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "40282AB8DA1DFFCE"
+				type: "checkmark"
+			}]
+			x: 7.75d
+			y: 1.5d
+		}
+	]
+}

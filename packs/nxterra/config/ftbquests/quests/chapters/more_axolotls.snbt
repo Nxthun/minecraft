@@ -1,0 +1,222 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "more_axolotls"
+	group: "7FE7FE7068E22B2B"
+	icon: {
+		id: "minecraft:axolotl_bucket"
+	}
+	id: "395A0326DB47A380"
+	images: [
+		{
+			height: 6.5d
+			id: "1CBE371904C91B20"
+			image: "nxterra:textures/quests/backdrop/more_axolotls.png"
+			order: -1
+			rotation: 0.0d
+			width: 9.5d
+			x: 2.5d
+			y: 2.3997d
+		}
+		{
+			height: 1.5d
+			id: "306A88A8AC5C7DA1"
+			image: "nxterra:textures/quests/banner/more_axolotls.png"
+			order: 1
+			rotation: 0.0d
+			width: 10.0d
+			x: 2.5d
+			y: -0.5748d
+		}
+	]
+	order_index: 16
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:axolotl_bucket"
+			}
+			id: "26C6EFD606AE2D11"
+			rewards: [
+				{
+					id: "3510E77707AC8996"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "1FDE603D2B526F79"
+					item: {
+						count: 1
+						id: "minecraft:glow_berries"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:lush_caves"
+					id: "3DB865B4A9C6CAAD"
+					type: "biome"
+				}
+				{
+					advancement: "minecraft:husbandry/axolotl_in_a_bucket"
+					criterion: ""
+					id: "656B42F8A3F3A5B2"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["26C6EFD606AE2D11"]
+			icon: {
+				id: "minecraft:tropical_fish_bucket"
+			}
+			id: "6F19304DB8D41D9D"
+			rewards: [
+				{
+					id: "6B40D84110337074"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 4
+					id: "1D2AEA5E2E637AFC"
+					item: {
+						count: 1
+						id: "minecraft:big_dripleaf"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:husbandry/breed_an_animal"
+				criterion: ""
+				id: "25DAAE108CC0C63C"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F19304DB8D41D9D"]
+			icon: {
+				id: "minecraft:tropical_fish"
+			}
+			id: "7C858527218EFA3B"
+			rewards: [
+				{
+					id: "4DB211236B51BA19"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1CDCB752AA34EC34"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:husbandry/kill_axolotl_target"
+				criterion: ""
+				id: "4FD8B7FAED105350"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F19304DB8D41D9D"]
+			icon: {
+				id: "minecraft:glass"
+			}
+			id: "4B609624BFA9339B"
+			rewards: [
+				{
+					id: "1004D9E90532860D"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 4
+					id: "267607F588B6C025"
+					item: {
+						count: 1
+						id: "minecraft:sea_pickle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 16L
+					id: "22F0807C01416B1C"
+					item: { count: 1, id: "minecraft:glass" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "621C48D63E98AD56"
+					item: { count: 1, id: "minecraft:water_bucket" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7C858527218EFA3B"
+				"4B609624BFA9339B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:axolotl_spawn_egg"
+			}
+			id: "2E246635B714B35E"
+			rewards: [
+				{
+					id: "5D043CFECB6E5929"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "517D7BE7A47AA345"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "7BC3EDD6CE3CFBD2"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "366D48E691A035B6"
+				type: "checkmark"
+			}]
+			x: 4.75d
+			y: 1.5d
+		}
+	]
+}

@@ -1,0 +1,471 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "supplementaries"
+	group: "2F49404BE5395B45"
+	icon: {
+		id: "supplementaries:jar"
+	}
+	id: "386BD87AB9B67895"
+	images: [
+		{
+			height: 6.5d
+			id: "658846360C68E782"
+			image: "nxterra:textures/quests/backdrop/supplementaries.png"
+			order: -1
+			rotation: 0.0d
+			width: 15.0d
+			x: 4.75d
+			y: 1.1497d
+		}
+		{
+			height: 1.5d
+			id: "122553C62CBB4C87"
+			image: "nxterra:textures/quests/banner/supplementaries.png"
+			order: 1
+			rotation: 0.0d
+			width: 8.0d
+			x: 4.75d
+			y: -1.8248d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "supplementaries:jar"
+			}
+			id: "1D2655A34E330901"
+			rewards: [
+				{
+					id: "6E91E126BEDABC33"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 8
+					id: "5F4A038606218634"
+					item: {
+						count: 1
+						id: "supplementaries:flax_seeds"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 2L
+					id: "19A94EB588779BF0"
+					item: { count: 1, id: "supplementaries:jar" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "41378996CE6C73B7"
+					item: { count: 1, id: "supplementaries:sack" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1D2655A34E330901"]
+			icon: {
+				id: "supplementaries:rope"
+			}
+			id: "4A9CCFEB66DFCC18"
+			rewards: [
+				{
+					id: "5CEDB44ACED1FB7C"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "6E7B22532EEABB5F"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 6L
+					id: "377121536D34FDC1"
+					item: { count: 1, id: "supplementaries:rope" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "253E9FF98C5D3FC9"
+					item: { count: 1, id: "supplementaries:doormat" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4A9CCFEB66DFCC18"]
+			icon: {
+				id: "supplementaries:pulley_block"
+			}
+			id: "103D1D0C6DFFB07E"
+			rewards: [
+				{
+					id: "2C4606200E3DC9B2"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 6
+					id: "7642D0DE5481841F"
+					item: {
+						count: 1
+						id: "supplementaries:rope"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "14581A71CABB8C78"
+					item: { count: 1, id: "supplementaries:pulley_block" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "70BFB7A5CABEBB1B"
+					item: { count: 1, id: "supplementaries:crank" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1D2655A34E330901"]
+			icon: {
+				id: "supplementaries:wrench"
+			}
+			id: "7BD73370FA99EC47"
+			rewards: [
+				{
+					id: "2E54F705271C05EE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "2D3ED8896EAF28D7"
+					item: {
+						count: 1
+						id: "minecraft:iron_nugget"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "389206FDD7E51A61"
+					item: { count: 1, id: "supplementaries:wrench" }
+					type: "item"
+				}
+				{
+					advancement: "supplementaries:husbandry/wrench"
+					criterion: ""
+					id: "212495F3BFCB3896"
+					type: "advancement"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BD73370FA99EC47"]
+			icon: {
+				id: "supplementaries:sconce"
+			}
+			id: "17D0AB556B86BC4C"
+			rewards: [
+				{
+					id: "4101465581CF8679"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "18B8937D3681FE85"
+					item: {
+						count: 1
+						id: "minecraft:candle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "5FB6A6F249EFBD88"
+					item: { count: 1, id: "supplementaries:sconce" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "5F28CC5FFF656EC7"
+					item: { count: 1, id: "supplementaries:candle_holder" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17D0AB556B86BC4C"]
+			icon: {
+				id: "supplementaries:flag_red"
+			}
+			id: "40AABC48D39E699B"
+			rewards: [
+				{
+					id: "26392273A5519561"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "1D7A911958267E08"
+					item: {
+						count: 1
+						id: "minecraft:white_wool"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "6FCF7651BB9832A2"
+					item: { count: 1, id: "supplementaries:flag_red" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 6L
+					id: "49FA7538D9C3444E"
+					item: { count: 1, id: "supplementaries:bunting_red" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["103D1D0C6DFFB07E"]
+			icon: {
+				id: "supplementaries:notice_board"
+			}
+			id: "334CDB84D42659CA"
+			rewards: [
+				{
+					id: "76419527D025CAFD"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "559832066E827036"
+					item: {
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "399BDB46BBB6BBEC"
+					item: { count: 1, id: "supplementaries:notice_board" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "45DBB060BF1BA378"
+					item: { count: 1, id: "supplementaries:item_shelf" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["40AABC48D39E699B"]
+			icon: {
+				id: "supplementaries:globe"
+			}
+			id: "44DE12FC8EBD28E7"
+			rewards: [
+				{
+					id: "189A3B67A2E9DC46"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "23A2284BDA650C27"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "38308CEC6001CE20"
+				structure: "supplementaries:road_sign"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["334CDB84D42659CA"]
+			icon: {
+				id: "supplementaries:bellows"
+			}
+			id: "1704F8A155BD758D"
+			rewards: [
+				{
+					id: "39B314AFBCF0621D"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "2ABFD891CC87E46A"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "4D446A0512BFC89B"
+					item: { count: 1, id: "supplementaries:bellows" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5098B65B70824A51"
+					item: { count: 1, id: "supplementaries:hourglass" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1704F8A155BD758D"]
+			icon: {
+				id: "supplementaries:cannon"
+			}
+			id: "1A061CBF2D9A9303"
+			rewards: [
+				{
+					id: "1CA3FA6F99C8751E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7C42F04587500114"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "371431CA11712C3A"
+					item: { count: 1, id: "supplementaries:cannon" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "555F73E4D446FC40"
+					item: { count: 1, id: "supplementaries:slingshot" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"44DE12FC8EBD28E7"
+				"1A061CBF2D9A9303"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "supplementaries:hourglass"
+			}
+			id: "3EBA1DF15BCCB5CA"
+			rewards: [
+				{
+					id: "5B6C1E6B267011C3"
+					item: {
+						count: 1
+						id: "nxterra:bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "470A0CD23621D372"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "299B0B33409CD0EC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6D8303EDF669C773"
+				type: "checkmark"
+			}]
+			x: 9.25d
+			y: 1.5d
+		}
+	]
+}

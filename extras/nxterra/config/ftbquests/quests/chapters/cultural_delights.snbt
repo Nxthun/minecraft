@@ -1,0 +1,319 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cultural_delights"
+	group: "435CE345857D9297"
+	icon: {
+		id: "minecraft:bowl"
+	}
+	id: "5CC3E57BFFFA08BE"
+	images: [
+		{
+			height: 6.5d
+			id: "15806AD71B957DDD"
+			image: "nxterra:textures/quests/backdrop/cultural_delights.png"
+			order: -1
+			rotation: 0.0d
+			width: 11.5d
+			x: 3.225d
+			y: 1.1497d
+		}
+		{
+			height: 1.5d
+			id: "5055F5CAC3FF0551"
+			image: "nxterra:textures/quests/banner/cultural_delights.png"
+			order: 1
+			rotation: 0.0d
+			width: 8.5d
+			x: 3.225d
+			y: -1.8248d
+		}
+	]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "culturaldelights:oven"
+			}
+			id: "67A63FF942E0269C"
+			rewards: [
+				{
+					id: "5EFC2987D8B31D47"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "33CDDB9145080C6C"
+					item: {
+						count: 1
+						id: "minecraft:bricks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "10B26805797B0452"
+					item: { count: 1, id: "culturaldelights:oven" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "37706C7E3F18FA74"
+					item: { count: 1, id: "culturaldelights:corn_cob" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67A63FF942E0269C"]
+			icon: {
+				id: "culturaldelights:tortilla"
+			}
+			id: "3CC01665BE50040F"
+			rewards: [
+				{
+					id: "57823EB482A83F34"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "6AE0E3DCB6034BA6"
+					item: {
+						count: 1
+						id: "culturaldelights:corn_kernels"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "54073150825B13A0"
+				item: { count: 1, id: "culturaldelights:tortilla" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3CC01665BE50040F"]
+			icon: {
+				id: "culturaldelights:chicken_taco"
+			}
+			id: "7C661C47933029D1"
+			rewards: [
+				{
+					id: "26315981AD8883A8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4A2A20C3F12EEB4C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "1C5AF6C21B1E4806"
+				item: { components: { "ftbfiltersystem:filter": "or(item(culturaldelights:chicken_taco)item(culturaldelights:beef_burrito))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3CC01665BE50040F"]
+			icon: {
+				id: "culturaldelights:vat"
+			}
+			id: "14C329983C184780"
+			rewards: [
+				{
+					id: "6D7C69C3818BE3A5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "67409ECA8AA6C628"
+					item: {
+						count: 1
+						id: "culturaldelights:salt"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "20DE257F5C7F012F"
+					item: { count: 1, id: "culturaldelights:vat" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "765DB4E7A09D9F66"
+					item: { count: 1, id: "culturaldelights:vinegar" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "586538282C431F6D"
+					item: { count: 1, id: "culturaldelights:pickle" }
+					type: "item"
+				}
+				{
+					advancement: "culturaldelights:main/vat"
+					criterion: ""
+					id: "2E1676F79E69A054"
+					type: "advancement"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14C329983C184780"]
+			icon: {
+				id: "culturaldelights:cheese_wheel"
+			}
+			id: "68B9982D8F482A26"
+			rewards: [
+				{
+					id: "797E62985845F983"
+					type: "xp"
+					xp: 125
+				}
+				{
+					id: "239125B5CA3F7623"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "6590FB25B76C1530"
+					item: { count: 1, id: "culturaldelights:cheese_wheel" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "2C9C9D2BAC6726C9"
+					item: { count: 1, id: "culturaldelights:cheese_wedge" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14C329983C184780"]
+			icon: {
+				id: "culturaldelights:rum"
+			}
+			id: "74E28712F691796F"
+			rewards: [
+				{
+					id: "7D273D925C39145A"
+					type: "xp"
+					xp: 125
+				}
+				{
+					count: 8
+					id: "1C5C297DCE2CD4A2"
+					item: {
+						count: 1
+						id: "culturaldelights:lemon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "5D16468C9685C153"
+					item: { count: 1, id: "culturaldelights:wine" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "11CB0D9C9E0ADF93"
+					item: { count: 1, id: "culturaldelights:rum" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7C661C47933029D1"
+				"68B9982D8F482A26"
+				"74E28712F691796F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "culturaldelights:cheese_block"
+			}
+			id: "52CB4D802EDE70B2"
+			rewards: [
+				{
+					id: "218D7EA6EC69E109"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "234829A4085CAB38"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "13813275ACDA8BFF"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "382FE99E37F7C796"
+				type: "checkmark"
+			}]
+			x: 6.2d
+			y: 1.5d
+		}
+	]
+}

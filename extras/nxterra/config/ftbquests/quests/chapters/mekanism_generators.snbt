@@ -1,0 +1,518 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism_generators"
+	group: "30A3BF10FF493301"
+	icon: {
+		id: "mekanismgenerators:heat_generator"
+	}
+	id: "77750DCC46633131"
+	images: [
+		{
+			height: 7.5d
+			id: "1593A02377B5770A"
+			image: "nxterra:textures/quests/backdrop/mekanism_generators.png"
+			order: -1
+			rotation: 0.0d
+			width: 13.0d
+			x: 4.0d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "229F0E7226990237"
+			image: "nxterra:textures/quests/banner/mekanism_generators.png"
+			order: 1
+			rotation: 0.0d
+			width: 9.5d
+			x: 4.0d
+			y: -1.8248d
+		}
+	]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "mekanismgenerators:heat_generator"
+			}
+			id: "3213BDB3FCD73A0B"
+			rewards: [
+				{
+					id: "47A1AE85B64CE59A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "3C75BAE3083BD5E5"
+					item: {
+						count: 1
+						id: "mekanism:basic_universal_cable"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "15B729EF36399333"
+					item: { count: 1, id: "mekanismgenerators:heat_generator" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5F0789C6A713C140"
+					item: { count: 1, id: "minecraft:lava_bucket" }
+					type: "item"
+				}
+				{
+					advancement: "mekanismgenerators:heat_generator"
+					criterion: ""
+					id: "28EBF9202E9E5792"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3213BDB3FCD73A0B"]
+			icon: {
+				id: "mekanismgenerators:solar_generator"
+			}
+			id: "3F95C2084FDF8C19"
+			rewards: [
+				{
+					id: "1249B3F2305450E4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "1CB539E9DF7EE9D9"
+					item: {
+						count: 1
+						id: "mekanism:energy_tablet"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "74C5711F2472AF31"
+					item: { count: 1, id: "mekanismgenerators:solar_generator" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "61CD1BC39F81F3EB"
+					item: { count: 1, id: "mekanismgenerators:wind_generator" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3F95C2084FDF8C19"]
+			icon: {
+				id: "mekanismgenerators:bio_generator"
+			}
+			id: "4E37B465A0854FA7"
+			rewards: [
+				{
+					id: "25E3A47DCE726CDC"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 4
+					id: "59F104FBCF4BE197"
+					item: {
+						count: 1
+						id: "mekanism:alloy_infused"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "3E03CB8C6A19A16C"
+					item: { count: 1, id: "mekanismgenerators:bio_generator" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 16L
+					id: "28D3663B95D363B6"
+					item: { count: 1, id: "mekanism:bio_fuel" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4E37B465A0854FA7"]
+			icon: {
+				id: "mekanismgenerators:gas_burning_generator"
+			}
+			id: "119737806A7393D0"
+			rewards: [
+				{
+					id: "14682227B0215C0F"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 2
+					id: "49DE6B04AB9E00DF"
+					item: {
+						count: 1
+						id: "mekanism:basic_chemical_tank"
+					}
+					type: "item"
+				}
+				{
+					id: "1CFF3B81BA5C0922"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "conquer"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "5ADB40142C05CBE3"
+					item: { count: 1, id: "mekanismgenerators:gas_burning_generator" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "17F59F73DD07A303"
+					item: { count: 1, id: "mekanism:electrolytic_separator" }
+					type: "item"
+				}
+				{
+					advancement: "mekanismgenerators:burn_the_gas"
+					criterion: ""
+					id: "46B4050DC8183687"
+					type: "advancement"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3F95C2084FDF8C19"]
+			icon: {
+				id: "mekanismgenerators:turbine_casing"
+			}
+			id: "4033596EEE4EFED7"
+			rewards: [
+				{
+					id: "47CD434441342298"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "28D64BBAE449408B"
+					item: {
+						count: 1
+						id: "mekanism:steel_casing"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 8L
+					id: "681C717EC4ABEAA5"
+					item: { count: 1, id: "mekanismgenerators:turbine_casing" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "302D44E80577E691"
+					item: { count: 1, id: "mekanismgenerators:turbine_valve" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "1FB2A79A37E49C7D"
+					item: { count: 1, id: "mekanismgenerators:turbine_vent" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4033596EEE4EFED7"]
+			icon: {
+				id: "mekanismgenerators:turbine_blade"
+			}
+			id: "1C3C4D24B04BA98A"
+			rewards: [
+				{
+					id: "262A514B3F379E2F"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 4
+					id: "150162705813D8DD"
+					item: {
+						count: 1
+						id: "mekanism:alloy_infused"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 2L
+					id: "20B508C9CF823BD7"
+					item: { count: 1, id: "mekanismgenerators:turbine_rotor" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "138F48C19B48AF8F"
+					item: { count: 1, id: "mekanismgenerators:turbine_blade" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C3C4D24B04BA98A"]
+			icon: {
+				id: "mekanismgenerators:rotational_complex"
+			}
+			id: "77FA31440E9D62EC"
+			rewards: [
+				{
+					id: "1EC1DFFC4B32D08A"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "7BBE2607D1A3F3E4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "conquer"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "23876AE53A9B9BE1"
+					item: { count: 1, id: "mekanismgenerators:rotational_complex" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "71389D8C815ADB5C"
+					item: { count: 1, id: "mekanismgenerators:saturating_condenser" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "244E175D75CDF1C5"
+					item: { count: 1, id: "mekanismgenerators:electromagnetic_coil" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["119737806A7393D0"]
+			icon: {
+				id: "mekanism:hazmat_mask"
+			}
+			id: "3DA4E0EF0861DFBA"
+			rewards: [
+				{
+					id: "2E29CD22C0ABCFB0"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "45DCE61B2F7DB038"
+					item: {
+						count: 1
+						id: "mekanism:dosimeter"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "10F8B7C6F87533EC"
+					item: { count: 1, id: "mekanism:hazmat_mask" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "41F74EE0218320F8"
+					item: { count: 1, id: "mekanism:hazmat_gown" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "711EEC15A9EFE3BA"
+					item: { count: 1, id: "mekanism:hazmat_pants" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1251273EA2EB9235"
+					item: { count: 1, id: "mekanism:hazmat_boots" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4A729826EE47BB82"
+					item: { count: 1, id: "mekanism:geiger_counter" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"119737806A7393D0"
+				"77FA31440E9D62EC"
+				"3DA4E0EF0861DFBA"
+			]
+			icon: {
+				id: "mekanismgenerators:fission_fuel_assembly"
+			}
+			id: "5C5B8AF67587ABEF"
+			rewards: [
+				{
+					id: "2696DA59B8FCD92F"
+					item: {
+						count: 1
+						id: "nxterra:starbloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "2405ED77E214CE64"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 8
+					id: "7875CF920DE759C4"
+					item: {
+						count: 1
+						id: "mekanismgenerators:reactor_glass"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					consume_items: false
+					count: 12L
+					id: "4D6928115D05D8AA"
+					item: { count: 1, id: "mekanismgenerators:fission_reactor_casing" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "13FAD3BAB4BE5CF6"
+					item: { count: 1, id: "mekanismgenerators:fission_reactor_port" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "293B3C3269DE46F2"
+					item: { count: 1, id: "mekanismgenerators:fission_fuel_assembly" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1D88584F78968A56"
+					item: { count: 1, id: "mekanismgenerators:control_rod_assembly" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5C5B8AF67587ABEF"]
+			hide_dependency_lines: true
+			icon: {
+				id: "mekanismgenerators:turbine_valve"
+			}
+			id: "50EA49E7E24017C6"
+			rewards: [
+				{
+					id: "25F2C32589C23BDF"
+					item: {
+						count: 1
+						id: "nxterra:moonpetal_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "3C7009ED13E47A8A"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "636829A78E52A3A1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "conquer"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "10AEAC2252F01021"
+				type: "checkmark"
+			}]
+			x: 7.75d
+			y: 1.5d
+		}
+	]
+}

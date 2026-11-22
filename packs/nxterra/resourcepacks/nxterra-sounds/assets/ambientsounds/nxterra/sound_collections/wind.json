@@ -1,0 +1,20 @@
+{
+    "sounds": [
+        {
+            "name": "light-wind",
+            "category": "wind",
+            "files": [
+                "nxterra_ambience:ambience.wind_tall_grass"
+            ],
+            "transition": 200,
+            "air": {
+                "min": 0.6
+            },
+            "length": {
+                "min": 1000,
+                "max": 5000
+            },
+            "volume": 0.6
+        }
+    ]
+}

@@ -1,0 +1,451 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "combat_basics"
+	group: "6DDAA8A1DA8B5CDF"
+	icon: {
+		id: "minecraft:iron_sword"
+	}
+	id: "247B61EBED687C1E"
+	images: [
+		{
+			height: 7.5d
+			id: "1797C57875D30A96"
+			image: "nxterra:textures/quests/backdrop/combat_basics.png"
+			order: -1
+			rotation: 0.0d
+			width: 13.0d
+			x: 4.0d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "409C9710C8B1BC9F"
+			image: "nxterra:textures/quests/banner/combat_basics.png"
+			order: 1
+			rotation: 0.0d
+			width: 7.0d
+			x: 4.0d
+			y: -1.8248d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "38AE8AFD25D35FE7"
+			rewards: [
+				{
+					id: "209EC4D345904727"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 8
+					id: "6E33C831F28F6800"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "2F9787A4AF38636D"
+				type: "kill"
+				value: 3L
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["38AE8AFD25D35FE7"]
+			icon: {
+				id: "minecraft:stone_sword"
+			}
+			id: "5377F32F3ED1CA88"
+			rewards: [
+				{
+					id: "13A8528B56B0FA6C"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 8
+					id: "3F68CAE88603B334"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "7BE26E3948E3105E"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:swords)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5377F32F3ED1CA88"]
+			icon: {
+				id: "minecraft:shield"
+			}
+			id: "11E15614534A50B7"
+			rewards: [
+				{
+					id: "4627A53CCAF5D8D5"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 16
+					id: "2F3B72F7D91F1416"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "37DC1A86E3D54B48"
+				item: { count: 1, id: "minecraft:shield" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["11E15614534A50B7"]
+			icon: {
+				id: "minecraft:iron_chestplate"
+			}
+			id: "7495639FC112D8D8"
+			rewards: [
+				{
+					id: "77BBA91192FDCFCB"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 4
+					id: "5D730A3F67D825A9"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "43D1F4B8BC96BD25"
+					item: { count: 1, id: "minecraft:iron_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1B328CD6F01C259A"
+					item: { count: 1, id: "minecraft:iron_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7F050032A263770E"
+					item: { count: 1, id: "minecraft:iron_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2FE5BB2740995202"
+					item: { count: 1, id: "minecraft:iron_boots" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7495639FC112D8D8"]
+			icon: {
+				id: "gravestone:gravestone"
+			}
+			id: "1DC25C5927EBBF6F"
+			rewards: [
+				{
+					id: "64E47AD5A9D975A9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 16
+					id: "21B6EE03D8A503DA"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "7720060104E6E55B"
+				item: { count: 1, id: "gravestone:gravestone" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["38AE8AFD25D35FE7"]
+			icon: {
+				id: "minecraft:bow"
+			}
+			id: "1E6F24A9BF7E6B2B"
+			rewards: [
+				{
+					id: "75A4A5A3CB79D6F3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 16
+					id: "47CDE47B7ED21E4B"
+					item: {
+						count: 1
+						id: "minecraft:feather"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "4437700637584DCB"
+					item: { count: 1, id: "minecraft:bow" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 32L
+					id: "11A0999DE38CD06A"
+					item: { count: 1, id: "minecraft:arrow" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E6F24A9BF7E6B2B"]
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "21486E095AE50967"
+			rewards: [
+				{
+					id: "20A20BFA15BCE2D6"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "7BEFA4E670965DCB"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:skeleton"
+					id: "593CD49E3F28F507"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "minecraft:creeper"
+					id: "3D3E854CC4E548CF"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21486E095AE50967"]
+			icon: {
+				id: "minecraft:string"
+			}
+			id: "47A9FBC14D328717"
+			rewards: [
+				{
+					id: "1D762059F3B23A15"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "59D049844AFB9D26"
+					item: {
+						count: 1
+						id: "minecraft:cooked_chicken"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:spider"
+					id: "140E1B8BB347EFDB"
+					type: "kill"
+					value: 3L
+				}
+				{
+					consume_items: false
+					count: 8L
+					id: "3A4A2F5728FB9E2D"
+					item: { count: 1, id: "minecraft:string" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38AE8AFD25D35FE7"]
+			icon: {
+				id: "minecraft:iron_axe"
+			}
+			id: "5FEA0C85DA404730"
+			rewards: [
+				{
+					id: "54E2CDFEEB45A359"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "223A2ACD349F1208"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "6AC7D6577DA5C7BC"
+				item: { count: 1, id: "minecraft:iron_axe" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5FEA0C85DA404730"]
+			icon: {
+				id: "minecraft:cooked_beef"
+			}
+			id: "7305C379F1C86F4D"
+			rewards: [
+				{
+					id: "10EC4F8D7047FAC9"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4807A84459F60CCC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 16L
+					id: "386A600838204EF2"
+					item: { count: 1, id: "minecraft:cooked_beef" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "7706110BBA75DC7B"
+					item: { count: 1, id: "minecraft:golden_apple" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1DC25C5927EBBF6F"
+				"47A9FBC14D328717"
+				"7305C379F1C86F4D"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:netherite_sword"
+			}
+			id: "298F8BAEA2A99FBA"
+			rewards: [
+				{
+					id: "4599F4E2BFE626C0"
+					item: {
+						count: 1
+						id: "nxterra:bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "5BBE45E8E0B1F2D5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7978015528874E3A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "581A29C151F451EA"
+				type: "checkmark"
+			}]
+			x: 7.75d
+			y: 1.5d
+		}
+	]
+}

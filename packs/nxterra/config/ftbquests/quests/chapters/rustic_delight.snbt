@@ -1,0 +1,338 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rustic_delight"
+	group: "435CE345857D9297"
+	icon: {
+		id: "minecraft:bowl"
+	}
+	id: "569F63EDF275E97D"
+	images: [
+		{
+			height: 6.5d
+			id: "6F9D4F13AB76E1F2"
+			image: "nxterra:textures/quests/backdrop/rustic_delight.png"
+			order: -1
+			rotation: 0.0d
+			width: 11.5d
+			x: 3.225d
+			y: 1.1497d
+		}
+		{
+			height: 1.5d
+			id: "4F3E10F532ADD166"
+			image: "nxterra:textures/quests/banner/rustic_delight.png"
+			order: 1
+			rotation: 0.0d
+			width: 7.5d
+			x: 3.225d
+			y: -1.8248d
+		}
+	]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "rusticdelight:bell_pepper_green"
+			}
+			id: "20DCEFDF6902A8A4"
+			rewards: [
+				{
+					id: "6D9E34410A9962C8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "50FDDE4F666A83F0"
+					item: {
+						count: 1
+						id: "rusticdelight:bell_pepper_seeds"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "2851758C697E3472"
+					item: { count: 1, id: "rusticdelight:bell_pepper_red" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2B0A3A5A05317D5F"
+					item: { count: 1, id: "rusticdelight:bell_pepper_green" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "387B189239CE5A91"
+					item: { count: 1, id: "rusticdelight:bell_pepper_yellow" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["20DCEFDF6902A8A4"]
+			icon: {
+				id: "rusticdelight:stuffed_bell_pepper_red"
+			}
+			id: "2EA50E7649911112"
+			rewards: [
+				{
+					id: "565FA26F5809C8EC"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "25002EA143D15D4E"
+					item: {
+						count: 1
+						id: "rusticdelight:bell_pepper_medley"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "4C623FE55B0DDC39"
+				item: { count: 1, id: "rusticdelight:stuffed_bell_pepper_red" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["20DCEFDF6902A8A4"]
+			icon: {
+				id: "rusticdelight:cotton_boll"
+			}
+			id: "6659DF2B54BA991F"
+			rewards: [
+				{
+					id: "2D2D8B1AC99CF667"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 4
+					id: "2D7CD77EA1E88BA1"
+					item: {
+						count: 1
+						id: "rusticdelight:cotton_seeds"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "rusticdelight:main/cotton"
+					criterion: ""
+					id: "12368993B97E3B4E"
+					type: "advancement"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "2E494BA0179673F8"
+					item: { count: 1, id: "rusticdelight:cotton_boll" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "3FB40E7B7C2005C4"
+					item: { count: 1, id: "minecraft:string" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2EA50E7649911112"]
+			icon: {
+				id: "rusticdelight:pancake"
+			}
+			id: "62C598550CFEC72B"
+			rewards: [
+				{
+					id: "290D38D40A85AD52"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "229A224083B1A387"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "6DED9A4CCEE4004C"
+					item: { count: 1, id: "rusticdelight:batter" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "22C2DCD6043E86BA"
+					item: { count: 1, id: "rusticdelight:pancake" }
+					type: "item"
+				}
+				{
+					advancement: "rusticdelight:main/pancakes"
+					criterion: ""
+					id: "12B3664FBF2B42EA"
+					type: "advancement"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2EA50E7649911112"]
+			icon: {
+				id: "rusticdelight:coffee"
+			}
+			id: "34D50837DEB93508"
+			rewards: [
+				{
+					id: "2F38D65A512B7C48"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "23E2000DB4E4A7BD"
+					item: {
+						count: 1
+						id: "rusticdelight:coffee_beans"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "265EF62C05A1A9F3"
+					item: { count: 1, id: "rusticdelight:roasted_coffee_beans" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1608AC2458341740"
+					item: { count: 1, id: "rusticdelight:coffee" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["34D50837DEB93508"]
+			icon: {
+				id: "rusticdelight:fried_chicken"
+			}
+			id: "748AB989D3FF5F30"
+			rewards: [
+				{
+					id: "22178CFE1DBD282D"
+					type: "xp"
+					xp: 125
+				}
+				{
+					id: "709578FFB28964FF"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "30B669986776FE43"
+					item: { count: 1, id: "rusticdelight:cooking_oil" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "186BF83D0145D44F"
+					item: { count: 1, id: "rusticdelight:fried_fish" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5BD09AC26C0EB876"
+					item: { count: 1, id: "rusticdelight:fried_chicken" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"748AB989D3FF5F30"
+				"62C598550CFEC72B"
+				"6659DF2B54BA991F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "rusticdelight:bell_pepper_medley"
+			}
+			id: "569B073ED714447C"
+			rewards: [
+				{
+					id: "2AB0BF63CB15461E"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "53C0F5742CB4B68D"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "2C270BE858DB7B1E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2CF346E4A1F639B8"
+				type: "checkmark"
+			}]
+			x: 6.2d
+			y: 1.5d
+		}
+	]
+}

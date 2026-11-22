@@ -1,0 +1,6 @@
+{
+    "default-engine": "nxterra",
+    "engines": [
+        "nxterra"
+    ]
+}

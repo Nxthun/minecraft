@@ -1,0 +1,727 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aether"
+	group: "20434CE362D81358"
+	icon: {
+		id: "aether:zanite_gemstone"
+	}
+	id: "7EA5DF9F69BE3DE5"
+	images: [
+		{
+			height: 7.5d
+			id: "1E710DF732FD1001"
+			image: "nxterra:textures/quests/backdrop/aether.png"
+			order: -1
+			rotation: 0.0d
+			width: 18.5d
+			x: 6.25d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "237700B12D189049"
+			image: "nxterra:textures/quests/banner/aether.png"
+			order: 1
+			rotation: 0.0d
+			width: 6.0d
+			x: 6.25d
+			y: -1.8248d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "aether:zanite_gemstone"
+			}
+			id: "2E1FF3E9C0B1A0BE"
+			rewards: [
+				{
+					id: "240D9D852F1BF9F0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4292FCC6D9B28E15"
+					item: {
+						count: 1
+						id: "aether:skyroot_pickaxe"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "aether:the_aether"
+				id: "16B7F26A75E13A05"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2E1FF3E9C0B1A0BE"]
+			icon: {
+				id: "aether:zanite_ore"
+			}
+			id: "754B0F7A92BB5C96"
+			rewards: [
+				{
+					id: "15A752369DBF44EE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 16
+					id: "24CF9A6436F74C24"
+					item: {
+						count: 1
+						id: "aether:holystone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 6L
+				id: "13CDDC61100A15A8"
+				item: { count: 1, id: "aether:zanite_gemstone" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["754B0F7A92BB5C96"]
+			icon: {
+				id: "aether:zanite_pickaxe"
+			}
+			id: "2C6ADCA2BAC10802"
+			rewards: [
+				{
+					id: "1A2D704C69A45883"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 4
+					id: "18F7700764D8E714"
+					item: {
+						count: 1
+						id: "aether:ambrosium_shard"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "109AA7A0D8DA256E"
+					item: { count: 1, id: "aether:zanite_pickaxe" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "44D360F509AABF28"
+					item: { count: 1, id: "aether:zanite_sword" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2C6ADCA2BAC10802"]
+			icon: {
+				id: "aether:altar"
+			}
+			id: "7BB62F48870A0CAC"
+			rewards: [
+				{
+					id: "4BC88D31FB7E7789"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "62D16807D3D5B39F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "7FCA0C97A45DAD94"
+					item: { count: 1, id: "aether:altar" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "3782E70D91985BD9"
+					item: { count: 1, id: "aether:enchanted_gravitite" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7BB62F48870A0CAC"]
+			icon: {
+				id: "aether:bronze_dungeon_key"
+			}
+			id: "2B5E75A09BF6AC92"
+			rewards: [
+				{
+					id: "44D6BD30AFEAB46B"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 4
+					id: "200AAC174C58AF75"
+					item: {
+						count: 1
+						id: "aether:zanite_gemstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1491FC8427E1DF36"
+					structure: "aether:bronze_dungeon"
+					type: "structure"
+				}
+				{
+					entity: "aether:slider"
+					id: "1F25599FA9149E90"
+					type: "kill"
+					value: 1L
+				}
+				{
+					consume_items: false
+					id: "79C5C942EBAE3CE0"
+					item: { count: 1, id: "aether:bronze_dungeon_key" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2B5E75A09BF6AC92"
+				"4C48CE2C21B14FC5"
+			]
+			icon: {
+				id: "aether:silver_dungeon_key"
+			}
+			id: "6F60431B82189E39"
+			rewards: [
+				{
+					id: "42A2367B92CE6D11"
+					item: {
+						count: 1
+						id: "nxterra:moonpetal_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "59032A3FFAD55565"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 8
+					id: "612587222E67EF40"
+					item: {
+						count: 1
+						id: "aether:golden_amber"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "601093257F36D98A"
+					structure: "aether:silver_dungeon"
+					type: "structure"
+				}
+				{
+					entity: "aether:valkyrie_queen"
+					id: "4DF71A776F26DDA3"
+					type: "kill"
+					value: 1L
+				}
+				{
+					consume_items: false
+					id: "21DCEF9586C28A1E"
+					item: { count: 1, id: "aether:silver_dungeon_key" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F60431B82189E39"]
+			icon: {
+				id: "aether:gold_dungeon_key"
+			}
+			id: "3AC035BA89DEC022"
+			rewards: [
+				{
+					id: "574CBBA24324E1E8"
+					item: {
+						count: 1
+						id: "nxterra:moonpetal_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "50A7E153FA3949BC"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "5899BB8047102E78"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "70BB1659492C99AE"
+					structure: "aether:gold_dungeon"
+					type: "structure"
+				}
+				{
+					entity: "aether:sun_spirit"
+					id: "29E1A78A49CF9915"
+					type: "kill"
+					value: 1L
+				}
+				{
+					consume_items: false
+					id: "1F02040A0F81CFD1"
+					item: { count: 1, id: "aether:gold_dungeon_key" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3AC035BA89DEC022"]
+			icon: {
+				id: "aether:life_shard"
+			}
+			id: "75452AC2A2D5F0D7"
+			rewards: [
+				{
+					id: "3B2E6D7352DDF4D8"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 8
+					id: "6063F820B6C72BE4"
+					item: {
+						count: 1
+						id: "aether:zanite_gemstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "5F4C32DBDE467752"
+				item: { count: 1, id: "aether:life_shard" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2E1FF3E9C0B1A0BE"]
+			icon: {
+				id: "aether:skyroot_sapling"
+			}
+			id: "504E38A4813114DB"
+			rewards: [
+				{
+					id: "6D14E9F8F09677BA"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "78A4B10099C2DD2B"
+					item: {
+						count: 1
+						id: "aether:blue_berry"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "aether:skyroot_forest"
+					id: "10D0676A5D46DBF1"
+					type: "biome"
+				}
+				{
+					biome: "aether:skyroot_grove"
+					id: "2B8DE9E81F2E128D"
+					type: "biome"
+				}
+				{
+					biome: "aether:skyroot_meadow"
+					id: "1D4EFCAB1020189F"
+					type: "biome"
+				}
+				{
+					biome: "aether:skyroot_woodland"
+					id: "6A125968F67EA391"
+					type: "biome"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["504E38A4813114DB"]
+			icon: {
+				id: "aether:blue_aercloud"
+			}
+			id: "73A9EF4241301FAB"
+			rewards: [
+				{
+					id: "11EE38456673002C"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 4
+					id: "16392DB5B8814D29"
+					item: {
+						count: 1
+						id: "aether:cold_aercloud"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "283EEDAE23D07798"
+					structure: "aether:large_aercloud"
+					type: "structure"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "130ECFC67EEDD65E"
+					item: { count: 1, id: "aether:blue_aercloud" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73A9EF4241301FAB"]
+			icon: {
+				id: "aether:cockatrice_spawn_egg"
+			}
+			id: "5735989FC6007A28"
+			rewards: [
+				{
+					id: "20092FF44B9079E2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "16CFB4A5BFD77E9D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "aether:zephyr"
+					id: "3C7C9C9EC38CE016"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "aether:cockatrice"
+					id: "4DC44C5B72583240"
+					type: "kill"
+					value: 2L
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5735989FC6007A28"]
+			icon: {
+				id: "aether:valkyrie_lance"
+			}
+			id: "4C48CE2C21B14FC5"
+			rewards: [
+				{
+					id: "3C84D7C64B2E6D4F"
+					type: "xp"
+					xp: 125
+				}
+				{
+					count: 8
+					id: "7AB645275D7C1FC8"
+					item: {
+						count: 1
+						id: "aether:ambrosium_shard"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "aether:valkyrie"
+				id: "7FC14601DB51D786"
+				type: "kill"
+				value: 3L
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E1FF3E9C0B1A0BE"]
+			icon: {
+				id: "aether:skyroot_bed"
+			}
+			id: "3428C821939372FD"
+			rewards: [
+				{
+					id: "5B01C3F39FDFF4D5"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "3541A16F3CD20BFA"
+					item: {
+						count: 1
+						id: "aether:skyroot_stick"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "44D5EB8FF9F86636"
+					item: { count: 1, id: "aether:skyroot_bed" }
+					type: "item"
+				}
+				{
+					advancement: "aether:aether_sleep"
+					criterion: ""
+					id: "5B5A4CEE16079E18"
+					type: "advancement"
+				}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3428C821939372FD"]
+			icon: {
+				id: "aether:ambrosium_torch"
+			}
+			id: "7894EAAB491C04DC"
+			rewards: [
+				{
+					id: "76A1D7526549612C"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 16
+					id: "177CF0E9999FF0F7"
+					item: {
+						count: 1
+						id: "aether:skyroot_planks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 8L
+					id: "749D39F3D11D5DBF"
+					item: { count: 1, id: "aether:ambrosium_shard" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "5475BE453E25065F"
+					item: { count: 1, id: "aether:ambrosium_torch" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7894EAAB491C04DC"]
+			icon: {
+				id: "aether:incubator"
+			}
+			id: "2F34D75E9F112DC9"
+			rewards: [
+				{
+					id: "3D0766CBDA5D6C80"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2807B5EFD44BED3B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "7C118A7F61511E03"
+					item: { count: 1, id: "aether:incubator" }
+					type: "item"
+				}
+				{
+					advancement: "aether:incubate_moa"
+					criterion: ""
+					id: "1947297C744A1D5B"
+					type: "advancement"
+				}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2F34D75E9F112DC9"]
+			icon: {
+				id: "aether:zanite_ring"
+			}
+			id: "6C68540E6FF242BE"
+			rewards: [
+				{
+					id: "6CBFE5F968A685E1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "177D36A9DC826FC0"
+					item: {
+						count: 1
+						id: "aether:iron_ring"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "3D2B12F256F99AC7"
+					item: { count: 1, id: "aether:zanite_ring" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1B6B6A94F808B228"
+					item: { count: 1, id: "aether:zanite_pendant" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"75452AC2A2D5F0D7"
+				"6C68540E6FF242BE"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "aether:zanite_block"
+			}
+			id: "177B32968C8C8083"
+			rewards: [
+				{
+					id: "6B820662D33A61F4"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "14D0C37DC2363E39"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "6935FB30D9E6DBE5"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2677802644F543E1"
+				type: "checkmark"
+			}]
+			x: 12.25d
+			y: 1.5d
+		}
+	]
+}

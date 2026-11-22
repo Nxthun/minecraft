@@ -1,0 +1,763 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ice_and_fire"
+	group: "6DDAA8A1DA8B5CDF"
+	icon: {
+		id: "iceandfire:dragonsteel_fire_ingot"
+	}
+	id: "184FE3257FDA213F"
+	images: [
+		{
+			height: 8.0d
+			id: "1E6848F25B197E54"
+			image: "nxterra:textures/quests/backdrop/ice_and_fire.png"
+			order: -1
+			rotation: 0.0d
+			width: 18.5d
+			x: 6.25d
+			y: 1.7842d
+		}
+		{
+			height: 1.5d
+			id: "1A413940EA9E9348"
+			image: "nxterra:textures/quests/banner/ice_and_fire.png"
+			order: 1
+			rotation: 0.0d
+			width: 7.0d
+			x: 6.25d
+			y: -1.8248d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "iceandfire:bestiary"
+			}
+			id: "2761E123FCF9704B"
+			rewards: [
+				{
+					id: "37C84A8083EA6274"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "21F68B31B2434887"
+					item: {
+						count: 1
+						id: "iceandfire:lectern"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "2313F807BB9B05ED"
+				item: { count: 1, id: "iceandfire:bestiary" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2761E123FCF9704B"]
+			icon: {
+				id: "iceandfire:pixie_dust"
+			}
+			id: "4237DD0032701C9F"
+			rewards: [
+				{
+					id: "6EA1548D8739F8D9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "223F124C15126E84"
+					item: {
+						count: 1
+						id: "iceandfire:pixie_jar_empty"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "40FEF36108A37376"
+					structure: "iceandfire:pixie_village"
+					type: "structure"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "58E207241914BE24"
+					item: { count: 1, id: "iceandfire:pixie_dust" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4237DD0032701C9F"]
+			icon: {
+				id: "iceandfire:blindfold"
+			}
+			id: "16908B40F3AFDACC"
+			rewards: [
+				{
+					id: "73B60E23BA90171D"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 2
+					id: "2CF715DB226F49BA"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "3F340785B9F0594D"
+					item: { count: 1, id: "iceandfire:blindfold" }
+					type: "item"
+				}
+				{
+					id: "6A3D50514C646F73"
+					structure: "iceandfire:gorgon_temple"
+					type: "structure"
+				}
+				{
+					entity: "iceandfire:gorgon"
+					id: "5AC9B403CA9A15A2"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16908B40F3AFDACC"]
+			icon: {
+				id: "iceandfire:earplugs"
+			}
+			id: "54AD2D3804179803"
+			rewards: [
+				{
+					id: "3C4A7EA3F8FE79E9"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 16
+					id: "2F4BB7268618CC9E"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "344DD7343498C076"
+					item: { count: 1, id: "iceandfire:earplugs" }
+					type: "item"
+				}
+				{
+					id: "121D2A5C8678B2B4"
+					structure: "iceandfire:siren_island"
+					type: "structure"
+				}
+				{
+					entity: "iceandfire:siren"
+					id: "377B89591BF49A0F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54AD2D3804179803"]
+			icon: {
+				id: "iceandfire:cyclops_eye"
+			}
+			id: "79DC4E28A8AA670D"
+			rewards: [
+				{
+					id: "510177290B9BB018"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 16
+					id: "168B2393FC72BA7C"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2D24675D42C5FA18"
+					structure: "iceandfire:cyclops_cave"
+					type: "structure"
+				}
+				{
+					entity: "iceandfire:cyclops"
+					id: "1306DBC68E80DA9A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79DC4E28A8AA670D"]
+			icon: {
+				id: "iceandfire:hydra_heart"
+			}
+			id: "35E6299901C81B4C"
+			rewards: [
+				{
+					id: "12B8BC6E9F7C28F0"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 16
+					id: "67792FCC43730060"
+					item: {
+						count: 1
+						id: "iceandfire:hydra_arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "19E9DF71BEB6DAE9"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "conquer"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3B53D7379FE7C553"
+					structure: "iceandfire:hydra_cave"
+					type: "structure"
+				}
+				{
+					entity: "iceandfire:hydra"
+					id: "4E608C4601218E5C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35E6299901C81B4C"]
+			icon: {
+				id: "iceandfire:stymphalian_bird_feather"
+			}
+			id: "1EE275FEF18E0492"
+			rewards: [
+				{
+					id: "227EFA9DF8753BEF"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 16
+					id: "3F7CE3CCC03DDC0A"
+					item: {
+						count: 1
+						id: "iceandfire:stymphalian_arrow"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "iceandfire:stymphalian_bird"
+					id: "46C2EE47D2CFB4A6"
+					type: "kill"
+					value: 3L
+				}
+				{
+					consume_items: false
+					id: "715606A8D34DDC66"
+					item: { count: 1, id: "iceandfire:stymphalian_bird_dagger" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2761E123FCF9704B"]
+			icon: {
+				id: "minecraft:gold_ingot"
+			}
+			id: "7F9C73EE0AFBF970"
+			rewards: [
+				{
+					id: "10018106EE4E339D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "3BEB62296B1EB9B8"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "26FD9549793F1BA3"
+				structure: "#iceandfire:dragon_cave"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7F9C73EE0AFBF970"]
+			icon: {
+				id: "iceandfire:fire_dragon_flesh"
+			}
+			id: "1D551F0207E36FC3"
+			rewards: [
+				{
+					id: "25E058B090D65AAB"
+					item: {
+						count: 1
+						id: "nxterra:starbloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "5F6BA401FF56FEBD"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 8
+					id: "342BB2554105CBB1"
+					item: {
+						count: 1
+						id: "minecraft:glass_bottle"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					entity: "iceandfire:fire_dragon"
+					id: "1369E6762ADD7BB6"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "iceandfire:ice_dragon"
+					id: "125B5C52E5743255"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1D551F0207E36FC3"]
+			icon: {
+				id: "iceandfire:dragonbone"
+			}
+			id: "1F1633DFBA6FF487"
+			rewards: [
+				{
+					id: "110B0A61F2C00840"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 32
+					id: "17D12AD4BB43E420"
+					item: {
+						count: 1
+						id: "minecraft:stone_bricks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 8L
+					id: "3AC528A2F53345FF"
+					item: { count: 1, id: "iceandfire:dragonbone" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 8L
+					id: "1F3E42B3BCDC061D"
+					item: { components: { "ftbfiltersystem:filter": "item_tag(iceandfire:scales/dragon)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1F1633DFBA6FF487"]
+			icon: {
+				id: "iceandfire:dragonforge_fire_brick"
+			}
+			id: "62A28C940C2C630B"
+			rewards: [
+				{
+					id: "181D30D0F368E9FE"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 16
+					id: "260403387E372E4B"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "212CB92AE41860D0"
+					item: { components: { "ftbfiltersystem:filter": "or(item(iceandfire:dragonforge_fire_core_disabled)item(iceandfire:dragonforge_ice_core_disabled)item(iceandfire:dragonforge_lightning_core_disabled))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "24D235AEDD332264"
+					item: { components: { "ftbfiltersystem:filter": "or(item(iceandfire:dragonforge_fire_input)item(iceandfire:dragonforge_ice_input)item(iceandfire:dragonforge_lightning_input))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 8L
+					id: "4706A90636B9486D"
+					item: { components: { "ftbfiltersystem:filter": "or(item(iceandfire:dragonforge_fire_brick)item(iceandfire:dragonforge_ice_brick)item(iceandfire:dragonforge_lightning_brick))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["62A28C940C2C630B"]
+			icon: {
+				id: "iceandfire:dragonsteel_fire_ingot"
+			}
+			id: "1A4C3E8B9505A886"
+			rewards: [
+				{
+					id: "16BCA84536620247"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "21C9F419C71197B3"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "conquer"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "1AD7B6A5CBE98BF1"
+				item: { components: { "ftbfiltersystem:filter": "or(item(iceandfire:dragonsteel_fire_ingot)item(iceandfire:dragonsteel_ice_ingot)item(iceandfire:dragonsteel_lightning_ingot))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A4C3E8B9505A886"]
+			icon: {
+				id: "iceandfire:dragonsteel_ice_sword"
+			}
+			id: "172AA8566EFB7D5E"
+			rewards: [
+				{
+					id: "27903C43FEAB9634"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 4
+					id: "51C6A3E63B3D5D91"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "6F0714FD6C4E175B"
+					item: { components: { "ftbfiltersystem:filter": "or(item(iceandfire:dragonsteel_fire_sword)item(iceandfire:dragonsteel_ice_sword)item(iceandfire:dragonsteel_lightning_sword))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "640DA34AD7CEE254"
+					item: { components: { "ftbfiltersystem:filter": "or(item(iceandfire:dragonsteel_fire_pickaxe)item(iceandfire:dragonsteel_ice_pickaxe)item(iceandfire:dragonsteel_lightning_pickaxe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["172AA8566EFB7D5E"]
+			icon: {
+				id: "iceandfire:lightning_dragon_flesh"
+			}
+			id: "74510C35F4F8E301"
+			rewards: [
+				{
+					id: "266B085D3599527F"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "283ABBE55F6934A0"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "conquer"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "iceandfire:lightning_dragon"
+					id: "4822F062E65A5D89"
+					type: "kill"
+					value: 1L
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "39655748531F613E"
+					item: { count: 1, id: "iceandfire:lightning_dragon_flesh" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2761E123FCF9704B"]
+			icon: {
+				id: "iceandfire:dread_stone_bricks"
+			}
+			id: "5CE90B6DB468C97E"
+			rewards: [
+				{
+					id: "65882FD0DE659D06"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 16
+					id: "4B18E5BAFA97571E"
+					item: {
+						count: 1
+						id: "iceandfire:dread_stone_bricks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1F271A925E79F9D0"
+					structure: "iceandfire:mausoleum"
+					type: "structure"
+				}
+				{
+					entity: "iceandfire:dread_thrall"
+					id: "2153BC6521EC033B"
+					type: "kill"
+					value: 5L
+				}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5CE90B6DB468C97E"]
+			icon: {
+				id: "iceandfire:dread_shard"
+			}
+			id: "2D824276F34FAB66"
+			rewards: [
+				{
+					id: "240CCB6B22CAE17F"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 2
+					id: "29F51904553FB217"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "iceandfire:dread_knight"
+					id: "68346F5897065442"
+					type: "kill"
+					value: 2L
+				}
+				{
+					entity: "iceandfire:dread_ghoul"
+					id: "58BBD647659CD18F"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2D824276F34FAB66"]
+			icon: {
+				id: "iceandfire:dread_key"
+			}
+			id: "12216A0B848007B6"
+			rewards: [
+				{
+					id: "3EC3A1B7DA1704C7"
+					item: {
+						count: 1
+						id: "nxterra:starbloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "56F00EBAFB867F2A"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 32
+					id: "5AD92200278889B2"
+					item: {
+						count: 1
+						id: "iceandfire:dread_stone_tile"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				entity: "iceandfire:dread_lich"
+				id: "2BE05BEA05F89987"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1EE275FEF18E0492"
+				"74510C35F4F8E301"
+				"12216A0B848007B6"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "iceandfire:dragonsteel_lightning_block"
+			}
+			id: "1A1CDC423DE01973"
+			rewards: [
+				{
+					id: "20B1F11D8F370348"
+					item: {
+						count: 1
+						id: "nxterra:moonpetal_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "2EE141621EDDE4D1"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "75AFD963CE18B70D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "conquer"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "14D34930F0412208"
+				type: "checkmark"
+			}]
+			x: 12.25d
+			y: 1.5d
+		}
+	]
+}

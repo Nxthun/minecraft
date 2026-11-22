@@ -1,0 +1,85 @@
+[*]
+background:               nxterra:textures/gui/winter/questbg.png; tile_size=128
+chapter_panel_background: nxterra:textures/gui/winter/fill.png; tile_size=64
+key_reference_background: nxterra:textures/gui/winter/fill.png; tile_size=64
+selected_chapter_highlight_1: #50FFB347
+selected_chapter_highlight_2: #28FFB347
+
+text_color:          #F5ECDA
+hover_text_color:    #FFD98A
+disabled_text_color: #8F7F68
+
+widget_border:     #C4B392
+widget_background: #602B1C12
+symbol_in:         #FFB347
+symbol_out:        #5A1519
+
+button:                part:nxterra:textures/gui/winter/button.png; pos=0,0,48,20; corner=4; texture_w=48; texture_h=20
+hover_button:          part:nxterra:textures/gui/winter/button_hover.png; pos=0,0,48,20; corner=4; texture_w=48; texture_h=20
+disabled_button:       part:nxterra:textures/gui/winter/button_off.png; pos=0,0,48,20; corner=4; texture_w=48; texture_h=20
+panel:                 part:nxterra:textures/gui/winter/card.png; pos=0,0,32,32; corner=8; texture_w=32; texture_h=32
+context_menu:          part:nxterra:textures/gui/winter/frame_thin.png; pos=0,0,24,24; corner=5; texture_w=24; texture_h=24
+scroll_bar_background: {{widget_background}}
+scroll_bar:            part:nxterra:textures/gui/winter/button.png; pos=0,0,48,20; corner=4; texture_w=48; texture_h=20
+container_slot:        part:nxterra:textures/gui/winter/card_slot.png; pos=0,0,32,32; corner=8; texture_w=32; texture_h=32
+text_box:              part:nxterra:textures/gui/winter/card_slot.png; pos=0,0,32,32; corner=8; texture_w=32; texture_h=32
+
+icon:                 none
+check_icon:           builtin
+add_icon:             builtin
+alert_icon:           ftbquests:textures/gui/alert.png
+support_icon:         ftblibrary:textures/icons/support.png
+wiki_icon:            ftbquests:textures/gui/info.png
+wiki_url:             -
+pin_icon_on:          ftbquests:textures/gui/pin.png; color=#FFD98A
+pin_icon_off:         ftbquests:textures/gui/pin.png; color=#DBDBDB
+editor_icon_on:       ftbquests:textures/gui/editor.png
+editor_icon_off:      ftbquests:textures/gui/editor_white.png
+hidden_icon:          ftbquests:textures/gui/hidden.png; color=#DBDBDB
+link_icon:            ftbquests:textures/gui/link.png; color=#DBDBDB
+save_icon:            ftbquests:textures/gui/save.png
+settings_icon:        ftbquests:textures/gui/settings.png
+prefs_icon:           ftblibrary:icons/player
+close_icon:           ftbquests:textures/gui/close.png
+emergency_items_icon: ftbquests:textures/gui/emergency_items.png; color=#F3D9FF
+guide_icon:           ftbquests:textures/gui/guide.png; color=#F2A7C3
+modpack_icon:         ftbquests:textures/item/book.png
+reward_table_icon:    ftblibrary:icons/money_bag
+shop_icon:            ftbquests:textures/gui/shop.png; color=#F1D98A
+collect_rewards_icon: ftbquests:textures/gui/collect_rewards.png; color=#F1D98A
+lock_icon:            ftbquests:textures/gui/quest_locked.png
+delete_icon:          ftblibrary:icons/remove
+reload_icon:          ftblibrary:icons/refresh
+download_icon:        ftblibrary:icons/down
+edit_icon:            ftblibrary:icons/settings
+move_up_icon:         ftblibrary:icons/up
+move_down_icon:       ftblibrary:icons/down
+left_arrow:           ftblibrary:icons/left
+right_arrow:          ftblibrary:icons/right
+undo_icon:            ftblibrary:icons/undo
+redo_icon:            ftblibrary:icons/redo
+
+full_screen_quest:                  0
+tasks_text_color:                   #B4E070
+rewards_text_color:                 #F7D96B
+quest_view_background:              {{context_menu}}
+quest_view_border:                  #6B4426
+quest_view_title:                   #B4E070
+quest_completed_color:              #FF78B84A
+quest_started_color:                #FFF1D98A
+quest_not_started_color:            #FFF4EBCF
+quest_locked_color:                 #FF55665A
+dependency_line_texture:            nxterra:textures/gui/winter/path.png
+dependency_line_completed_color:    #FFFFFFFF
+dependency_line_uncompleted_color:  #E6D8CCB8
+dependency_line_unavailable_color:  #8C7A7468
+dependency_line_requires_color:     #FFFFC8DA
+dependency_line_required_for_color: #FFFFEFB0
+dependency_line_selected_speed:     0.0
+dependency_line_unselected_speed:   0.0
+dependency_line_thickness:          0.3
+quest_spacing:                      1.0
+pinned_quest_size:                  0.75
+
+checkmark_task_active:   ftblibrary:icons/accept
+checkmark_task_inactive: ftblibrary:icons/accept_gray

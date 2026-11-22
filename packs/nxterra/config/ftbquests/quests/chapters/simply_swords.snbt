@@ -1,0 +1,262 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "simply_swords"
+	group: "6DDAA8A1DA8B5CDF"
+	icon: {
+		id: "simplyswords:iron_longsword"
+	}
+	id: "5EE01E1B1A57EF4A"
+	images: [
+		{
+			height: 7.5d
+			id: "52DACD01B0A0BB08"
+			image: "nxterra:textures/quests/backdrop/simply_swords.png"
+			order: -1
+			rotation: 0.0d
+			width: 11.5d
+			x: 3.25d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "1753E200E266A4DE"
+			image: "nxterra:textures/quests/banner/simply_swords.png"
+			order: 1
+			rotation: 0.0d
+			width: 7.0d
+			x: 3.25d
+			y: -1.8248d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "simplyswords:iron_longsword"
+			}
+			id: "792D018F4087F015"
+			rewards: [
+				{
+					id: "5D0D53C9690DD4BE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 16
+					id: "5B9B497F9BC9148D"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "667757E68DEA0B7A"
+				item: { count: 1, id: "simplyswords:iron_longsword" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["792D018F4087F015"]
+			icon: {
+				id: "simplyswords:iron_katana"
+			}
+			id: "3DE593473ABDA592"
+			rewards: [
+				{
+					id: "27E6AD0C7F037695"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 2
+					id: "7A4209965861708C"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "13A3341BF9D3FBF8"
+					item: { count: 1, id: "simplyswords:iron_katana" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "72DBCE4462483C80"
+					item: { count: 1, id: "simplyswords:iron_rapier" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["792D018F4087F015"]
+			icon: {
+				id: "simplyswords:diamond_greataxe"
+			}
+			id: "1D848BDED96742BF"
+			rewards: [
+				{
+					id: "1E5D99C0AAF52EBC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "510B33CFF51A0CD7"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "45651901A479762C"
+					item: { count: 1, id: "simplyswords:diamond_greataxe" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "23B090F917A5A482"
+					item: { count: 1, id: "simplyswords:diamond_greathammer" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3DE593473ABDA592"
+				"1D848BDED96742BF"
+			]
+			icon: {
+				id: "simplyswords:netherite_longsword"
+			}
+			id: "7979BF98009ACB00"
+			rewards: [
+				{
+					id: "3841536D88A3F7D7"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 2
+					id: "3F776665E601C781"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					id: "5A701E2592660CA2"
+					type: "dimension"
+				}
+				{
+					consume_items: false
+					id: "660AB3ACC0973255"
+					item: { count: 1, id: "simplyswords:netherite_longsword" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7979BF98009ACB00"]
+			icon: {
+				id: "simplyswords:stormbringer"
+			}
+			id: "41316F1DF1704DB2"
+			rewards: [
+				{
+					id: "46F4E9FFCED7F134"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "6FF4CFC7FB1B3D92"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "2523099B8A7DE960"
+				item: { components: { "ftbfiltersystem:filter": "or(item(simplyswords:icewhisper)item(simplyswords:frostfall)item(simplyswords:emberblade)item(simplyswords:hearthflame)item(simplyswords:stormbringer)item(simplyswords:thunderbrand)item(simplyswords:bramblethorn)item(simplyswords:shadowsting)item(simplyswords:whisperwind)item(simplyswords:wraithfang))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["41316F1DF1704DB2"]
+			hide_dependency_lines: true
+			icon: {
+				id: "simplyswords:diamond_claymore"
+			}
+			id: "3DB8DF5037885D97"
+			rewards: [
+				{
+					id: "229CD1776A7C06A4"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "23CB55EE86830865"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "2932C59BAC00B1DF"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7B0D4F2FFDDAD932"
+				type: "checkmark"
+			}]
+			x: 6.25d
+			y: 1.5d
+		}
+	]
+}

@@ -1,0 +1,436 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "undergarden"
+	group: "20434CE362D81358"
+	icon: {
+		id: "undergarden:catalyst"
+	}
+	id: "5A871D1D04695425"
+	images: [
+		{
+			height: 7.5d
+			id: "5368A7432569D3C0"
+			image: "nxterra:textures/quests/backdrop/undergarden.png"
+			order: -1
+			rotation: 0.0d
+			width: 13.0d
+			x: 4.0d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "1E054E5867EBF3A3"
+			image: "nxterra:textures/quests/banner/undergarden.png"
+			order: 1
+			rotation: 0.0d
+			width: 8.0d
+			x: 4.0d
+			y: -1.8248d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "undergarden:catalyst"
+			}
+			id: "3922D7250ABE8E20"
+			rewards: [
+				{
+					id: "4254FBCF0B0A52B7"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 32
+					id: "1D6F494D8B38F161"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "7778F72F683B885F"
+				item: { count: 1, id: "undergarden:catalyst" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3922D7250ABE8E20"]
+			icon: {
+				id: "undergarden:depthrock"
+			}
+			id: "5F9E1434E0B1CCAA"
+			rewards: [
+				{
+					id: "1B4977758EF7DFB4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "370EA3D695434197"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "undergarden:undergarden"
+				id: "3AAADBA8A9FD5299"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F9E1434E0B1CCAA"]
+			icon: {
+				id: "undergarden:twistytwig"
+			}
+			id: "2CCFFC839CAB9B49"
+			rewards: [
+				{
+					id: "29F010D2EB4D4B58"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "3EE3D37823CB1F39"
+					item: {
+						count: 1
+						id: "minecraft:stick"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "undergarden:smogstem_forest"
+					id: "11A23FBF86FCFAC3"
+					type: "biome"
+				}
+				{
+					biome: "undergarden:wigglewood_forest"
+					id: "7116FA36854C77A0"
+					type: "biome"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F9E1434E0B1CCAA"]
+			icon: {
+				id: "undergarden:cloggrum_ingot"
+			}
+			id: "4624FD45A0203E9C"
+			rewards: [
+				{
+					id: "1DF1743A26371034"
+					type: "xp"
+					xp: 125
+				}
+				{
+					count: 16
+					id: "758D6FC1593008AC"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "22B47A529204566C"
+					structure: "undergarden:depleted_mine"
+					type: "structure"
+				}
+				{
+					consume_items: false
+					count: 8L
+					id: "2BB68E0BAE522ADE"
+					item: { count: 1, id: "undergarden:cloggrum_ingot" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F9E1434E0B1CCAA"]
+			icon: {
+				id: "undergarden:blood_mushroom"
+			}
+			id: "1644D79BF17EA8F8"
+			rewards: [
+				{
+					id: "35599E8A296A0BFD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "220AB626DE923E61"
+					item: {
+						count: 1
+						id: "minecraft:bowl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "undergarden:indigo_mushroom_bog"
+					id: "2A940A7FC926EEB3"
+					type: "biome"
+				}
+				{
+					biome: "undergarden:blood_mushroom_bog"
+					id: "7F01E5C1DAC91421"
+					type: "biome"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2CCFFC839CAB9B49"]
+			icon: {
+				id: "undergarden:dweller_steak"
+			}
+			id: "4FFBF44A526B113D"
+			rewards: [
+				{
+					id: "4A5738221F8236FF"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "1D1443C4A451BB5C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "undergarden:dweller"
+					id: "587A04899743D524"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "undergarden:rotling"
+					id: "2E9B07D42AB3F243"
+					type: "kill"
+					value: 5L
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4624FD45A0203E9C"]
+			icon: {
+				id: "undergarden:cloggrum_pickaxe"
+			}
+			id: "66FF10B05C733365"
+			rewards: [
+				{
+					id: "279D805A1E1D8629"
+					type: "xp"
+					xp: 125
+				}
+				{
+					count: 4
+					id: "18EDDF41639C5F33"
+					item: {
+						count: 1
+						id: "undergarden:cloggrum_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "38F46725D8D730D3"
+					item: { count: 1, id: "undergarden:cloggrum_pickaxe" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6F0E379DA2E815C4"
+					item: { count: 1, id: "undergarden:cloggrum_sword" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1644D79BF17EA8F8"]
+			icon: {
+				id: "undergarden:denizen_mask"
+			}
+			id: "3331FE7D21903FCD"
+			rewards: [
+				{
+					id: "2C69F427706AB19D"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 2
+					id: "6AF501B63717B42E"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2B6D19157786D907"
+				structure: "undergarden:denizen_camp"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4FFBF44A526B113D"]
+			icon: {
+				id: "undergarden:forgotten_ingot"
+			}
+			id: "743A3E7924EBC603"
+			rewards: [
+				{
+					id: "2367B91E30EA5D9E"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 8
+					id: "22889E9DFB713199"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7630A31230CA391C"
+					structure: "undergarden:catacombs"
+					type: "structure"
+				}
+				{
+					entity: "undergarden:forgotten"
+					id: "1AA03B2E85A640CA"
+					type: "kill"
+					value: 4L
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3331FE7D21903FCD"]
+			icon: {
+				id: "undergarden:infuser"
+			}
+			id: "4B84E4C1E66DDB07"
+			rewards: [
+				{
+					id: "366D7F7A9778CA48"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "2B8F0FC394DCFDF3"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "6232488CE0E3E107"
+				item: { count: 1, id: "undergarden:infuser" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"743A3E7924EBC603"
+				"66FF10B05C733365"
+				"4B84E4C1E66DDB07"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "undergarden:utherium_crystal"
+			}
+			id: "26F9D4B95E4E37F7"
+			rewards: [
+				{
+					id: "6900722AEF5EBE71"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "6E009519DBF615FF"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "68326E44696248FD"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "74BECED54BE61F8E"
+				type: "checkmark"
+			}]
+			x: 7.75d
+			y: 1.5d
+		}
+	]
+}

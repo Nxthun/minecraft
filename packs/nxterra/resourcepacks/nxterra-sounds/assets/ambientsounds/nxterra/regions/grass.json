@@ -1,0 +1,34 @@
+{
+    "name": "grass",
+    "features": [
+        "grass"
+    ],
+    "bad-regions": [
+        "plains",
+        "savanna",
+        "swamp",
+        "ocean",
+        "highland",
+        "jungle",
+        "rain"
+    ],
+    "temperature": {
+        "min": 0.2
+    },
+    "sounds": [
+        {
+            "name": "cricket-night",
+            "category": "cricket_night",
+            "files": [
+                "nxterra_ambience:ambience.night_grasshopper"
+            ],
+            "overall-raining": false,
+            "length": {
+                "min": 1000,
+                "max": 1500
+            },
+            "transition": 100,
+            "volume": 0.15
+        }
+    ]
+}

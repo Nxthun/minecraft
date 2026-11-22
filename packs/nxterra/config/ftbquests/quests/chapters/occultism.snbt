@@ -1,0 +1,512 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "occultism"
+	group: "73DE14B223317E58"
+	icon: {
+		id: "occultism:dictionary_of_spirits"
+	}
+	id: "13B4BAC3903313F3"
+	images: [
+		{
+			height: 7.5d
+			id: "28D0750D0C7F05D5"
+			image: "nxterra:textures/quests/backdrop/occultism.png"
+			order: -1
+			rotation: 0.0d
+			width: 17.0d
+			x: 5.5d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "3F89CE618D97C36D"
+			image: "nxterra:textures/quests/banner/occultism.png"
+			order: 1
+			rotation: 0.0d
+			width: 5.5d
+			x: 5.5d
+			y: -1.8248d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "occultism:dictionary_of_spirits"
+			}
+			id: "74E2F693EBB55284"
+			rewards: [
+				{
+					id: "5E405034D666878C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "30BF3D183721C8D6"
+					item: {
+						count: 1
+						id: "minecraft:book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "11381438CF3EF8CC"
+				item: { count: 1, id: "occultism:dictionary_of_spirits" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["74E2F693EBB55284"]
+			icon: {
+				id: "occultism:spirit_attuned_gem"
+			}
+			id: "63029E78F06EE74C"
+			rewards: [
+				{
+					id: "6A14F1FEADD5FFB8"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "1D1379292A8AFFFC"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "22FAA9935BAD3F93"
+				item: { count: 1, id: "occultism:spirit_attuned_gem" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["63029E78F06EE74C"]
+			icon: {
+				id: "occultism:chalk_white"
+			}
+			id: "388CC48611CB2FB1"
+			rewards: [
+				{
+					id: "2BA300503AC7A5C7"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 4
+					id: "3A57122996F660F5"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 2L
+					id: "74034BA21F981B8F"
+					item: { count: 1, id: "occultism:chalk_white" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "36016E997545BDFE"
+					item: { count: 1, id: "occultism:chalk_gold" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["388CC48611CB2FB1"]
+			icon: {
+				id: "occultism:sacrificial_bowl"
+			}
+			id: "1B571E2946B36A91"
+			rewards: [
+				{
+					id: "52435136CA309FCC"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 8
+					id: "3124798FE5B37905"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "43C88BD4874B8636"
+				item: { count: 1, id: "occultism:sacrificial_bowl" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1B571E2946B36A91"]
+			icon: {
+				id: "occultism:divination_rod"
+			}
+			id: "7BC32DAEE32B3618"
+			rewards: [
+				{
+					id: "626FF262453EF0F8"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 4
+					id: "653826F03725A69E"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "5483EA1E6B5F450C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "3310D8CC1DADB486"
+				item: { count: 1, id: "occultism:divination_rod" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B571E2946B36A91"]
+			icon: {
+				id: "occultism:fragile_soul_gem"
+			}
+			id: "5FD0E3B0DF722299"
+			rewards: [
+				{
+					id: "59D36F247B9E88FC"
+					type: "xp"
+					xp: 80
+				}
+				{
+					count: 8
+					id: "7A694E3D967AB8B6"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "2BF393198570618D"
+					item: { count: 1, id: "occultism:book_of_binding_foliot" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3A50A26746565E2B"
+					item: { count: 1, id: "occultism:fragile_soul_gem" }
+					type: "item"
+				}
+				{
+					advancement: "occultism:occultism/craft_fragile_soul_gem"
+					criterion: ""
+					id: "5C24196550751B43"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5FD0E3B0DF722299"]
+			icon: {
+				id: "occultism:book_of_calling_foliot_lumberjack"
+			}
+			id: "77BE2930E73AAD21"
+			rewards: [
+				{
+					id: "581DF9161EAC88F9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "33D9EC7745C477E8"
+					item: {
+						count: 1
+						id: "minecraft:oak_sapling"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "occultism:occultism/summon_foliot_lumberjack"
+				criterion: ""
+				id: "5899926202203E50"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FD0E3B0DF722299"]
+			icon: {
+				id: "occultism:soul_gem"
+			}
+			id: "51E5D8CA66205C1C"
+			rewards: [
+				{
+					id: "6D7CE58115E727A4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "68A6EAA7BDB6F26E"
+					item: {
+						count: 1
+						id: "minecraft:soul_sand"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "38A38E40C1A0769B"
+					item: { count: 1, id: "occultism:soul_gem" }
+					type: "item"
+				}
+				{
+					advancement: "occultism:occultism/craft_soul_gem"
+					criterion: ""
+					id: "2AADEE13EB9C9E54"
+					type: "advancement"
+				}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["51E5D8CA66205C1C"]
+			icon: {
+				id: "occultism:iesnium_pickaxe"
+			}
+			id: "5A91B0BA9C3C0EA7"
+			rewards: [
+				{
+					id: "25B723427BDAC855"
+					type: "xp"
+					xp: 120
+				}
+				{
+					count: 8
+					id: "5301BD8FCAFA18FD"
+					item: {
+						count: 1
+						id: "minecraft:gunpowder"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "201649085898A864"
+					item: { count: 1, id: "occultism:iesnium_pickaxe" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6D498085F440C57F"
+					item: { count: 1, id: "occultism:iesnium_ingot" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51E5D8CA66205C1C"]
+			icon: {
+				id: "occultism:familiar_ring"
+			}
+			id: "234E8D19B4FE84C7"
+			rewards: [
+				{
+					id: "406071544418A2F3"
+					type: "xp"
+					xp: 120
+				}
+				{
+					id: "629B17F8021CC8DC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "7CE2A4755976F5AC"
+					item: { count: 1, id: "occultism:familiar_ring" }
+					type: "item"
+				}
+				{
+					advancement: "occultism:occultism/craft_familiar_ring"
+					criterion: ""
+					id: "5EEC94B7921B3479"
+					type: "advancement"
+				}
+			]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"51E5D8CA66205C1C"
+				"5A91B0BA9C3C0EA7"
+			]
+			icon: {
+				id: "occultism:afrit_essence"
+			}
+			id: "394C56A47BAA8080"
+			rewards: [
+				{
+					id: "380BCFD1D058F594"
+					item: {
+						count: 1
+						id: "nxterra:moonpetal_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "2FADA2E094BDF40E"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 4
+					id: "43ECDCDDF451AB0D"
+					item: {
+						count: 1
+						id: "occultism:iesnium_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "occultism:occultism/summon_unbound_afrit"
+					criterion: ""
+					id: "7D5D855EC17626C4"
+					type: "advancement"
+				}
+				{
+					entity: "occultism:afrit_wild"
+					id: "2AA37087705DA345"
+					type: "kill"
+					value: 1L
+				}
+				{
+					consume_items: false
+					id: "30847BE2106942B0"
+					item: { count: 1, id: "occultism:afrit_essence" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7BC32DAEE32B3618"
+				"77BE2930E73AAD21"
+				"234E8D19B4FE84C7"
+				"394C56A47BAA8080"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:large_candle"
+			}
+			id: "439778CAB64FCCF7"
+			rewards: [
+				{
+					id: "3366EFF979D31666"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "5D14A578C0956F28"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "730D15A19408EF03"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "3CCF19E947E60249"
+				type: "checkmark"
+			}]
+			x: 10.75d
+			y: 1.5d
+		}
+	]
+}

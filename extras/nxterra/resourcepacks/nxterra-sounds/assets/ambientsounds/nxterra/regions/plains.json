@@ -1,0 +1,100 @@
+{
+    "name": "plains",
+    "features": [
+        "grass"
+    ],
+    "bad-regions": [
+        "ocean",
+        "forest",
+        "savanna",
+        "swamp",
+        "highland",
+        "nether",
+        "rain",
+        "taiga"
+    ],
+    "temperature": {
+        "min": 0.2
+    },
+    "biomes": [
+        "plains",
+        "chaparral",
+        "field",
+        "flower",
+        "grass",
+        "oasis",
+        "tundra",
+        "mushroom*fields",
+        "darklands",
+        "badlands",
+        "pasture",
+        "rocky plateau",
+        "tropics plains",
+        "mycelium",
+        "firecracker_chaparral",
+        "pumpkin_valley",
+        "bayou",
+        "skyrise_vale"
+    ],
+    "sounds": [
+        {
+            "name": "cricket-night",
+            "category": "cricket_night",
+            "files": [
+                "nxterra_ambience:ambience.night_meadow_crickets_frogs"
+            ],
+            "overall-raining": false,
+            "length": {
+                "min": 1000,
+                "max": 1500
+            },
+            "transition": 100,
+            "volume": 0.6
+        },
+        {
+            "name": "cicadas-night",
+            "category": "cicadas",
+            "files": [
+                "nxterra_ambience:ambience.night_grasshopper"
+            ],
+            "time": "night",
+            "volume": 0.3
+        },
+        {
+            "name": "nx-dawn",
+            "files": [
+                "nxterra_ambience:ambience.dawn_chorus"
+            ],
+            "time": {
+                "5": 0,
+                "6": 1,
+                "8": 1,
+                "9": 0
+            },
+            "length": {
+                "min": 2000,
+                "max": 3000
+            },
+            "transition": 400,
+            "volume": 0.5
+        },
+        {
+            "name": "nx-dusk",
+            "files": [
+                "nxterra_ambience:ambience.evening_birds"
+            ],
+            "time": {
+                "16": 0,
+                "17": 1,
+                "18": 1,
+                "19": 0
+            },
+            "length": {
+                "min": 2000,
+                "max": 3000
+            },
+            "transition": 400,
+            "volume": 0.5
+        }
+    ]
+}

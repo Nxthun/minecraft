@@ -1,0 +1,587 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farm_and_charm"
+	group: "435CE345857D9297"
+	icon: {
+		id: "minecraft:wheat"
+	}
+	id: "4AE8A58B178E4A0A"
+	images: [
+		{
+			height: 7.5d
+			id: "278D6DFDF66D891E"
+			image: "nxterra:textures/quests/backdrop/farm_and_charm.png"
+			order: -1
+			rotation: 0.0d
+			width: 17.0d
+			x: 5.525d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "22F920E6229B8E5C"
+			image: "nxterra:textures/quests/banner/farm_and_charm.png"
+			order: 1
+			rotation: 0.0d
+			width: 11.0d
+			x: 5.525d
+			y: -1.8248d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:wheat"
+			}
+			id: "1C87F0AD7571B364"
+			rewards: [
+				{
+					id: "4491C04BC0BE132E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 9
+					id: "28BE7CBBEDC558A6"
+					item: {
+						count: 1
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "farm_and_charm:main/find_wild_crops"
+					criterion: ""
+					id: "6720F629B995A730"
+					type: "advancement"
+				}
+				{
+					consume_items: false
+					id: "27C1F9889EE45DFF"
+					item: { count: 1, id: "farm_and_charm:strawberry_seeds" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "213A772EBAE12072"
+					item: { count: 1, id: "farm_and_charm:tomato_seeds" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "16A47F64869706DD"
+					item: { count: 1, id: "farm_and_charm:lettuce_seeds" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C87F0AD7571B364"]
+			icon: {
+				id: "farm_and_charm:fertilizer"
+			}
+			id: "211D7AC0A9DEB912"
+			rewards: [
+				{
+					id: "7A085229B90B3850"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 24
+					id: "2B0D0E8746FD2E0E"
+					item: {
+						count: 1
+						id: "minecraft:iron_nugget"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 9L
+					id: "33A121E221D66E48"
+					item: { count: 1, id: "farm_and_charm:fertilizer" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3AF470E506CEEEB7"
+					item: { count: 1, id: "farm_and_charm:fertilized_soil" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["211D7AC0A9DEB912"]
+			icon: {
+				id: "farm_and_charm:plow"
+			}
+			id: "2B147E642FD72969"
+			rewards: [
+				{
+					id: "610D2ACD6DAB398C"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 16
+					id: "75D1F5DA283A9DEB"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "45CEFE49F111817F"
+					item: { count: 1, id: "farm_and_charm:pitchfork" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1898D30DCC5A4FB4"
+					item: { count: 1, id: "farm_and_charm:plow" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "638C87AFC387C45C"
+					item: { count: 1, id: "farm_and_charm:seeder" }
+					type: "item"
+				}
+				{
+					advancement: "farm_and_charm:main/use_pitchfork_on_fertilized_soil"
+					criterion: ""
+					id: "4A5AD6DE7DB7A7F2"
+					type: "advancement"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B147E642FD72969"]
+			icon: {
+				id: "farm_and_charm:chicken_coop"
+			}
+			id: "1C1A0DB0B07789D5"
+			rewards: [
+				{
+					id: "17D336EB2F653A68"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "190E9A5D068A4DA9"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "6CEA969B04AF2471"
+					item: { count: 1, id: "farm_and_charm:chicken_coop" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 3L
+					id: "4E641C29908789A4"
+					item: { count: 1, id: "farm_and_charm:chicken_feed" }
+					type: "item"
+				}
+				{
+					advancement: "farm_and_charm:main/place_chicken_coop"
+					criterion: ""
+					id: "2EA57E91BF52B1D9"
+					type: "advancement"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C87F0AD7571B364"]
+			icon: {
+				id: "farm_and_charm:cutting_board"
+			}
+			id: "351464C42D728F4F"
+			rewards: [
+				{
+					id: "7DD0E41490FEC05A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "1F48E110188BB8C5"
+					item: {
+						count: 1
+						id: "farm_and_charm:strawberry"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "3E20A28BBA8FEE9B"
+					item: { count: 1, id: "farm_and_charm:cutting_board" }
+					type: "item"
+				}
+				{
+					advancement: "farm_and_charm:main/use_cutting_board"
+					criterion: ""
+					id: "29BB35FF9AFF37FE"
+					type: "advancement"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["351464C42D728F4F"]
+			icon: {
+				id: "farm_and_charm:mincer"
+			}
+			id: "304A6C91DF3F0B2D"
+			rewards: [
+				{
+					id: "270EA6CFBD4BADDC"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 4
+					id: "3FE7A0AAD1FCFADA"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "31612FFD873ACC5C"
+					item: { count: 1, id: "farm_and_charm:mincer" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "1BF5DDB9D7211A6B"
+					item: { count: 1, id: "farm_and_charm:minced_beef" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["304A6C91DF3F0B2D"]
+			icon: {
+				id: "farm_and_charm:stove"
+			}
+			id: "2E0C963E2B859E36"
+			rewards: [
+				{
+					id: "42CC5B2CD5EDEB8E"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "62606A3E93322F06"
+					item: {
+						count: 1
+						id: "minecraft:bricks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "795D11636EC7C5A5"
+					item: { count: 1, id: "farm_and_charm:stove" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "265CE2DD92221937"
+					item: { count: 1, id: "farm_and_charm:cooking_pot" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2E0C963E2B859E36"]
+			icon: {
+				id: "farm_and_charm:crafting_bowl"
+			}
+			id: "4B20E5C3155AF30C"
+			rewards: [
+				{
+					id: "599EB2A81E21A723"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "3ECF81E9F75DB4F8"
+					item: {
+						count: 1
+						id: "minecraft:milk_bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "24FF4EFED3FE9F5B"
+					item: { count: 1, id: "farm_and_charm:crafting_bowl" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "13B71A9D3350BFF7"
+					item: { count: 1, id: "farm_and_charm:butter" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4B20E5C3155AF30C"]
+			icon: {
+				id: "farm_and_charm:roaster"
+			}
+			id: "278549A3909515DF"
+			rewards: [
+				{
+					id: "23E11F74B34F7B44"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "612563BAC9B0E8F5"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "4FF1A04698FDE258"
+					item: { count: 1, id: "farm_and_charm:roaster" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6B2EC9CE6A74145B"
+					item: { count: 1, id: "farm_and_charm:bacon_with_eggs" }
+					type: "item"
+				}
+				{
+					advancement: "farm_and_charm:main/place_roaster"
+					criterion: ""
+					id: "774B40265DA4D994"
+					type: "advancement"
+				}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["278549A3909515DF"]
+			icon: {
+				id: "farm_and_charm:goulash"
+			}
+			id: "30328790B290DCFA"
+			rewards: [
+				{
+					id: "209FE025B4D8D2DC"
+					type: "xp"
+					xp: 125
+				}
+				{
+					count: 8
+					id: "26C11013B91AAD6E"
+					item: {
+						count: 1
+						id: "farm_and_charm:butter"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "3CE928A2263D02C7"
+				item: { count: 1, id: "farm_and_charm:goulash" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2E0C963E2B859E36"]
+			icon: {
+				id: "farm_and_charm:ribwort_tea"
+			}
+			id: "24AC7D644EFE1902"
+			rewards: [
+				{
+					id: "4E3C18A019643497"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 8
+					id: "1AFE533FC9095FBD"
+					item: {
+						count: 1
+						id: "minecraft:sugar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "1611657A8B7AFF0A"
+				item: { components: { "ftbfiltersystem:filter": "or(item(farm_and_charm:nettle_tea)item(farm_and_charm:ribwort_tea)item(farm_and_charm:strawberry_tea))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4B20E5C3155AF30C"]
+			icon: {
+				id: "farm_and_charm:dough"
+			}
+			id: "4A6EF997A3FAD5FC"
+			rewards: [
+				{
+					id: "220C81046D5B6453"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "47FEA408CEBD8543"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "3F4188301ED0AD1D"
+					item: { count: 1, id: "farm_and_charm:yeast" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 5L
+					id: "4867CF8891F7A2FF"
+					item: { count: 1, id: "farm_and_charm:dough" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 3L
+					id: "3F8B3F94FDC3031C"
+					item: { count: 1, id: "farm_and_charm:farmers_bread" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1C1A0DB0B07789D5"
+				"30328790B290DCFA"
+				"24AC7D644EFE1902"
+				"4A6EF997A3FAD5FC"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "farm_and_charm:timber_well"
+			}
+			id: "1528B69FF16A6B1A"
+			rewards: [
+				{
+					id: "514CDB7F941B4E5B"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "7BE68C65933E7D2B"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "7306F79E76F118AE"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7607536D08B8F5EC"
+				type: "checkmark"
+			}]
+			x: 10.8d
+			y: 1.5d
+		}
+	]
+}

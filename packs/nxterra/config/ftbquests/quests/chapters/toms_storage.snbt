@@ -1,0 +1,278 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "toms_storage"
+	group: "30A3BF10FF493301"
+	icon: {
+		id: "toms_storage:storage_terminal"
+	}
+	id: "3E0C38B4EE1CB054"
+	images: [
+		{
+			height: 7.5d
+			id: "6A7199730EA96151"
+			image: "nxterra:textures/quests/backdrop/toms_storage.png"
+			order: -1
+			rotation: 0.0d
+			width: 11.5d
+			x: 3.25d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "6615E4A58FBC1CF5"
+			image: "nxterra:textures/quests/banner/toms_storage.png"
+			order: 1
+			rotation: 0.0d
+			width: 9.5d
+			x: 3.25d
+			y: -1.8248d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "toms_storage:storage_terminal"
+			}
+			id: "5CB9661CEFD6AAC1"
+			rewards: [
+				{
+					id: "475E5EDDE9204835"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "610939A5B4FB25B7"
+					item: {
+						count: 1
+						id: "minecraft:chest"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "1BDC658AC91700F6"
+				item: { count: 1, id: "toms_storage:storage_terminal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5CB9661CEFD6AAC1"]
+			icon: {
+				id: "toms_storage:inventory_cable"
+			}
+			id: "203B135F262C7D60"
+			rewards: [
+				{
+					id: "44CC1FC71CB87634"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 4
+					id: "49DD081909ED00EF"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 6L
+				id: "113E36DAA0F7B737"
+				item: { count: 1, id: "toms_storage:inventory_cable" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["203B135F262C7D60"]
+			icon: {
+				id: "toms_storage:open_crate"
+			}
+			id: "27573D7FDC0D4472"
+			rewards: [
+				{
+					id: "53B090279F6AB0F1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "16893F3B09ECA148"
+					item: {
+						count: 1
+						id: "minecraft:hopper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "1F73C7813906AD1B"
+				item: { count: 1, id: "toms_storage:open_crate" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["203B135F262C7D60"]
+			icon: {
+				id: "toms_storage:crafting_terminal"
+			}
+			id: "146F377A994A092A"
+			rewards: [
+				{
+					id: "287709F869B4479C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4D89863B38C5DE16"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "62EAE18CBF286FDF"
+				item: { count: 1, id: "toms_storage:crafting_terminal" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["203B135F262C7D60"]
+			icon: {
+				id: "toms_storage:basic_inventory_hopper"
+			}
+			id: "6F77C1040DE440FA"
+			rewards: [
+				{
+					id: "67AB58937EFE808B"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 16
+					id: "75659C7BAC003B9D"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "5F6E9F7A6AD8FC46"
+					item: { count: 1, id: "toms_storage:basic_inventory_hopper" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3CE4AEA012B5968B"
+					item: { count: 1, id: "toms_storage:item_filter" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["146F377A994A092A"]
+			icon: {
+				id: "toms_storage:wireless_terminal"
+			}
+			id: "6B1D784A75CB9AC8"
+			rewards: [
+				{
+					id: "15F4C4943023ECD7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "5A912FBE84CC4A6F"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "5710A9963810BCD0"
+				item: { count: 1, id: "toms_storage:wireless_terminal" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6B1D784A75CB9AC8"
+				"27573D7FDC0D4472"
+				"6F77C1040DE440FA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "toms_storage:filing_cabinet"
+			}
+			id: "3EE0E33E14E8197A"
+			rewards: [
+				{
+					id: "2BABE6D178B0634B"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "6E72706415D0C04B"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "7285C379151D4B72"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2E12DF7EF5B3F20B"
+				type: "checkmark"
+			}]
+			x: 6.25d
+			y: 1.5d
+		}
+	]
+}

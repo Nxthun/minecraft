@@ -1,0 +1,29 @@
+{
+    "name": "nx_river",
+    "regions": [
+        "surface"
+    ],
+    "biomes": [
+        "#is_river",
+        "river",
+        "stream",
+        "creek"
+    ],
+    "features": [
+        "water"
+    ],
+    "sounds": [
+        {
+            "name": "nx-stream",
+            "files": [
+                "nxterra_ambience:ambience.stream_small"
+            ],
+            "length": {
+                "min": 2000,
+                "max": 4000
+            },
+            "transition": 300,
+            "volume": 0.4
+        }
+    ]
+}

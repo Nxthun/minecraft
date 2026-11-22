@@ -1,0 +1,502 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: "20434CE362D81358"
+	icon: {
+		id: "minecraft:elytra"
+	}
+	id: "2785DD6CDF10FDC1"
+	images: [
+		{
+			height: 7.5d
+			id: "13BC66FAE4F171B4"
+			image: "nxterra:textures/quests/backdrop/the_end.png"
+			order: -1
+			rotation: 0.0d
+			width: 15.0d
+			x: 4.75d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "418F4CCF2BA550C1"
+			image: "nxterra:textures/quests/banner/the_end.png"
+			order: 1
+			rotation: 0.0d
+			width: 9.5d
+			x: 4.75d
+			y: -1.8248d
+		}
+	]
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:ender_eye"
+			}
+			id: "7D64B7AD2594A9A5"
+			rewards: [
+				{
+					id: "2D14C7DDF1BAFB17"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 8
+					id: "5A922D0730ABD35D"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 12L
+					id: "1FCA62AC6520F135"
+					item: { count: 1, id: "minecraft:ender_eye" }
+					type: "item"
+				}
+				{
+					id: "3204DDA1E630D343"
+					structure: "minecraft:stronghold"
+					type: "structure"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7D64B7AD2594A9A5"]
+			icon: {
+				id: "minecraft:end_stone"
+			}
+			id: "7D07EBA5A0EC8D65"
+			rewards: [
+				{
+					id: "3EC62CF17D0CE17D"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "57450EB226AFE0E5"
+					item: {
+						count: 1
+						id: "minecraft:ender_chest"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "7100E99BAFD5B2FB"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7D07EBA5A0EC8D65"]
+			icon: {
+				id: "minecraft:dragon_head"
+			}
+			id: "57D4FDB05F78DC83"
+			rewards: [
+				{
+					id: "36857F3531C39384"
+					item: {
+						count: 1
+						id: "nxterra:elderheart_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "42E699DB0E355C20"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 2
+					id: "3B5077C396F83960"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "6A55F70632F956F9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["57D4FDB05F78DC83"]
+			icon: {
+				id: "minecraft:dragon_breath"
+			}
+			id: "7392E4EBA6F80FE3"
+			rewards: [
+				{
+					id: "6B169325E9702192"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 8
+					id: "3BE12EF51217ADCD"
+					item: {
+						count: 1
+						id: "minecraft:glass_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "16B88DAC32DB2458"
+				item: { count: 1, id: "minecraft:dragon_breath" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57D4FDB05F78DC83"]
+			icon: {
+				id: "minecraft:end_crystal"
+			}
+			id: "64B47715B301E0F8"
+			rewards: [
+				{
+					id: "28A87B448B7528EE"
+					type: "xp"
+					xp: 350
+				}
+				{
+					count: 4
+					id: "107C1F8AD52B988F"
+					item: {
+						count: 1
+						id: "minecraft:ghast_tear"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "2D8EE16B563E9A0B"
+				item: { count: 1, id: "minecraft:end_crystal" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["57D4FDB05F78DC83"]
+			icon: {
+				id: "minecraft:amethyst_block"
+			}
+			id: "1A28905893CE6DCD"
+			rewards: [
+				{
+					id: "13C59B009B684F44"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "51FBEA0B1AF22F4E"
+					item: {
+						count: 1
+						id: "minecraft:spyglass"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "stellarity:end_wilds"
+					id: "24E9E4DB84787A4E"
+					type: "biome"
+				}
+				{
+					biome: "stellarity:amethyst_forest"
+					id: "27C5EC4342E7C92C"
+					type: "biome"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57D4FDB05F78DC83"]
+			icon: {
+				id: "minecraft:purpur_block"
+			}
+			id: "2C5102CB49F93F6D"
+			rewards: [
+				{
+					id: "378704E226B229A4"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "76353318D77A3CFC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legend"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "186041F73594DC45"
+					structure: "minecraft:end_city"
+					type: "structure"
+				}
+				{
+					entity: "minecraft:shulker"
+					id: "65E5AFE727BA296E"
+					type: "kill"
+					value: 4L
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["57D4FDB05F78DC83"]
+			icon: {
+				id: "minecraft:chorus_fruit"
+			}
+			id: "14033CDD1D1DC2BB"
+			rewards: [
+				{
+					id: "6368308CBB654397"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 4
+					id: "4B083EAF404136D3"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "21DC1A4D3D012835"
+					structure: "stellarity:village"
+					type: "structure"
+				}
+				{
+					biome: "stellarity:end_shrubland"
+					id: "11EF4F73190ED17C"
+					type: "biome"
+				}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1A28905893CE6DCD"]
+			icon: {
+				id: "minecraft:end_rod"
+			}
+			id: "32B32B535DB84F5D"
+			rewards: [
+				{
+					id: "79D3B3A433EB8991"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 16
+					id: "3BA94006755C33C2"
+					item: {
+						count: 1
+						id: "minecraft:end_rod"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4EA077A918FD7140"
+				structure: "stellarity:chapel_of_light"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C5102CB49F93F6D"]
+			icon: {
+				id: "minecraft:elytra"
+			}
+			id: "38E8822BD55060B0"
+			rewards: [
+				{
+					id: "510AACBC0C802C14"
+					type: "xp"
+					xp: 400
+				}
+				{
+					count: 32
+					id: "210A143206A9AF91"
+					item: {
+						count: 1
+						id: "minecraft:firework_rocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "1EF7FBCB4C317803"
+				item: { count: 1, id: "minecraft:elytra" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["14033CDD1D1DC2BB"]
+			icon: {
+				id: "minecraft:end_stone_bricks"
+			}
+			id: "117C3B68D12D00B8"
+			rewards: [
+				{
+					id: "35ED87E7DDD9401F"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 16
+					id: "3F3FE04C842F25E3"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "15CAC3132A2B5D19"
+					structure: "stellarity:old_stronghold"
+					type: "structure"
+				}
+				{
+					biome: "stellarity:the_hallow"
+					id: "48D08A296360CDA6"
+					type: "biome"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["38E8822BD55060B0"]
+			icon: {
+				id: "minecraft:shulker_box"
+			}
+			id: "65B94BE7E7C91DD1"
+			rewards: [
+				{
+					id: "1FFD55072C9F0EDF"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "326997E8CB4015AA"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legend"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 2L
+				id: "36E41DBB7E4758A0"
+				item: { count: 1, id: "minecraft:shulker_box" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7392E4EBA6F80FE3"
+				"64B47715B301E0F8"
+				"32B32B535DB84F5D"
+				"65B94BE7E7C91DD1"
+				"117C3B68D12D00B8"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:dragon_egg"
+			}
+			id: "2CC467EE11EF8711"
+			rewards: [
+				{
+					id: "4CFE090FAA291B8E"
+					item: {
+						count: 1
+						id: "nxterra:starbloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "1684936CEF475D0E"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "221F03A01083527B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legend"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1A22EB0B6AE621E7"
+				type: "checkmark"
+			}]
+			x: 9.25d
+			y: 1.5d
+		}
+	]
+}

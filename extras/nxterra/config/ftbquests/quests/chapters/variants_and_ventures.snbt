@@ -1,0 +1,309 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "variants_and_ventures"
+	group: "7FE7FE7068E22B2B"
+	icon: {
+		id: "minecraft:zombie_head"
+	}
+	id: "48DF9BABFC50602E"
+	images: [
+		{
+			height: 7.5d
+			id: "3F64C69E48A42D3A"
+			image: "nxterra:textures/quests/backdrop/variants_and_ventures.png"
+			order: -1
+			rotation: 0.0d
+			width: 11.5d
+			x: 3.25d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "19B6BEA614883169"
+			image: "nxterra:textures/quests/banner/variants_and_ventures.png"
+			order: 1
+			rotation: 0.0d
+			width: 9.5d
+			x: 3.25d
+			y: -1.8248d
+		}
+	]
+	order_index: 17
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:blue_ice"
+			}
+			id: "21E90D765C15392C"
+			rewards: [
+				{
+					id: "275A0020E1A4DDBA"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "4B28F3471E0ED243"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "#variantsandventures:has_gelid"
+					id: "573158514FCD69FB"
+					type: "biome"
+				}
+				{
+					entity: "variantsandventures:gelid"
+					id: "20728EB440CBF9AA"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["21E90D765C15392C"]
+			icon: {
+				id: "minecraft:prismarine_shard"
+			}
+			id: "67874103180469CD"
+			rewards: [
+				{
+					id: "468A90D69CA69BB5"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "6FC2AF53FFDDDF92"
+					item: {
+						count: 1
+						id: "minecraft:cooked_cod"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "#variantsandventures:has_murk"
+					id: "310408B025A844AD"
+					type: "biome"
+				}
+				{
+					entity: "variantsandventures:murk"
+					id: "44313A052767F21A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67874103180469CD"]
+			icon: {
+				id: "minecraft:vine"
+			}
+			id: "1409982EE6803F41"
+			rewards: [
+				{
+					id: "51F225469E916084"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "737A02F28CB7ABE9"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "#variantsandventures:has_thicket"
+					id: "39A6B090A0C211D5"
+					type: "biome"
+				}
+				{
+					entity: "variantsandventures:thicket"
+					id: "7E3BF960737F4B42"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1409982EE6803F41"]
+			icon: {
+				id: "minecraft:moss_block"
+			}
+			id: "289BAA475C27FC15"
+			rewards: [
+				{
+					id: "70AC706B409ABD16"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "78C2E801AF816181"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "#variantsandventures:has_verdant"
+					id: "5C528F1E09E9A827"
+					type: "biome"
+				}
+				{
+					entity: "variantsandventures:verdant"
+					id: "49A85AAEFB9D92C7"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["21E90D765C15392C"]
+			icon: {
+				id: "minecraft:brown_mushroom"
+			}
+			id: "1D9E7B1F0C37F9A8"
+			rewards: [
+				{
+					id: "1443B98E04339FA4"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "5A400F4B5CB91AA0"
+					item: {
+						count: 1
+						id: "minecraft:milk_bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "#variantsandventures:has_bogged"
+					id: "288A9E43D000DDE6"
+					type: "biome"
+				}
+				{
+					entity: "minecraft:bogged"
+					id: "1FEA262FA740D9A1"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21E90D765C15392C"]
+			icon: {
+				id: "minecraft:sand"
+			}
+			id: "2B717612B71E983C"
+			rewards: [
+				{
+					id: "1EF9D09D445CDFD4"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "5E2DE45271FECDEB"
+					item: {
+						count: 1
+						id: "minecraft:cooked_porkchop"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:desert"
+					id: "173169056563C4C2"
+					type: "biome"
+				}
+				{
+					entity: "minecraft:husk"
+					id: "2517D2C05A25FE97"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"289BAA475C27FC15"
+				"1D9E7B1F0C37F9A8"
+				"2B717612B71E983C"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:zombie_head"
+			}
+			id: "72102CDE469B283C"
+			rewards: [
+				{
+					id: "1235721F15455718"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "36C9133FF80C7700"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "40010C9E31F518CC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "28F7CE5AC0CEC42E"
+				type: "checkmark"
+			}]
+			x: 6.25d
+			y: 1.5d
+		}
+	]
+}

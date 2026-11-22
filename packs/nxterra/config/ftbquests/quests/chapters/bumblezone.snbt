@@ -1,0 +1,421 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bumblezone"
+	group: "20434CE362D81358"
+	icon: {
+		id: "the_bumblezone:honey_crystal"
+	}
+	id: "2F9CC216604CB4E8"
+	images: [
+		{
+			height: 7.5d
+			id: "4B0DF6BDECFB8E92"
+			image: "nxterra:textures/quests/backdrop/bumblezone.png"
+			order: -1
+			rotation: 0.0d
+			width: 15.0d
+			x: 4.75d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "29E5EBE55A0148CC"
+			image: "nxterra:textures/quests/banner/bumblezone.png"
+			order: 1
+			rotation: 0.0d
+			width: 7.5d
+			x: 4.75d
+			y: -1.8248d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:beehive"
+			}
+			id: "52DED93432A8D245"
+			rewards: [
+				{
+					id: "103EEDD99B27B4EB"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 4
+					id: "2A6E8D5A785D002B"
+					item: {
+						count: 1
+						id: "minecraft:honey_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 2L
+					id: "3A3ED5263AFE67DD"
+					item: { count: 1, id: "minecraft:ender_pearl" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "10F4EA552A8EBCCB"
+					item: { count: 1, id: "minecraft:beehive" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["52DED93432A8D245"]
+			icon: {
+				id: "minecraft:honeycomb"
+			}
+			id: "48482FA5B7CD90BD"
+			rewards: [
+				{
+					id: "105D068E86DB7761"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "61B6E44A211B992F"
+					item: {
+						count: 1
+						id: "minecraft:glass_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "the_bumblezone:the_bumblezone"
+				id: "650B1CD1D1BB5E37"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["48482FA5B7CD90BD"]
+			icon: {
+				id: "the_bumblezone:pollen_puff"
+			}
+			id: "73625C6D0B6083C3"
+			rewards: [
+				{
+					id: "218807E4517B3486"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "63E6973864E0ED57"
+					item: {
+						count: 1
+						id: "the_bumblezone:pollen_puff"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "the_bumblezone:pollinated_fields"
+					id: "2B79ECCFA249A9BE"
+					type: "biome"
+				}
+				{
+					biome: "the_bumblezone:floral_meadow"
+					id: "26949060036B6490"
+					type: "biome"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48482FA5B7CD90BD"]
+			icon: {
+				id: "the_bumblezone:honey_crystal"
+			}
+			id: "16BF72C06DFF2AB6"
+			rewards: [
+				{
+					id: "6C93CE28D7271D77"
+					type: "xp"
+					xp: 125
+				}
+				{
+					count: 2
+					id: "4F03177FE11C622B"
+					item: {
+						count: 1
+						id: "minecraft:bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "the_bumblezone:crystal_canyon"
+					id: "454C27932D5D381A"
+					type: "biome"
+				}
+				{
+					consume_items: false
+					count: 8L
+					id: "6675B4AF28A94F82"
+					item: { count: 1, id: "the_bumblezone:honey_crystal_shards" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["48482FA5B7CD90BD"]
+			icon: {
+				id: "the_bumblezone:honeycomb_brood_block"
+			}
+			id: "48E2E8DCF4854DFF"
+			rewards: [
+				{
+					id: "513FFDE1ABF25567"
+					type: "xp"
+					xp: 125
+				}
+				{
+					id: "49D82F5CDAB5000A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "66EAE7C9A52B985C"
+					structure: "the_bumblezone:cell_maze"
+					type: "structure"
+				}
+				{
+					id: "3FE86842CF3B047F"
+					structure: "the_bumblezone:hive_temple"
+					type: "structure"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["73625C6D0B6083C3"]
+			icon: {
+				id: "the_bumblezone:stinger_spear"
+			}
+			id: "7B80576F38D64727"
+			rewards: [
+				{
+					id: "7B793AB704C0C791"
+					type: "xp"
+					xp: 125
+				}
+				{
+					count: 8
+					id: "661B07C2F3FBEDD7"
+					item: {
+						count: 1
+						id: "minecraft:stick"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "76D9DCEFDBC6F446"
+				item: { count: 1, id: "the_bumblezone:stinger_spear" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16BF72C06DFF2AB6"]
+			icon: {
+				id: "the_bumblezone:honey_bucket"
+			}
+			id: "3F41120DD3C6173F"
+			rewards: [
+				{
+					id: "529060450A5EE7CA"
+					type: "xp"
+					xp: 125
+				}
+				{
+					id: "330429EFE038C9A6"
+					item: {
+						count: 1
+						id: "minecraft:compass"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "7B7A876A6F0A2159"
+				item: { count: 1, id: "the_bumblezone:honey_bucket" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["48E2E8DCF4854DFF"]
+			icon: {
+				id: "the_bumblezone:honey_crystal_shield"
+			}
+			id: "41C7C3DB8A0D2CCE"
+			rewards: [
+				{
+					id: "3503F07F3E510579"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 8
+					id: "3CD2568EA12807E3"
+					item: {
+						count: 1
+						id: "the_bumblezone:honey_crystal_shards"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "the_bumblezone:structures/enter_sempiternal_sanctum"
+				criterion: ""
+				id: "1BA02052189A71F7"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3F41120DD3C6173F"]
+			icon: {
+				id: "the_bumblezone:honey_compass"
+			}
+			id: "3A92FC5EF8C0F65E"
+			rewards: [
+				{
+					id: "5028C101B7F661B6"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "3E5E1EB442F33858"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "7EE5F8013CEC0E6E"
+				item: { count: 1, id: "the_bumblezone:honey_compass" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3A92FC5EF8C0F65E"]
+			icon: {
+				id: "the_bumblezone:royal_jelly_bottle"
+			}
+			id: "3CAA5646E1C18107"
+			rewards: [
+				{
+					id: "3E350991FDCAA1FA"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 4
+					id: "67D8545B40427391"
+					item: {
+						count: 1
+						id: "the_bumblezone:royal_jelly_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2200F975A2A2B552"
+				structure: "the_bumblezone:throne_pillar"
+				type: "structure"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3CAA5646E1C18107"
+				"7B80576F38D64727"
+				"41C7C3DB8A0D2CCE"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "the_bumblezone:bee_cannon"
+			}
+			id: "76733758F5B72FDA"
+			rewards: [
+				{
+					id: "2EDDD7BFEBB41244"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "7E78C97817B07AD5"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "61E8EB2194791852"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7FCBF10BD34A95D9"
+				type: "checkmark"
+			}]
+			x: 9.25d
+			y: 1.5d
+		}
+	]
+}

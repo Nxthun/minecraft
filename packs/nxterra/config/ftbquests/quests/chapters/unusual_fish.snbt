@@ -1,0 +1,308 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "unusual_fish"
+	group: "7FE7FE7068E22B2B"
+	icon: {
+		id: "minecraft:tropical_fish"
+	}
+	id: "3A012080F72A7A2A"
+	images: [
+		{
+			height: 7.5d
+			id: "1807C5A35F5613EE"
+			image: "nxterra:textures/quests/backdrop/unusual_fish.png"
+			order: -1
+			rotation: 0.0d
+			width: 9.5d
+			x: 2.5d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "41778AA25AD0BBE4"
+			image: "nxterra:textures/quests/banner/unusual_fish.png"
+			order: 1
+			rotation: 0.0d
+			width: 7.0d
+			x: 2.5d
+			y: -1.8248d
+		}
+	]
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "unusualfishmod:raw_circus_fish"
+			}
+			id: "1E9DF79E69276202"
+			rewards: [
+				{
+					id: "21AD603F87C68CC6"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1CE0C565122ABA58"
+					item: {
+						count: 1
+						id: "minecraft:campfire"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "184ACC0167654E8D"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(unusualfishmod:raw_unusual_fish)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E9DF79E69276202"]
+			icon: {
+				id: "unusualfishmod:cooked_unusual_fillet"
+			}
+			id: "17C49A7414E5CF63"
+			rewards: [
+				{
+					id: "1B52EAD7F043855F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "1455FD26AD3E36E8"
+					item: {
+						count: 1
+						id: "minecraft:kelp"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 2L
+				id: "17A0A8A741AEEABF"
+				item: { count: 1, id: "unusualfishmod:cooked_unusual_fillet" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["17C49A7414E5CF63"]
+			icon: {
+				id: "unusualfishmod:unusual_sandwich"
+			}
+			id: "21016DF6F9B302C5"
+			rewards: [
+				{
+					id: "41F625C6A62A055A"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4420E2F37AC961A7"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "40F6D3099497E5E4"
+				item: { count: 1, id: "unusualfishmod:unusual_sandwich" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E9DF79E69276202"]
+			icon: {
+				id: "unusualfishmod:prismarine_spear"
+			}
+			id: "2C0744B068AA53E9"
+			rewards: [
+				{
+					id: "6AA2F07FB81D1408"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "54426B996C336A79"
+					item: {
+						count: 1
+						id: "minecraft:prismarine_shard"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "unusualfishmod:porcupine_lobsta"
+					id: "7875482F7F847665"
+					type: "kill"
+					value: 2L
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "2B2A90E5AFEF76C3"
+					item: { count: 1, id: "unusualfishmod:lobster_spike" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2704736AD5AC4305"
+					item: { count: 1, id: "unusualfishmod:prismarine_spear" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C0744B068AA53E9"]
+			icon: {
+				id: "unusualfishmod:nautical_lamp"
+			}
+			id: "2DD38EA8ABC38AD4"
+			rewards: [
+				{
+					id: "5A669E2C80BD70F0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "126E5CECA635D58B"
+					item: {
+						count: 1
+						id: "minecraft:prismarine_crystals"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "unusualfishmod:shockcat"
+					id: "3D77D09F42F14A81"
+					type: "kill"
+					value: 1L
+				}
+				{
+					consume_items: false
+					id: "7338C72A5B7ADEC2"
+					item: { count: 1, id: "unusualfishmod:tendril" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2C01B1AF480D669B"
+					item: { count: 1, id: "unusualfishmod:nautical_lamp" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E9DF79E69276202"]
+			icon: {
+				id: "unusualfishmod:crimson_bricks"
+			}
+			id: "490CAC9234F62992"
+			rewards: [
+				{
+					id: "72521BE72FA139DB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "28F05530525031E2"
+					item: {
+						count: 1
+						id: "minecraft:bricks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "74A49808A7304CDC"
+					item: { count: 1, id: "unusualfishmod:crimson_shard" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5BA0DFD60170B61E"
+					item: { count: 1, id: "unusualfishmod:crimson_bricks" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"21016DF6F9B302C5"
+				"2DD38EA8ABC38AD4"
+				"490CAC9234F62992"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:tropical_fish"
+			}
+			id: "14A14A6ADE238963"
+			rewards: [
+				{
+					id: "6711B7ADD59E85FC"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "31A97CB5150D8CD4"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "2A8008AC86A40D04"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "66FC9AEEF8896508"
+				type: "checkmark"
+			}]
+			x: 4.75d
+			y: 1.5d
+		}
+	]
+}

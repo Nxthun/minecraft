@@ -1,0 +1,462 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "illager_invasion"
+	group: "6DDAA8A1DA8B5CDF"
+	icon: {
+		id: "minecraft:crossbow"
+	}
+	id: "18357AE9FBB61853"
+	images: [
+		{
+			height: 7.5d
+			id: "37D7856FF5E704D6"
+			image: "nxterra:textures/quests/backdrop/illager_invasion.png"
+			order: -1
+			rotation: 0.0d
+			width: 13.0d
+			x: 4.0d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "13AFB423600969AF"
+			image: "nxterra:textures/quests/banner/illager_invasion.png"
+			order: 1
+			rotation: 0.0d
+			width: 8.5d
+			x: 4.0d
+			y: -1.8248d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:crossbow"
+			}
+			id: "38E656927B95A2F5"
+			rewards: [
+				{
+					id: "4FB682E0279579A5"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 16
+					id: "156109C3A7F5F2F3"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "illagerinvasion:marauder"
+					id: "2B3D015AE69C679E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "illagerinvasion:basher"
+					id: "21C1BB7C21679FD7"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["38E656927B95A2F5"]
+			icon: {
+				id: "illagerinvasion:lost_candle"
+			}
+			id: "567F0C7806109974"
+			rewards: [
+				{
+					id: "66DC038CF4E62D57"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "250747149841CC47"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "18E9B4A279689618"
+					structure: "illagerinvasion:illager_fort"
+					type: "structure"
+				}
+				{
+					entity: "illagerinvasion:provoker"
+					id: "2F8190607BEB17A4"
+					type: "kill"
+					value: 2L
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["567F0C7806109974"]
+			icon: {
+				id: "illagerinvasion:platinum_chunk"
+			}
+			id: "6C8D8FD0F6FECA35"
+			rewards: [
+				{
+					id: "57B511DDBE1099B1"
+					type: "xp"
+					xp: 125
+				}
+				{
+					count: 16
+					id: "37C6268E208E0113"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "illagerinvasion:inquisitor"
+					id: "766ED6A0F7F6D99A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "4A04E479AA9CF3C4"
+					item: { count: 1, id: "illagerinvasion:platinum_chunk" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C8D8FD0F6FECA35"]
+			icon: {
+				id: "illagerinvasion:platinum_sheet"
+			}
+			id: "14D1A3BC46845CF6"
+			rewards: [
+				{
+					id: "606EB58523B9497D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "17BEA42232B8925F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "22C1CAAE4878A778"
+				item: { count: 1, id: "illagerinvasion:platinum_sheet" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["38E656927B95A2F5"]
+			icon: {
+				id: "illagerinvasion:unusual_dust"
+			}
+			id: "21DD9F7FC56A6698"
+			rewards: [
+				{
+					id: "25EB0D4CAE1E99C2"
+					type: "xp"
+					xp: 125
+				}
+				{
+					count: 4
+					id: "345E05A8261025F6"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "30B4DFAE631D6E84"
+					structure: "illagerinvasion:sorcerer_hut"
+					type: "structure"
+				}
+				{
+					entity: "illagerinvasion:sorcerer"
+					id: "341E964C51A11035"
+					type: "kill"
+					value: 1L
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "45B84847B968544E"
+					item: { count: 1, id: "illagerinvasion:unusual_dust" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21DD9F7FC56A6698"]
+			icon: {
+				id: "illagerinvasion:magical_fire_charge"
+			}
+			id: "1ADF29146CC20794"
+			rewards: [
+				{
+					id: "7CE90642145D9697"
+					type: "xp"
+					xp: 125
+				}
+				{
+					count: 2
+					id: "315F250C7B024ADC"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "45E2D531D85AEF6F"
+					structure: "illagerinvasion:firecaller_hut"
+					type: "structure"
+				}
+				{
+					entity: "illagerinvasion:firecaller"
+					id: "2E740E4EC1D25DA2"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1ADF29146CC20794"]
+			icon: {
+				id: "illagerinvasion:illusionary_dust"
+			}
+			id: "3BAFEACFB9834B54"
+			rewards: [
+				{
+					id: "1E5CB3CF3827BDC8"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 2
+					id: "4E617B40D0C1BA69"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2E20354C9C44C6B5"
+					structure: "illagerinvasion:illusioner_tower"
+					type: "structure"
+				}
+				{
+					entity: "minecraft:illusioner"
+					id: "177C9167603B2DF6"
+					type: "kill"
+					value: 1L
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "250CFA8CCC86B72F"
+					item: { count: 1, id: "illagerinvasion:illusionary_dust" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BAFEACFB9834B54"]
+			icon: {
+				id: "illagerinvasion:hallowed_gem"
+			}
+			id: "570A630A9FB7E356"
+			rewards: [
+				{
+					id: "24C45A31F4E53AEC"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "7EEB2FE401B97B6A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "3F15D682983C7B45"
+				item: { count: 1, id: "illagerinvasion:hallowed_gem" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38E656927B95A2F5"]
+			icon: {
+				id: "illagerinvasion:primal_essence"
+			}
+			id: "3BE8B75CF430D8D8"
+			rewards: [
+				{
+					id: "36825EF809ABDC8D"
+					type: "xp"
+					xp: 125
+				}
+				{
+					count: 4
+					id: "5686AE7D409EB2FE"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "illagerinvasion:invoker"
+					id: "16CFC50A01DA9F28"
+					type: "kill"
+					value: 1L
+				}
+				{
+					consume_items: false
+					id: "3B498D51377E6CB8"
+					item: { count: 1, id: "illagerinvasion:primal_essence" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3BE8B75CF430D8D8"]
+			icon: {
+				id: "illagerinvasion:imbuing_table"
+			}
+			id: "735667548C0D8267"
+			rewards: [
+				{
+					id: "104CB1EBE6B86F68"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 16
+					id: "39FA60EBA4D0F5B1"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "201CB1211525CF15"
+				item: { count: 1, id: "illagerinvasion:imbuing_table" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"14D1A3BC46845CF6"
+				"570A630A9FB7E356"
+				"735667548C0D8267"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:ominous_bottle"
+			}
+			id: "1D94BAB27BC56C69"
+			rewards: [
+				{
+					id: "7DDE7AC13B12D7D6"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "1959E7BA437D0449"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "428FB3BF65E115A7"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "71B9C6D549A9BCA6"
+				type: "checkmark"
+			}]
+			x: 7.75d
+			y: 1.5d
+		}
+	]
+}

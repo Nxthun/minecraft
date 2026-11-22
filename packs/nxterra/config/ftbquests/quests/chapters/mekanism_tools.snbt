@@ -1,0 +1,339 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism_tools"
+	group: "30A3BF10FF493301"
+	icon: {
+		id: "mekanismtools:steel_pickaxe"
+	}
+	id: "3E0F0065DA2DD563"
+	images: [
+		{
+			height: 7.5d
+			id: "148ACC1C27B8690F"
+			image: "nxterra:textures/quests/backdrop/mekanism_tools.png"
+			order: -1
+			rotation: 0.0d
+			width: 9.5d
+			x: 2.5d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "3E3D6E16559229CA"
+			image: "nxterra:textures/quests/banner/mekanism_tools.png"
+			order: 1
+			rotation: 0.0d
+			width: 7.5d
+			x: 2.5d
+			y: -1.8248d
+		}
+	]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "mekanismtools:steel_pickaxe"
+			}
+			id: "30E2E8C9B848F398"
+			rewards: [
+				{
+					id: "4046D55079AC02BA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "22A929D694518CB0"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "616CD1DCA6BD511B"
+					item: { count: 1, id: "mekanismtools:steel_pickaxe" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "737B4BDCF0EB62AE"
+					item: { count: 1, id: "mekanismtools:steel_axe" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "16D69A79FF47CD4A"
+					item: { count: 1, id: "mekanismtools:steel_shovel" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["30E2E8C9B848F398"]
+			icon: {
+				id: "mekanismtools:steel_paxel"
+			}
+			id: "7E38A69B4B363484"
+			rewards: [
+				{
+					id: "2593635E2856F414"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7EF87AB8E2F1CF94"
+					item: {
+						count: 1
+						id: "mekanismtools:steel_hoe"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "14418C4F3C2DCE17"
+					item: { count: 1, id: "mekanismtools:steel_paxel" }
+					type: "item"
+				}
+				{
+					advancement: "mekanismtools:paxel"
+					criterion: ""
+					id: "29FAE5DE19CD2A51"
+					type: "advancement"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["30E2E8C9B848F398"]
+			icon: {
+				id: "mekanismtools:steel_chestplate"
+			}
+			id: "10EA176231170862"
+			rewards: [
+				{
+					id: "16A2B8F8153613D3"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "2C53F78CA3F02926"
+					item: {
+						count: 1
+						id: "mekanismtools:steel_shield"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "20B0C0705B9F6667"
+					item: { count: 1, id: "mekanismtools:steel_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "109DC132B5CD8C46"
+					item: { count: 1, id: "mekanismtools:steel_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6D0C666244BF8611"
+					item: { count: 1, id: "mekanismtools:steel_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2251B820473ADC89"
+					item: { count: 1, id: "mekanismtools:steel_boots" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E38A69B4B363484"]
+			icon: {
+				id: "mekanismtools:refined_obsidian_pickaxe"
+			}
+			id: "5338EE7D8F1359D1"
+			rewards: [
+				{
+					id: "20D6A371EDA1B83D"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "14463ED6C43C536B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "conquer"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "54433D6715CA0508"
+					item: { count: 1, id: "mekanismtools:refined_obsidian_pickaxe" }
+					type: "item"
+				}
+				{
+					advancement: "mekanismtools:better_than_netherite"
+					criterion: ""
+					id: "31A1F5AD12C8ABDB"
+					type: "advancement"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["10EA176231170862"]
+			icon: {
+				id: "mekanismtools:refined_glowstone_helmet"
+			}
+			id: "224B728060FE6467"
+			rewards: [
+				{
+					id: "61C6A59D4327189F"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 16
+					id: "68866A72E3BD60A4"
+					item: {
+						count: 1
+						id: "minecraft:glowstone_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "17FF074A4AAA2990"
+					item: { count: 1, id: "mekanismtools:refined_glowstone_pickaxe" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5A3D130A55CB23DF"
+					item: { count: 1, id: "mekanismtools:refined_glowstone_helmet" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E38A69B4B363484"]
+			icon: {
+				id: "mekanismtools:bronze_pickaxe"
+			}
+			id: "7EBE8CBC629A3B15"
+			rewards: [
+				{
+					id: "7DCC30272A99896C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "3BC8815BC80D18B8"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "2166D6C8B8F04B41"
+					item: { count: 1, id: "mekanismtools:bronze_pickaxe" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "59D2391BC4A814CC"
+					item: { count: 1, id: "mekanismtools:osmium_pickaxe" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1BFA43553902C798"
+					item: { count: 1, id: "mekanismtools:lapis_lazuli_pickaxe" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5338EE7D8F1359D1"
+				"224B728060FE6467"
+				"7EBE8CBC629A3B15"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mekanismtools:refined_obsidian_chestplate"
+			}
+			id: "4EEA580C5957EE9A"
+			rewards: [
+				{
+					id: "76939039AAFC36C2"
+					item: {
+						count: 1
+						id: "nxterra:moonpetal_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "679BE643DFFB5EB6"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "6AFFC1639D95EE23"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "conquer"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "3B7C6A7AA88F1CE8"
+				type: "checkmark"
+			}]
+			x: 4.75d
+			y: 1.5d
+		}
+	]
+}

@@ -1,0 +1,463 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "deeper_and_darker"
+	group: "20434CE362D81358"
+	icon: {
+		id: "deeperdarker:heart_of_the_deep"
+	}
+	id: "5CC10DA6DE363DA6"
+	images: [
+		{
+			height: 7.5d
+			id: "78F47D803058D49F"
+			image: "nxterra:textures/quests/backdrop/deeper_and_darker.png"
+			order: -1
+			rotation: 0.0d
+			width: 15.0d
+			x: 4.75d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "3E1B668E08599EE0"
+			image: "nxterra:textures/quests/banner/deeper_and_darker.png"
+			order: 1
+			rotation: 0.0d
+			width: 8.5d
+			x: 4.75d
+			y: -1.8248d
+		}
+	]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:echo_shard"
+			}
+			id: "5F61E43D0AE34CAE"
+			rewards: [
+				{
+					id: "160B3EDC6F58A6B2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "72A3448C634CD941"
+					item: {
+						count: 1
+						id: "minecraft:white_wool"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4A8662DD95A409F6"
+					structure: "minecraft:ancient_city"
+					type: "structure"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "33DCD4199D32784B"
+					item: { count: 1, id: "minecraft:echo_shard" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F61E43D0AE34CAE"]
+			icon: {
+				id: "deeperdarker:heart_of_the_deep"
+			}
+			id: "206D2C36F860DC68"
+			rewards: [
+				{
+					id: "7595B1E1C0FBE0CF"
+					item: {
+						count: 1
+						id: "nxterra:starbloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "3EA828780E3D91A2"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "3270A9D7B25AA95D"
+					item: {
+						count: 1
+						id: "deeperdarker:warden_carapace"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					entity: "minecraft:warden"
+					id: "474B890511F430DE"
+					type: "kill"
+					value: 1L
+				}
+				{
+					consume_items: false
+					id: "7BE1C648C5C60137"
+					item: { count: 1, id: "deeperdarker:heart_of_the_deep" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["206D2C36F860DC68"]
+			icon: {
+				id: "deeperdarker:sculk_stone"
+			}
+			id: "2EB42723EC89A6BB"
+			rewards: [
+				{
+					id: "5AEACA6BFAB2FEBD"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 8
+					id: "4A1B097D03935607"
+					item: {
+						count: 1
+						id: "minecraft:lantern"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				id: "6AD54DBA6C461D09"
+				type: "dimension"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2EB42723EC89A6BB"]
+			icon: {
+				id: "deeperdarker:echo_sapling"
+			}
+			id: "1C3AFFA608A9626D"
+			rewards: [
+				{
+					id: "3CDCB30FA6DC9211"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "1FACB4146FE1442A"
+					item: {
+						count: 1
+						id: "deeperdarker:echo_sapling"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "deeperdarker:echoing_forest"
+					id: "52C4FAA7EE513EF5"
+					type: "biome"
+				}
+				{
+					consume_items: false
+					count: 16L
+					id: "62A4BB97839DDABE"
+					item: { count: 1, id: "deeperdarker:echo_log" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2EB42723EC89A6BB"]
+			icon: {
+				id: "deeperdarker:bloom_berries"
+			}
+			id: "10F32A59B4F705EC"
+			rewards: [
+				{
+					id: "4EEE69A46E07EDF5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 32
+					id: "3EE3D92A0D66441F"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "deeperdarker:blooming_caverns"
+					id: "56B395C552DFAD5F"
+					type: "biome"
+				}
+				{
+					consume_items: false
+					count: 8L
+					id: "145990716D975650"
+					item: { count: 1, id: "deeperdarker:bloom_berries" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EB42723EC89A6BB"]
+			icon: {
+				id: "deeperdarker:resonarium"
+			}
+			id: "15202522A4B3FFAC"
+			rewards: [
+				{
+					id: "56BEB9852C463533"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 4
+					id: "7542186BF40FA52F"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "1C210DFFF82C4935"
+				item: { count: 1, id: "deeperdarker:resonarium" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C3AFFA608A9626D"]
+			icon: {
+				id: "deeperdarker:sculk_jaw"
+			}
+			id: "4F96F02444597AC5"
+			rewards: [
+				{
+					id: "48A724D5B1B1976F"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "4ABAD4B9E2F72020"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "conquer"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "deeperdarker:sculk_snapper"
+					id: "2548899F98BBA960"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "deeperdarker:sculk_leech"
+					id: "59749EC29D07873F"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "deeperdarker:sculk_centipede"
+					id: "7CA86D2A362DAC56"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10F32A59B4F705EC"]
+			icon: {
+				id: "deeperdarker:soul_crystal"
+			}
+			id: "382132D027B31E9F"
+			rewards: [
+				{
+					id: "39F62BC864DF3A1C"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 4
+					id: "2024B5CD9E129EE2"
+					item: {
+						count: 1
+						id: "deeperdarker:sculk_bone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "deeperdarker:deeplands"
+					id: "61D678284B95AF8C"
+					type: "biome"
+				}
+				{
+					biome: "deeperdarker:overcast_columns"
+					id: "3E42AFF0DF7F5725"
+					type: "biome"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "4DCEA78B7941A147"
+					item: { count: 1, id: "deeperdarker:soul_crystal" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["382132D027B31E9F"]
+			icon: {
+				id: "deeperdarker:gloomslate_bricks"
+			}
+			id: "2C862894FE756B67"
+			rewards: [
+				{
+					id: "1852112F40D8B2E0"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "26DC26A7DCA906DA"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "conquer"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4734B0A137E4D446"
+				structure: "deeperdarker:ancient_temple"
+				type: "structure"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"15202522A4B3FFAC"
+				"4F96F02444597AC5"
+				"2C862894FE756B67"
+			]
+			icon: {
+				id: "deeperdarker:sonorous_staff"
+			}
+			id: "241B210BF0915328"
+			rewards: [
+				{
+					id: "1C4525B4CFC0BA47"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 8
+					id: "3CF0F2F479B68239"
+					item: {
+						count: 1
+						id: "minecraft:echo_shard"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "79AF970A43366C39"
+				item: { count: 1, id: "deeperdarker:sonorous_staff" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["241B210BF0915328"]
+			hide_dependency_lines: true
+			icon: {
+				id: "deeperdarker:sculk_transmitter"
+			}
+			id: "276B25DE00A88308"
+			rewards: [
+				{
+					id: "74490BC45FEF7318"
+					item: {
+						count: 1
+						id: "nxterra:moonpetal_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "4C87A293FB435BFF"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "54466D43ABC63F06"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "conquer"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "4B0EC0D4F34B4D2A"
+				type: "checkmark"
+			}]
+			x: 9.25d
+			y: 1.5d
+		}
+	]
+}

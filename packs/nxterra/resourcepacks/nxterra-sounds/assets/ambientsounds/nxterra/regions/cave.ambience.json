@@ -1,0 +1,60 @@
+{
+    "name": "cave.ambience",
+    "regions": [
+        "cave",
+        "underworld"
+    ],
+    "min-height-relative": {
+        "max": -2,
+        "fade": 2
+    },
+    "features": [
+        "rock",
+        "lush",
+        "dripstone",
+        "sculk"
+    ],
+    "variants": [
+        {
+            "bad-regions": [
+                "cave.deep-dark"
+            ]
+        },
+        {
+            "volume": 0.25
+        }
+    ],
+    "sounds": [
+        {
+            "name": "cave",
+            "category": "cave",
+            "files": [
+                "nxterra_ambience:ambience.cave_atmosphere"
+            ],
+            "length": {
+                "min": 400,
+                "max": 700
+            },
+            "volume": 0.5,
+            "transition": 200
+        },
+        {
+            "name": "cave-water",
+            "category": "cave",
+            "files": [
+                "nxterra_ambience:ambience.cave_drips"
+            ],
+            "volume": 0.4,
+            "length": {
+                "min": 400,
+                "max": 700
+            },
+            "features": [
+                "water",
+                "lush",
+                "dripstone"
+            ],
+            "transition": 200
+        }
+    ]
+}

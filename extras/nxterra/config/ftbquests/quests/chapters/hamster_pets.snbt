@@ -1,0 +1,294 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hamster_pets"
+	group: "7FE7FE7068E22B2B"
+	icon: {
+		id: "adorablehamsterpets:cheese"
+	}
+	id: "35F9B8F0045721F6"
+	images: [
+		{
+			height: 7.5d
+			id: "179980F79FDE416A"
+			image: "nxterra:textures/quests/backdrop/hamster_pets.png"
+			order: -1
+			rotation: 0.0d
+			width: 9.5d
+			x: 2.5d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "4A34331D517A8571"
+			image: "nxterra:textures/quests/banner/hamster_pets.png"
+			order: 1
+			rotation: 0.0d
+			width: 10.0d
+			x: 2.5d
+			y: -1.8248d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "adorablehamsterpets:sunflower_seeds"
+			}
+			id: "5B7A57F1789423EA"
+			rewards: [
+				{
+					id: "5B8DB5C548E93465"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "7C3AE0BBF8E7DA73"
+					item: {
+						count: 1
+						id: "minecraft:carrot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:sunflower_plains"
+					id: "14CB9E322AD1BABA"
+					type: "biome"
+				}
+				{
+					consume_items: false
+					count: 8L
+					id: "481DC6B7D125CE2F"
+					item: { count: 1, id: "adorablehamsterpets:sunflower_seeds" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5B7A57F1789423EA"]
+			icon: {
+				id: "adorablehamsterpets:cheese"
+			}
+			id: "2F504F6D387EBE32"
+			rewards: [
+				{
+					id: "5634A2702387941C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "7F921A12EC2FF956"
+					item: {
+						count: 1
+						id: "minecraft:pumpkin_seeds"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "adorablehamsterpets:husbandry/tame_hamster"
+				criterion: ""
+				id: "3FE8233475602D10"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2F504F6D387EBE32"]
+			icon: {
+				id: "adorablehamsterpets:hamster_guide_book"
+			}
+			id: "201F628A9BAAB262"
+			rewards: [
+				{
+					id: "4C16F858E638D5CE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "24EE49B9D255BC24"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "67397459830D9FF5"
+				item: { count: 1, id: "adorablehamsterpets:hamster_guide_book" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2F504F6D387EBE32"]
+			icon: {
+				id: "adorablehamsterpets:hamster_bed_oak"
+			}
+			id: "6D2439029D68CDFC"
+			rewards: [
+				{
+					id: "22EE3AF89FA55C29"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "696B5068A740F82D"
+					item: {
+						count: 1
+						id: "minecraft:oak_planks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "33D8BA4E432325BC"
+					item: { count: 1, id: "adorablehamsterpets:hamster_bedding" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4F821FC1382A8D19"
+					item: { count: 1, id: "adorablehamsterpets:hamster_bed_oak" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D2439029D68CDFC"]
+			icon: {
+				id: "adorablehamsterpets:hamster_food_mix"
+			}
+			id: "14FB93290199E9D5"
+			rewards: [
+				{
+					id: "778C9AD47199659A"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 16
+					id: "5426B0504E717788"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "2B688D391401F04D"
+				item: { count: 1, id: "adorablehamsterpets:hamster_food_mix" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F504F6D387EBE32"]
+			icon: {
+				id: "adorablehamsterpets:acorn"
+			}
+			id: "1ABD35B692DD3556"
+			rewards: [
+				{
+					id: "5BAA53EAECC8D9F5"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "6E60EC68EB5EADFE"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "2A07A14AA3615E87"
+					item: { count: 1, id: "adorablehamsterpets:acorn" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1CD2D1C9F00CD81B"
+					item: { count: 1, id: "adorablehamsterpets:hamster_armor_acorn" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"201F628A9BAAB262"
+				"14FB93290199E9D5"
+				"1ABD35B692DD3556"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "adorablehamsterpets:hamster_bed_acacia"
+			}
+			id: "1E8A92EF2C52CB1E"
+			rewards: [
+				{
+					id: "74EF13A31870B9AA"
+					item: {
+						count: 1
+						id: "nxterra:bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "1374BEFADD47BE13"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "3E8F4B8FDAA51433"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "4F128EDBC7DA6E36"
+				type: "checkmark"
+			}]
+			x: 4.75d
+			y: 1.5d
+		}
+	]
+}

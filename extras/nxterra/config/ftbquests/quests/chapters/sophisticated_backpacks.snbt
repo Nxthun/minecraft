@@ -1,0 +1,269 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sophisticated_backpacks"
+	group: "30A3BF10FF493301"
+	icon: {
+		id: "sophisticatedbackpacks:backpack"
+	}
+	id: "1696D130AFAB96F3"
+	images: [
+		{
+			height: 7.5d
+			id: "4869B9B4CE322BA7"
+			image: "nxterra:textures/quests/backdrop/sophisticated_backpacks.png"
+			order: -1
+			rotation: 0.0d
+			width: 11.5d
+			x: 3.25d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "7C20A4C3480D2D64"
+			image: "nxterra:textures/quests/banner/sophisticated_backpacks.png"
+			order: 1
+			rotation: 0.0d
+			width: 11.0d
+			x: 3.25d
+			y: -1.8248d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "sophisticatedbackpacks:backpack"
+			}
+			id: "1540079F01CCB93B"
+			rewards: [
+				{
+					id: "1BF9B2A5A504105D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "14131D4264D88ED6"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:upgrade_base"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "1333B2A05BAD7F7F"
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1540079F01CCB93B"]
+			icon: {
+				id: "sophisticatedbackpacks:copper_backpack"
+			}
+			id: "13ADBDE19DEA68F4"
+			rewards: [
+				{
+					id: "6B5839B131382C9D"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 8
+					id: "118E10F12EBB877C"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "253219FA139201A6"
+				item: { count: 1, id: "sophisticatedbackpacks:copper_backpack" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["13ADBDE19DEA68F4"]
+			icon: {
+				id: "sophisticatedbackpacks:iron_backpack"
+			}
+			id: "67B55C310495230E"
+			rewards: [
+				{
+					id: "49630DEEC8C56377"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "204C96EFCAE31A51"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "5BD0E08E106D8A0E"
+				item: { count: 1, id: "sophisticatedbackpacks:iron_backpack" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67B55C310495230E"]
+			icon: {
+				id: "sophisticatedbackpacks:gold_backpack"
+			}
+			id: "31D70B39A9976A58"
+			rewards: [
+				{
+					id: "17A044D6A343228C"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "433914EB484CBFC9"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "10EBA86A65BE26AA"
+				item: { count: 1, id: "sophisticatedbackpacks:gold_backpack" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1540079F01CCB93B"]
+			icon: {
+				id: "sophisticatedbackpacks:pickup_upgrade"
+			}
+			id: "11BE888A60942DAA"
+			rewards: [
+				{
+					id: "3D711C30A3A0152A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 16
+					id: "4138381A29C677B2"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "48CE556E047454CC"
+				item: { count: 1, id: "sophisticatedbackpacks:pickup_upgrade" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1540079F01CCB93B"]
+			icon: {
+				id: "sophisticatedbackpacks:crafting_upgrade"
+			}
+			id: "6816A4A1F65EF123"
+			rewards: [
+				{
+					id: "4099E4C9C69CFBB8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "20DD794EFC3CDF08"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "14EA4516EE9F52A3"
+				item: { count: 1, id: "sophisticatedbackpacks:crafting_upgrade" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"31D70B39A9976A58"
+				"11BE888A60942DAA"
+				"6816A4A1F65EF123"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "sophisticatedbackpacks:diamond_backpack"
+			}
+			id: "6004EAAEE65A0A27"
+			rewards: [
+				{
+					id: "6DDC2A2B2B85175B"
+					item: {
+						count: 1
+						id: "nxterra:bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "2BD9487C1C7D8419"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6DF8DE2CE46FA0AF"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1A2431B4C9A1701B"
+				type: "checkmark"
+			}]
+			x: 6.25d
+			y: 1.5d
+		}
+	]
+}

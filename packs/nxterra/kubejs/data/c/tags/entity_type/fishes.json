@@ -1,0 +1,15 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:cod",
+    "minecraft:salmon",
+    "minecraft:pufferfish",
+    "minecraft:tropical_fish",
+    "caverns_and_chasms:cavefish",
+    "nomansland:billhook_bass",
+    {
+      "id": "nomansland:cave_carp",
+      "required": false
+    }
+  ]
+}

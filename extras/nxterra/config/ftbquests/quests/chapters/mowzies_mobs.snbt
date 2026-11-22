@@ -1,0 +1,452 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mowzies_mobs"
+	group: "6DDAA8A1DA8B5CDF"
+	icon: {
+		id: "mowziesmobs:ice_crystal"
+	}
+	id: "57985635765DE986"
+	images: [
+		{
+			height: 7.5d
+			id: "37DCF4BB36354012"
+			image: "nxterra:textures/quests/backdrop/mowzies_mobs.png"
+			order: -1
+			rotation: 0.0d
+			width: 13.0d
+			x: 4.0d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "1F6111EF02EE0E7E"
+			image: "nxterra:textures/quests/banner/mowzies_mobs.png"
+			order: 1
+			rotation: 0.0d
+			width: 7.0d
+			x: 4.0d
+			y: -1.8248d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "mowziesmobs:wrought_axe"
+			}
+			id: "54F5AE8F32AA2056"
+			rewards: [
+				{
+					id: "75D5D565E00E3838"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "18BC7AC2B6F5A07C"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3630295EBABA32B4"
+					structure: "mowziesmobs:wrought_chamber"
+					type: "structure"
+				}
+				{
+					entity: "mowziesmobs:ferrous_wroughtnaut"
+					id: "37A2F123051C43E7"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["54F5AE8F32AA2056"]
+			icon: {
+				id: "mowziesmobs:ice_crystal"
+			}
+			id: "2BCDAF7923769D29"
+			rewards: [
+				{
+					id: "6B7C662A76904B74"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "3CAEF68B3A39F76F"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "mowziesmobs:frostmaw"
+					id: "6DAC68C9A80A1DC1"
+					type: "kill"
+					value: 1L
+				}
+				{
+					consume_items: false
+					id: "1FAF075855E55EA8"
+					item: { count: 1, id: "mowziesmobs:ice_crystal" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["54F5AE8F32AA2056"]
+			icon: {
+				id: "mowziesmobs:foliaath_seed"
+			}
+			id: "6089A2E1DEE1CC11"
+			rewards: [
+				{
+					id: "2E82C78230E812FC"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "5DB471F56E887EAE"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "mowziesmobs:foliaath"
+					id: "2F6A6429FE178508"
+					type: "kill"
+					value: 1L
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "18F91BE50A910F25"
+					item: { count: 1, id: "mowziesmobs:foliaath_seed" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6089A2E1DEE1CC11"]
+			icon: {
+				id: "mowziesmobs:naga_fang_dagger"
+			}
+			id: "2CF00F979EF59D61"
+			rewards: [
+				{
+					id: "3FDC7FA96C56EC92"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "3C2753B8382F27C0"
+					item: {
+						count: 1
+						id: "minecraft:feather"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "mowziesmobs:naga"
+					id: "2F48F6882CBA97AD"
+					type: "kill"
+					value: 1L
+				}
+				{
+					consume_items: false
+					id: "303DD982B24E8852"
+					item: { count: 1, id: "mowziesmobs:naga_fang_dagger" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2CF00F979EF59D61"]
+			icon: {
+				id: "mowziesmobs:blowgun"
+			}
+			id: "6138EB8AB5328F3C"
+			rewards: [
+				{
+					id: "67841FF05218AF1A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5AABDA2DD215962B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "73497181448D7FC1"
+					item: { count: 1, id: "mowziesmobs:blowgun" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 8L
+					id: "2E4EC8A27B34D52E"
+					item: { count: 1, id: "mowziesmobs:dart" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2BCDAF7923769D29"]
+			icon: {
+				id: "mowziesmobs:sculptor_staff"
+			}
+			id: "151115FEAC5ECCC6"
+			rewards: [
+				{
+					id: "2B67E1E4E88E2CFC"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "4F703A99E46F4384"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1C805E9C90F84B41"
+					structure: "mowziesmobs:monastery"
+					type: "structure"
+				}
+				{
+					entity: "mowziesmobs:sculptor"
+					id: "207CE1BC9044FD8A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["151115FEAC5ECCC6"]
+			icon: {
+				id: "mowziesmobs:umvuthana_mask_fury"
+			}
+			id: "1BB1C6AD3DB0E45F"
+			rewards: [
+				{
+					id: "6900C6C9CC42CC82"
+					type: "xp"
+					xp: 125
+				}
+				{
+					count: 2
+					id: "4B716BD1801D557E"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "mowziesmobs:umvuthana"
+					id: "4A21869F7FD15592"
+					type: "kill"
+					value: 5L
+				}
+				{
+					consume_items: false
+					id: "5AF5A2A2806A1C93"
+					item: { components: { "ftbfiltersystem:filter": "or(item(mowziesmobs:umvuthana_mask_bliss)item(mowziesmobs:umvuthana_mask_faith)item(mowziesmobs:umvuthana_mask_fear)item(mowziesmobs:umvuthana_mask_fury)item(mowziesmobs:umvuthana_mask_misery)item(mowziesmobs:umvuthana_mask_rage))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1BB1C6AD3DB0E45F"]
+			icon: {
+				id: "mowziesmobs:sol_visage"
+			}
+			id: "6981EACCD86A1851"
+			rewards: [
+				{
+					id: "35A4EC9A3D485997"
+					item: {
+						count: 1
+						id: "nxterra:moonpetal_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "5AF43A3A169699CB"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 4
+					id: "40B795B9EA65EFB1"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "1E00732158E043A6"
+					structure: "mowziesmobs:umvuthana_grove"
+					type: "structure"
+				}
+				{
+					entity: "mowziesmobs:umvuthi"
+					id: "1C7198FDBB3F4107"
+					type: "kill"
+					value: 1L
+				}
+				{
+					consume_items: false
+					id: "6DAC302996BC9AF9"
+					item: { count: 1, id: "mowziesmobs:sol_visage" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2BCDAF7923769D29"]
+			icon: {
+				id: "mowziesmobs:glowing_jelly"
+			}
+			id: "486F571D4717661A"
+			rewards: [
+				{
+					id: "786D72516E427BF9"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 16
+					id: "555C7E9321B37E44"
+					item: {
+						count: 1
+						id: "minecraft:glowstone_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "mowziesmobs:lantern"
+					id: "6FE30EA44299652C"
+					type: "kill"
+					value: 1L
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "145C46D44CA995FD"
+					item: { count: 1, id: "mowziesmobs:glowing_jelly" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6138EB8AB5328F3C"
+				"6981EACCD86A1851"
+				"486F571D4717661A"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mowziesmobs:gong"
+			}
+			id: "3324CEDC7453490C"
+			rewards: [
+				{
+					id: "69B018677A6E2F2F"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "5FFD0B82874D74EF"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "43E4F00123890BD3"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "746E9FD2E733D49A"
+				type: "checkmark"
+			}]
+			x: 7.75d
+			y: 1.5d
+		}
+	]
+}

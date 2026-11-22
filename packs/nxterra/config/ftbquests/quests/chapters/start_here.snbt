@@ -1,0 +1,614 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "start_here"
+	group: ""
+	icon: {
+		id: "ftbquests:book"
+	}
+	id: "1BF72C71692DA552"
+	images: [
+		{
+			height: 9.5d
+			id: "43198E64CE3542C5"
+			image: "nxterra:textures/quests/backdrop/start_here.png"
+			order: -1
+			rotation: 0.0d
+			width: 18.5d
+			x: 0.0d
+			y: 0.4187d
+		}
+		{
+			height: 2.0d
+			id: "41B113553A785AD1"
+			image: "nxterra:textures/quests/banner/start_here.png"
+			order: 1
+			rotation: 0.0d
+			width: 8.0d
+			x: 0.0d
+			y: -3.8998d
+		}
+	]
+	order_index: 0
+	quest_links: [
+		{
+			id: "1E7C9F09DB66606F"
+			linked_quest: "21A05B05CCB713BD"
+			x: -4.5d
+			y: -0.95d
+		}
+		{
+			id: "7053B5302F8CACCE"
+			linked_quest: "17674BDDA0AA6222"
+			x: -3.0d
+			y: -0.95d
+		}
+		{
+			id: "4486BC94C42A4E0F"
+			linked_quest: "37DB54EDD9D7E078"
+			x: -1.5d
+			y: -0.95d
+		}
+		{
+			id: "784F30FA5CCE4000"
+			linked_quest: "38AE8AFD25D35FE7"
+			x: 0.0d
+			y: -0.95d
+		}
+		{
+			id: "6A9A1735DE82F552"
+			linked_quest: "4675D6A773CF1FE9"
+			x: 1.5d
+			y: -0.95d
+		}
+		{
+			id: "782367739E8A5341"
+			linked_quest: "1D2655A34E330901"
+			x: 3.0d
+			y: -0.95d
+		}
+		{
+			id: "62CE2B313AAB2241"
+			linked_quest: "53554FA3C61978FD"
+			x: 4.5d
+			y: -0.95d
+		}
+		{
+			id: "3CAAE65768BDC278"
+			linked_quest: "2A25BD62F82CAEE6"
+			x: -4.5d
+			y: 0.2d
+		}
+		{
+			id: "768CD5B17D569656"
+			linked_quest: "37058AAFF6AD4B2C"
+			x: -3.0d
+			y: 0.2d
+		}
+		{
+			id: "1BE56EDBAFB7CE65"
+			linked_quest: "2E1FF3E9C0B1A0BE"
+			x: -1.5d
+			y: 0.2d
+		}
+		{
+			id: "6860B7DF31FF3CB0"
+			linked_quest: "792D018F4087F015"
+			x: 0.0d
+			y: 0.2d
+		}
+		{
+			id: "6274E0C37F23F1CA"
+			linked_quest: "1C87F0AD7571B364"
+			x: 1.5d
+			y: 0.2d
+		}
+		{
+			id: "19BB76F5D6D1F4C0"
+			linked_quest: "14B1FABBB5848714"
+			x: 3.0d
+			y: 0.2d
+		}
+		{
+			id: "731EB8FFCDD4FF29"
+			linked_quest: "11AD66B3301BD2D0"
+			x: 4.5d
+			y: 0.2d
+		}
+		{
+			id: "591B034A77698872"
+			linked_quest: "2912F4C16F945A98"
+			x: -4.5d
+			y: 1.35d
+		}
+		{
+			id: "2C5F6ACD478B1372"
+			linked_quest: "5F61E43D0AE34CAE"
+			x: -1.5d
+			y: 1.35d
+		}
+		{
+			id: "698B686B0A38A70D"
+			linked_quest: "2761E123FCF9704B"
+			x: 0.0d
+			y: 1.35d
+		}
+		{
+			id: "33A2A7BA35188D7A"
+			linked_quest: "2741462F91FCA2AE"
+			x: 4.5d
+			y: 1.35d
+		}
+		{
+			id: "682D90BC30A3887F"
+			linked_quest: "2E0B4C161D96DDFF"
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			id: "66833EC5385FCCB5"
+			linked_quest: "7D64B7AD2594A9A5"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			id: "61F3ACADAF911773"
+			linked_quest: "374D0A2ACA677411"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "5D244762D59D4E5D"
+			linked_quest: "72A79A6B5C10288E"
+			x: 1.5d
+			y: 2.5d
+		}
+	]
+	quests: [
+		{
+			icon: {
+				id: "ftbquests:book"
+			}
+			id: "1102BCC24126C8B5"
+			rewards: [{
+				id: "1F61AFA8DF737995"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 1.0d
+			tasks: [{
+				id: "5FE695CEB7E00C89"
+				type: "checkmark"
+			}]
+			x: -6.25d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "create:cogwheel"
+			}
+			id: "6222553ADA76CCB5"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "30E95B507274FF12"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "botania:pure_daisy"
+			}
+			id: "1438ACF08E58C0DE"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "6E689A0A5FA1168A"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "3A753F1E557718B4"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "64E873E744BCBE15"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "minecraft:shield"
+			}
+			id: "7B3CD05B8758CC91"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "6ACEE64AEA4A73BD"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "farmersdelight:cooking_pot"
+			}
+			id: "1A8C3994D47F5CC7"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "1BF64DB71D78E031"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "another_furniture:oak_chair"
+			}
+			id: "1CC11ADCFB1CCD41"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "11F93D9B0DDAA854"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "exposure:camera"
+			}
+			id: "28366AAB296E4B17"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "19A457CCA0DCB583"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "minecraft:red_bed"
+			}
+			id: "23F0446960E181D7"
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "46F7B08058D5232B"
+				type: "checkmark"
+			}]
+			x: -6.25d
+			y: -0.95d
+		}
+		{
+			icon: {
+				id: "twilightforest:naga_scale"
+			}
+			id: "4F7FCB335590539F"
+			rewards: [
+				{
+					id: "2819A0E81074C5BC"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "5ECCF9410BFC0D54"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "7F4FBD0DA98C5645"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [
+				{
+					consume_items: false
+					id: "6A94AA8FCB7F6D9F"
+					item: { count: 1, id: "twilightforest:naga_scale" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "25892474DB8B4897"
+					item: { count: 1, id: "twilightforest:raven_feather" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "18A35C194986231D"
+					item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:decorated_pot_sherds)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3DDFBB6B97F9D3F9"
+					item: { count: 1, id: "minecraft:amethyst_shard" }
+					type: "item"
+				}
+			]
+			x: 6.25d
+			y: -0.95d
+		}
+		{
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "3BCD7B91728DC7CD"
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "1F3229EF351123DF"
+				type: "checkmark"
+			}]
+			x: -6.25d
+			y: 0.2d
+		}
+		{
+			icon: {
+				id: "aether:bronze_dungeon_key"
+			}
+			id: "14417E00036FFB90"
+			rewards: [
+				{
+					id: "78A8420140B7BE6C"
+					item: {
+						count: 1
+						id: "nxterra:moonpetal_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "610853624988A600"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "1E301424B11E798E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "conquer"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [
+				{
+					consume_items: false
+					id: "6042035071063AB8"
+					item: { components: { "ftbfiltersystem:filter": "or(item(twilightforest:twilight_scepter)item(twilightforest:lifedrain_scepter)item(twilightforest:zombie_scepter))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2251B69A7F0DA698"
+					item: { count: 1, id: "aether:bronze_dungeon_key" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "47647FCE136CABA2"
+					item: { count: 1, id: "mowziesmobs:ice_crystal" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "58E43479AB03986E"
+					item: { count: 1, id: "aether:zanite_gemstone" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "392B4D88FEE56CE5"
+					item: { count: 1, id: "minecraft:blaze_rod" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5ABC03D74440514C"
+					item: { count: 1, id: "farmersdelight:tomato" }
+					type: "item"
+				}
+			]
+			x: 6.25d
+			y: 0.2d
+		}
+		{
+			icon: {
+				id: "minecraft:diamond_sword"
+			}
+			id: "126032E8635D87D2"
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "1FA95821DB6DE509"
+				type: "checkmark"
+			}]
+			x: -6.25d
+			y: 1.35d
+		}
+		{
+			icon: {
+				id: "deeperdarker:resonarium"
+			}
+			id: "52DA25465A72DE21"
+			rewards: [
+				{
+					id: "1D3CED7D9F23D333"
+					item: {
+						count: 1
+						id: "nxterra:starbloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "15306BCDC8D1FC35"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "61CE9ACFFED3B164"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legend"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [
+				{
+					consume_items: false
+					id: "1A86F77C74DF881A"
+					item: { count: 1, id: "twilightforest:fiery_blood" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1F081201DCC595F6"
+					item: { count: 1, id: "deeperdarker:heart_of_the_deep" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "369FB6D70BCEB266"
+					item: { components: { "ftbfiltersystem:filter": "or(item(iceandfire:dragonsteel_fire_ingot)item(iceandfire:dragonsteel_ice_ingot)item(iceandfire:dragonsteel_lightning_ingot))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2CBCCA3B6BDC3422"
+					item: { count: 1, id: "deeperdarker:resonarium" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2962EBE5093CDB9C"
+					item: { count: 1, id: "eternal_starlight:orb_of_prophecy" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "172CB02D3DFA16ED"
+					item: { components: { "ftbfiltersystem:filter": "or(item(vinery:taiga_grapes_red)item(vinery:taiga_grapes_white))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 6.25d
+			y: 1.35d
+		}
+		{
+			icon: {
+				id: "minecraft:dragon_head"
+			}
+			id: "333B53FD8EDA00C0"
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "285002F763FEFB59"
+				type: "checkmark"
+			}]
+			x: -6.25d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "1D4C3F233CE2361A"
+			rewards: [
+				{
+					id: "30CBF6E86B4A858F"
+					item: {
+						count: 1
+						id: "nxterra:elderheart_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "4555B30AF524142C"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "7A05E116FC709F25"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legend"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [
+				{
+					consume_items: false
+					id: "53E30A622FA1FA59"
+					item: { count: 1, id: "twilightforest:fiery_tears" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "478A74F02C96A974"
+					item: { count: 1, id: "bosses_of_mass_destruction:ancient_anima" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6F6BD29EFF4F5E49"
+					item: { components: { "ftbfiltersystem:filter": "or(item(eternal_starlight:golem_steel_ingot)item(eternal_starlight:oxidized_golem_steel_ingot))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "196E7C0679088F5C"
+					item: { count: 1, id: "minecraft:elytra" }
+					type: "item"
+				}
+			]
+			x: 6.25d
+			y: 2.5d
+		}
+	]
+}

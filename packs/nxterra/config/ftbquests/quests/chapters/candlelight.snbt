@@ -1,0 +1,330 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "candlelight"
+	group: "435CE345857D9297"
+	icon: {
+		id: "minecraft:candle"
+	}
+	id: "170771FE60F58D66"
+	images: [
+		{
+			height: 6.5d
+			id: "333929D2CD0E21FA"
+			image: "nxterra:textures/quests/backdrop/candlelight.png"
+			order: -1
+			rotation: 0.0d
+			width: 13.5d
+			x: 4.025d
+			y: 2.3997d
+		}
+		{
+			height: 1.5d
+			id: "5133ABE5D989DBD5"
+			image: "nxterra:textures/quests/banner/candlelight.png"
+			order: 1
+			rotation: 0.0d
+			width: 10.5d
+			x: 4.025d
+			y: -0.5748d
+		}
+	]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "candlelight:table"
+			}
+			id: "4F781381C7E588CB"
+			rewards: [
+				{
+					id: "2F0986A8667260B3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 3
+					id: "4323CC07EB647A3C"
+					item: {
+						count: 1
+						id: "candlelight:rose"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "332EA9167D809CB0"
+					item: { count: 1, id: "candlelight:table" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "779DD21E34082C99"
+					item: { count: 1, id: "candlelight:chair" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "5E3CE5422B664324"
+					item: { count: 1, id: "candlelight:plate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "339E43B30120DFBB"
+					item: { count: 1, id: "candlelight:lamp" }
+					type: "item"
+				}
+				{
+					advancement: "candlelight:main/place_table"
+					criterion: ""
+					id: "4F80632EB1A3BD05"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4F781381C7E588CB"]
+			icon: {
+				id: "candlelight:cooking_pan"
+			}
+			id: "1C6FFF2355810AE4"
+			rewards: [
+				{
+					id: "1DBF0CCBF0D62508"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "2CBC37760F7B018E"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "624C60B562E55B06"
+					item: { count: 1, id: "candlelight:cooking_pot" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "71CFEE511AEB2850"
+					item: { count: 1, id: "candlelight:cooking_pan" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7F7E0F53255D1185"
+					item: { count: 1, id: "candlelight:cloche" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C6FFF2355810AE4"]
+			icon: {
+				id: "candlelight:tomato_soup"
+			}
+			id: "1AF332F3C47FF518"
+			rewards: [
+				{
+					id: "534C96FAC96B02E1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "55A8F862426A998A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 2L
+				id: "7EF5A29F59A761E9"
+				item: { count: 1, id: "candlelight:tomato_soup" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1AF332F3C47FF518"]
+			icon: {
+				id: "candlelight:fillet_steak"
+			}
+			id: "67BDD7037FED5301"
+			rewards: [
+				{
+					id: "2341010A550AE06B"
+					type: "xp"
+					xp: 125
+				}
+				{
+					count: 8
+					id: "1104EEA134DBE327"
+					item: {
+						count: 1
+						id: "minecraft:beef"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "217307448E8AF839"
+				item: { count: 1, id: "candlelight:fillet_steak" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1AF332F3C47FF518"]
+			icon: {
+				id: "candlelight:chocolate_mousse"
+			}
+			id: "1BCDD9CE97C5C9FF"
+			rewards: [
+				{
+					id: "72CD08AB4B73B8CB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "3C7B7E04F34D920C"
+					item: {
+						count: 1
+						id: "minecraft:cocoa_beans"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 2L
+					id: "21E75EC86453AFBA"
+					item: { count: 1, id: "candlelight:chocolate_mousse" }
+					type: "item"
+				}
+				{
+					advancement: "candlelight:main/place_chocolate_mousse"
+					criterion: ""
+					id: "105153F0971589F3"
+					type: "advancement"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["67BDD7037FED5301"]
+			icon: {
+				id: "candlelight:lasagne"
+			}
+			id: "19F8D1048ED3C496"
+			rewards: [
+				{
+					id: "2B7752BBC441D2FC"
+					type: "xp"
+					xp: 175
+				}
+				{
+					id: "220ED30A2B1D94CA"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "5D0C4567571A3104"
+					item: { count: 1, id: "candlelight:lasagne" }
+					type: "item"
+				}
+				{
+					advancement: "candlelight:main/cook_lasagna"
+					criterion: ""
+					id: "5ED1799A09D61099"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"19F8D1048ED3C496"
+				"1BCDD9CE97C5C9FF"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "candlelight:wine_glass"
+			}
+			id: "69970C18A35E9935"
+			rewards: [
+				{
+					id: "230C1A935C4D66A4"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "18E0310E91B71680"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "278A14C7EEAD3D85"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "4CBD3BC73E94F6C1"
+				type: "checkmark"
+			}]
+			x: 7.8d
+			y: 1.5d
+		}
+	]
+}

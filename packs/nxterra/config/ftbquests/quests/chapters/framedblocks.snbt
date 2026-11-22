@@ -1,0 +1,320 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "framedblocks"
+	group: "2F49404BE5395B45"
+	icon: {
+		id: "framedblocks:framed_cube"
+	}
+	id: "64187BA9AAF0091E"
+	images: [
+		{
+			height: 6.5d
+			id: "1906FEA0A12B76D4"
+			image: "nxterra:textures/quests/backdrop/framedblocks.png"
+			order: -1
+			rotation: 0.0d
+			width: 11.5d
+			x: 3.25d
+			y: 1.1497d
+		}
+		{
+			height: 1.5d
+			id: "435FC75B6AFA2243"
+			image: "nxterra:textures/quests/banner/framedblocks.png"
+			order: 1
+			rotation: 0.0d
+			width: 7.0d
+			x: 3.25d
+			y: -1.8248d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "framedblocks:framed_cube"
+			}
+			id: "14B1FABBB5848714"
+			rewards: [
+				{
+					id: "460B004A0D300C94"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "70520E30D20F0056"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 8L
+				id: "2AEDD640E36FFFA4"
+				item: { count: 1, id: "framedblocks:framed_cube" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["14B1FABBB5848714"]
+			icon: {
+				id: "framedblocks:framing_saw"
+			}
+			id: "6EBE1BED70107C1D"
+			rewards: [
+				{
+					id: "5CC2066C6A82F386"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "2580AE3E98492748"
+					item: {
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "71704D9AAD534A04"
+					item: { count: 1, id: "framedblocks:framing_saw" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "56A58DD5A1F38C43"
+					item: { count: 1, id: "framedblocks:framed_blueprint" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6EBE1BED70107C1D"]
+			icon: {
+				id: "framedblocks:framed_slope"
+			}
+			id: "5B27374C5FB32B6F"
+			rewards: [
+				{
+					id: "2AB585547925ACA4"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "55696D963584F33C"
+					item: {
+						count: 1
+						id: "framedblocks:framed_cube"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 6L
+					id: "71393750B6464D9D"
+					item: { count: 1, id: "framedblocks:framed_slope" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 6L
+					id: "1644FA88A198D388"
+					item: { count: 1, id: "framedblocks:framed_panel" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5B27374C5FB32B6F"]
+			icon: {
+				id: "framedblocks:framed_door"
+			}
+			id: "78A7A937B2E67DFF"
+			rewards: [
+				{
+					id: "37935F3E7AF36798"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1B297646C62C1211"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 3L
+					id: "3E6D53953F685677"
+					item: { count: 1, id: "framedblocks:framed_door" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2C6CCA0A12428D79"
+					item: { count: 1, id: "framedblocks:framed_secret_storage" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5B27374C5FB32B6F"]
+			icon: {
+				id: "framedblocks:framed_glowing_cube"
+			}
+			id: "460E7ED19289BE25"
+			rewards: [
+				{
+					id: "12811FA8C6091B11"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "71071F3C62D351EB"
+					item: {
+						count: 1
+						id: "minecraft:glowstone_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 2L
+					id: "2D6025747C15BB34"
+					item: { count: 1, id: "framedblocks:framed_glowing_cube" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "64B44EFECB31019C"
+					item: { count: 1, id: "framedblocks:framed_one_way_window" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["460E7ED19289BE25"]
+			icon: {
+				id: "framedblocks:framed_bouncy_cube"
+			}
+			id: "39739D3DAA23CF4F"
+			rewards: [
+				{
+					id: "3F0D6D60B583E96A"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 16
+					id: "51EE58477FD8E3A0"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:slime"
+					id: "518B74FAAB6AC232"
+					type: "kill"
+					value: 3L
+				}
+				{
+					consume_items: false
+					id: "24CFDD334C808411"
+					item: { count: 1, id: "framedblocks:framed_tank" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5DA3699D53EA7369"
+					item: { count: 1, id: "framedblocks:framed_bouncy_cube" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"78A7A937B2E67DFF"
+				"39739D3DAA23CF4F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "framedblocks:framed_chest"
+			}
+			id: "2870EDF3E891E4D2"
+			rewards: [
+				{
+					id: "32B56C57D2B09338"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "45AD904AA4061522"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "25C9FADE96AE7387"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "527B8BD41F7B5302"
+				type: "checkmark"
+			}]
+			x: 6.25d
+			y: 1.5d
+		}
+	]
+}

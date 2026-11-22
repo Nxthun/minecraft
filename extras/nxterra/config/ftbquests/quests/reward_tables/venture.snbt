@@ -1,0 +1,108 @@
+{
+	icon: {
+		id: "ftbquests:lootcrate"
+	}
+	id: "7F2047E5DA1CCA1E"
+	loot_crate: {
+		color: 8111231
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Venture Supply Crate"
+		string_id: "venture"
+	}
+	loot_size: 2
+	order_index: 3
+	rewards: [
+		{
+			count: 2
+			id: "6C83D4C7E0EBBBD6"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 2
+			id: "1784818C39594707"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 4
+			id: "7072AA0B9920E1F4"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 8
+			id: "5DAFBF3D3093DA6D"
+			item: {
+				count: 1
+				id: "create:brass_ingot"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 2
+			id: "1C64D0D105203F61"
+			item: {
+				count: 1
+				id: "minecraft:iron_block"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 8
+			id: "1CF21B9489B381A8"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 8
+			id: "17AEAAA591605114"
+			item: {
+				count: 1
+				id: "minecraft:emerald"
+			}
+			weight: 8.0f
+		}
+		{
+			id: "4D538246C5EC2EA7"
+			item: {
+				count: 1
+				id: "minecraft:name_tag"
+			}
+			weight: 4.0f
+		}
+		{
+			id: "274AA6CF88512A2C"
+			item: {
+				count: 1
+				id: "minecraft:saddle"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 4
+			id: "14BA9A2035D3E48D"
+			item: {
+				count: 1
+				id: "minecraft:blaze_rod"
+			}
+			weight: 6.0f
+		}
+	]
+}

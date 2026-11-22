@@ -1,0 +1,889 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: "30A3BF10FF493301"
+	icon: {
+		id: "mekanism:metallurgic_infuser"
+	}
+	id: "74BF7B65E321CD1F"
+	images: [
+		{
+			height: 8.0d
+			id: "213683C48373DED6"
+			image: "nxterra:textures/quests/backdrop/mekanism.png"
+			order: -1
+			rotation: 0.0d
+			width: 17.0d
+			x: 5.5d
+			y: 1.6592d
+		}
+		{
+			height: 1.5d
+			id: "6BCE07B1FABD17AC"
+			image: "nxterra:textures/quests/banner/mekanism.png"
+			order: 1
+			rotation: 0.0d
+			width: 5.5d
+			x: 5.5d
+			y: -1.9498d
+		}
+	]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "mekanism:metallurgic_infuser"
+			}
+			id: "2912F4C16F945A98"
+			rewards: [
+				{
+					id: "66BAF03BBF44CC89"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 32
+					id: "42EF86DA3310A660"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "359C5ACD4B23C0E7"
+					item: { count: 1, id: "mekanism:ingot_osmium" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1446904383C3311F"
+					item: { count: 1, id: "mekanism:metallurgic_infuser" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2912F4C16F945A98"]
+			icon: {
+				id: "mekanism:steel_casing"
+			}
+			id: "7B65FEE053F6AF57"
+			rewards: [
+				{
+					id: "4FD578CEA59ED8C3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "6EB836813026374D"
+					item: {
+						count: 1
+						id: "mekanism:ingot_osmium"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 8L
+					id: "5AFDC9BE22E9D38B"
+					item: { components: { "ftbfiltersystem:filter": "item_tag(c:ingots/steel)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "328DD1A536C474BD"
+					item: { count: 1, id: "mekanism:steel_casing" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7B65FEE053F6AF57"]
+			icon: {
+				id: "mekanism:enrichment_chamber"
+			}
+			id: "24FFAC35802BAC69"
+			rewards: [
+				{
+					id: "530E7E0166869336"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "3AB48BADF82AC225"
+					item: {
+						count: 1
+						id: "mekanism:alloy_infused"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "6C86A7427A929169"
+					item: { count: 1, id: "mekanism:enrichment_chamber" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "71BE95DD7C878944"
+					item: { count: 1, id: "mekanism:crusher" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2912F4C16F945A98"]
+			icon: {
+				id: "mekanism:alloy_infused"
+			}
+			id: "11DCB20F9632F24D"
+			rewards: [
+				{
+					id: "43D8F2743E9A806B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "4C55A57ACD510729"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 8L
+					id: "747ECC549BABCA21"
+					item: { count: 1, id: "mekanism:alloy_infused" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "7D4FB405A140814B"
+					item: { count: 1, id: "mekanism:basic_control_circuit" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11DCB20F9632F24D"]
+			icon: {
+				id: "mekanism:advanced_tier_installer"
+			}
+			id: "5ECB645CC063FF37"
+			rewards: [
+				{
+					id: "522073858503BDDD"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 4
+					id: "3FD6A090DFA30745"
+					item: {
+						count: 1
+						id: "mekanism:enriched_diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "7081F99486E4EF1C"
+					item: { count: 1, id: "mekanism:advanced_control_circuit" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "785F9D9AD4C85DBA"
+					item: { count: 1, id: "mekanism:advanced_tier_installer" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5ECB645CC063FF37"]
+			icon: {
+				id: "mekanism:elite_tier_installer"
+			}
+			id: "1FE662F29A162A91"
+			rewards: [
+				{
+					id: "3FA6E1F7D7A4D4E1"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "5DEE35014C965542"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "conquer"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 8L
+					id: "165422F7EF1A514A"
+					item: { count: 1, id: "mekanism:alloy_reinforced" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "4E455BF298ECE0AD"
+					item: { count: 1, id: "mekanism:elite_control_circuit" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "46EFA1059F56F381"
+					item: { count: 1, id: "mekanism:elite_tier_installer" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FE662F29A162A91"]
+			icon: {
+				id: "mekanism:alloy_atomic"
+			}
+			id: "1B5F30D01E7140BA"
+			rewards: [
+				{
+					id: "14791025210DABE5"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 8
+					id: "7F4293C32D0153F5"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "1102B37A1CF91676"
+					item: { count: 1, id: "mekanism:alloy_atomic" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "16FE8B487C57629F"
+					item: { count: 1, id: "mekanism:ingot_refined_obsidian" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "3C5887E94DE0B046"
+					item: { count: 1, id: "mekanism:ultimate_control_circuit" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B5F30D01E7140BA"]
+			icon: {
+				id: "mekanism:atomic_disassembler"
+			}
+			id: "690715432990E081"
+			rewards: [
+				{
+					id: "1ED19D127F2189FC"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 4
+					id: "7AF429824AED3C43"
+					item: {
+						count: 1
+						id: "mekanism:ingot_refined_obsidian"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "31B0892BEDD22D35"
+					item: { count: 1, id: "mekanism:atomic_disassembler" }
+					type: "item"
+				}
+				{
+					advancement: "mekanism:disassembler"
+					criterion: ""
+					id: "200891343C8EAB37"
+					type: "advancement"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["690715432990E081"]
+			icon: {
+				id: "mekanism:meka_tool"
+			}
+			id: "2A76DD1279DB1D0F"
+			rewards: [
+				{
+					id: "5FABA7B137489029"
+					item: {
+						count: 1
+						id: "nxterra:starbloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "50C103C8EE5123ED"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "405102BAB9C9EBAB"
+					item: {
+						count: 1
+						id: "mekanism:module_base"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					consume_items: false
+					id: "63B624D3BC588D8A"
+					item: { count: 1, id: "mekanism:configurator" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "6351042A4CC7B3B8"
+					item: { count: 1, id: "mekanism:hdpe_sheet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "18C6325765FEE722"
+					item: { count: 1, id: "mekanism:meka_tool" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24FFAC35802BAC69"]
+			icon: {
+				id: "mekanism:advanced_enriching_factory"
+			}
+			id: "108F735D78D7DA34"
+			rewards: [
+				{
+					id: "2D7954FDEF6DE67F"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 2
+					id: "468542274B3CA907"
+					item: {
+						count: 1
+						id: "mekanism:upgrade_speed"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "2CF7A97119552777"
+					item: { count: 1, id: "mekanism:basic_enriching_factory" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5C86FF6E8EF2E0DE"
+					item: { count: 1, id: "mekanism:advanced_enriching_factory" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["108F735D78D7DA34"]
+			icon: {
+				id: "mekanism:purification_chamber"
+			}
+			id: "3BB9994AB47EFDC6"
+			rewards: [
+				{
+					id: "33B0EA9D86D22164"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "1D5C057EEB6B9C2F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "conquer"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "7421F6C5284C1513"
+					item: { count: 1, id: "mekanism:purification_chamber" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7DF2A374200F1B36"
+					item: { count: 1, id: "mekanism:chemical_injection_chamber" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3BB9994AB47EFDC6"
+				"1B5F30D01E7140BA"
+			]
+			icon: {
+				id: "mekanism:teleporter"
+			}
+			id: "2BC3D69B0193FCF1"
+			rewards: [
+				{
+					id: "2A2B969505D31C2B"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 8
+					id: "62F1BD21E5DCC540"
+					item: {
+						count: 1
+						id: "mekanism:teleporter_frame"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 2L
+					id: "15879425A598DC50"
+					item: { count: 1, id: "mekanism:teleportation_core" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7666720079A87764"
+					item: { count: 1, id: "mekanism:teleporter" }
+					type: "item"
+				}
+				{
+					advancement: "mekanism:teleporter"
+					criterion: ""
+					id: "241DD4DDF10C35C1"
+					type: "advancement"
+				}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2BC3D69B0193FCF1"]
+			icon: {
+				id: "mekanism:digital_miner"
+			}
+			id: "14A2D212D3DC6C46"
+			rewards: [
+				{
+					id: "6C31ADFD24A2E1ED"
+					item: {
+						count: 1
+						id: "nxterra:starbloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "4B13647AC4854E2D"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 4
+					id: "56B9BA9372E6EB14"
+					item: {
+						count: 1
+						id: "mekanism:upgrade_energy"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					consume_items: false
+					id: "277326411DE3E19F"
+					item: { count: 1, id: "mekanism:robit" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "43DE691752FE5CA0"
+					item: { count: 1, id: "mekanism:logistical_sorter" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "47D1A4E329B26A90"
+					item: { count: 1, id: "mekanism:digital_miner" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7B65FEE053F6AF57"]
+			icon: {
+				id: "mekanism:basic_universal_cable"
+			}
+			id: "302FB2599DD4E357"
+			rewards: [
+				{
+					id: "709AFE9ADE83C654"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "3F0D79F77D12407D"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 16L
+					id: "612455D4B2761EB9"
+					item: { count: 1, id: "mekanism:basic_universal_cable" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2BD0C54B0CC2FB13"
+					item: { count: 1, id: "mekanism:energy_tablet" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["302FB2599DD4E357"]
+			icon: {
+				id: "mekanism:advanced_energy_cube"
+			}
+			id: "4ED65D6C4972EB28"
+			rewards: [
+				{
+					id: "587DF1A31FD52D7B"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 8
+					id: "470ABD3806645630"
+					item: {
+						count: 1
+						id: "mekanism:alloy_infused"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "19D6845AF4B7BC80"
+					item: { count: 1, id: "mekanism:basic_energy_cube" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2515D275913AFA4F"
+					item: { count: 1, id: "mekanism:advanced_energy_cube" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4ED65D6C4972EB28"]
+			icon: {
+				id: "mekanism:electrolytic_separator"
+			}
+			id: "7F9DE553981521D0"
+			rewards: [
+				{
+					id: "2CB72069DD80384B"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 2
+					id: "17E4DBB125AE0892"
+					item: {
+						count: 1
+						id: "mekanism:basic_fluid_tank"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "459D67F496E9D41A"
+					item: { count: 1, id: "mekanism:electrolytic_separator" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3310BEB008543DAD"
+					item: { count: 1, id: "mekanism:electric_pump" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4D317D0DB09A94DC"
+					item: { count: 1, id: "mekanism:basic_chemical_tank" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7F9DE553981521D0"]
+			icon: {
+				id: "mekanism:chemical_crystallizer"
+			}
+			id: "277CDD5E31158D3C"
+			rewards: [
+				{
+					id: "13EA36ED39E0DEA5"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "18D2AE98E7306D87"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "conquer"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "54AE31E3E4645586"
+					item: { count: 1, id: "mekanism:chemical_dissolution_chamber" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "743EEBCF3957377B"
+					item: { count: 1, id: "mekanism:chemical_washer" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "49DD2A72BCE493A7"
+					item: { count: 1, id: "mekanism:chemical_crystallizer" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"277CDD5E31158D3C"
+				"2BC3D69B0193FCF1"
+			]
+			icon: {
+				id: "mekanism:qio_dashboard"
+			}
+			id: "232A2BB0F982DD13"
+			rewards: [
+				{
+					id: "410801C8661A2FF7"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 2
+					id: "3CB694B2101FB27C"
+					item: {
+						count: 1
+						id: "mekanism:qio_exporter"
+					}
+					type: "item"
+				}
+				{
+					id: "1A6F999E6D7FF308"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "conquer"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "5665A9980748B754"
+					item: { count: 1, id: "mekanism:qio_drive_base" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "41855D409EE45647"
+					item: { count: 1, id: "mekanism:qio_drive_array" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "140B96EAD5FA5CD0"
+					item: { count: 1, id: "mekanism:qio_dashboard" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"2A76DD1279DB1D0F"
+				"14A2D212D3DC6C46"
+				"232A2BB0F982DD13"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mekanism:ultimate_energy_cube"
+			}
+			id: "394B33FBDC1E9889"
+			rewards: [
+				{
+					id: "1677C1C5A69EFDED"
+					item: {
+						count: 1
+						id: "nxterra:moonpetal_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "5AE139DBE8604124"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "197B6EFF46D8C47C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "conquer"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "10C308530050688C"
+				type: "checkmark"
+			}]
+			x: 10.75d
+			y: 1.5d
+		}
+	]
+}

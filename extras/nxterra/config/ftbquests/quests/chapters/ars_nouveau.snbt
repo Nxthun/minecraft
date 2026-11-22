@@ -1,0 +1,717 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ars_nouveau"
+	group: "73DE14B223317E58"
+	icon: {
+		id: "ars_nouveau:novice_spell_book"
+	}
+	id: "2A553E3B69EFB2B5"
+	images: [
+		{
+			height: 8.0d
+			id: "26A9114A8D6102CE"
+			image: "nxterra:textures/quests/backdrop/ars_nouveau.png"
+			order: -1
+			rotation: 0.0d
+			width: 18.5d
+			x: 6.25d
+			y: 1.6592d
+		}
+		{
+			height: 1.5d
+			id: "1F2C4E7E6DE6BDBE"
+			image: "nxterra:textures/quests/banner/ars_nouveau.png"
+			order: 1
+			rotation: 0.0d
+			width: 6.5d
+			x: 6.25d
+			y: -1.9498d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "ars_nouveau:worn_notebook"
+			}
+			id: "444F4FF28BDFECEF"
+			rewards: [
+				{
+					id: "4801D58CFE171FDC"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "3C53C34268985D70"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "12C49B181FCCFA4D"
+				item: { count: 1, id: "ars_nouveau:worn_notebook" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["444F4FF28BDFECEF"]
+			icon: {
+				id: "ars_nouveau:magebloom"
+			}
+			id: "5EB5C7187C97C10D"
+			rewards: [
+				{
+					id: "2C820904778841D1"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 4
+					id: "29B1CC4835CC256C"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "ars_nouveau:archwood_forest"
+					id: "3FEE26836CA3AC60"
+					type: "biome"
+				}
+				{
+					consume_items: false
+					count: 8L
+					id: "656B4830D5A8842C"
+					item: { components: { "ftbfiltersystem:filter": "item_tag(c:logs/archwood)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "200EEF1DBF96676F"
+					item: { count: 1, id: "ars_nouveau:magebloom" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"444F4FF28BDFECEF"
+				"5EB5C7187C97C10D"
+			]
+			icon: {
+				id: "ars_nouveau:source_gem"
+			}
+			id: "12928E4FD23374F9"
+			rewards: [
+				{
+					id: "359720641652A579"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 8
+					id: "1AE0E86611E6BA86"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "75B620E2963F4310"
+					item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "18895D954EB4F5E5"
+					item: { count: 1, id: "ars_nouveau:source_gem" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["12928E4FD23374F9"]
+			icon: {
+				id: "ars_nouveau:novice_spell_book"
+			}
+			id: "54C49091A83AEB51"
+			rewards: [
+				{
+					id: "76B673D1184D2146"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 4
+					id: "1BE9052ABE972CDC"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "1ACC3B0BD6217ABC"
+				item: { count: 1, id: "ars_nouveau:novice_spell_book" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["54C49091A83AEB51"]
+			icon: {
+				id: "ars_nouveau:scribes_table"
+			}
+			id: "2AAE2642248A0985"
+			rewards: [
+				{
+					id: "1253E416E810F85A"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 3
+					id: "7C138C34C5BCE0DD"
+					item: {
+						count: 1
+						id: "minecraft:iron_sword"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "3FDBA437FD872C6E"
+				item: { count: 1, id: "ars_nouveau:scribes_table" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2AAE2642248A0985"]
+			icon: {
+				id: "ars_nouveau:glyph_projectile"
+			}
+			id: "7EA02452D7171F78"
+			rewards: [
+				{
+					id: "7CBA3D7F72B3CAD2"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "5E592E72DF113C60"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "3C9D6567EF0D6BAD"
+					item: { count: 1, id: "ars_nouveau:glyph_projectile" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "47DD61327C1492AF"
+					item: { count: 1, id: "ars_nouveau:glyph_touch" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2D1E557AAD9FEB3B"
+					item: { count: 1, id: "ars_nouveau:glyph_harm" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AAE2642248A0985"]
+			icon: {
+				id: "ars_nouveau:alteration_table"
+			}
+			id: "3DAB588FAFF9138E"
+			rewards: [
+				{
+					id: "2523EB16275F2795"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "154223C9EA83827E"
+					item: {
+						count: 1
+						id: "ars_nouveau:magebloom_fiber"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "25D896A901C2FB3A"
+				item: { count: 1, id: "ars_nouveau:alteration_table" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2AAE2642248A0985"]
+			icon: {
+				id: "ars_nouveau:source_jar"
+			}
+			id: "1F555780AF99DD8E"
+			rewards: [
+				{
+					id: "2251607143477DE0"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 4
+					id: "2458BC659619EA21"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "2B1283DDE6C23761"
+				item: { count: 1, id: "ars_nouveau:source_jar" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1F555780AF99DD8E"]
+			icon: {
+				id: "ars_nouveau:volcanic_sourcelink"
+			}
+			id: "76F2A199C73A785C"
+			rewards: [
+				{
+					id: "27810D4493640C30"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "1C72822FECD496E8"
+					item: {
+						count: 1
+						id: "minecraft:lava_bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "145361950120D436"
+				item: { count: 1, id: "ars_nouveau:volcanic_sourcelink" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F555780AF99DD8E"]
+			icon: {
+				id: "ars_nouveau:enchanting_apparatus"
+			}
+			id: "1B761E70124343AB"
+			rewards: [
+				{
+					id: "1C07F3180D9903F4"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "3498AF90309BC412"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "382728C8D49C51D5"
+					item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "405A024D31CA9333"
+					item: { count: 1, id: "ars_nouveau:arcane_pedestal" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1B761E70124343AB"]
+			icon: {
+				id: "ars_nouveau:ritual_brazier"
+			}
+			id: "71AE2A8980DAB2E6"
+			rewards: [
+				{
+					id: "11178FC89F487309"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "50E875A09C5286C2"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "108B1F5A64D021F8"
+					item: { count: 1, id: "ars_nouveau:ritual_brazier" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3ED52AB461F0DC47"
+					item: { count: 1, id: "ars_nouveau:ritual_sunrise" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B761E70124343AB"]
+			icon: {
+				id: "ars_nouveau:starbuncle_charm"
+			}
+			id: "3EA6F7553F2A477F"
+			rewards: [
+				{
+					id: "71707C7EE7993CA3"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "456B2F03C18D8456"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "274F7B269FFB408A"
+				item: { count: 1, id: "ars_nouveau:starbuncle_charm" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1B761E70124343AB"]
+			icon: {
+				id: "ars_nouveau:sorcerer_robes"
+			}
+			id: "39E54A8CB74CD267"
+			rewards: [
+				{
+					id: "17251FFA23175DE2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4FFC0F06CB1C5053"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "57F78B1495AD4E64"
+					item: { count: 1, id: "ars_nouveau:sorcerer_hood" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "335BB654CE5F33B5"
+					item: { count: 1, id: "ars_nouveau:sorcerer_robes" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "76D6D3A31F559FDD"
+					item: { count: 1, id: "ars_nouveau:sorcerer_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "384BABDBB40AB767"
+					item: { count: 1, id: "ars_nouveau:sorcerer_boots" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["71AE2A8980DAB2E6"]
+			icon: {
+				id: "ars_nouveau:wilden_horn"
+			}
+			id: "215FADFE5A7202D9"
+			rewards: [
+				{
+					id: "3A7828D5D5618B53"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "22B7E0BCB39BD481"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 16
+					id: "75B4507B7FC2A8D6"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					entity: "ars_nouveau:wilden_hunter"
+					id: "650136A5F421B15A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "ars_nouveau:wilden_stalker"
+					id: "2636C2803AB6FA9F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "ars_nouveau:wilden_guardian"
+					id: "1F1FF41D3C5B8500"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B761E70124343AB"]
+			icon: {
+				id: "ars_nouveau:apprentice_spell_book"
+			}
+			id: "47D629A0CE87D2F9"
+			rewards: [
+				{
+					id: "26C6E89789180E34"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "703D78EA7D65312A"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "7FFD1FF8C9A8C1E1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "5200D03CF6A3897A"
+				item: { count: 1, id: "ars_nouveau:apprentice_spell_book" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["47D629A0CE87D2F9"]
+			icon: {
+				id: "ars_nouveau:archmage_spell_book"
+			}
+			id: "5A38BBF5B8EC6C10"
+			rewards: [
+				{
+					id: "2F4A6414CF967A9A"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "1BC05A39E4A8950B"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 32
+					id: "50FD76B441E96D7A"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					entity: "ars_nouveau:wilden_boss"
+					id: "1B682C88731E1E27"
+					type: "kill"
+					value: 1L
+				}
+				{
+					consume_items: false
+					id: "334F3DFD31ACA5CB"
+					item: { count: 1, id: "ars_nouveau:archmage_spell_book" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7EA02452D7171F78"
+				"3DAB588FAFF9138E"
+				"76F2A199C73A785C"
+				"3EA6F7553F2A477F"
+				"39E54A8CB74CD267"
+				"215FADFE5A7202D9"
+				"5A38BBF5B8EC6C10"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "ars_nouveau:source_gem_block"
+			}
+			id: "23FDE7EAA5A896C9"
+			rewards: [
+				{
+					id: "338B5881F7F28753"
+					item: {
+						count: 1
+						id: "nxterra:bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "7DF638A6BAE8F96C"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "2C3C2D7D948AF8BA"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7CF9358C01ADB383"
+				type: "checkmark"
+			}]
+			x: 12.25d
+			y: 1.5d
+		}
+	]
+}

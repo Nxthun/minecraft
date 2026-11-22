@@ -1,0 +1,292 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "exposure"
+	group: "7FE7FE7068E22B2B"
+	icon: {
+		id: "exposure:camera"
+	}
+	id: "62F9E81ED86D4680"
+	images: [
+		{
+			height: 6.5d
+			id: "52A7AE1A4905A163"
+			image: "nxterra:textures/quests/backdrop/exposure.png"
+			order: -1
+			rotation: 0.0d
+			width: 13.0d
+			x: 4.0d
+			y: 1.1497d
+		}
+		{
+			height: 1.5d
+			id: "3EE9CA9C05ADA562"
+			image: "nxterra:textures/quests/banner/exposure.png"
+			order: 1
+			rotation: 0.0d
+			width: 5.5d
+			x: 4.0d
+			y: -1.8248d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "exposure:camera"
+			}
+			id: "156A5C43BDD1867D"
+			rewards: [
+				{
+					id: "5B70E5941486ABCB"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 8
+					id: "16232BC81B6E90B1"
+					item: {
+						count: 1
+						id: "minecraft:dried_kelp"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "2F1AEE1339AF7143"
+					item: { count: 1, id: "exposure:camera" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "783845BD0F43D647"
+					item: { components: { "ftbfiltersystem:filter": "or(item(exposure:black_and_white_film)item(exposure:color_film))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["156A5C43BDD1867D"]
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "50F879F3B50E79D3"
+			rewards: [
+				{
+					id: "3991B0E1FAFF135C"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "3E5605821C5CE7E3"
+					item: {
+						count: 1
+						id: "minecraft:iron_trapdoor"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "exposure:adventure/exposure"
+				criterion: ""
+				id: "2C46F1B11AF575B2"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["50F879F3B50E79D3"]
+			icon: {
+				id: "exposure:lightroom"
+			}
+			id: "689895D547493F40"
+			rewards: [
+				{
+					id: "333187FF983AFDD9"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 8
+					id: "452A61C926FDAED2"
+					item: {
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "114E731F201D5A9F"
+					item: { count: 1, id: "exposure:lightroom" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7E0EAF927651B1FC"
+					item: { components: { "ftbfiltersystem:filter": "or(item(exposure:developed_black_and_white_film)item(exposure:developed_color_film))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["689895D547493F40"]
+			icon: {
+				id: "exposure:photograph"
+			}
+			id: "61E040F0B872F107"
+			rewards: [
+				{
+					id: "3024EB3D13F72754"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "5C2141CC253787D1"
+					item: {
+						count: 1
+						id: "minecraft:item_frame"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "7B575753A04A714E"
+				item: { count: 1, id: "exposure:photograph" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["50F879F3B50E79D3"]
+			icon: {
+				id: "minecraft:player_head"
+			}
+			id: "2EAE7562C5EAF4D9"
+			rewards: [
+				{
+					id: "6D8961824F6478E7"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 8
+					id: "1ADB48A90AD52B7D"
+					item: {
+						count: 1
+						id: "minecraft:gold_nugget"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "exposure:adventure/spotlight"
+				criterion: ""
+				id: "1E52652D4A377B63"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61E040F0B872F107"]
+			icon: {
+				id: "exposure:photograph_frame"
+			}
+			id: "10795389E9EA4250"
+			rewards: [
+				{
+					id: "2CB45B972081CE9C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4EA8FB0AC960F9B4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 2L
+					id: "1713EE459CCEFB4F"
+					item: { count: 1, id: "exposure:photograph_frame" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "30F72B66A927B03E"
+					item: { count: 1, id: "exposure:camera_stand" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"10795389E9EA4250"
+				"2EAE7562C5EAF4D9"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "exposure:camera_stand"
+			}
+			id: "5E4751E73E56EDA5"
+			rewards: [
+				{
+					id: "4820A4EFC01301FD"
+					item: {
+						count: 1
+						id: "nxterra:bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "71A23104ACC59463"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "4AD9E1E25695E65F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "367CC20ECA701F27"
+				type: "checkmark"
+			}]
+			x: 7.75d
+			y: 1.5d
+		}
+	]
+}

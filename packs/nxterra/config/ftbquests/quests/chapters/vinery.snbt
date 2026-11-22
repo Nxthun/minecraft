@@ -1,0 +1,501 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vinery"
+	group: "435CE345857D9297"
+	icon: {
+		id: "vinery:taiga_grapes_red"
+	}
+	id: "7A22459CA3F45B2E"
+	images: [
+		{
+			height: 7.5d
+			id: "338913C325A0D115"
+			image: "nxterra:textures/quests/backdrop/vinery.png"
+			order: -1
+			rotation: 0.0d
+			width: 15.0d
+			x: 4.725d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "104FF21711ED1A13"
+			image: "nxterra:textures/quests/banner/vinery.png"
+			order: 1
+			rotation: 0.0d
+			width: 8.5d
+			x: 4.725d
+			y: -1.8248d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "vinery:taiga_grapes_red"
+			}
+			id: "2FEE0D524261B1E3"
+			rewards: [
+				{
+					id: "383776C003A84138"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "22238D01A5E70400"
+					item: {
+						count: 1
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 2L
+					id: "56DAD9D1B0C8749F"
+					item: { count: 1, id: "vinery:red_grape_seeds" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "7DD50A89CF1F12A6"
+					item: { count: 1, id: "vinery:white_grape_seeds" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2FEE0D524261B1E3"]
+			icon: {
+				id: "vinery:grapevine_stem"
+			}
+			id: "57CCE6C367B8C860"
+			rewards: [
+				{
+					id: "6EDB03C3BE180020"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "22BF527DF1F4EC23"
+					item: {
+						count: 1
+						id: "vinery:oak_lattice"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "106BDA7A002D5798"
+					item: { count: 1, id: "vinery:grapevine_stem" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "387D5C8B0A69B91B"
+					item: { count: 1, id: "vinery:grapevine_pot" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FEE0D524261B1E3"]
+			icon: {
+				id: "vinery:red_grape"
+			}
+			id: "2A8697C512BF41CB"
+			rewards: [
+				{
+					id: "169BC80BBFE1224A"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 16
+					id: "7FEE50345D1BA6A4"
+					item: {
+						count: 1
+						id: "minecraft:sugar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 9L
+				id: "628D18ECFA93F2B5"
+				item: { count: 1, id: "vinery:red_grape" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2A8697C512BF41CB"
+				"57CCE6C367B8C860"
+			]
+			icon: {
+				id: "vinery:fermentation_barrel"
+			}
+			id: "167CA55A896863DD"
+			rewards: [
+				{
+					id: "346EABE1FBA453EA"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "16921C23B233E091"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "570EE45C3B2650E7"
+					item: { count: 1, id: "vinery:fermentation_barrel" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "19296FA3C3A2220C"
+					item: { count: 1, id: "vinery:wine_bottle" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["167CA55A896863DD"]
+			icon: {
+				id: "vinery:red_wine"
+			}
+			id: "285F224BEB9077BE"
+			rewards: [
+				{
+					id: "3B7A16FD78FBC812"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "2E430D26EDEE0542"
+					item: {
+						count: 1
+						id: "minecraft:honey_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 2L
+				id: "3CB173A34BF7E449"
+				item: { count: 1, id: "vinery:red_wine" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["285F224BEB9077BE"]
+			icon: {
+				id: "vinery:oak_wine_rack_mid"
+			}
+			id: "5B76C2CB965DC468"
+			rewards: [{
+				id: "606F91BEF19081A8"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "16F4D63AD81AF8E6"
+					item: { count: 1, id: "vinery:wine_box" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "599F5426ED36FB52"
+					item: { count: 1, id: "vinery:oak_wine_rack_mid" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["285F224BEB9077BE"]
+			icon: {
+				id: "vinery:cherry_wine"
+			}
+			id: "498AF34561D1FE6D"
+			rewards: [
+				{
+					id: "31419E32DA605C24"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "208D332AAD39CEEC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "703091947A4DE860"
+					item: { count: 1, id: "vinery:cherry_wine" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "63A102A5E7E9B036"
+					item: { count: 1, id: "vinery:noir_wine" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2E5F7CD927A0C81B"
+					item: { count: 1, id: "vinery:mead" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2A8697C512BF41CB"]
+			icon: {
+				id: "vinery:apple_press"
+			}
+			id: "29733FA019BEDAD8"
+			rewards: [
+				{
+					id: "4FA2142D8FB24DA7"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 16
+					id: "13CB62356823B20A"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "13688198E7986103"
+					item: { count: 1, id: "vinery:apple_press" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "7797ED0A4B5DABD5"
+					item: { count: 1, id: "vinery:apple_mash" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "476D69B102974A00"
+					item: { count: 1, id: "vinery:apple_juice" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["29733FA019BEDAD8"]
+			icon: {
+				id: "vinery:apple_wine"
+			}
+			id: "615F77EBE687CE70"
+			rewards: [{
+				id: "5C33F868F011EFE7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				consume_items: false
+				count: 2L
+				id: "5AC7706C4B43FDE6"
+				item: { count: 1, id: "vinery:apple_wine" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["615F77EBE687CE70"]
+			icon: {
+				id: "vinery:dark_cherry_log"
+			}
+			id: "2F405375980971B7"
+			rewards: [
+				{
+					id: "190E4A781C46A305"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "3F10555B2F481034"
+					item: {
+						count: 1
+						id: "vinery:dark_cherry_planks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 8L
+					id: "2B09345471030C2F"
+					item: { count: 1, id: "vinery:dark_cherry_log" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7500EE94708D90D6"
+					item: { count: 1, id: "vinery:dark_cherry_sapling" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2F405375980971B7"]
+			icon: {
+				id: "vinery:winemaker_apron"
+			}
+			id: "3BCBA64C8DA01999"
+			rewards: [
+				{
+					id: "33934F0E5E239749"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "36FAAFA934CD3394"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "6D839D90B63A08BD"
+					item: { count: 1, id: "vinery:winemaker_apron" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3EF8A47E3588920A"
+					item: { count: 1, id: "vinery:winemaker_boots" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "13924263474457EE"
+					item: { count: 1, id: "vinery:straw_hat" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5B76C2CB965DC468"
+				"498AF34561D1FE6D"
+				"3BCBA64C8DA01999"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "vinery:red_grape_bag"
+			}
+			id: "68EA80EA3CADD9AE"
+			rewards: [
+				{
+					id: "704B543490E5F365"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "397404E019A1CC9D"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "2F83573ABEBD76F0"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "4E5753D4ED5BA2E4"
+				type: "checkmark"
+			}]
+			x: 9.2d
+			y: 1.5d
+		}
+	]
+}

@@ -1,0 +1,427 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dimensional_dungeons"
+	group: "20434CE362D81358"
+	icon: {
+		id: "dimdungeons:item_portal_key"
+	}
+	id: "3B984C42DAB839B7"
+	images: [
+		{
+			height: 7.5d
+			id: "45A3168779EA5762"
+			image: "nxterra:textures/quests/backdrop/dimensional_dungeons.png"
+			order: -1
+			rotation: 0.0d
+			width: 15.0d
+			x: 4.75d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "5D3E6D5E772A8BDF"
+			image: "nxterra:textures/quests/banner/dimensional_dungeons.png"
+			order: 1
+			rotation: 0.0d
+			width: 9.5d
+			x: 4.75d
+			y: -1.8248d
+		}
+	]
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "dimdungeons:item_portal_key"
+			}
+			id: "386AAFC8A77F28E0"
+			rewards: [
+				{
+					id: "268E5864EDA44F76"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "46501C3C7CC47BE5"
+					item: {
+						count: 1
+						id: "minecraft:ender_eye"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "72DDACA888D66557"
+					item: { count: 1, id: "dimdungeons:item_portal_key" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "211DC5A6A98B60E6"
+					item: { count: 1, id: "dimdungeons:block_gilded_portal" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["386AAFC8A77F28E0"]
+			icon: {
+				id: "dimdungeons:block_portal_keyhole"
+			}
+			id: "2CFEC5B161D06C56"
+			rewards: [
+				{
+					id: "6795104FE6CE422D"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "12A72E671534E082"
+					item: {
+						count: 1
+						id: "minecraft:trapped_chest"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "7BDD45CA868848A5"
+				item: { count: 1, id: "dimdungeons:block_portal_keyhole" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2CFEC5B161D06C56"]
+			icon: {
+				id: "minecraft:chiseled_stone_bricks"
+			}
+			id: "67D5474B9BB88FF3"
+			rewards: [
+				{
+					id: "2A1C2AE129FADE18"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 4
+					id: "74000EDEB111BEF8"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					dimension: "dimdungeons:dungeon_dimension"
+					id: "7F2F21840BCF37E6"
+					type: "dimension"
+				}
+				{
+					advancement: "dimdungeons:dungeons/enter_basic_dungeon"
+					criterion: ""
+					id: "77DC402428B3EA3E"
+					type: "advancement"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67D5474B9BB88FF3"]
+			icon: {
+				id: "dimdungeons:item_homeward_pearl"
+			}
+			id: "4AF5EA6C0EFC9B0D"
+			rewards: [
+				{
+					id: "193055EEE4410E35"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 4
+					id: "29FC37F751B97FFE"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "46CB6F5FB9A8C0B0"
+				item: { count: 1, id: "dimdungeons:item_homeward_pearl" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67D5474B9BB88FF3"]
+			icon: {
+				id: "minecraft:tripwire_hook"
+			}
+			id: "6BF432EE505B1B90"
+			rewards: [
+				{
+					id: "2756499320A84739"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "48FEACA8FB65FFB1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legend"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "dimdungeons:dungeons/find_advanced_key"
+				criterion: ""
+				id: "249E5A5B297B25CC"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67D5474B9BB88FF3"]
+			icon: {
+				id: "dimdungeons:block_key_charger"
+			}
+			id: "2A5618A3B66AED81"
+			rewards: [
+				{
+					id: "2C7C33BBC62263E8"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 4
+					id: "6E647BC2C3D60741"
+					item: {
+						count: 1
+						id: "minecraft:redstone_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "dimdungeons:dungeons/find_key_charger"
+				criterion: ""
+				id: "449D94D49F969943"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4AF5EA6C0EFC9B0D"]
+			icon: {
+				id: "dimdungeons:item_blank_build_key"
+			}
+			id: "4A537662FF823B4D"
+			rewards: [
+				{
+					id: "7835764A21B92DFD"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 16
+					id: "6EB0322C0BE2E05E"
+					item: {
+						count: 1
+						id: "minecraft:grass_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "461CEC53284D1349"
+					item: { count: 1, id: "dimdungeons:item_blank_build_key" }
+					type: "item"
+				}
+				{
+					advancement: "dimdungeons:dungeons/enter_personal_space"
+					criterion: ""
+					id: "655F9754AAAE477C"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6BF432EE505B1B90"]
+			icon: {
+				id: "minecraft:crying_obsidian"
+			}
+			id: "11F786987818C71F"
+			rewards: [
+				{
+					id: "2B0BCA5238C84C8B"
+					type: "xp"
+					xp: 350
+				}
+				{
+					id: "2D9CED9E4AD0468C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legend"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "dimdungeons:dungeons/enter_advanced_dungeon"
+				criterion: ""
+				id: "19386AB41E3F80B5"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2A5618A3B66AED81"]
+			icon: {
+				id: "dimdungeons:item_secret_bell"
+			}
+			id: "14827A724DD55999"
+			rewards: [
+				{
+					id: "289B9A09200D8039"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "324D7EAB2F2571D0"
+					item: {
+						count: 1
+						id: "minecraft:bell"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "dimdungeons:dungeons/find_bell_1"
+				criterion: ""
+				id: "3A32938476FA4C86"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"11F786987818C71F"
+				"4A537662FF823B4D"
+				"14827A724DD55999"
+			]
+			icon: {
+				id: "dimdungeons:item_trophy_1"
+			}
+			id: "1920B111D5DA8232"
+			rewards: [
+				{
+					id: "7BACC2FDB3F4FF64"
+					item: {
+						count: 1
+						id: "nxterra:elderheart_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "4A3BE3907997A568"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 2
+					id: "28E300B8CF57CFEE"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				advancement: "dimdungeons:dungeons/all_trophies"
+				criterion: ""
+				id: "2DF07D872898DE33"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1920B111D5DA8232"]
+			hide_dependency_lines: true
+			icon: {
+				id: "dimdungeons:item_trophy_8"
+			}
+			id: "110F8A844AFBF017"
+			rewards: [
+				{
+					id: "3D0B25933A6BF064"
+					item: {
+						count: 1
+						id: "nxterra:starbloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "2FF33E5A1656A554"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "73D362112EF0FF12"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legend"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6AF86A4083C29DE2"
+				type: "checkmark"
+			}]
+			x: 9.25d
+			y: 1.5d
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:cache_2d",
+    "argument": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": "lithosphere:topography_final",
+        "points": [
+          {
+            "location": -1.39,
+            "value": -1.39,
+            "derivative": 1.0
+          },
+          {
+            "location": -0.50806,
+            "value": -0.50806,
+            "derivative": 1.0
+          },
+          {
+            "location": -0.28583,
+            "value": -0.27889,
+            "derivative": 1.15
+          },
+          {
+            "location": 0.02667,
+            "value": 0.15167,
+            "derivative": 1.45
+          },
+          {
+            "location": 0.44333,
+            "value": 0.76278,
+            "derivative": 1.5
+          },
+          {
+            "location": 1.13778,
+            "value": 1.77667,
+            "derivative": 1.2
+          },
+          {
+            "location": 1.69333,
+            "value": 2.25583,
+            "derivative": 0.5
+          },
+          {
+            "location": 2.17944,
+            "value": 2.39472,
+            "derivative": 0.15
+          },
+          {
+            "location": 2.66556,
+            "value": 2.43639,
+            "derivative": 0.0
+          }
+        ]
+      }
+    }
+  }
+}

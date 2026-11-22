@@ -1,0 +1,194 @@
+{
+  "ambience.cave_atmosphere": {
+    "sounds": [
+      {
+        "name": "nxterra_ambience:ambience/cave_atmosphere",
+        "stream": true
+      }
+    ]
+  },
+  "ambience.cave_drips": {
+    "sounds": [
+      {
+        "name": "nxterra_ambience:ambience/cave_drips",
+        "stream": true
+      }
+    ]
+  },
+  "ambience.dawn_chorus": {
+    "sounds": [
+      {
+        "name": "nxterra_ambience:ambience/dawn_chorus",
+        "stream": true
+      }
+    ]
+  },
+  "ambience.day_cicadas": {
+    "sounds": [
+      {
+        "name": "nxterra_ambience:ambience/day_cicadas",
+        "stream": true
+      }
+    ]
+  },
+  "ambience.evening_birds": {
+    "sounds": [
+      {
+        "name": "nxterra_ambience:ambience/evening_birds",
+        "stream": true
+      }
+    ]
+  },
+  "ambience.forest_day_birds": {
+    "sounds": [
+      {
+        "name": "nxterra_ambience:ambience/forest_day_birds",
+        "stream": true
+      }
+    ]
+  },
+  "ambience.forest_day_birds_wind": {
+    "sounds": [
+      {
+        "name": "nxterra_ambience:ambience/forest_day_birds_wind",
+        "stream": true
+      }
+    ]
+  },
+  "ambience.forest_edge_spring": {
+    "sounds": [
+      {
+        "name": "nxterra_ambience:ambience/forest_edge_spring",
+        "stream": true
+      }
+    ]
+  },
+  "ambience.forest_stream_birds_a": {
+    "sounds": [
+      {
+        "name": "nxterra_ambience:ambience/forest_stream_birds_a",
+        "stream": true
+      }
+    ]
+  },
+  "ambience.forest_stream_birds_b": {
+    "sounds": [
+      {
+        "name": "nxterra_ambience:ambience/forest_stream_birds_b",
+        "stream": true
+      }
+    ]
+  },
+  "ambience.night_grasshopper": {
+    "sounds": [
+      {
+        "name": "nxterra_ambience:ambience/night_grasshopper",
+        "stream": true
+      }
+    ]
+  },
+  "ambience.night_meadow_crickets_frogs": {
+    "sounds": [
+      {
+        "name": "nxterra_ambience:ambience/night_meadow_crickets_frogs",
+        "stream": true
+      }
+    ]
+  },
+  "ambience.night_nightingale": {
+    "sounds": [
+      {
+        "name": "nxterra_ambience:ambience/night_nightingale",
+        "stream": true
+      }
+    ]
+  },
+  "ambience.night_owl_long_eared": {
+    "sounds": [
+      {
+        "name": "nxterra_ambience:ambience/night_owl_long_eared",
+        "stream": true
+      }
+    ]
+  },
+  "ambience.pond_frogs_birds": {
+    "sounds": [
+      {
+        "name": "nxterra_ambience:ambience/pond_frogs_birds",
+        "stream": true
+      }
+    ]
+  },
+  "ambience.rain_on_puddle": {
+    "sounds": [
+      {
+        "name": "nxterra_ambience:ambience/rain_on_puddle",
+        "stream": true
+      }
+    ]
+  },
+  "ambience.rain_thunder": {
+    "sounds": [
+      {
+        "name": "nxterra_ambience:ambience/rain_thunder",
+        "stream": true
+      }
+    ]
+  },
+  "ambience.rain_thunder_birds": {
+    "sounds": [
+      {
+        "name": "nxterra_ambience:ambience/rain_thunder_birds",
+        "stream": true
+      }
+    ]
+  },
+  "ambience.stream_mountain": {
+    "sounds": [
+      {
+        "name": "nxterra_ambience:ambience/stream_mountain",
+        "stream": true
+      }
+    ]
+  },
+  "ambience.stream_small": {
+    "sounds": [
+      {
+        "name": "nxterra_ambience:ambience/stream_small",
+        "stream": true
+      }
+    ]
+  },
+  "ambience.waterfall_small": {
+    "sounds": [
+      {
+        "name": "nxterra_ambience:ambience/waterfall_small",
+        "stream": true
+      }
+    ]
+  },
+  "ambience.wind_in_tree": {
+    "sounds": [
+      {
+        "name": "nxterra_ambience:ambience/wind_in_tree",
+        "stream": true
+      }
+    ]
+  },
+  "ambience.wind_strong_trees": {
+    "sounds": [
+      {
+        "name": "nxterra_ambience:ambience/wind_strong_trees",
+        "stream": true
+      }
+    ]
+  },
+  "ambience.wind_tall_grass": {
+    "sounds": [
+      {
+        "name": "nxterra_ambience:ambience/wind_tall_grass",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:deepslate_emerald_ore"
+    }
+  ],
+  "processing_time": 350,
+  "results": [
+    {
+      "id": "spelunkery:rough_emerald"
+    },
+    {
+      "id": "spelunkery:rough_emerald",
+      "chance": 0.75
+    },
+    {
+      "id": "create:experience_nugget",
+      "chance": 0.75
+    },
+    {
+      "id": "minecraft:cobbled_deepslate",
+      "chance": 0.125
+    }
+  ]
+}

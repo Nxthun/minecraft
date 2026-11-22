@@ -1,0 +1,331 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "spice_of_life"
+	group: "435CE345857D9297"
+	icon: {
+		id: "solcarrot:food_book"
+	}
+	id: "78D2E432DBEA84C3"
+	images: [
+		{
+			height: 7.5d
+			id: "58D10A3964D61F84"
+			image: "nxterra:textures/quests/backdrop/spice_of_life.png"
+			order: -1
+			rotation: 0.0d
+			width: 11.5d
+			x: 3.225d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "5D910B93F1C15466"
+			image: "nxterra:textures/quests/banner/spice_of_life.png"
+			order: 1
+			rotation: 0.0d
+			width: 7.0d
+			x: 3.225d
+			y: -1.8248d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "solcarrot:food_book"
+			}
+			id: "5AA7957E99364048"
+			rewards: [
+				{
+					id: "1270217BC413EBDB"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 8
+					id: "17635CFED2EFDECE"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "2CA874EFC3985D53"
+				item: { count: 1, id: "solcarrot:food_book" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5AA7957E99364048"]
+			icon: {
+				id: "farmersdelight:vegetable_soup"
+			}
+			id: "1E43BD07297FDCED"
+			rewards: [
+				{
+					id: "348838E98BA58635"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "3C6B0394825CED94"
+					item: {
+						count: 1
+						id: "minecraft:bowl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "2D10486A19B6D9E6"
+					item: { count: 1, id: "farmersdelight:vegetable_soup" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "113D87E21160BCB6"
+					item: { count: 1, id: "farmersdelight:beef_stew" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2758925BFF25D1AF"
+					item: { count: 1, id: "farmersdelight:chicken_soup" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E43BD07297FDCED"]
+			icon: {
+				id: "minecraft:cake"
+			}
+			id: "38D074B94D332E89"
+			rewards: [
+				{
+					id: "25074C52F2EED807"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "1529B2C555B6E4EF"
+					item: {
+						count: 1
+						id: "minecraft:sugar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "184F3EE6CE284866"
+					item: { count: 1, id: "farmersdelight:honey_cookie" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1BFEED00F5231973"
+					item: { count: 1, id: "farmersdelight:sweet_berry_cookie" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "158E7AC8AC202FE5"
+					item: { count: 1, id: "minecraft:cake" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E43BD07297FDCED"]
+			icon: {
+				id: "farmersdelight:hot_cocoa"
+			}
+			id: "1EFE80B6AD5FAB2D"
+			rewards: [
+				{
+					id: "2D4E790E127ACC73"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2162DF6CD461094A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "66DD1133105CF491"
+					item: { count: 1, id: "farmersdelight:hot_cocoa" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "54EFC6FD37D3A31B"
+					item: { count: 1, id: "farmersdelight:apple_cider" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "39B4860C8002563E"
+					item: { count: 1, id: "farmersdelight:melon_juice" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E43BD07297FDCED"]
+			icon: {
+				id: "farmersdelight:fish_stew"
+			}
+			id: "103B021ABD4774B2"
+			rewards: [
+				{
+					id: "20B5D92CBF130BD1"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "694FF22974E79B2D"
+					item: {
+						count: 1
+						id: "minecraft:cooked_cod"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34FCEB7FDEFD5DEC"
+					item: { count: 1, id: "farmersdelight:fish_stew" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5C425DDAAE9484A9"
+					item: { count: 1, id: "farmersdelight:cooked_salmon_slice" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "169875E39AFDAC9A"
+					item: { count: 1, id: "farmersdelight:cooked_cod_slice" }
+					type: "item"
+				}
+				{
+					advancement: "farmersdelight:main/use_cutting_board"
+					criterion: ""
+					id: "67CB358564DA5ECA"
+					type: "advancement"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["103B021ABD4774B2"]
+			icon: {
+				id: "farmersdelight:beef_stew"
+			}
+			id: "71346FB9E45946B8"
+			rewards: [
+				{
+					id: "7202325CE3B79F8D"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "7C67D21C6095E889"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "farmersdelight:main/eat_nourishing_food"
+				criterion: ""
+				id: "55029E1ACF95D69C"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"71346FB9E45946B8"
+				"38D074B94D332E89"
+				"1EFE80B6AD5FAB2D"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:golden_carrot"
+			}
+			id: "7F1A4A675EC5F56B"
+			rewards: [
+				{
+					id: "60B551C028A7F290"
+					item: {
+						count: 1
+						id: "nxterra:bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "7B9CB105752F7484"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "1B64A6AECF6A7541"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "36E2A3A7DB7681D9"
+				type: "checkmark"
+			}]
+			x: 6.2d
+			y: 1.5d
+		}
+	]
+}

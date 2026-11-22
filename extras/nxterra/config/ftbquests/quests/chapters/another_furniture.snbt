@@ -1,0 +1,309 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "another_furniture"
+	group: "2F49404BE5395B45"
+	icon: {
+		id: "another_furniture:oak_chair"
+	}
+	id: "13F72A8F90AF3B7A"
+	images: [
+		{
+			height: 6.5d
+			id: "4408AB69597C4B4F"
+			image: "nxterra:textures/quests/backdrop/another_furniture.png"
+			order: -1
+			rotation: 0.0d
+			width: 11.5d
+			x: 3.25d
+			y: 1.1497d
+		}
+		{
+			height: 1.5d
+			id: "1ECA6A5818084043"
+			image: "nxterra:textures/quests/banner/another_furniture.png"
+			order: 1
+			rotation: 0.0d
+			width: 8.5d
+			x: 3.25d
+			y: -1.8248d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "another_furniture:oak_chair"
+			}
+			id: "568710424F019BE9"
+			rewards: [
+				{
+					id: "147F43A4843C86AC"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 16
+					id: "3943E733353EF54C"
+					item: {
+						count: 1
+						id: "minecraft:oak_planks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "27EC4E3E5A31367D"
+				item: { count: 1, id: "another_furniture:oak_chair" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["568710424F019BE9"]
+			icon: {
+				id: "another_furniture:oak_table"
+			}
+			id: "6F199F7E085D08A6"
+			rewards: [
+				{
+					id: "524DC2C01A09B5DE"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 8
+					id: "6D9684D25D492F7A"
+					item: {
+						count: 1
+						id: "minecraft:oak_slab"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 2L
+				id: "154DFD23E9AE7F12"
+				item: { count: 1, id: "another_furniture:oak_table" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F199F7E085D08A6"]
+			icon: {
+				id: "another_furniture:oak_drawer"
+			}
+			id: "24E1FCA529D8DD35"
+			rewards: [
+				{
+					id: "3F3C969793A4E77B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 16
+					id: "3C19A908D7E9B5C7"
+					item: {
+						count: 1
+						id: "minecraft:stick"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 2L
+					id: "568B8470A3160366"
+					item: { count: 1, id: "another_furniture:oak_drawer" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 3L
+					id: "6B63196E6626A5FF"
+					item: { count: 1, id: "another_furniture:oak_shelf" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F199F7E085D08A6"]
+			icon: {
+				id: "another_furniture:white_sofa"
+			}
+			id: "7E810F339ECE7063"
+			rewards: [
+				{
+					id: "2F6BEA8F5E6949B9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "3027CB69C9C9C8FE"
+					item: {
+						count: 1
+						id: "minecraft:white_wool"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 3L
+					id: "3DBF6DFEC21A6518"
+					item: { count: 1, id: "another_furniture:white_sofa" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6333B357444A8996"
+					item: { count: 1, id: "another_furniture:service_bell" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24E1FCA529D8DD35"]
+			icon: {
+				id: "another_furniture:white_lamp"
+			}
+			id: "5FDA99146BBE029E"
+			rewards: [
+				{
+					id: "1E226F6B74187C7F"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "540B3E040A8A1D32"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 3L
+					id: "43B75716280EF74A"
+					item: { count: 1, id: "another_furniture:white_lamp" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 3L
+					id: "232B7EBBD5107B2E"
+					item: { count: 1, id: "another_furniture:white_curtain" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7E810F339ECE7063"]
+			icon: {
+				id: "another_furniture:oak_flower_box"
+			}
+			id: "690C4A208E7DD85D"
+			rewards: [
+				{
+					id: "5FDE6DC02C0DA4A8"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 16
+					id: "2DDD35005053B190"
+					item: {
+						count: 1
+						id: "minecraft:dirt"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 3L
+					id: "69061AB02EBDB6C9"
+					item: { count: 1, id: "another_furniture:oak_flower_box" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "35FFC236E0C7E60C"
+					item: { count: 1, id: "another_furniture:oak_shutter" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5FDA99146BBE029E"
+				"690C4A208E7DD85D"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "another_furniture:oak_bench"
+			}
+			id: "576B3E6BEBC71AA1"
+			rewards: [
+				{
+					id: "6C294182BB294432"
+					item: {
+						count: 1
+						id: "nxterra:bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "2B5EC573E23B1BB9"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "2D45C094C0E82D2D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "25DE6947F46C3EE5"
+				type: "checkmark"
+			}]
+			x: 6.25d
+			y: 1.5d
+		}
+	]
+}

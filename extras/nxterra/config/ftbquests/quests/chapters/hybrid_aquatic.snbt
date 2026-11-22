@@ -1,0 +1,304 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hybrid_aquatic"
+	group: "7FE7FE7068E22B2B"
+	icon: {
+		id: "minecraft:nautilus_shell"
+	}
+	id: "74D8F268E3753C76"
+	images: [
+		{
+			height: 7.5d
+			id: "782D4F2A7CED8900"
+			image: "nxterra:textures/quests/backdrop/hybrid_aquatic.png"
+			order: -1
+			rotation: 0.0d
+			width: 9.5d
+			x: 2.5d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "4FE2F660F86625E1"
+			image: "nxterra:textures/quests/banner/hybrid_aquatic.png"
+			order: 1
+			rotation: 0.0d
+			width: 7.5d
+			x: 2.5d
+			y: -1.8248d
+		}
+	]
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "hybrid_aquatic:oak_raft"
+			}
+			id: "20B3D3EE1A68C956"
+			rewards: [
+				{
+					id: "50C2CE227881FD7C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 16
+					id: "420F5514A5B9AEDA"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "1908B12802A67CA9"
+					item: { count: 1, id: "hybrid_aquatic:oak_raft" }
+					type: "item"
+				}
+				{
+					biome: "hybrid_aquatic:coral_reef"
+					id: "20B82A4A81773D27"
+					type: "biome"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["20B3D3EE1A68C956"]
+			icon: {
+				id: "hybrid_aquatic:diving_suit"
+			}
+			id: "5D1027B6A57DA9C7"
+			rewards: [
+				{
+					id: "4CF0457D9EDF5FB3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "2946348C9537B468"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "21EFBC376499EBD3"
+					item: { count: 1, id: "hybrid_aquatic:diving_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7C6B0C3F8FF651A9"
+					item: { count: 1, id: "hybrid_aquatic:diving_suit" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "29788F2633039A87"
+					item: { count: 1, id: "hybrid_aquatic:diving_boots" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5D1027B6A57DA9C7"]
+			icon: {
+				id: "hybrid_aquatic:diving_weight"
+			}
+			id: "5B19607F4B184258"
+			rewards: [
+				{
+					id: "30A01DF51E4E028A"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "1491499A4FBB9CE4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "4BBCBA6E945E59A7"
+					item: { count: 1, id: "hybrid_aquatic:diving_weight" }
+					type: "item"
+				}
+				{
+					biome: "hybrid_aquatic:trench"
+					id: "582C9663EAB6A0D9"
+					type: "biome"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["20B3D3EE1A68C956"]
+			icon: {
+				id: "hybrid_aquatic:glowstick"
+			}
+			id: "1F7AE61A127973AF"
+			rewards: [
+				{
+					id: "2B42D6C3B8598763"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 2
+					id: "798C9B995FD4C98D"
+					item: {
+						count: 1
+						id: "minecraft:lantern"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 2L
+				id: "120A8CF203E25968"
+				item: { count: 1, id: "hybrid_aquatic:glowstick" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F7AE61A127973AF"]
+			icon: {
+				id: "hybrid_aquatic:buoy"
+			}
+			id: "7B6F0EFF35A2DC4B"
+			rewards: [
+				{
+					id: "2041B448668149E2"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 4
+					id: "6593EFBA47FB3447"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "46D6471E2662D964"
+					item: { count: 1, id: "hybrid_aquatic:buoy" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6CD4B563A9BFA22C"
+					item: { count: 1, id: "hybrid_aquatic:bell_buoy" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D1027B6A57DA9C7"]
+			icon: {
+				id: "hybrid_aquatic:comically_large_nautilus_shell"
+			}
+			id: "4CA310637A02667F"
+			rewards: [
+				{
+					id: "7C72D1207E1015EB"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "1D1D45588B52C379"
+					item: {
+						count: 1
+						id: "minecraft:nautilus_shell"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1300FB5034900D48"
+				structure: "hybrid_aquatic:whale_fall"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5B19607F4B184258"
+				"7B6F0EFF35A2DC4B"
+				"4CA310637A02667F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:nautilus_shell"
+			}
+			id: "148CA0FF1A53AB62"
+			rewards: [
+				{
+					id: "7F4C9D5749EEF30D"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "16B12BE284164888"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "249361BB2B0F27DC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "60B166B9C10F6155"
+				type: "checkmark"
+			}]
+			x: 4.75d
+			y: 1.5d
+		}
+	]
+}

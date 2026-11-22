@@ -1,0 +1,258 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "whaleborne"
+	group: "7FE7FE7068E22B2B"
+	icon: {
+		id: "minecraft:saddle"
+	}
+	id: "5F648FC68A25D804"
+	images: [
+		{
+			height: 6.5d
+			id: "34B423A3898100D0"
+			image: "nxterra:textures/quests/backdrop/whaleborne.png"
+			order: -1
+			rotation: 0.0d
+			width: 9.5d
+			x: 2.5d
+			y: 1.1497d
+		}
+		{
+			height: 1.5d
+			id: "79EEC1B8E5EDBD8F"
+			image: "nxterra:textures/quests/banner/whaleborne.png"
+			order: 1
+			rotation: 0.0d
+			width: 6.0d
+			x: 2.5d
+			y: -1.8248d
+		}
+	]
+	order_index: 14
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:saddle"
+			}
+			id: "50004236CB4A568C"
+			rewards: [
+				{
+					id: "6FF7DB0DABAE5A8E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 16
+					id: "1509264618B601A5"
+					item: {
+						count: 1
+						id: "minecraft:oak_planks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "212E563190DF0F48"
+					item: { count: 1, id: "minecraft:saddle" }
+					type: "item"
+				}
+				{
+					biome: "#minecraft:is_deep_ocean"
+					id: "31304496E7945FCD"
+					type: "biome"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["50004236CB4A568C"]
+			icon: {
+				id: "whaleborne:helm"
+			}
+			id: "2F33D9538D85D2E4"
+			rewards: [
+				{
+					id: "786618B92E6E9891"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "1BA638AC841C8511"
+					item: {
+						count: 1
+						id: "minecraft:iron_axe"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "3BA9959DACB65C64"
+				item: { count: 1, id: "whaleborne:helm" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2F33D9538D85D2E4"]
+			icon: {
+				id: "whaleborne:barnacle"
+			}
+			id: "23BBF616F076552C"
+			rewards: [
+				{
+					id: "4E8C2EE6522CDDEE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2DD1BE31C0972D73"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 2L
+					id: "1B88EC0F860ACB5C"
+					item: { count: 1, id: "whaleborne:rough_barnacle" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "589C08C8DA40D258"
+					item: { count: 1, id: "whaleborne:barnacle" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["50004236CB4A568C"]
+			icon: {
+				id: "whaleborne:sail"
+			}
+			id: "6104B82521AB0E70"
+			rewards: [
+				{
+					id: "2235394B4B98568F"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "2C8857488E4F7345"
+					item: {
+						count: 1
+						id: "minecraft:spyglass"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3B95BFB449FB9EC3"
+					structure: "minecraft:shipwreck"
+					type: "structure"
+				}
+				{
+					consume_items: false
+					id: "6E6054A19C612D2D"
+					item: { count: 1, id: "whaleborne:sail" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6104B82521AB0E70"]
+			icon: {
+				id: "whaleborne:cannon"
+			}
+			id: "2DB01D2A731932FF"
+			rewards: [
+				{
+					id: "6683EB6966FAB6DF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "1C12B884A5C63230"
+					item: {
+						count: 1
+						id: "minecraft:gunpowder"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "2AECDFBC6DB25BAC"
+				item: { count: 1, id: "whaleborne:cannon" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"23BBF616F076552C"
+				"2DB01D2A731932FF"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:nautilus_shell"
+			}
+			id: "29D067FC51E45C01"
+			rewards: [
+				{
+					id: "66B49A0D8EB9C0BB"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "761C00CD948D81CE"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "37AD55C5B67B1E50"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1A9C93D54F9F85B8"
+				type: "checkmark"
+			}]
+			x: 4.75d
+			y: 1.5d
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "nxterra:still_life/palm_crown_grouped",
+    "features": [
+      {
+        "chance": 0.5,
+        "feature": "still_life:pf_foliage/trees/palm_trunk"
+      }
+    ]
+  }
+}

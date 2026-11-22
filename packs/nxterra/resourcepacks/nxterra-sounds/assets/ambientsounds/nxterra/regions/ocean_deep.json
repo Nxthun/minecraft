@@ -1,0 +1,13 @@
+{
+    "name": "ocean",
+    "features": [
+        "ocean"
+    ],
+    "underwater": {
+        "min": 0.01,
+        "fade": 4
+    },
+    "mute": 0.1,
+    "mute-priority": 10,
+    "sounds": []
+}

@@ -1,0 +1,867 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "immersive_engineering"
+	group: "30A3BF10FF493301"
+	icon: {
+		id: "immersiveengineering:hammer"
+	}
+	id: "3A95AEAEBD52B0DC"
+	images: [
+		{
+			height: 8.0d
+			id: "4428D5549830C49B"
+			image: "nxterra:textures/quests/backdrop/immersive_engineering.png"
+			order: -1
+			rotation: 0.0d
+			width: 18.5d
+			x: 6.25d
+			y: 1.6592d
+		}
+		{
+			height: 1.5d
+			id: "2D1666190667E081"
+			image: "nxterra:textures/quests/banner/immersive_engineering.png"
+			order: 1
+			rotation: 0.0d
+			width: 10.0d
+			x: 6.25d
+			y: -1.9498d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "immersiveengineering:hammer"
+			}
+			id: "504A35CB9A1390AC"
+			rewards: [
+				{
+					id: "1497C3245479F567"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "605283CC27B0FBF6"
+					item: {
+						count: 1
+						id: "immersiveengineering:wirecutter"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "67F7BC8F9859813A"
+					item: { count: 1, id: "immersiveengineering:manual" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "285036397B998194"
+					item: { count: 1, id: "immersiveengineering:hammer" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["504A35CB9A1390AC"]
+			icon: {
+				id: "immersiveengineering:cokebrick"
+			}
+			id: "30FF61B4D2EAEA5E"
+			rewards: [
+				{
+					id: "1A3B17A402BB1417"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 16
+					id: "202145CEE86066F7"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 27L
+					id: "299B06278A928BA1"
+					item: { count: 1, id: "immersiveengineering:cokebrick" }
+					type: "item"
+				}
+				{
+					advancement: "immersiveengineering:main/mb_cokeoven"
+					criterion: ""
+					id: "369792DCF782F89D"
+					type: "advancement"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["30FF61B4D2EAEA5E"]
+			icon: {
+				id: "immersiveengineering:blastbrick"
+			}
+			id: "2CABFD3A90F71B57"
+			rewards: [
+				{
+					id: "50EF09C1E3A05D04"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 16
+					id: "15962DDB590B22B4"
+					item: {
+						count: 1
+						id: "immersiveengineering:coal_coke"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 27L
+					id: "1F0DF740E7A93E97"
+					item: { count: 1, id: "immersiveengineering:blastbrick" }
+					type: "item"
+				}
+				{
+					advancement: "immersiveengineering:main/mb_blastfurnace"
+					criterion: ""
+					id: "2FBDD32BF6C44300"
+					type: "advancement"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2CABFD3A90F71B57"]
+			icon: {
+				id: "immersiveengineering:ingot_steel"
+			}
+			id: "2A01962E32CD1D6F"
+			rewards: [
+				{
+					id: "685D070C5ACB740D"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "21CD0F65672227AA"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "79AA0BED870CC2BF"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "54F1BE0D371D6E5E"
+				item: { count: 1, id: "immersiveengineering:ingot_steel" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["30FF61B4D2EAEA5E"]
+			icon: {
+				id: "immersiveengineering:treated_wood_horizontal"
+			}
+			id: "33266184B68DFE9A"
+			rewards: [
+				{
+					id: "2FB7989479C42BB1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "43DAA6F0C1D02BE2"
+					item: {
+						count: 1
+						id: "immersiveengineering:stick_treated"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 8L
+				id: "365E8E0966ACCA2A"
+				item: { count: 1, id: "immersiveengineering:treated_wood_horizontal" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33266184B68DFE9A"]
+			icon: {
+				id: "immersiveengineering:light_engineering"
+			}
+			id: "2EC159756065E200"
+			rewards: [
+				{
+					id: "171ACC3749B7D621"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 8
+					id: "5D11B8F4663F1C48"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "27FF46A3013A0434"
+					item: { count: 1, id: "immersiveengineering:basic_engineering" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "1C05D193F96BF189"
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2EC159756065E200"]
+			icon: {
+				id: "immersiveengineering:windmill"
+			}
+			id: "59EEE108AC48C09A"
+			rewards: [
+				{
+					id: "6F0A5F66B6A812D6"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 8
+					id: "2037362737CD7B79"
+					item: {
+						count: 1
+						id: "immersiveengineering:wirecoil_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "5B28017445AEED76"
+					item: { count: 1, id: "immersiveengineering:windmill" }
+					type: "item"
+				}
+				{
+					advancement: "immersiveengineering:main/place_windmill"
+					criterion: ""
+					id: "4C05C447A82A5474"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59EEE108AC48C09A"]
+			icon: {
+				id: "immersiveengineering:dynamo"
+			}
+			id: "42EE2AA9C5C32DF3"
+			rewards: [
+				{
+					id: "603B57B704D583C4"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "2AEBCCAD576CC5A4"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "2524B181E15F9DA7"
+					item: { count: 1, id: "immersiveengineering:dynamo" }
+					type: "item"
+				}
+				{
+					advancement: "immersiveengineering:main/place_dynamo"
+					criterion: ""
+					id: "1D0AC18D5DB74329"
+					type: "advancement"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42EE2AA9C5C32DF3"]
+			icon: {
+				id: "immersiveengineering:connector_lv"
+			}
+			id: "1E17F2D4B90F6A7B"
+			rewards: [
+				{
+					id: "637A87A6DBC64F98"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "58EA378271CB562C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 2L
+					id: "715C9373655A5E42"
+					item: { count: 1, id: "immersiveengineering:connector_lv" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "641740D4CA694716"
+					item: { count: 1, id: "immersiveengineering:wirecoil_copper" }
+					type: "item"
+				}
+				{
+					advancement: "immersiveengineering:main/connect_wire"
+					criterion: ""
+					id: "616521DDEBEB802E"
+					type: "advancement"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1E17F2D4B90F6A7B"
+				"3C028E4ECF9C40B9"
+			]
+			icon: {
+				id: "immersiveengineering:railgun"
+			}
+			id: "32958A5998E8C454"
+			rewards: [
+				{
+					id: "733A5F27C2AC9249"
+					item: {
+						count: 1
+						id: "nxterra:moonpetal_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "3030CE2DFE6130BF"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 8
+					id: "1820A06639CB6EEA"
+					item: {
+						count: 1
+						id: "immersiveengineering:ingot_steel"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					consume_items: false
+					id: "129EBCF99D9154C2"
+					item: { count: 1, id: "immersiveengineering:capacitor_hv" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "189F3DD607418B07"
+					item: { count: 1, id: "immersiveengineering:coil_mv" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "26F1EF442358CE8C"
+					item: { count: 1, id: "immersiveengineering:railgun" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A01962E32CD1D6F"]
+			icon: {
+				id: "immersiveengineering:component_steel"
+			}
+			id: "61A80CAA3FAAC1A8"
+			rewards: [
+				{
+					id: "6157CEC06437B07F"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 4
+					id: "4D6BC86F56996BA8"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 8L
+					id: "543B09567DFDDDE2"
+					item: { count: 1, id: "immersiveengineering:plate_steel" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "6DA0E31B23949C02"
+					item: { count: 1, id: "immersiveengineering:component_steel" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["61A80CAA3FAAC1A8"]
+			icon: {
+				id: "immersiveengineering:ingot_electrum"
+			}
+			id: "232E3EE65ED4731E"
+			rewards: [
+				{
+					id: "5387E6F9B20A3F13"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "1EAEF30AA735F62F"
+					item: {
+						count: 1
+						id: "immersiveengineering:sheetmetal_steel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "78EC08D5A1472866"
+					item: { count: 1, id: "immersiveengineering:ingot_silver" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "132DB70D6D7BF858"
+					item: { count: 1, id: "immersiveengineering:ingot_electrum" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["232E3EE65ED4731E"]
+			icon: {
+				id: "immersiveengineering:heavy_engineering"
+			}
+			id: "3C028E4ECF9C40B9"
+			rewards: [
+				{
+					id: "39B6E34161F04850"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "438701EE8D9D4106"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "1C43BA11B201BD92"
+				item: { count: 1, id: "immersiveengineering:heavy_engineering" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C028E4ECF9C40B9"]
+			icon: {
+				id: "immersiveengineering:dust_iron"
+			}
+			id: "3BDAA836254933F8"
+			rewards: [
+				{
+					id: "5615118CA1134899"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "5C7BED8573623A94"
+					item: {
+						count: 1
+						id: "immersiveengineering:sheetmetal_steel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "immersiveengineering:multiblocks/mb_crusher"
+					criterion: ""
+					id: "2522B24236AEDE4A"
+					type: "advancement"
+				}
+				{
+					consume_items: false
+					count: 8L
+					id: "1DE0F2031B668D25"
+					item: { count: 1, id: "immersiveengineering:dust_iron" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["30FF61B4D2EAEA5E"]
+			icon: {
+				id: "immersiveengineering:workbench"
+			}
+			id: "197E4F25DA6DF015"
+			rewards: [
+				{
+					id: "7C4E9D2FF7AB4DD6"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 8
+					id: "59B7076C3ED5A8C2"
+					item: {
+						count: 1
+						id: "immersiveengineering:treated_wood_horizontal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "1EF4ACFEB439C59D"
+					item: { count: 1, id: "immersiveengineering:workbench" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7ED49CCB2C7B4C93"
+					item: { count: 1, id: "immersiveengineering:blueprint" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["197E4F25DA6DF015"]
+			icon: {
+				id: "immersiveengineering:conveyor_basic"
+			}
+			id: "315A4AA2D7D49C6A"
+			rewards: [
+				{
+					id: "1DFB93908AFDE3E1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "6B25FDBAFB77458B"
+					item: {
+						count: 1
+						id: "immersiveengineering:component_iron"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 8L
+					id: "2E503B8BB354C217"
+					item: { count: 1, id: "immersiveengineering:conveyor_basic" }
+					type: "item"
+				}
+				{
+					advancement: "immersiveengineering:main/place_conveyor"
+					criterion: ""
+					id: "1382C7E86E99A7F8"
+					type: "advancement"
+				}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["315A4AA2D7D49C6A"]
+			icon: {
+				id: "immersiveengineering:sorter"
+			}
+			id: "7849CEFF356513D0"
+			rewards: [
+				{
+					id: "2B38164F41114C92"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 4
+					id: "1FC2557A8C0C1CFE"
+					item: {
+						count: 1
+						id: "immersiveengineering:conveyor_splitter"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "64114A9C6A410A1D"
+				item: { count: 1, id: "immersiveengineering:sorter" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C028E4ECF9C40B9"]
+			icon: {
+				id: "immersiveengineering:drill"
+			}
+			id: "23D5D0F46C768623"
+			rewards: [
+				{
+					id: "2D8452AAFF4030DA"
+					type: "xp"
+					xp: 90
+				}
+				{
+					id: "40931F44743113DC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "285CDB293E03A261"
+					item: {
+						count: 1
+						id: "immersiveengineering:jerrycan"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "5720F908E8FA98BF"
+					item: { count: 1, id: "immersiveengineering:drill" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "56F1CE94ABCB3032"
+					item: { count: 1, id: "immersiveengineering:drillhead_iron" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"23D5D0F46C768623"
+				"3BDAA836254933F8"
+			]
+			icon: {
+				id: "immersiveengineering:sample_drill"
+			}
+			id: "27A9F46114DBFAD6"
+			rewards: [
+				{
+					id: "3F9C6469D652631B"
+					item: {
+						count: 1
+						id: "nxterra:moonpetal_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "2403D9D6BFC36947"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "6FC131C069F1A5D6"
+					item: {
+						count: 1
+						id: "immersiveengineering:drillhead_steel"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "immersiveengineering:multiblocks/mb_excavator"
+					criterion: ""
+					id: "2D04D5CF35D7FA97"
+					type: "advancement"
+				}
+				{
+					consume_items: false
+					id: "2437D5FAFA26D922"
+					item: { count: 1, id: "immersiveengineering:sample_drill" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"32958A5998E8C454"
+				"27A9F46114DBFAD6"
+				"7849CEFF356513D0"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "immersiveengineering:component_iron"
+			}
+			id: "5AC20ED0D05A3A4B"
+			rewards: [
+				{
+					id: "50A7998DAEB09576"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "2E5AD226A9340560"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "296ACB2F03D4C35F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "3984BEABD6321ED9"
+				type: "checkmark"
+			}]
+			x: 12.25d
+			y: 1.5d
+		}
+	]
+}

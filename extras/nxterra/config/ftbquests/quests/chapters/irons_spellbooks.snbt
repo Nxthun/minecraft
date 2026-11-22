@@ -1,0 +1,576 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "irons_spellbooks"
+	group: "73DE14B223317E58"
+	icon: {
+		id: "irons_spellbooks:inscription_table"
+	}
+	id: "68294CF6277D56D4"
+	images: [
+		{
+			height: 7.5d
+			id: "2473C8ABACA5D06A"
+			image: "nxterra:textures/quests/backdrop/irons_spellbooks.png"
+			order: -1
+			rotation: 0.0d
+			width: 18.5d
+			x: 6.25d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "2DD1C32E81171104"
+			image: "nxterra:textures/quests/banner/irons_spellbooks.png"
+			order: 1
+			rotation: 0.0d
+			width: 12.0d
+			x: 6.25d
+			y: -1.8248d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "irons_spellbooks:inscription_table"
+			}
+			id: "37058AAFF6AD4B2C"
+			rewards: [
+				{
+					id: "7CC0627AE2D52DC4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 16
+					id: "49F8AB003BB2A217"
+					item: {
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "60D7306D13B3EA89"
+				item: { count: 1, id: "irons_spellbooks:inscription_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["37058AAFF6AD4B2C"]
+			icon: {
+				id: "irons_spellbooks:scroll_forge"
+			}
+			id: "1D02972C452E776E"
+			rewards: [
+				{
+					id: "797B6F4CC110CD27"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 4
+					id: "616FECECAB658849"
+					item: {
+						count: 1
+						id: "minecraft:glass_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "23E1BEFAFCB712E8"
+				item: { count: 1, id: "irons_spellbooks:scroll_forge" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1D02972C452E776E"]
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 6
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:iron_spell_book"
+			}
+			id: "182013A65E21D353"
+			rewards: [
+				{
+					id: "26763ADA0366B0E1"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 8
+					id: "4A5E352FEA144264"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "6CA8C119D783251F"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 5, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:copper_spell_book" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "35A99BBA53921C5A"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 6, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:iron_spell_book" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1D02972C452E776E"]
+			icon: {
+				id: "irons_spellbooks:alchemist_cauldron"
+			}
+			id: "457310231AF5CBA2"
+			rewards: [
+				{
+					id: "2656072E9C587407"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "7A8789EF18E592CD"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "2255EF94DE9B4426"
+					item: { count: 1, id: "irons_spellbooks:alchemist_cauldron" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "181D41DC860BC530"
+					item: { count: 1, id: "irons_spellbooks:common_ink" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["182013A65E21D353"]
+			icon: {
+				id: "irons_spellbooks:arcane_anvil"
+			}
+			id: "6AE57DC4E9DC1DFA"
+			rewards: [
+				{
+					id: "28731A572954FBFD"
+					type: "xp"
+					xp: 80
+				}
+				{
+					count: 2
+					id: "625302F02A58F929"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "48589D75C5604A17"
+				item: { count: 1, id: "irons_spellbooks:arcane_anvil" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["182013A65E21D353"]
+			icon: {
+				id: "irons_spellbooks:pyromancer_helmet"
+			}
+			id: "72902AE8A483069C"
+			rewards: [
+				{
+					id: "607292A80B5AF5D1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "13F0225EC5E072BF"
+					item: {
+						count: 1
+						id: "irons_spellbooks:cinder_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "36991536E37A9066"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "742482D9E1A3527A"
+					structure: "irons_spellbooks:pyromancer_tower"
+					type: "structure"
+				}
+				{
+					entity: "irons_spellbooks:pyromancer"
+					id: "5C32436DA59AEB78"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72902AE8A483069C"]
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [
+							{
+								id: "irons_spellbooks:fang_strike"
+								index: 0
+								level: 6
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:fang_ward"
+								index: 1
+								level: 4
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:summon_vex"
+								index: 2
+								level: 4
+								locked: 1b
+							}
+						]
+						maxSpells: 10
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:evoker_spell_book"
+			}
+			id: "51D5BC8F5FEC2909"
+			rewards: [
+				{
+					id: "51D152E2EAE1D026"
+					type: "xp"
+					xp: 120
+				}
+				{
+					id: "6E77207241A5C8BD"
+					item: {
+						count: 1
+						id: "minecraft:totem_of_undying"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "12D656A3A49684D4"
+					structure: "irons_spellbooks:evoker_fort"
+					type: "structure"
+				}
+				{
+					entity: "irons_spellbooks:archevoker"
+					id: "63657A609AD65C0D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["182013A65E21D353"]
+			icon: {
+				id: "irons_spellbooks:magic_cloth"
+			}
+			id: "1CE3C605A19F8125"
+			rewards: [
+				{
+					id: "31082602FD47F743"
+					type: "xp"
+					xp: 80
+				}
+				{
+					count: 4
+					id: "382C29E81EA2691A"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "6F1DC4C4DC6496FE"
+				item: { count: 1, id: "irons_spellbooks:magic_cloth" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1CE3C605A19F8125"]
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 8
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:gold_spell_book"
+			}
+			id: "40BE60B2576BCA64"
+			rewards: [
+				{
+					id: "36B1E124509598F2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "564567333406E9E5"
+					item: {
+						count: 1
+						id: "irons_spellbooks:common_ink"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "650A430BD36F6306"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 8, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:gold_spell_book" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["40BE60B2576BCA64"]
+			icon: {
+				id: "irons_spellbooks:mithril_ingot"
+			}
+			id: "2607018913DDBF77"
+			rewards: [
+				{
+					id: "16E7521DD1024BBC"
+					type: "xp"
+					xp: 120
+				}
+				{
+					count: 4
+					id: "5D77A758C9239E55"
+					item: {
+						count: 1
+						id: "irons_spellbooks:cinder_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "798C9EE4E848ED08"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "296BCEC12BE6BF5B"
+				item: { count: 1, id: "irons_spellbooks:mithril_ingot" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2607018913DDBF77"]
+			icon: {
+				id: "irons_spellbooks:upgrade_orb"
+			}
+			id: "4241D229F8DC878C"
+			rewards: [
+				{
+					id: "25664506D98C8EB1"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 2
+					id: "565280486D955763"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "3BE56E3230FA8C1B"
+				item: { count: 1, id: "irons_spellbooks:upgrade_orb" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4241D229F8DC878C"]
+			icon: {
+				id: "irons_spellbooks:dead_king_phylactery"
+			}
+			id: "580D85390D22ED42"
+			rewards: [
+				{
+					id: "4DFE3B2008A9F4B1"
+					item: {
+						count: 1
+						id: "nxterra:moonpetal_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "182CE3F870457D6A"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 4
+					id: "29C2E3E1FAD8227A"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "48FF6ABAA2D93604"
+					structure: "irons_spellbooks:catacombs"
+					type: "structure"
+				}
+				{
+					entity: "irons_spellbooks:dead_king"
+					id: "677EAFB4F5AB9772"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"457310231AF5CBA2"
+				"6AE57DC4E9DC1DFA"
+				"51D5BC8F5FEC2909"
+				"580D85390D22ED42"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 10
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:diamond_spell_book"
+			}
+			id: "6DF5F0512528CD68"
+			rewards: [
+				{
+					id: "3536B24439F4BC83"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "2A1ECA52DE1D6FDD"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "5555A79C9EC2255B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2AB4A3B211AD7636"
+				type: "checkmark"
+			}]
+			x: 12.25d
+			y: 1.5d
+		}
+	]
+}

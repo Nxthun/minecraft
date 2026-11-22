@@ -1,0 +1,324 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bakery"
+	group: "435CE345857D9297"
+	icon: {
+		id: "minecraft:bread"
+	}
+	id: "6C86A8A9B2A2F6CC"
+	images: [
+		{
+			height: 7.5d
+			id: "5BD136276ECC1EBD"
+			image: "nxterra:textures/quests/backdrop/bakery.png"
+			order: -1
+			rotation: 0.0d
+			width: 11.5d
+			x: 3.225d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "67AC5D62C87F0296"
+			image: "nxterra:textures/quests/banner/bakery.png"
+			order: 1
+			rotation: 0.0d
+			width: 8.5d
+			x: 3.225d
+			y: -1.8248d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "farm_and_charm:crafting_bowl"
+			}
+			id: "79453D0D73F30EEE"
+			rewards: [
+				{
+					id: "12463C9D6A7A7D28"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 16
+					id: "3C493A566CB201A1"
+					item: {
+						count: 1
+						id: "minecraft:wheat"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "194AA16876B98DEC"
+					item: { count: 1, id: "farm_and_charm:crafting_bowl" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3BF149ADE29CB271"
+					item: { count: 1, id: "farm_and_charm:stove" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5E5C50C5EC2CFDA5"
+					item: { count: 1, id: "bakery:rolling_pin" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["79453D0D73F30EEE"]
+			icon: {
+				id: "bakery:bread"
+			}
+			id: "7129BEA0503BFE1B"
+			rewards: [
+				{
+					id: "131A051823A0CBAC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "1691DA4A2E9BD4CF"
+					item: {
+						count: 1
+						id: "minecraft:sugar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "1ED4ECE5383700E1"
+				item: { count: 1, id: "bakery:bread" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7129BEA0503BFE1B"]
+			icon: {
+				id: "bakery:strawberry_jam"
+			}
+			id: "2A2280D2EDAD7C6B"
+			rewards: [
+				{
+					id: "306005EA04D388BC"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 8
+					id: "2FCE672E05591499"
+					item: {
+						count: 1
+						id: "minecraft:sweet_berries"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "6FC38A10A2383517"
+					item: { count: 1, id: "bakery:small_cooking_pot" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 3L
+					id: "323BA37989FA3480"
+					item: { count: 1, id: "bakery:jar" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "23E21535DA9DE68E"
+					item: { count: 1, id: "bakery:strawberry_jam" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7129BEA0503BFE1B"]
+			icon: {
+				id: "bakery:croissant"
+			}
+			id: "1E4495C41ABE4DFC"
+			rewards: [
+				{
+					id: "3A57C3AD1E2EA38C"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "25A2FC9646FE872B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "7A74D4A6DD9C9204"
+					item: { count: 1, id: "bakery:sweet_dough" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "6D11BB7CAF5CEECB"
+					item: { count: 1, id: "bakery:croissant" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E4495C41ABE4DFC"]
+			icon: {
+				id: "bakery:sponge_sheet"
+			}
+			id: "7F50508ECF714AFE"
+			rewards: [
+				{
+					id: "5F9E8657A7699410"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 4
+					id: "3711C4A7F55E4289"
+					item: {
+						count: 1
+						id: "bakery:chocolate_truffle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "15EDB0E708C4C9C3"
+					item: { count: 1, id: "bakery:cake_dough" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3F0F7D0C64510A16"
+					item: { count: 1, id: "bakery:sponge_sheet" }
+					type: "item"
+				}
+				{
+					advancement: "bakery:main/place_baker_station"
+					criterion: ""
+					id: "55605EDBE2CEAB75"
+					type: "advancement"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7129BEA0503BFE1B"]
+			icon: {
+				id: "bakery:bread_knife"
+			}
+			id: "546B2C8D21FFC2BA"
+			rewards: [
+				{
+					id: "1014EF71FB3132E2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4B08BC596C7C47EA"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1D643DEA199E23D2"
+				structure: "bakery:bakery"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"2A2280D2EDAD7C6B"
+				"7F50508ECF714AFE"
+				"546B2C8D21FFC2BA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "bakery:cake_stand"
+			}
+			id: "5FA156CC78993389"
+			rewards: [
+				{
+					id: "210AAEFAB7C8BEDA"
+					item: {
+						count: 1
+						id: "nxterra:bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "1E5C0C79B77BD861"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "3FF22683A9DC28FB"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2B658FF3557647B3"
+				type: "checkmark"
+			}]
+			x: 6.2d
+			y: 1.5d
+		}
+	]
+}

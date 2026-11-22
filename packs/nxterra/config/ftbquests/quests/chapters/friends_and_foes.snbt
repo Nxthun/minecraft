@@ -1,0 +1,322 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "friends_and_foes"
+	group: "7FE7FE7068E22B2B"
+	icon: {
+		id: "minecraft:copper_ingot"
+	}
+	id: "29E870FE0D73FDF9"
+	images: [
+		{
+			height: 6.5d
+			id: "7AAF1DF2E9B2A03F"
+			image: "nxterra:textures/quests/backdrop/friends_and_foes.png"
+			order: -1
+			rotation: 0.0d
+			width: 11.5d
+			x: 3.25d
+			y: 1.1497d
+		}
+		{
+			height: 1.5d
+			id: "2EC13C20515F6A63"
+			image: "nxterra:textures/quests/banner/friends_and_foes.png"
+			order: 1
+			rotation: 0.0d
+			width: 7.5d
+			x: 3.25d
+			y: -1.8248d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "friendsandfoes:buttercup"
+			}
+			id: "5B39FCCD4ACA737E"
+			rewards: [
+				{
+					id: "45322810842FAA2C"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "1BF07BD635E592BA"
+					item: {
+						count: 1
+						id: "minecraft:shears"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:flower_forest"
+					id: "249F50C7EBD9B52E"
+					type: "biome"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "2FD88E193370DEB9"
+					item: { count: 1, id: "friendsandfoes:buttercup" }
+					type: "item"
+				}
+				{
+					advancement: "friendsandfoes:husbandry/shear_a_moobloom"
+					criterion: ""
+					id: "22373F68AFC6D8A2"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5B39FCCD4ACA737E"]
+			icon: {
+				id: "friendsandfoes:penguin_feather"
+			}
+			id: "6D3E220E8B33766E"
+			rewards: [
+				{
+					id: "268A8071AC4D2194"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 16
+					id: "6B34AB2703115C59"
+					item: {
+						count: 1
+						id: "minecraft:snowball"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "#friendsandfoes:has_penguin"
+					id: "214E1F0BC97610F5"
+					type: "biome"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "6AD750B5DE4FE68D"
+					item: { count: 1, id: "friendsandfoes:penguin_feather" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6D3E220E8B33766E"]
+			icon: {
+				id: "friendsandfoes:crab_claw"
+			}
+			id: "7BBAED47FB4893F9"
+			rewards: [
+				{
+					id: "32803635FE20E956"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2D8C1C433F421DB3"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "#friendsandfoes:has_crab"
+					id: "655452C7BF0F2479"
+					type: "biome"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "51119461CACC397F"
+					item: { count: 1, id: "friendsandfoes:crab_claw" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5B39FCCD4ACA737E"]
+			icon: {
+				id: "minecraft:glow_berries"
+			}
+			id: "1EBB1620B7C2B97E"
+			rewards: [
+				{
+					id: "4AC3DA5958296131"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "7DC1CB8DC49D529F"
+					item: {
+						count: 1
+						id: "minecraft:glow_berries"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:lush_caves"
+					id: "182EB5910AE90868"
+					type: "biome"
+				}
+				{
+					advancement: "friendsandfoes:husbandry/tame_a_glare"
+					criterion: ""
+					id: "57B38EAD58BAF3BC"
+					type: "advancement"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1EBB1620B7C2B97E"]
+			icon: {
+				id: "minecraft:copper_block"
+			}
+			id: "75512AC4CAF84736"
+			rewards: [
+				{
+					id: "29190C92A7B62764"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "7FEF07328FD83CB8"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 2L
+					id: "73ECA5B31025EC00"
+					item: { count: 1, id: "friendsandfoes:copper_button" }
+					type: "item"
+				}
+				{
+					advancement: "friendsandfoes:adventure/summon_copper_golem"
+					criterion: ""
+					id: "6FC7CA4DA20153DD"
+					type: "advancement"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["75512AC4CAF84736"]
+			icon: {
+				id: "friendsandfoes:totem_of_illusion"
+			}
+			id: "2DFD5D466B583C43"
+			rewards: [
+				{
+					id: "611E93293DF71ACC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6F4AE16164C4C5B6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "120C907BB7F072A8"
+					structure: "friendsandfoes:illusioner_shack"
+					type: "structure"
+				}
+				{
+					entity: "friendsandfoes:illusioner"
+					id: "761884B60E8858A6"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7BBAED47FB4893F9"
+				"2DFD5D466B583C43"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:copper_ingot"
+			}
+			id: "3C8AFD2BB3BA7C4F"
+			rewards: [
+				{
+					id: "7C1CF432F65152E6"
+					item: {
+						count: 1
+						id: "nxterra:bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "45D0C45F13746331"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "1A13663AC3D80DF1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "16F4CA77BB581AE8"
+				type: "checkmark"
+			}]
+			x: 6.25d
+			y: 1.5d
+		}
+	]
+}

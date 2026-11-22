@@ -1,0 +1,31 @@
+{
+    "name": "forest.roofed",
+    "bad-regions": [
+        "rain",
+        "pale-garden"
+    ],
+    "biomes": [
+        "roofed*forest",
+        "dark_forest",
+        "blooming_valley",
+        "forgotten_forest",
+        "weeping_witch_forest",
+        "enchanted_tangle",
+        "ebony_woods"
+    ],
+    "sounds": [
+        {
+            "name": "bird-ambience-spooky",
+            "category": "bird_day",
+            "files": [
+                "nxterra_ambience:ambience.forest_day_birds"
+            ],
+            "transition": 500,
+            "length": {
+                "min": 1500,
+                "max": 3000
+            },
+            "volume": 0.5
+        }
+    ]
+}

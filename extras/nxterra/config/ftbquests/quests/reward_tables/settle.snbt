@@ -1,0 +1,126 @@
+{
+	icon: {
+		id: "ftbquests:lootcrate"
+	}
+	id: "15DFDC76F86BAFF8"
+	loot_crate: {
+		color: 9418713
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Settle Supply Crate"
+		string_id: "settle"
+	}
+	loot_size: 2
+	order_index: 2
+	rewards: [
+		{
+			count: 8
+			id: "4F1C838636A32B9D"
+			item: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 12
+			id: "30FA2506D0C76F41"
+			item: {
+				count: 1
+				id: "minecraft:copper_ingot"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 16
+			id: "78FB1BBF7D95E09C"
+			item: {
+				count: 1
+				id: "minecraft:coal"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 16
+			id: "725AF0708D82D820"
+			item: {
+				count: 1
+				id: "create:andesite_alloy"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 6
+			id: "19CBD8F5C98BCF25"
+			item: {
+				count: 1
+				id: "create:zinc_ingot"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 8
+			id: "596DF7B57F4FC692"
+			item: {
+				count: 1
+				id: "minecraft:cooked_beef"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 32
+			id: "55FCACC243FA0903"
+			item: {
+				count: 1
+				id: "minecraft:torch"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 6
+			id: "231A94B50C1A7F22"
+			item: {
+				count: 1
+				id: "minecraft:golden_carrot"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 4
+			id: "5D68D61D1DE36CAD"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 2
+			id: "4A4EDCFF4C6195A7"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+			weight: 3.0f
+		}
+		{
+			id: "4BEACBD3C738DE22"
+			item: {
+				count: 1
+				id: "minecraft:name_tag"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "2552E66D8409C2D8"
+			item: {
+				count: 1
+				id: "minecraft:saddle"
+			}
+			weight: 2.0f
+		}
+	]
+}

@@ -1,0 +1,520 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "home_ring"
+	group: "20434CE362D81358"
+	icon: {
+		id: "minecraft:spyglass"
+	}
+	id: "375F9AD886A631AB"
+	images: [
+		{
+			height: 7.5d
+			id: "256931B67F996E54"
+			image: "nxterra:textures/quests/backdrop/home_ring.png"
+			order: -1
+			rotation: 0.0d
+			width: 13.0d
+			x: 4.0d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "737C1D22CFF59267"
+			image: "nxterra:textures/quests/banner/home_ring.png"
+			order: 1
+			rotation: 0.0d
+			width: 5.5d
+			x: 4.0d
+			y: -1.8248d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:campfire"
+			}
+			id: "37DB54EDD9D7E078"
+			rewards: [
+				{
+					id: "48C004F561DC30AB"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 8
+					id: "2C147E6D22FB1850"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "5FC83FB73713E026"
+					item: { count: 1, id: "minecraft:crafting_table" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "30983591E4E0169A"
+					item: { count: 1, id: "minecraft:wooden_pickaxe" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["37DB54EDD9D7E078"]
+			icon: {
+				id: "minecraft:red_bed"
+			}
+			id: "7FF457C8C903DBF3"
+			rewards: [
+				{
+					id: "6138B6BAA09CBE9B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 8
+					id: "2A42D1080D13ABD4"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "1354896905164270"
+					item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:beds)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "22751A14B8765084"
+					item: { count: 1, id: "minecraft:furnace" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 8L
+					id: "490E739A2D034E4C"
+					item: { count: 1, id: "minecraft:torch" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7FF457C8C903DBF3"]
+			icon: {
+				id: "minecraft:cooked_beef"
+			}
+			id: "5F4BF14D7DD24435"
+			rewards: [
+				{
+					id: "4CCB69E40C7C2545"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "24D85866539644E6"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:cow"
+					id: "7676DE97C587CD4F"
+					type: "kill"
+					value: 3L
+				}
+				{
+					consume_items: false
+					count: 6L
+					id: "57A8B756CE296ECD"
+					item: { count: 1, id: "minecraft:cooked_beef" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7FF457C8C903DBF3"]
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "70726436FF9A33EF"
+			rewards: [
+				{
+					id: "3843C8160931B310"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "6B89D09B87A518EE"
+					item: {
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "76D38831E26793CA"
+					item: { count: 1, id: "minecraft:compass" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7DF056040A1E5098"
+					item: { count: 1, id: "minecraft:map" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7FF457C8C903DBF3"]
+			icon: {
+				id: "minecraft:oak_sapling"
+			}
+			id: "17C507DE615D4619"
+			rewards: [
+				{
+					id: "3EDE698BD2C91659"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "388A15E2F989D86B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:forest"
+					id: "3D0CA16FCA89E602"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:plains"
+					id: "329E7D25703EF0D6"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:river"
+					id: "1D23530CA5BB9000"
+					type: "biome"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5F4BF14D7DD24435"]
+			icon: {
+				id: "minecraft:emerald"
+			}
+			id: "6F8E6F18B881AE1B"
+			rewards: [
+				{
+					id: "297FD81203B40CE0"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "443B2B6C05DCC572"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "40F31F3153A63D09"
+					structure: "#minecraft:village"
+					type: "structure"
+				}
+				{
+					consume_items: false
+					id: "5D1C0D9520F9317B"
+					item: { count: 1, id: "minecraft:emerald" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70726436FF9A33EF"]
+			icon: {
+				id: "minecraft:mossy_cobblestone"
+			}
+			id: "2DA9F9B833EBAC99"
+			rewards: [
+				{
+					id: "26F6EF5960D8189F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2301AC1AF1849794"
+					item: {
+						count: 1
+						id: "minecraft:flint_and_steel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2FF0AFFD2DAF5241"
+				structure: "#minecraft:ruined_portal"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2DA9F9B833EBAC99"]
+			icon: {
+				id: "minecraft:brush"
+			}
+			id: "2ED3445AF3FEC044"
+			rewards: [
+				{
+					id: "2A484F2410E6A8F8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "10B3F271A11C5038"
+					item: {
+						count: 1
+						id: "minecraft:clay_ball"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "7333B0B2DDD172AB"
+					item: { count: 1, id: "minecraft:brush" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "54D409BC7C435818"
+					item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:decorated_pot_sherds)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2ED3445AF3FEC044"]
+			icon: {
+				id: "minecraft:amethyst_shard"
+			}
+			id: "675B411582B51321"
+			rewards: [
+				{
+					id: "5C802CAB22BC21CF"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2941553CDD464134"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "73E9D0CE0839E95B"
+					item: { count: 1, id: "minecraft:amethyst_shard" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7086C4711F1CB669"
+					item: { count: 1, id: "minecraft:spyglass" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6F8E6F18B881AE1B"]
+			icon: {
+				id: "waystones:waystone"
+			}
+			id: "6BBA67793AFC143F"
+			rewards: [
+				{
+					id: "6056A980642AB1FB"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 3
+					id: "6C557158F70F599C"
+					item: {
+						count: 1
+						id: "waystones:return_scroll"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "2F3CA0FBDA507257"
+				item: { count: 1, id: "waystones:waystone" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6F8E6F18B881AE1B"
+				"2DA9F9B833EBAC99"
+			]
+			icon: {
+				id: "minecraft:crossbow"
+			}
+			id: "62E428D313780B27"
+			rewards: [
+				{
+					id: "3F477E7A2DB4AE02"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "6B69EF06F7EEF0F8"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 2
+					id: "3E0804BDE9B99E51"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "5F0F200434922BD2"
+					structure: "minecraft:pillager_outpost"
+					type: "structure"
+				}
+				{
+					entity: "minecraft:pillager"
+					id: "778918023228B35D"
+					type: "kill"
+					value: 8L
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"62E428D313780B27"
+				"6BBA67793AFC143F"
+				"675B411582B51321"
+				"17C507DE615D4619"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "168263905F143C7B"
+			rewards: [
+				{
+					id: "684A0F1B2DED868A"
+					item: {
+						count: 1
+						id: "nxterra:bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "3C888D36290AAE48"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "29EAB8A6B438EE59"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "13C669953F84D4B1"
+				type: "checkmark"
+			}]
+			x: 7.75d
+			y: 1.5d
+		}
+	]
+}

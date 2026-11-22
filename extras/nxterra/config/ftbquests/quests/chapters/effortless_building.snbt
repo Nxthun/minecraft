@@ -1,0 +1,241 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "effortless_building"
+	group: "2F49404BE5395B45"
+	icon: {
+		id: "effortlessbuilding:randomizer_tool"
+	}
+	id: "18F89F1DDD29C65F"
+	images: [
+		{
+			height: 6.5d
+			id: "297CBFEC9119A547"
+			image: "nxterra:textures/quests/backdrop/effortless_building.png"
+			order: -1
+			rotation: 0.0d
+			width: 11.5d
+			x: 3.25d
+			y: 1.1497d
+		}
+		{
+			height: 1.5d
+			id: "60510BF6DD6087AE"
+			image: "nxterra:textures/quests/banner/effortless_building.png"
+			order: 1
+			rotation: 0.0d
+			width: 9.5d
+			x: 3.25d
+			y: -1.8248d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "effortlessbuilding:randomizer_tool"
+			}
+			id: "62962A9D798577F9"
+			rewards: [
+				{
+					id: "727A668B0C973EF3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 32
+					id: "19D0F0B1317F08F7"
+					item: {
+						count: 1
+						id: "minecraft:stone_bricks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "609141E181D05F05"
+				item: { count: 1, id: "effortlessbuilding:randomizer_tool" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["62962A9D798577F9"]
+			icon: {
+				id: "minecraft:stone_bricks"
+			}
+			id: "753F3872D4B56B71"
+			rewards: [
+				{
+					id: "2D5E4BBCB30E273C"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 64
+					id: "2972D12D637AABEC"
+					item: {
+						count: 1
+						id: "minecraft:oak_planks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 128L
+				id: "321B63C086E621F8"
+				item: { count: 1, id: "minecraft:stone_bricks" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["753F3872D4B56B71"]
+			icon: {
+				id: "minecraft:oak_planks"
+			}
+			id: "422DB191261C2295"
+			rewards: [
+				{
+					id: "28F1B13F3B5A8143"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 32
+					id: "414E38963A0A3F85"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 128L
+				id: "1B8D835681BAED27"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:planks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["422DB191261C2295"]
+			icon: {
+				id: "minecraft:glass"
+			}
+			id: "7A49D00926EB200A"
+			rewards: [
+				{
+					id: "4F29EC5777303EA7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "442844A246EC3CCE"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 64L
+				id: "22827C93838A5634"
+				item: { count: 1, id: "minecraft:glass" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["753F3872D4B56B71"]
+			icon: {
+				id: "minecraft:bricks"
+			}
+			id: "339230612EB13C2B"
+			rewards: [
+				{
+					id: "1C4607ECC9C3BB55"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 32
+					id: "706ED0079F6CA654"
+					item: {
+						count: 1
+						id: "minecraft:brick"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 96L
+				id: "21499A8792CD1754"
+				item: { count: 1, id: "minecraft:bricks" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7A49D00926EB200A"
+				"339230612EB13C2B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:diamond_pickaxe"
+			}
+			id: "1421A687BEA2D188"
+			rewards: [
+				{
+					id: "525EF73AA4EC2E5A"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "5CF225228624FD1F"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "11AD902143C5D557"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "29BE5A8F0555AC7F"
+				type: "checkmark"
+			}]
+			x: 6.25d
+			y: 1.5d
+		}
+	]
+}

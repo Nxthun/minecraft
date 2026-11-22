@@ -1,0 +1,321 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "amendments"
+	group: "2F49404BE5395B45"
+	icon: {
+		id: "minecraft:lantern"
+	}
+	id: "46A4AA4A16B0E3EF"
+	images: [
+		{
+			height: 6.5d
+			id: "2231F7C2B3DB324C"
+			image: "nxterra:textures/quests/backdrop/amendments.png"
+			order: -1
+			rotation: 0.0d
+			width: 11.5d
+			x: 3.25d
+			y: 1.1497d
+		}
+		{
+			height: 1.5d
+			id: "506955CD987211DA"
+			image: "nxterra:textures/quests/banner/amendments.png"
+			order: 1
+			rotation: 0.0d
+			width: 6.0d
+			x: 3.25d
+			y: -1.8248d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:lantern"
+			}
+			id: "667BB8ADB58469F0"
+			rewards: [
+				{
+					id: "1C18769F60D1C09A"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 16
+					id: "2C46FCDE9DDCAD77"
+					item: {
+						count: 1
+						id: "minecraft:iron_nugget"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "114C29E4AA16A7AD"
+					item: { count: 1, id: "minecraft:lantern" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "34E44C9B603FAFE3"
+					item: { count: 1, id: "minecraft:chain" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["667BB8ADB58469F0"]
+			icon: {
+				id: "minecraft:flower_pot"
+			}
+			id: "6F7264E21FAD7D99"
+			rewards: [
+				{
+					id: "4BBDA4AFA32F54DB"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "1961DF7B539C6C77"
+					item: {
+						count: 1
+						id: "minecraft:brick"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "7C0984223B493734"
+				item: { count: 1, id: "minecraft:flower_pot" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["667BB8ADB58469F0"]
+			icon: {
+				id: "minecraft:cauldron"
+			}
+			id: "3D2A6ED1F9EF5526"
+			rewards: [{
+				id: "1D0346651CD2C514"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "6DC4749EEA36C6CB"
+					item: { count: 1, id: "minecraft:cauldron" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 3L
+					id: "4ECB3FC65DC4CF87"
+					item: { count: 1, id: "minecraft:glass_bottle" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3D2A6ED1F9EF5526"]
+			icon: {
+				id: "minecraft:red_dye"
+			}
+			id: "688E0DA277A79470"
+			rewards: [
+				{
+					id: "5DD2C127372DCDB2"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "1C9E310A3F6F13B5"
+					item: {
+						count: 1
+						id: "minecraft:white_wool"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 8L
+				id: "24310EB4DBE23E3E"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:dyes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F7264E21FAD7D99"]
+			icon: {
+				id: "minecraft:soul_lantern"
+			}
+			id: "21251B119BBB2685"
+			rewards: [
+				{
+					id: "67CCFCB6A1D866D7"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "5E8BACE6B9618CAE"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "1D84669AAC2BC7F2"
+					item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:candles)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "2BDD948878C3CE68"
+					item: { count: 1, id: "minecraft:soul_lantern" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["688E0DA277A79470"]
+			icon: {
+				id: "minecraft:cake"
+			}
+			id: "403011B01A706C41"
+			rewards: [
+				{
+					id: "1F5DC49DFF609416"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "13F690C0680B3956"
+					item: {
+						count: 1
+						id: "minecraft:sugar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 2L
+				id: "15B04DD1CE60540F"
+				item: { count: 1, id: "minecraft:cake" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["21251B119BBB2685"]
+			icon: {
+				id: "minecraft:red_carpet"
+			}
+			id: "7CD6733FA6272163"
+			rewards: [
+				{
+					id: "33D3387D0001D8AE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "14ECB7385A884534"
+					item: {
+						count: 1
+						id: "minecraft:oak_stairs"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 8L
+				id: "79E35C9A80472CE2"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:wool_carpets)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"403011B01A706C41"
+				"7CD6733FA6272163"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:chain"
+			}
+			id: "37696279DDA1CE6F"
+			rewards: [
+				{
+					id: "1FF7A587FAD7D42F"
+					item: {
+						count: 1
+						id: "nxterra:bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "645CC86A2FA381A8"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "42CB54799A2341D4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5DD196E914F6B324"
+				type: "checkmark"
+			}]
+			x: 6.25d
+			y: 1.5d
+		}
+	]
+}

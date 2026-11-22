@@ -1,0 +1,316 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "brewery"
+	group: "435CE345857D9297"
+	icon: {
+		id: "minecraft:barrel"
+	}
+	id: "2579B2EBAB30BDF4"
+	images: [
+		{
+			height: 6.5d
+			id: "470A9001C1375A1B"
+			image: "nxterra:textures/quests/backdrop/brewery.png"
+			order: -1
+			rotation: 0.0d
+			width: 13.5d
+			x: 4.025d
+			y: 1.1497d
+		}
+		{
+			height: 1.5d
+			id: "297D1446BA25EBE4"
+			image: "nxterra:textures/quests/banner/brewery.png"
+			order: 1
+			rotation: 0.0d
+			width: 9.0d
+			x: 4.025d
+			y: -1.8248d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "brewery:wooden_brewingstation"
+			}
+			id: "1B8F187AA6DFE21C"
+			rewards: [
+				{
+					id: "5BBD062C8812165F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "5A993DB0A9AAEF84"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "1A44F8DA0475107D"
+					item: { count: 1, id: "brewery:wooden_brewingstation" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "289030F77C28E38B"
+					item: { count: 1, id: "brewery:beer_mug" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1B8F187AA6DFE21C"]
+			icon: {
+				id: "brewery:beer_wheat"
+			}
+			id: "29C37F3965E08D79"
+			rewards: [
+				{
+					id: "704E676F20C01CBE"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "19D585CBBD001D39"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "26B79DDDC357E5D0"
+					item: { count: 1, id: "brewery:hops" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "1F8332707E873D08"
+					item: { count: 1, id: "brewery:dried_wheat" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6DFDC8E5699A51D2"
+					item: { count: 1, id: "brewery:beer_wheat" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1B8F187AA6DFE21C"]
+			icon: {
+				id: "brewery:bench"
+			}
+			id: "2F0EBE55CA450477"
+			rewards: [
+				{
+					id: "105C1CE7F7C9B0CC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "2A76E90D0FBE2A61"
+					item: {
+						count: 1
+						id: "brewery:pretzel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5CA9151E9FCA605A"
+				structure: "brewery:brewfest_tent"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29C37F3965E08D79"]
+			icon: {
+				id: "brewery:copper_brewingstation"
+			}
+			id: "496659F619516ADA"
+			rewards: [
+				{
+					id: "4EA690A0BD3EA47F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "1F7FDF046A8E0ECD"
+					item: {
+						count: 1
+						id: "brewery:dried_barley"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "22D7232A6C1D388E"
+				item: { count: 1, id: "brewery:copper_brewingstation" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["496659F619516ADA"]
+			icon: {
+				id: "brewery:whiskey_jojannik"
+			}
+			id: "2D10FABFCA4B0EFF"
+			rewards: [
+				{
+					id: "798E1F3D678A5F8E"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "23ABEA9A97CF7EB6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "17DB90D1F47A4A5B"
+					item: { count: 1, id: "brewery:whiskey_jojannik" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "266D39B7C025F894"
+					item: { count: 1, id: "brewery:whiskey_lilitusinglemalt" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6A4AE0F08F99BAB2"
+					item: { count: 1, id: "brewery:whiskey_maggoallan" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2D10FABFCA4B0EFF"]
+			icon: {
+				id: "brewery:dark_brew"
+			}
+			id: "1D9ACF79C95955CF"
+			rewards: [
+				{
+					id: "1955F60FF23E8267"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "16E76961AC5AD3AE"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "170C9A8589D4C802"
+					item: { count: 1, id: "brewery:netherite_brewingstation" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3A72F3CC925C3482"
+					item: { count: 1, id: "brewery:dark_brew" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1D9ACF79C95955CF"
+				"2F0EBE55CA450477"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "brewery:beer_hops"
+			}
+			id: "58B5AB9B543A7F66"
+			rewards: [
+				{
+					id: "2BB5B129F1E34120"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "14792AD07A07598E"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "5F3CA1D022E16118"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "74658A52A05CD76A"
+				type: "checkmark"
+			}]
+			x: 7.8d
+			y: 1.5d
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{
+    "name": "swamp",
+    "bad-regions": [
+        "rain"
+    ],
+    "biomes": [
+        "swamp",
+        "bayou",
+        "bog",
+        "marsh",
+        "moor",
+        "fen",
+        "mystic grove",
+        "bamboo marsh",
+        "silkglades",
+        "sludgepit",
+        "wetland",
+        "quagmire",
+        "dead forest",
+        "patchy islands",
+        "deep waters",
+        "coarse islands",
+        "erebus",
+        "fungal forest",
+        "tyros swamp"
+    ],
+    "temperature": {
+        "min": 0.5,
+        "max": 2
+    },
+    "sounds": [
+        {
+            "name": "cricket-swamp",
+            "category": "cricket_day",
+            "files": [
+                "nxterra_ambience:ambience.pond_frogs_birds"
+            ],
+            "volume": 0.7,
+            "overall-raining": false
+        },
+        {
+            "name": "cricket-warm-night",
+            "category": "cricket_night",
+            "files": [
+                "nxterra_ambience:ambience.night_meadow_crickets_frogs"
+            ],
+            "overall-raining": false,
+            "length": {
+                "min": 1000,
+                "max": 1500
+            },
+            "transition": 100,
+            "volume": 0.6
+        }
+    ]
+}

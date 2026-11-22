@@ -1,0 +1,309 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "graveyard"
+	group: "6DDAA8A1DA8B5CDF"
+	icon: {
+		id: "minecraft:bone"
+	}
+	id: "76F7C80E38775965"
+	images: [
+		{
+			height: 7.5d
+			id: "7E351571ED2AE08D"
+			image: "nxterra:textures/quests/backdrop/graveyard.png"
+			order: -1
+			rotation: 0.0d
+			width: 9.5d
+			x: 2.5d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "18A983BB32633090"
+			image: "nxterra:textures/quests/banner/graveyard.png"
+			order: 1
+			rotation: 0.0d
+			width: 7.0d
+			x: 2.5d
+			y: -1.8248d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:bone"
+			}
+			id: "30D226C24404F502"
+			rewards: [
+				{
+					id: "11482F11EFD9656E"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 16
+					id: "5272529E306FFC8F"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7362366B4EB38402"
+					structure: "graveyard:small_graveyard"
+					type: "structure"
+				}
+				{
+					entity: "graveyard:ghoul"
+					id: "4DA1A0639EDBF0EB"
+					type: "kill"
+					value: 2L
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["30D226C24404F502"]
+			icon: {
+				id: "graveyard:diary_page"
+			}
+			id: "64B83C4BE3264E02"
+			rewards: [
+				{
+					id: "2FA64637DEB2CF48"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "23A524D00E2C8DBF"
+					item: {
+						count: 1
+						id: "minecraft:book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "graveyard:acolyte"
+					id: "241DB2CDD770B12E"
+					type: "kill"
+					value: 2L
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "451D189F2C9EE7A9"
+					item: { count: 1, id: "graveyard:diary_page" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64B83C4BE3264E02"]
+			icon: {
+				id: "graveyard:dark_iron_block"
+			}
+			id: "6350DEF9368E5756"
+			rewards: [
+				{
+					id: "6690F768BF3D1854"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "683F96094CF40ABB"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "66E456D81BEA69A0"
+					structure: "graveyard:crypt"
+					type: "structure"
+				}
+				{
+					entity: "graveyard:revenant"
+					id: "5C568C600CAAC790"
+					type: "kill"
+					value: 2L
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30D226C24404F502"]
+			icon: {
+				id: "graveyard:dark_iron_ingot"
+			}
+			id: "72F20BA66A183040"
+			rewards: [
+				{
+					id: "369EC9216BFA3D9E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "3901633A9C399040"
+					item: {
+						count: 1
+						id: "minecraft:oak_planks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "14E1AF9F74F93738"
+					item: { count: 1, id: "graveyard:corruption" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "1B7D2F404826BBB0"
+					item: { count: 1, id: "graveyard:dark_iron_ingot" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["72F20BA66A183040"]
+			icon: {
+				id: "graveyard:oak_coffin"
+			}
+			id: "4A12831981DF2E9E"
+			rewards: [
+				{
+					id: "2515816333BE11E0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "4C92DAA5DA6836CA"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "36372D7145849960"
+				item: { count: 1, id: "graveyard:oak_coffin" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["30D226C24404F502"]
+			icon: {
+				id: "graveyard:candle_holder"
+			}
+			id: "79C905EFE046E62D"
+			rewards: [
+				{
+					id: "5E6AC8F0634CF564"
+					type: "xp"
+					xp: 125
+				}
+				{
+					count: 2
+					id: "17B0B752CF73A792"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4F0AB0F9AC18C30C"
+					structure: "graveyard:haunted_house"
+					type: "structure"
+				}
+				{
+					entity: "graveyard:wraith"
+					id: "2C1A6CD56648F04D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6350DEF9368E5756"
+				"4A12831981DF2E9E"
+				"79C905EFE046E62D"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "graveyard:gravestone"
+			}
+			id: "64C4610D88700B51"
+			rewards: [
+				{
+					id: "3F1B7D5F5AAB84CD"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "6849E546B54A077C"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "2074A3D15590A8BD"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2C0494C6EA2953BE"
+				type: "checkmark"
+			}]
+			x: 4.75d
+			y: 1.5d
+		}
+	]
+}

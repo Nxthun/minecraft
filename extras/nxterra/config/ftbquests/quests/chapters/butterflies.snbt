@@ -1,0 +1,282 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "butterflies"
+	group: "7FE7FE7068E22B2B"
+	icon: {
+		id: "butterflies:butterfly_net"
+	}
+	id: "31618943135BF3BD"
+	images: [
+		{
+			height: 7.5d
+			id: "637FEC1FCE905565"
+			image: "nxterra:textures/quests/backdrop/butterflies.png"
+			order: -1
+			rotation: 0.0d
+			width: 11.5d
+			x: 3.25d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "35D42FDA05500AC8"
+			image: "nxterra:textures/quests/banner/butterflies.png"
+			order: 1
+			rotation: 0.0d
+			width: 8.5d
+			x: 3.25d
+			y: -1.8248d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "butterflies:butterfly_net"
+			}
+			id: "7E7FEF29CA685900"
+			rewards: [
+				{
+					id: "29C293945B8C4C2E"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "2D7F34C194EB3074"
+					item: {
+						count: 1
+						id: "minecraft:glass_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "67E7F8744B5B4C2F"
+					item: { count: 1, id: "butterflies:butterfly_net" }
+					type: "item"
+				}
+				{
+					biome: "minecraft:flower_forest"
+					id: "18153454878B5207"
+					type: "biome"
+				}
+				{
+					advancement: "butterflies:butterfly/catch_butterfly"
+					criterion: ""
+					id: "21C09696194971A6"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7E7FEF29CA685900"]
+			icon: {
+				id: "butterflies:bottled_butterfly_common"
+			}
+			id: "7C4E4109E494CE43"
+			rewards: [
+				{
+					id: "3A3AFDEFBB19632F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "39B2E4D1B91ABF07"
+					item: {
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "butterflies:butterfly/bottle_butterfly"
+				criterion: ""
+				id: "1B7A6BD6F8E375F4"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7C4E4109E494CE43"]
+			icon: {
+				id: "butterflies:butterfly_scroll_common"
+			}
+			id: "11AC3553A54EB289"
+			rewards: [
+				{
+					id: "23D98BD37D8D13C9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "78379E3BB9B4640C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "butterflies:butterfly/create_butterfly_scroll"
+				criterion: ""
+				id: "10ACE88641D5A5D5"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7C4E4109E494CE43"]
+			icon: {
+				id: "butterflies:butterfly_microscope"
+			}
+			id: "42210416973B0AA3"
+			rewards: [
+				{
+					id: "1F0A2045EF671DE7"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 4
+					id: "744AF9D3274EE6D9"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "35801F8944F646F5"
+				item: { count: 1, id: "butterflies:butterfly_microscope" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11AC3553A54EB289"]
+			icon: {
+				id: "butterflies:butterfly_feeder"
+			}
+			id: "679152CFF59CA523"
+			rewards: [
+				{
+					id: "37856E3FEF584981"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "63F246817EB90F51"
+					item: {
+						count: 1
+						id: "minecraft:sweet_berries"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "5A01DFF0CC9647A9"
+				item: { count: 1, id: "butterflies:butterfly_feeder" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7C4E4109E494CE43"]
+			icon: {
+				id: "butterflies:fireproof_butterfly_net"
+			}
+			id: "69352FBD966D6186"
+			rewards: [
+				{
+					id: "20605CDDE2DC9031"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 4
+					id: "6F6DE44911929AE7"
+					item: {
+						count: 1
+						id: "minecraft:fire_charge"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "1A3B49CE2E828B27"
+				item: { count: 1, id: "butterflies:fireproof_butterfly_net" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"42210416973B0AA3"
+				"679152CFF59CA523"
+				"69352FBD966D6186"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "butterflies:butterfly_book"
+			}
+			id: "65AB2302918B1781"
+			rewards: [
+				{
+					id: "444E918F63C2CCCD"
+					item: {
+						count: 1
+						id: "nxterra:bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "2289FB28E910AAF1"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "3219049710E88CA2"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "10ECF05FA490E2DF"
+				type: "checkmark"
+			}]
+			x: 6.25d
+			y: 1.5d
+		}
+	]
+}

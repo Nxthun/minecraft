@@ -1,0 +1,309 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "herbalbrews"
+	group: "435CE345857D9297"
+	icon: {
+		id: "minecraft:flower_pot"
+	}
+	id: "35F28D10F25BB012"
+	images: [
+		{
+			height: 6.5d
+			id: "5F414CFB0402A266"
+			image: "nxterra:textures/quests/backdrop/herbalbrews.png"
+			order: -1
+			rotation: 0.0d
+			width: 11.5d
+			x: 3.225d
+			y: 1.1497d
+		}
+		{
+			height: 1.5d
+			id: "35D33AA15874B041"
+			image: "nxterra:textures/quests/banner/herbalbrews.png"
+			order: 1
+			rotation: 0.0d
+			width: 10.5d
+			x: 3.225d
+			y: -1.8248d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "herbalbrews:tea_kettle"
+			}
+			id: "1A1807E2FA3F2B25"
+			rewards: [
+				{
+					id: "16BB3AFA26691B83"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "19075B114FEB3905"
+					item: {
+						count: 1
+						id: "minecraft:glass_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "557CD1D5F84A481C"
+					item: { count: 1, id: "herbalbrews:tea_kettle" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "13B2BEE6D219ADD8"
+					item: { count: 1, id: "herbalbrews:stove" }
+					type: "item"
+				}
+				{
+					advancement: "herbalbrews:main/place_tea_kettle"
+					criterion: ""
+					id: "77504722C38D6D72"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A1807E2FA3F2B25"]
+			icon: {
+				id: "herbalbrews:hibiscus"
+			}
+			id: "14FADC9EBC87AC3E"
+			rewards: [
+				{
+					id: "1FAA8CCF77A2CBE5"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "15F6E3313C8C4117"
+					item: {
+						count: 1
+						id: "minecraft:sugar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "herbalbrews:main/find_tea_blossom"
+					criterion: ""
+					id: "2842E66B48F70B1D"
+					type: "advancement"
+				}
+				{
+					advancement: "herbalbrews:main/find_lavender"
+					criterion: ""
+					id: "470EB535F103235E"
+					type: "advancement"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "1F6381191B0E5DC4"
+					item: { count: 1, id: "herbalbrews:hibiscus" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14FADC9EBC87AC3E"]
+			icon: {
+				id: "herbalbrews:green_tea"
+			}
+			id: "52374E74B7C223A2"
+			rewards: [
+				{
+					id: "20823DF62F2D8A1A"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "65749E25C0ACE27B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "7AC9BC1CB1C22272"
+				item: { components: { "ftbfiltersystem:filter": "or(item(herbalbrews:green_tea)item(herbalbrews:black_tea)item(herbalbrews:oolong_tea))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["14FADC9EBC87AC3E"]
+			icon: {
+				id: "herbalbrews:lavender_tea"
+			}
+			id: "5DC260F38BC36E43"
+			rewards: [{
+				id: "7F16FF66E2229821"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5A28C757EC8CC416"
+				item: { components: { "ftbfiltersystem:filter": "or(item(herbalbrews:lavender_tea)item(herbalbrews:hibiscus_tea))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52374E74B7C223A2"]
+			icon: {
+				id: "herbalbrews:coffee"
+			}
+			id: "7C52F70916A85CC5"
+			rewards: [
+				{
+					id: "513C01C3BEF0D488"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6E4404C862A32AD9"
+					item: {
+						count: 1
+						id: "minecraft:milk_bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "1DCFE3E84F14D282"
+					item: { count: 1, id: "herbalbrews:coffee" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "18991527A652342B"
+					item: { count: 1, id: "herbalbrews:milk_coffee" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7C52F70916A85CC5"]
+			icon: {
+				id: "herbalbrews:herbal_infusion"
+			}
+			id: "76F4E49F1EDD97A9"
+			rewards: [
+				{
+					id: "608E7590D6ADFBF6"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "473CDAA5AB573348"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "501D39B8D0EBA56D"
+					item: { count: 1, id: "herbalbrews:herbal_infusion" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "186D998827CBD414"
+					item: { count: 1, id: "herbalbrews:copper_tea_kettle" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3E83F3DA32A85683"
+					item: { count: 1, id: "herbalbrews:jug" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5DC260F38BC36E43"
+				"76F4E49F1EDD97A9"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "herbalbrews:cauldron"
+			}
+			id: "1E141457636D5CE6"
+			rewards: [
+				{
+					id: "3CAFF25CC53AD6B9"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "7AB905E1A93BFB4A"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "3E4C1E303BD77E34"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "36E4DF0B5256A3E8"
+				type: "checkmark"
+			}]
+			x: 6.2d
+			y: 1.5d
+		}
+	]
+}

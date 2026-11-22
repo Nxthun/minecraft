@@ -1,0 +1,469 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alexs_mobs"
+	group: "7FE7FE7068E22B2B"
+	icon: {
+		id: "minecraft:lead"
+	}
+	id: "256FA7D2EC55DF4E"
+	images: [
+		{
+			height: 7.5d
+			id: "21543E504081B911"
+			image: "nxterra:textures/quests/backdrop/alexs_mobs.png"
+			order: -1
+			rotation: 0.0d
+			width: 13.0d
+			x: 4.0d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "23BDBEADD0C76DE8"
+			image: "nxterra:textures/quests/banner/alexs_mobs.png"
+			order: 1
+			rotation: 0.0d
+			width: 6.5d
+			x: 4.0d
+			y: -1.8248d
+		}
+	]
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:lead"
+			}
+			id: "11AD66B3301BD2D0"
+			rewards: [
+				{
+					id: "266FF1F1751B4D83"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "1B3D29C822B3F115"
+					item: {
+						count: 1
+						id: "minecraft:book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 2L
+					id: "575D110AB9F8BFD6"
+					item: { count: 1, id: "minecraft:lead" }
+					type: "item"
+				}
+				{
+					biome: "minecraft:savanna"
+					id: "6AA4192C0F3F67D2"
+					type: "biome"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["11AD66B3301BD2D0"]
+			icon: {
+				id: "alexsmobs:gazelle_horn"
+			}
+			id: "2FB70F2B6F1DC044"
+			rewards: [
+				{
+					id: "3E25BA51DAC70A14"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 2
+					id: "2009D7279C4D8E16"
+					item: {
+						count: 1
+						id: "minecraft:green_dye"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "419E242B31192904"
+					item: { count: 1, id: "alexsmobs:gazelle_horn" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "7EB7D25A49C5A973"
+					item: { count: 1, id: "alexsmobs:kangaroo_meat" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2FB70F2B6F1DC044"]
+			icon: {
+				id: "alexsmobs:animal_dictionary"
+			}
+			id: "432507CDCC1AF075"
+			rewards: [
+				{
+					id: "54F169039DB87397"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 4
+					id: "2C2D2E1EB81E7DE2"
+					item: {
+						count: 1
+						id: "minecraft:leather"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "689DEA6FE8BB17E9"
+				item: { count: 1, id: "alexsmobs:animal_dictionary" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["432507CDCC1AF075"]
+			icon: {
+				id: "alexsmobs:falconry_glove"
+			}
+			id: "2873B36409BF6B7A"
+			rewards: [
+				{
+					id: "443C59AFE59B449A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "24B07F8F3423FCAD"
+					item: {
+						count: 1
+						id: "minecraft:cod"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 2L
+					id: "11ED3E461E2CCCE1"
+					item: { count: 1, id: "alexsmobs:bear_fur" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1A85097264167F7F"
+					item: { count: 1, id: "alexsmobs:falconry_glove" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2873B36409BF6B7A"
+				"491BF54F43AF9C5B"
+			]
+			icon: {
+				id: "alexsmobs:falconry_hood"
+			}
+			id: "59B98F6FE3629C74"
+			rewards: [
+				{
+					id: "51A3A349F2894F68"
+					type: "xp"
+					xp: 125
+				}
+				{
+					id: "35E92755312ECCF1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/tame_bald_eagle"
+				criterion: ""
+				id: "3AB4C788E3662C0D"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["432507CDCC1AF075"]
+			icon: {
+				id: "alexsmobs:maraca"
+			}
+			id: "65F9B1DB4726A925"
+			rewards: [
+				{
+					id: "5A6C7D88E8C6C34E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "6B909DEC010468E4"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:desert"
+					id: "4FE147655059AB4B"
+					type: "biome"
+				}
+				{
+					consume_items: false
+					id: "1F9373BF5E419782"
+					item: { count: 1, id: "alexsmobs:rattlesnake_rattle" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "79931CC8A8EFB2B8"
+					item: { count: 1, id: "alexsmobs:maraca" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["65F9B1DB4726A925"]
+			icon: {
+				id: "alexsmobs:mosquito_proboscis"
+			}
+			id: "212CB2240E16A269"
+			rewards: [
+				{
+					id: "372BD7E7815D75C4"
+					type: "xp"
+					xp: 125
+				}
+				{
+					count: 8
+					id: "43FC9CD1061DA883"
+					item: {
+						count: 1
+						id: "minecraft:nether_brick"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "alexsmobs:crimson_mosquito"
+					id: "1B4130C37FF48F84"
+					type: "kill"
+					value: 3L
+				}
+				{
+					consume_items: false
+					id: "2CFCEC62B8E4BB27"
+					item: { count: 1, id: "alexsmobs:mosquito_proboscis" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2FB70F2B6F1DC044"]
+			icon: {
+				id: "alexsmobs:crocodile_chestplate"
+			}
+			id: "64471407537D9107"
+			rewards: [
+				{
+					id: "77037F567B3B3190"
+					type: "xp"
+					xp: 125
+				}
+				{
+					id: "2E43FD26106CB155"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "1BD8D220C6BF9372"
+				item: { count: 1, id: "alexsmobs:crocodile_chestplate" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["432507CDCC1AF075"]
+			icon: {
+				id: "alexsmobs:fish_oil"
+			}
+			id: "491BF54F43AF9C5B"
+			rewards: [
+				{
+					id: "31118A408E927C55"
+					type: "xp"
+					xp: 125
+				}
+				{
+					count: 4
+					id: "761292969DD7F1C6"
+					item: {
+						count: 1
+						id: "minecraft:glass_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:deep_ocean"
+					id: "567C3D96762AAB31"
+					type: "biome"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "110C931627498D83"
+					item: { count: 1, id: "alexsmobs:blobfish" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "60CFEFDC8EF18A5A"
+					item: { count: 1, id: "alexsmobs:fish_oil" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["212CB2240E16A269"]
+			icon: {
+				id: "alexsmobs:hemolymph_sac"
+			}
+			id: "793ACB2A8A2EBF6F"
+			rewards: [
+				{
+					id: "211C4992E4C051BE"
+					item: {
+						count: 1
+						id: "nxterra:moonpetal_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "69CEB9C229D93042"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "219A6C06850550ED"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				entity: "alexsmobs:warped_mosco"
+				id: "282923659E16730A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"793ACB2A8A2EBF6F"
+				"59B98F6FE3629C74"
+				"64471407537D9107"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "alexsmobs:fedora"
+			}
+			id: "754DDBEFBD5B8869"
+			rewards: [
+				{
+					id: "7D5D4DA9C9D46E1C"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "6D7C04819248312E"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "1FD2FA393F785331"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "60644384342E26FC"
+				type: "checkmark"
+			}]
+			x: 7.75d
+			y: 1.5d
+		}
+	]
+}

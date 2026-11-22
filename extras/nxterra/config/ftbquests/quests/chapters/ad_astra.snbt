@@ -1,0 +1,538 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ad_astra"
+	group: "30A3BF10FF493301"
+	icon: {
+		id: "ad_astra:desh_ingot"
+	}
+	id: "7E0F565CCBC33805"
+	images: [
+		{
+			height: 7.5d
+			id: "10090A2CA0CF7608"
+			image: "nxterra:textures/quests/backdrop/ad_astra.png"
+			order: -1
+			rotation: 0.0d
+			width: 17.0d
+			x: 5.5d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "22F29CCD6893354B"
+			image: "nxterra:textures/quests/banner/ad_astra.png"
+			order: 1
+			rotation: 0.0d
+			width: 9.5d
+			x: 5.5d
+			y: -1.8248d
+		}
+	]
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "ad_astra:nasa_workbench"
+			}
+			id: "37583C57AB5DC1B5"
+			rewards: [
+				{
+					id: "67C6C600BF46D51A"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 8
+					id: "27EC66ACF0C64AE8"
+					item: {
+						count: 1
+						id: "immersiveengineering:ingot_steel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "56C5AFBC102C4C9E"
+					item: { count: 1, id: "ad_astra:nasa_workbench" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6A33FC8E10B4DDD6"
+					item: { count: 1, id: "ad_astra:compressor" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "55F7CD4D6ADD1569"
+					item: { count: 1, id: "ad_astra:launch_pad" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["37583C57AB5DC1B5"]
+			icon: {
+				id: "ad_astra:space_suit"
+			}
+			id: "13F1140BDC4034A3"
+			rewards: [
+				{
+					id: "47A751B14167542E"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 2
+					id: "4EA488F3B6E77C9C"
+					item: {
+						count: 1
+						id: "ad_astra:gas_tank"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "3E724A0365D95238"
+					item: { count: 1, id: "ad_astra:space_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2D1DEDF81A9981D0"
+					item: { count: 1, id: "ad_astra:space_suit" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1B61750683CCE51B"
+					item: { count: 1, id: "ad_astra:space_pants" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "29106889F59E6462"
+					item: { count: 1, id: "ad_astra:space_boots" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37583C57AB5DC1B5"]
+			icon: {
+				id: "ad_astra:fuel_refinery"
+			}
+			id: "1AE1EBA4E1654764"
+			rewards: [
+				{
+					id: "627612116FE3A665"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 4
+					id: "2824A3647B45BD76"
+					item: {
+						count: 1
+						id: "minecraft:bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "54F96ED2D8B16BA8"
+					item: { count: 1, id: "ad_astra:fuel_refinery" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5F02755108768F89"
+					item: { count: 1, id: "ad_astra:oxygen_loader" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"13F1140BDC4034A3"
+				"1AE1EBA4E1654764"
+			]
+			icon: {
+				id: "ad_astra:tier_1_rocket"
+			}
+			id: "21A6DEC2EF247A6C"
+			rewards: [
+				{
+					id: "2A2083B66F315FE4"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "2D15015E96EC0E19"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legend"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "1B5557786E085895"
+					item: { count: 1, id: "ad_astra:tier_1_rocket" }
+					type: "item"
+				}
+				{
+					dimension: "ad_astra:moon"
+					id: "2D4F11CBB2C3A4BB"
+					type: "dimension"
+				}
+				{
+					consume_items: false
+					count: 8L
+					id: "1FA41B036119BCB6"
+					item: { count: 1, id: "ad_astra:desh_ingot" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["21A6DEC2EF247A6C"]
+			icon: {
+				id: "ad_astra:desh_engine"
+			}
+			id: "1A818357A9D41163"
+			rewards: [
+				{
+					id: "5FE7FC9979F2D08B"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 16
+					id: "1CCE409416C05CA8"
+					item: {
+						count: 1
+						id: "ad_astra:desh_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "14E5ABF376A12FA7"
+					item: { count: 1, id: "ad_astra:desh_engine" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3456E61FA891FBBC"
+					item: { count: 1, id: "ad_astra:tier_2_rocket" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["21A6DEC2EF247A6C"]
+			icon: {
+				id: "ad_astra:oxygen_distributor"
+			}
+			id: "7E78219A99994FAE"
+			rewards: [
+				{
+					id: "69A7882F767E9DBD"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 16
+					id: "682A483516C4914F"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "5ECF558A7E8F032A"
+					item: { count: 1, id: "ad_astra:oxygen_distributor" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2DB1722B0D556A28"
+					item: { count: 1, id: "ad_astra:gravity_normalizer" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E78219A99994FAE"]
+			icon: {
+				id: "ad_astra:netherite_space_suit"
+			}
+			id: "6F67EAFA8A480C80"
+			rewards: [
+				{
+					id: "1AC5F03C724F92E9"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "23B3E5B87E102466"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legend"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "7D6C9DBE561679A8"
+					item: { count: 1, id: "ad_astra:netherite_space_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2B39DF1419DB92B0"
+					item: { count: 1, id: "ad_astra:netherite_space_suit" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2357F9F7B7E2B757"
+					item: { count: 1, id: "ad_astra:netherite_space_pants" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "66901102E963E053"
+					item: { count: 1, id: "ad_astra:netherite_space_boots" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1A818357A9D41163"]
+			icon: {
+				id: "ad_astra:raw_ostrum"
+			}
+			id: "141B45AA152EB420"
+			rewards: [
+				{
+					id: "7A39073966591010"
+					type: "xp"
+					xp: 350
+				}
+				{
+					count: 8
+					id: "57B752376291969B"
+					item: {
+						count: 1
+						id: "ad_astra:desh_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					dimension: "ad_astra:mars"
+					id: "361B47903EC1D23C"
+					type: "dimension"
+				}
+				{
+					id: "371E33EA1204004C"
+					structure: "ad_astra:mars_temple"
+					type: "structure"
+				}
+				{
+					consume_items: false
+					count: 8L
+					id: "2FB31FFBEFD4A418"
+					item: { count: 1, id: "ad_astra:ostrum_ingot" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["141B45AA152EB420"]
+			icon: {
+				id: "ad_astra:tier_3_rocket"
+			}
+			id: "27FD0D26B5BFB9A6"
+			rewards: [
+				{
+					id: "2BABBB61CBE3A8CC"
+					type: "xp"
+					xp: 400
+				}
+				{
+					count: 8
+					id: "608DCCCC25EA6AEA"
+					item: {
+						count: 1
+						id: "ad_astra:calorite_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "6B0237BEF1C20FBF"
+					item: { count: 1, id: "ad_astra:ostrum_engine" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "741FA833584CA47C"
+					item: { count: 1, id: "ad_astra:tier_3_rocket" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["27FD0D26B5BFB9A6"]
+			icon: {
+				id: "ad_astra:tier_4_rocket"
+			}
+			id: "40A73BF670E99DD7"
+			rewards: [
+				{
+					id: "17DEC0476CDC7312"
+					item: {
+						count: 1
+						id: "nxterra:elderheart_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "4EE5E7BAE63EEC0A"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 16
+					id: "142F7EE1054E5732"
+					item: {
+						count: 1
+						id: "ad_astra:calorite_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					consume_items: false
+					id: "38576DC64E51DD4E"
+					item: { count: 1, id: "ad_astra:calorite_engine" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "503E002783867EE6"
+					item: { count: 1, id: "ad_astra:tier_4_rocket" }
+					type: "item"
+				}
+				{
+					dimension: "ad_astra:venus"
+					id: "2591575F9D4E96C2"
+					type: "dimension"
+				}
+				{
+					dimension: "ad_astra:glacio"
+					id: "17173EAF8801D025"
+					type: "dimension"
+				}
+			]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"40A73BF670E99DD7"
+				"6F67EAFA8A480C80"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "ad_astra:desh_ingot"
+			}
+			id: "721CF92A5604021D"
+			rewards: [
+				{
+					id: "5466A531F2520F90"
+					item: {
+						count: 1
+						id: "nxterra:starbloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "12D5F58F049DE237"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "782B49B72E02098E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legend"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "19AD25F9D396366C"
+				type: "checkmark"
+			}]
+			x: 10.75d
+			y: 1.5d
+		}
+	]
+}

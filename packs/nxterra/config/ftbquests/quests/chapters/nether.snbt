@@ -1,0 +1,487 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether"
+	group: "20434CE362D81358"
+	icon: {
+		id: "minecraft:blaze_rod"
+	}
+	id: "5EB264376B7F5C4D"
+	images: [
+		{
+			height: 7.5d
+			id: "18D4A99FC45A1CD4"
+			image: "nxterra:textures/quests/backdrop/nether.png"
+			order: -1
+			rotation: 0.0d
+			width: 15.0d
+			x: 4.75d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "649190098F9F6A88"
+			image: "nxterra:textures/quests/banner/nether.png"
+			order: 1
+			rotation: 0.0d
+			width: 6.0d
+			x: 4.75d
+			y: -1.8248d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:flint_and_steel"
+			}
+			id: "6B8090DD96F94400"
+			rewards: [
+				{
+					id: "7AEEB9E84A21FA7B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "26FFBD0203A0B5F2"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					id: "2F70802EA950E059"
+					type: "dimension"
+				}
+				{
+					consume_items: false
+					id: "6F38A83FDFDC230F"
+					item: { count: 1, id: "minecraft:flint_and_steel" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6B8090DD96F94400"]
+			icon: {
+				id: "minecraft:golden_boots"
+			}
+			id: "5AD080A644BEDA79"
+			rewards: [
+				{
+					id: "37A6CFEA5E59AAF1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "2E107C101E0F4EF5"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "4E6D9DB95FE97D05"
+				item: { count: 1, id: "minecraft:golden_boots" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5AD080A644BEDA79"]
+			icon: {
+				id: "minecraft:crimson_fungus"
+			}
+			id: "4A1C2096F200F614"
+			rewards: [
+				{
+					id: "118DC79BAE1F0041"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 4
+					id: "25D564B511E50056"
+					item: {
+						count: 1
+						id: "minecraft:shroomlight"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:crimson_forest"
+					id: "261D58200B1DAB80"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:warped_forest"
+					id: "27870ADFA5364A5A"
+					type: "biome"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A1C2096F200F614"]
+			icon: {
+				id: "minecraft:soul_sand"
+			}
+			id: "13C4BA57CA00E653"
+			rewards: [
+				{
+					id: "6790E5FE50C8F4F7"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "61DBD329D2760423"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:soul_sand_valley"
+					id: "18D3EC3A443BE160"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:basalt_deltas"
+					id: "51C8256ACD950B28"
+					type: "biome"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5AD080A644BEDA79"]
+			icon: {
+				id: "minecraft:blaze_rod"
+			}
+			id: "33FEC75D17EF40B1"
+			rewards: [
+				{
+					id: "1094982175CFEBC1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "57F183A7C3D95B2C"
+					item: {
+						count: 1
+						id: "minecraft:blaze_powder"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "51323534E33D822B"
+					structure: "minecraft:fortress"
+					type: "structure"
+				}
+				{
+					entity: "minecraft:blaze"
+					id: "3E9C3292309DB675"
+					type: "kill"
+					value: 4L
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "7EEE6E86ED8ADFFE"
+					item: { count: 1, id: "minecraft:blaze_rod" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["33FEC75D17EF40B1"]
+			icon: {
+				id: "minecraft:gilded_blackstone"
+			}
+			id: "52C9CFC1E280DF8B"
+			rewards: [
+				{
+					id: "26B05DEBB7DFFA4B"
+					type: "xp"
+					xp: 125
+				}
+				{
+					id: "5EC7D83D78BF1D92"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "61B392ECA50CF944"
+					structure: "minecraft:bastion_remnant"
+					type: "structure"
+				}
+				{
+					entity: "minecraft:piglin_brute"
+					id: "4A12A6096B5E4349"
+					type: "kill"
+					value: 2L
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["33FEC75D17EF40B1"]
+			icon: {
+				id: "minecraft:brewing_stand"
+			}
+			id: "5D57E8497352E916"
+			rewards: [
+				{
+					id: "221C9021D55FADCD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "126197CB456BF4DF"
+					item: {
+						count: 1
+						id: "minecraft:glowstone_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "153EB7169F855B53"
+					item: { count: 1, id: "minecraft:brewing_stand" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "415E4FBA67C1D98B"
+					item: { count: 1, id: "minecraft:nether_wart" }
+					type: "item"
+				}
+				{
+					advancement: "minecraft:nether/brew_potion"
+					criterion: ""
+					id: "7EDDE4467E849325"
+					type: "advancement"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5D57E8497352E916"]
+			icon: {
+				id: "minecraft:ghast_tear"
+			}
+			id: "22A44E76265EFE02"
+			rewards: [
+				{
+					id: "39005BA6A17BC128"
+					type: "xp"
+					xp: 125
+				}
+				{
+					count: 16
+					id: "65D5744AEA95DFC4"
+					item: {
+						count: 1
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:nether/return_to_sender"
+					criterion: ""
+					id: "1FD4E11385E505D0"
+					type: "advancement"
+				}
+				{
+					consume_items: false
+					id: "6021EE7FAF06477E"
+					item: { count: 1, id: "minecraft:ghast_tear" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["52C9CFC1E280DF8B"]
+			icon: {
+				id: "minecraft:ancient_debris"
+			}
+			id: "67BB96661972C411"
+			rewards: [
+				{
+					id: "1E8E28D60D3B5BDF"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 4
+					id: "5FDE000E5FEC5B07"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "6FC974708220E134"
+					item: { count: 1, id: "minecraft:ancient_debris" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "7DD4C7018AC2A8F1"
+					item: { count: 1, id: "minecraft:netherite_scrap" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67BB96661972C411"]
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+			}
+			id: "2CFDA77CB9EA1D7C"
+			rewards: [
+				{
+					id: "3BAEE16741F61C91"
+					item: {
+						count: 1
+						id: "nxterra:moonpetal_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "15269169090D4D23"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 4
+					id: "1F596A2DB60A3E05"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					consume_items: false
+					count: 3L
+					id: "1335B928809926CF"
+					item: { count: 1, id: "minecraft:wither_skeleton_skull" }
+					type: "item"
+				}
+				{
+					entity: "minecraft:wither"
+					id: "14C4CE8A99B827FD"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2CFDA77CB9EA1D7C"
+				"13C4BA57CA00E653"
+				"22A44E76265EFE02"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:netherrack"
+			}
+			id: "4B0E0EDC12AFD471"
+			rewards: [
+				{
+					id: "23FB4708AEB27E3A"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "4837285F54989399"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "438EA201396FDF5E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "228DF228D08914BA"
+				type: "checkmark"
+			}]
+			x: 9.25d
+			y: 1.5d
+		}
+	]
+}

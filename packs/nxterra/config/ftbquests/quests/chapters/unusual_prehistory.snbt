@@ -1,0 +1,382 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "unusual_prehistory"
+	group: "7FE7FE7068E22B2B"
+	icon: {
+		id: "minecraft:bone_block"
+	}
+	id: "16CF346BCCEA4740"
+	images: [
+		{
+			height: 7.5d
+			id: "6859B198423B747C"
+			image: "nxterra:textures/quests/backdrop/unusual_prehistory.png"
+			order: -1
+			rotation: 0.0d
+			width: 13.0d
+			x: 4.0d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "486D0E39530E45E1"
+			image: "nxterra:textures/quests/banner/unusual_prehistory.png"
+			order: 1
+			rotation: 0.0d
+			width: 9.0d
+			x: 4.0d
+			y: -1.8248d
+		}
+	]
+	order_index: 19
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:bone_block"
+			}
+			id: "2741462F91FCA2AE"
+			rewards: [
+				{
+					id: "1DF2ABDA5680267C"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "437DB93F74031432"
+					item: {
+						count: 1
+						id: "minecraft:brush"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "61832FCB094E0D55"
+					structure: "unusual_prehistory:cliff_fossil"
+					type: "structure"
+				}
+				{
+					consume_items: false
+					id: "4B0B6DCFD20B5182"
+					item: { count: 1, id: "unusual_prehistory:spiral_fossil" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2741462F91FCA2AE"]
+			icon: {
+				id: "unusual_prehistory:fossilized_bone_block"
+			}
+			id: "71A38F6B9D4C6099"
+			rewards: [
+				{
+					id: "63A12DC240F28728"
+					type: "xp"
+					xp: 125
+				}
+				{
+					count: 16
+					id: "70189D82618BBE9B"
+					item: {
+						count: 1
+						id: "minecraft:bone_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 8L
+					id: "6A63070FA0C6BCBE"
+					item: { count: 1, id: "unusual_prehistory:fossilized_bone_block" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "60CBD953689CA405"
+					item: { count: 1, id: "unusual_prehistory:fossilized_bone_rod" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2741462F91FCA2AE"]
+			icon: {
+				id: "unusual_prehistory:transmogrifier"
+			}
+			id: "51E3B4CA08FB7D37"
+			rewards: [
+				{
+					id: "71F76704CA7740BC"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 2
+					id: "5DCEB77BAC32F905"
+					item: {
+						count: 1
+						id: "minecraft:lantern"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "279FC4FEAE159FA8"
+					structure: "unusual_prehistory:abandoned_lab"
+					type: "structure"
+				}
+				{
+					consume_items: false
+					id: "2159051E6E70EC21"
+					item: { count: 1, id: "unusual_prehistory:transmogrifier" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["51E3B4CA08FB7D37"]
+			icon: {
+				id: "unusual_prehistory:organic_ooze"
+			}
+			id: "44B63291232380C7"
+			rewards: [
+				{
+					id: "2ED06FEE0DB0A1D3"
+					type: "xp"
+					xp: 125
+				}
+				{
+					count: 8
+					id: "172E229538C63D34"
+					item: {
+						count: 1
+						id: "minecraft:slime_ball"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 2L
+				id: "6BC40F0DD1E1B370"
+				item: { count: 1, id: "unusual_prehistory:organic_ooze" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["44B63291232380C7"]
+			icon: {
+				id: "unusual_prehistory:ammonite_eggs"
+			}
+			id: "24D1F29CABC633B3"
+			rewards: [
+				{
+					id: "3A4EA9AA47B5EBBF"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "3CDBD0996F01071E"
+					item: {
+						count: 1
+						id: "minecraft:water_bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 2L
+				id: "4A9E706ED5265FB5"
+				item: { count: 1, id: "unusual_prehistory:ammonite_eggs" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["24D1F29CABC633B3"]
+			icon: {
+				id: "unusual_prehistory:leedsichthys_roe"
+			}
+			id: "7F0900F48D20FB22"
+			rewards: [
+				{
+					id: "7D3A1A37A47AC884"
+					item: {
+						count: 1
+						id: "nxterra:starbloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "16048CEB9563D693"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "2BE9BE8FBDFD8FAC"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					consume_items: false
+					id: "3E8ACF96EB9FCDCA"
+					item: { count: 1, id: "unusual_prehistory:gargantuan_fossil" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1019059250AB2A1C"
+					item: { count: 1, id: "unusual_prehistory:leedsichthys_roe" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["51E3B4CA08FB7D37"]
+			icon: {
+				id: "unusual_prehistory:fossilized_skull_lamp"
+			}
+			id: "5FDB07BA9919D025"
+			rewards: [
+				{
+					id: "1D0437F39E1A978D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "116C72756073AAAB"
+					item: {
+						count: 1
+						id: "minecraft:soul_lantern"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "6A7EFE7590F064C8"
+				item: { count: 1, id: "unusual_prehistory:fossilized_skull_lamp" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51E3B4CA08FB7D37"]
+			icon: {
+				id: "unusual_prehistory:biosteel_tiles"
+			}
+			id: "7F727D98AB53257C"
+			rewards: [
+				{
+					id: "6E987933CBF88B81"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "26731A914E39BECA"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "conquer"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "6DB85473C276AAAA"
+					item: { count: 1, id: "unusual_prehistory:biosteel_block" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "52F101F3504B1B13"
+					item: { count: 1, id: "unusual_prehistory:biosteel_tiles" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7F0900F48D20FB22"
+				"5FDB07BA9919D025"
+				"71A38F6B9D4C6099"
+				"7F727D98AB53257C"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "unusual_prehistory:fossilized_skull"
+			}
+			id: "235018AA283F9893"
+			rewards: [
+				{
+					id: "2587C29E0D5AFB08"
+					item: {
+						count: 1
+						id: "nxterra:moonpetal_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "3F2FC5C5C88B6004"
+					type: "xp"
+					xp: 450
+				}
+				{
+					id: "7DFD04A9333005AB"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "conquer"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7E4E683B7CEE683E"
+				type: "checkmark"
+			}]
+			x: 7.75d
+			y: 1.5d
+		}
+	]
+}

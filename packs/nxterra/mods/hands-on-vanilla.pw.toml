@@ -1,0 +1,13 @@
+name = "Hands-On Vanilla"
+filename = "handson_vanilla-neoforge-1.21.1-1.2.0.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "2d227e2cd9b380517b82d0437e466eb1ba811249"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9709623
+project-id = 1809623

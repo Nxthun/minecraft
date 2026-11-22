@@ -1,0 +1,313 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ecliptic_seasons"
+	group: "435CE345857D9297"
+	icon: {
+		id: "minecraft:clock"
+	}
+	id: "50CB559AABE5A305"
+	images: [
+		{
+			height: 6.5d
+			id: "644A0FBD88FF929F"
+			image: "nxterra:textures/quests/backdrop/ecliptic_seasons.png"
+			order: -1
+			rotation: 0.0d
+			width: 13.5d
+			x: 4.025d
+			y: 2.3997d
+		}
+		{
+			height: 1.5d
+			id: "1A355337990E7EAE"
+			image: "nxterra:textures/quests/banner/ecliptic_seasons.png"
+			order: 1
+			rotation: 0.0d
+			width: 8.5d
+			x: 4.025d
+			y: -0.5748d
+		}
+	]
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "eclipticseasons:calendar"
+			}
+			id: "51B508EE88A7F1D0"
+			rewards: [
+				{
+					id: "47715645447D18F4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 16
+					id: "6597F21434CC62C2"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "4DF4906C79B903A8"
+				item: { count: 1, id: "eclipticseasons:calendar" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["51B508EE88A7F1D0"]
+			icon: {
+				id: "eclipticseasons:season_sensor"
+			}
+			id: "5D279D92676ACE30"
+			rewards: [
+				{
+					id: "6E3F45A928690A35"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 16
+					id: "6CC8C482A7358AC3"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34FDF0F65EF7D194"
+					item: { count: 1, id: "eclipticseasons:hygrometer" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2555143CB4A4B127"
+					item: { count: 1, id: "eclipticseasons:season_sensor" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5D279D92676ACE30"]
+			icon: {
+				id: "minecraft:clock"
+			}
+			id: "21DFB5164C030D57"
+			rewards: [
+				{
+					id: "1B1694C3F5D63C09"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "649BD98837A04B1E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "eclipticseasons:quests/spring_hay"
+					criterion: ""
+					id: "259E24CD6FB7FFB1"
+					type: "advancement"
+				}
+				{
+					advancement: "eclipticseasons:quests/summer_eat_glistering_melon_slice"
+					criterion: ""
+					id: "257681FA5459798E"
+					type: "advancement"
+				}
+				{
+					advancement: "eclipticseasons:quests/autumn_pumpkin_pie"
+					criterion: ""
+					id: "19DA2F0E7C01C520"
+					type: "advancement"
+				}
+				{
+					advancement: "eclipticseasons:quests/winter_cake"
+					criterion: ""
+					id: "209E29579252E19B"
+					type: "advancement"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["21DFB5164C030D57"]
+			icon: {
+				id: "eclipticseasons:greenhouse_core_container"
+			}
+			id: "60F469CE69CE4610"
+			rewards: [
+				{
+					id: "7AAA4D4C711ADEA7"
+					type: "xp"
+					xp: 125
+				}
+				{
+					count: 16
+					id: "1D4CDD5C28F1A67E"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "63270ED77177F1F7"
+					item: { count: 1, id: "eclipticseasons:greenhouse_core_container" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7172F9F1F4EF3B4C"
+					item: { components: { "ftbfiltersystem:filter": "or(item(eclipticseasons:spring_greenhouse_core)item(eclipticseasons:summer_greenhouse_core)item(eclipticseasons:autumn_greenhouse_core)item(eclipticseasons:winter_greenhouse_core))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5D279D92676ACE30"]
+			icon: {
+				id: "eclipticseasons:humidity_tank"
+			}
+			id: "4A0D558D2BA575EA"
+			rewards: [
+				{
+					id: "22FEC7AAA44DDB76"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6371349988895601"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "620B2BF8C8632A97"
+					item: { count: 1, id: "eclipticseasons:humidity_tank" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5DECEC07C8D0B1DB"
+					item: { count: 1, id: "eclipticseasons:dehumidifier" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["60F469CE69CE4610"]
+			icon: {
+				id: "eclipticseasons:seasonal_prayer_scroll"
+			}
+			id: "35FE81BC98023008"
+			rewards: [
+				{
+					id: "11B71B0093104957"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "7A07C1612FD0CF70"
+					item: {
+						count: 1
+						id: "eclipticseasons:wind_chimes"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "1CD95E1A5AE7022B"
+				item: { count: 1, id: "eclipticseasons:seasonal_prayer_scroll" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"35FE81BC98023008"
+				"4A0D558D2BA575EA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "eclipticseasons:growth_detector"
+			}
+			id: "4C99CB8F223DA173"
+			rewards: [
+				{
+					id: "1F3C166468603C0E"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "383BCD30E66FD495"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "39BEDEDE144377F5"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "12F807F4CD2A7502"
+				type: "checkmark"
+			}]
+			x: 7.8d
+			y: 1.5d
+		}
+	]
+}

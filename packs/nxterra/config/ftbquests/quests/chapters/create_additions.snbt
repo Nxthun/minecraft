@@ -1,0 +1,505 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_additions"
+	group: "30A3BF10FF493301"
+	icon: {
+		id: "createaddition:electric_motor"
+	}
+	id: "78FA6AFE8C08C84D"
+	images: [
+		{
+			height: 7.5d
+			id: "4B824DA5444D2C16"
+			image: "nxterra:textures/quests/backdrop/create_additions.png"
+			order: -1
+			rotation: 0.0d
+			width: 15.0d
+			x: 4.75d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "330DBE57443E8A83"
+			image: "nxterra:textures/quests/banner/create_additions.png"
+			order: 1
+			rotation: 0.0d
+			width: 11.5d
+			x: 4.75d
+			y: -1.8248d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "createaddition:electric_motor"
+			}
+			id: "2A25BD62F82CAEE6"
+			rewards: [
+				{
+					id: "10F5AD2C6EA0B19F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "1DA04486535143DB"
+					item: {
+						count: 1
+						id: "create:copper_sheet"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "2A37AC56C5D3272E"
+					item: { count: 1, id: "createaddition:rolling_mill" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "3BD793D00AC90261"
+					item: { count: 1, id: "createaddition:capacitor" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2A25BD62F82CAEE6"]
+			icon: {
+				id: "createaddition:copper_spool"
+			}
+			id: "50CF18DB9C1A7CE0"
+			rewards: [
+				{
+					id: "745D76BCE84CEDBB"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 8
+					id: "6CD5D9F746BA63F4"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 16L
+					id: "3AC7E5A036F7A524"
+					item: { count: 1, id: "immersiveengineering:wire_copper" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "1CA8911865833C75"
+					item: { count: 1, id: "createaddition:copper_spool" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["50CF18DB9C1A7CE0"]
+			icon: {
+				id: "createaddition:alternator"
+			}
+			id: "503C7D15304A75B5"
+			rewards: [
+				{
+					id: "1E5D04E14C28D0AA"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "592B79B663DB875B"
+					item: {
+						count: 1
+						id: "create:brass_sheet"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "28CB6C40A2059747"
+				item: { count: 1, id: "createaddition:alternator" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["503C7D15304A75B5"]
+			icon: {
+				id: "createaddition:servo_motor"
+			}
+			id: "1406C0A6A76FE47F"
+			rewards: [
+				{
+					id: "2AEB14AF18196578"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 2
+					id: "6CE32F52BD37684C"
+					item: {
+						count: 1
+						id: "create:brass_casing"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "6A693961B1C900D6"
+				item: { count: 1, id: "createaddition:electric_motor" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["503C7D15304A75B5"]
+			icon: {
+				id: "createaddition:connector"
+			}
+			id: "1708C827A3E2566D"
+			rewards: [
+				{
+					id: "1BE896CC49258E4E"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "16BA60793B33D5D4"
+					item: {
+						count: 1
+						id: "create:electron_tube"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 3L
+					id: "10FF13121641528F"
+					item: { count: 1, id: "createaddition:connector" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "5089CFFF3DC5395A"
+					item: { count: 1, id: "createaddition:large_connector" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1708C827A3E2566D"]
+			icon: {
+				id: "createaddition:modular_accumulator"
+			}
+			id: "15C5E5E87AC86068"
+			rewards: [
+				{
+					id: "108548A7EFE15C04"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "59D07D868379916D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "11DBF5E9CCD48D88"
+					item: {
+						count: 1
+						id: "createaddition:capacitor"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "5E6FE8FC3E4C5027"
+				item: { count: 1, id: "createaddition:modular_accumulator" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15C5E5E87AC86068"]
+			icon: {
+				id: "createaddition:portable_energy_interface"
+			}
+			id: "4000FDE22293C49B"
+			rewards: [
+				{
+					id: "1963641E67101B6A"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 2
+					id: "56713E2EA3997724"
+					item: {
+						count: 1
+						id: "createaddition:copper_spool"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "2292CB050F854C4A"
+				item: { count: 1, id: "createaddition:portable_energy_interface" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4000FDE22293C49B"]
+			icon: {
+				id: "createaddition:tesla_coil"
+			}
+			id: "46ACA4593BA65321"
+			rewards: [
+				{
+					id: "74C0FD472A31F7BE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "18847D2073489DC1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "5E4D07ACDA9DBB62"
+				item: { count: 1, id: "createaddition:tesla_coil" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1406C0A6A76FE47F"]
+			icon: {
+				id: "createaddition:electric_pump"
+			}
+			id: "17146E93100B37E3"
+			rewards: [
+				{
+					id: "654DB742F2279C53"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "616A6394CB637914"
+					item: {
+						count: 1
+						id: "create:fluid_pipe"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "5CC85821CD09F899"
+				item: { count: 1, id: "createaddition:electric_pump" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["503C7D15304A75B5"]
+			icon: {
+				id: "createaddition:biomass_pellet"
+			}
+			id: "2D7DA9082E39F8C9"
+			rewards: [
+				{
+					id: "4AAE02AA669888CC"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "1EC7B52F16104A12"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 8L
+					id: "3FF1339F09FF7595"
+					item: { count: 1, id: "createaddition:biomass" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 16L
+					id: "1A9880CEAC0E1E0A"
+					item: { count: 1, id: "createaddition:biomass_pellet" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"17146E93100B37E3"
+				"46ACA4593BA65321"
+			]
+			icon: {
+				id: "createaddition:capacitor"
+			}
+			id: "2F5B324A12BA9261"
+			rewards: [
+				{
+					id: "47DBEBEE85321924"
+					item: {
+						count: 1
+						id: "nxterra:moonpetal_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "1ABD994D5D2D108C"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 8
+					id: "1A0CE94EE1C21A86"
+					item: {
+						count: 1
+						id: "createaddition:capacitor"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					consume_items: false
+					count: 2L
+					id: "42A5C9A1B880CF92"
+					item: { count: 1, id: "createaddition:alternator" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "4B4975EBC58DC567"
+					item: { count: 1, id: "createaddition:electric_motor" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "5773CFCB71A4943D"
+					item: { count: 1, id: "createaddition:modular_accumulator" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2F5B324A12BA9261"
+				"2D7DA9082E39F8C9"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "createaddition:rolling_mill"
+			}
+			id: "1C64D07B2EFB87A0"
+			rewards: [
+				{
+					id: "2AA5141BD01FD98B"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "7798EB4FECF0E4B2"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "61FB054EE79BFC01"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "431EE517131CE5B3"
+				type: "checkmark"
+			}]
+			x: 9.25d
+			y: 1.5d
+		}
+	]
+}

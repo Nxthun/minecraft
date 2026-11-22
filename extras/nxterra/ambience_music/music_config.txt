@@ -1,0 +1,41 @@
+// NxTerra soundtrack: Alexander Nakarada (creatorchords.com); menu: Scott Buckley (scottbuckley.com.au). CC BY 4.0. See CREDITS.md.
+
+playlist explore  = [ "explore_adventure_awaits.ogg", "explore_roaming_one.ogg" ];
+playlist forest   = [ "forest_spirits_of_the_greenwood.ogg" ] ++ explore;
+playlist plains   = [ "plains_untouched_land.ogg", "meadow_tranquil_fields_peaceful.ogg" ] ++ explore;
+playlist flower   = [ "flower_midsummer_magic.ogg", "meadow_tranquil_fields_peaceful.ogg" ];
+playlist nordic   = [ "highlands_adventure_beyond.ogg", "nordic_nordur.ogg" ];
+playlist eastern  = [ "eastern_tranquil_fields_eastern.ogg" ];
+playlist snow     = [ "snow_traversing_the_white_peaks.ogg", "nordic_nordur.ogg" ];
+playlist desert   = [ "desert_nomadic_sunset.ogg" ];
+playlist village  = [ "village_one_bard_band.ogg" ];
+playlist dusk     = [ "dusk_blue_hour.ogg" ];
+playlist night    = [ "night_tam_lin.ogg", "night_siuil_a_ruin.ogg" ];
+playlist cave     = [ "cave_dark_hollows.ogg" ];
+playlist combat   = [ "combat_chased_by_wolves.ogg", "combat_behind_the_sword.ogg" ];
+playlist boss     = [ "boss_shadowreign.ogg", "boss_the_great_battle.ogg" ];
+playlist menu     = [ "menu_midvinter.ogg" ];
+
+begin
+    when ( @main_menu || @joining ) play menu;
+    when ( @credits ) play [ ];
+
+    when ( @in_game )
+    begin
+        when ( @boss_fight ) play boss;
+        when ( @in_combat ) play combat;
+        when ( $dimension != "minecraft:overworld" ) use_vanilla_player;
+        when ( $cave_score > 0.45 ) play cave;
+        when ( @village ) play village;
+        when ( @night ) play night;
+        when ( @dusk || @dawn ) play dusk;
+        when ( any tag in $biome_tags has (tag ~~ "is_snowy") end ) play snow;
+        when ( any tag in $biome_tags has (tag ~~ "is_desert" || tag ~~ "is_badlands") end ) play desert;
+        when ( $biome ~~ "cherry" || $biome ~~ "sakura" || $biome ~~ "bamboo" || $biome ~~ "maple" || $biome ~~ "sugi" || $biome ~~ "blossom" ) play eastern;
+        when ( $biome ~~ "flower" || $biome ~~ "meadow" || $biome ~~ "lavender" ) play flower;
+        when ( any tag in $biome_tags has (tag ~~ "is_taiga" || tag ~~ "is_mountain") end ) play nordic;
+        when ( any tag in $biome_tags has (tag ~~ "is_forest") end ) play forest;
+        when ( any tag in $biome_tags has (tag ~~ "is_plains") end ) play plains;
+        play explore;
+    end
+end

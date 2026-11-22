@@ -1,0 +1,32 @@
+{
+    "name": "cave.lush",
+    "regions": [
+        "cave"
+    ],
+    "biome-type": "underground",
+    "min-height-relative": {
+        "max": -2,
+        "fade": 2
+    },
+    "features": [
+        "lush"
+    ],
+    "sounds": [
+        {
+            "name": "cave-lush",
+            "category": "cave",
+            "files": [
+                "nxterra_ambience:ambience.cave_drips"
+            ],
+            "length": {
+                "min": 100,
+                "max": 500
+            },
+            "pause": {
+                "min": 250,
+                "max": 500
+            },
+            "volume": 0.4
+        }
+    ]
+}

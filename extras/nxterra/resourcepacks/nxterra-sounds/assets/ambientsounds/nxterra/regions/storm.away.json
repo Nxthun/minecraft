@@ -1,0 +1,25 @@
+{
+    "name": "storm.away",
+    "storming": true,
+    "bad-regions": [
+        "cold"
+    ],
+    "regions": [
+        "cave",
+        "sky"
+    ],
+    "relative-height": {
+        "min": -30,
+        "fade": 20
+    },
+    "sounds": [
+        {
+            "name": "storm-away",
+            "category": "weather",
+            "files": [
+                "nxterra_ambience:ambience.rain_thunder"
+            ],
+            "volume": 0.3
+        }
+    ]
+}

@@ -1,0 +1,309 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "naturalist"
+	group: "7FE7FE7068E22B2B"
+	icon: {
+		id: "naturalist:butterfly"
+	}
+	id: "1907B2BCCC98118E"
+	images: [
+		{
+			height: 7.5d
+			id: "1BFE193F9376E9D2"
+			image: "nxterra:textures/quests/backdrop/naturalist.png"
+			order: -1
+			rotation: 0.0d
+			width: 9.5d
+			x: 2.5d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "76AE6CE586658D79"
+			image: "nxterra:textures/quests/banner/naturalist.png"
+			order: 1
+			rotation: 0.0d
+			width: 6.0d
+			x: 2.5d
+			y: -1.8248d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "naturalist:capture_net"
+			}
+			id: "5BCE7CDC0C975606"
+			rewards: [
+				{
+					id: "4791D0945071A786"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "16F43313156CEC1E"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "776F967BE489AF17"
+					item: { count: 1, id: "naturalist:capture_net" }
+					type: "item"
+				}
+				{
+					biome: "minecraft:forest"
+					id: "32641C161CA05625"
+					type: "biome"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5BCE7CDC0C975606"]
+			icon: {
+				id: "naturalist:cooked_venison"
+			}
+			id: "5187EC14C4BEC02E"
+			rewards: [
+				{
+					id: "1014C9ED03C77EDA"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "747E93503A38EA46"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "#naturalist:has_deer"
+					id: "12FBF3838C1FE7B8"
+					type: "biome"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "5351C0D286BF2A33"
+					item: { count: 1, id: "naturalist:cooked_venison" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5187EC14C4BEC02E"]
+			icon: {
+				id: "naturalist:knapsack"
+			}
+			id: "21E2D9B23E7784B6"
+			rewards: [
+				{
+					id: "559105E64755CC85"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "254D37E20049AA12"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 3L
+					id: "27FFF115B0417C65"
+					item: { count: 1, id: "naturalist:hide" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "43660CCC2ADB8110"
+					item: { count: 1, id: "naturalist:knapsack" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5BCE7CDC0C975606"]
+			icon: {
+				id: "naturalist:bass"
+			}
+			id: "50ABC4BAE5962F3B"
+			rewards: [
+				{
+					id: "3C46F26FA3212456"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7448E78E40266307"
+					item: {
+						count: 1
+						id: "minecraft:fishing_rod"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 2L
+				id: "4647D6CD3F15DA01"
+				item: { components: { "ftbfiltersystem:filter": "or(item(naturalist:bass)item(naturalist:catfish))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50ABC4BAE5962F3B"]
+			icon: {
+				id: "naturalist:shellstone"
+			}
+			id: "2F50AA932C21BA64"
+			rewards: [
+				{
+					id: "3D446C3108EAE910"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "2C290408944B2532"
+					item: {
+						count: 1
+						id: "minecraft:calcite"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 2L
+					id: "30407CBFC2C806B7"
+					item: { count: 1, id: "naturalist:snail_shell" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "124DE32A1132563F"
+					item: { count: 1, id: "naturalist:shellstone" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BCE7CDC0C975606"]
+			icon: {
+				id: "naturalist:glow_goop"
+			}
+			id: "703BA5FB06CFC8E3"
+			rewards: [
+				{
+					id: "1D4985E5FFCCF253"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 4
+					id: "272A27AE29462FDF"
+					item: {
+						count: 1
+						id: "minecraft:glow_berries"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:lush_caves"
+					id: "11FD04F4793AEB82"
+					type: "biome"
+				}
+				{
+					consume_items: false
+					id: "6614D11A66605981"
+					item: { count: 1, id: "naturalist:glow_goop" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"21E2D9B23E7784B6"
+				"2F50AA932C21BA64"
+				"703BA5FB06CFC8E3"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "naturalist:butterfly"
+			}
+			id: "242A964243D1B593"
+			rewards: [
+				{
+					id: "2AD5C25F7060F9F6"
+					item: {
+						count: 1
+						id: "nxterra:bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "1D040CE2C95364E3"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "1D6BA3A1A9535906"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "23A24F08D94C3CB0"
+				type: "checkmark"
+			}]
+			x: 4.75d
+			y: 1.5d
+		}
+	]
+}

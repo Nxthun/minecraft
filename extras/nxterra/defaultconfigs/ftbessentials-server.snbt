@@ -1,0 +1,10 @@
+{
+	teleportation: {
+		rtp: {
+			dimension_blacklist: ["minecraft:the_end", "minecraft:the_nether"]
+			dimension_whitelist: ["minecraft:overworld"]
+			max_distance: 2000
+			min_distance: 500
+		}
+	}
+}

@@ -1,0 +1,222 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dracolotl"
+	group: "7FE7FE7068E22B2B"
+	icon: {
+		id: "minecraft:axolotl_bucket"
+	}
+	id: "4A7ED3EFA5371DAB"
+	images: [
+		{
+			height: 5.0d
+			id: "1EFA0BDEB4A2D048"
+			image: "nxterra:textures/quests/backdrop/dracolotl.png"
+			order: -1
+			rotation: 0.0d
+			width: 11.5d
+			x: 3.25d
+			y: 1.7652d
+		}
+		{
+			height: 1.5d
+			id: "299B4CB0B53B9969"
+			image: "nxterra:textures/quests/banner/dracolotl.png"
+			order: 1
+			rotation: 0.0d
+			width: 5.5d
+			x: 3.25d
+			y: -0.5748d
+		}
+	]
+	order_index: 18
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:dragon_egg"
+			}
+			id: "13866576C1EABBAC"
+			rewards: [
+				{
+					id: "719181B9BB752E25"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 8
+					id: "18D8273887A85400"
+					item: {
+						count: 1
+						id: "minecraft:obsidian"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "39344CFA1AC6C1A8"
+				item: { count: 1, id: "minecraft:dragon_egg" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["13866576C1EABBAC"]
+			icon: {
+				id: "minecraft:end_crystal"
+			}
+			id: "583D420A8EB3CC4D"
+			rewards: [
+				{
+					id: "5B8A8F4EB747C3FA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1A0FEDD81B180494"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "1E1FDEE5D1F17121"
+					item: { count: 1, id: "minecraft:end_crystal" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 7L
+					id: "5EC3DBE74A192BF9"
+					item: { count: 1, id: "minecraft:obsidian" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["583D420A8EB3CC4D"]
+			icon: {
+				id: "minecraft:bucket"
+			}
+			id: "3F000EFF360B90DB"
+			rewards: [
+				{
+					id: "207EDEDBCB333861"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 4
+					id: "19A6A16D7D0BC673"
+					item: {
+						count: 1
+						id: "minecraft:sea_pickle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "dracolotl:dracolotl_bucket_get"
+				criterion: ""
+				id: "163F207B4CA87C5D"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3F000EFF360B90DB"]
+			icon: {
+				id: "minecraft:glass"
+			}
+			id: "6CF732DB46D232C2"
+			rewards: [
+				{
+					id: "4B9ADB5D36F7E8BE"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "22A6D680DA4791CE"
+					item: {
+						count: 1
+						id: "minecraft:glow_berries"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 12L
+					id: "5802FE9C3514E132"
+					item: { count: 1, id: "minecraft:glass" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3A9DB34682DA4262"
+					item: { count: 1, id: "minecraft:water_bucket" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6CF732DB46D232C2"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:axolotl_bucket"
+			}
+			id: "6ED64CF4DC9332B4"
+			rewards: [
+				{
+					id: "40DA2AA617881D8D"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "58BEA0E3C6B18D90"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "24BE229BF91127B2"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "544333E23094217D"
+				type: "checkmark"
+			}]
+			x: 6.25d
+			y: 1.5d
+		}
+	]
+}

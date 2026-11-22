@@ -1,0 +1,290 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rechiseled"
+	group: "2F49404BE5395B45"
+	icon: {
+		id: "rechiseled:chisel"
+	}
+	id: "25E498B16A485013"
+	images: [
+		{
+			height: 6.5d
+			id: "4078BC7C3F1AE91D"
+			image: "nxterra:textures/quests/backdrop/rechiseled.png"
+			order: -1
+			rotation: 0.0d
+			width: 11.5d
+			x: 3.25d
+			y: 1.1497d
+		}
+		{
+			height: 1.5d
+			id: "1921F937626B5839"
+			image: "nxterra:textures/quests/banner/rechiseled.png"
+			order: 1
+			rotation: 0.0d
+			width: 6.0d
+			x: 3.25d
+			y: -1.8248d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "rechiseled:chisel"
+			}
+			id: "1A8CC90491F050C1"
+			rewards: [
+				{
+					id: "104114CAF37AD222"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 32
+					id: "509CFDD11FAFDD90"
+					item: {
+						count: 1
+						id: "minecraft:oak_planks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "5D0A4B5DF4101301"
+				item: { count: 1, id: "rechiseled:chisel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A8CC90491F050C1"]
+			icon: {
+				id: "rechiseled:oak_planks_bricks"
+			}
+			id: "43CEABAF2961F5F4"
+			rewards: [
+				{
+					id: "49ACF13CDFF53290"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 32
+					id: "139F16A8351FEDC1"
+					item: {
+						count: 1
+						id: "minecraft:cobblestone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 16L
+				id: "777B61B539EE3F29"
+				item: { count: 1, id: "rechiseled:oak_planks_bricks" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["43CEABAF2961F5F4"]
+			icon: {
+				id: "rechiseled:stone_brick_pattern"
+			}
+			id: "297290EC699ADA22"
+			rewards: [
+				{
+					id: "28D300B7DD7C0CF4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "6090428498DE7894"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 16L
+				id: "147232FAB4F6785B"
+				item: { count: 1, id: "rechiseled:stone_brick_pattern" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["297290EC699ADA22"]
+			icon: {
+				id: "rechiseled:iron_block_gears"
+			}
+			id: "1E618E4A818F9C80"
+			rewards: [
+				{
+					id: "3201359B18B0D410"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4B0C0EAE5F2799DE"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 2L
+					id: "33415AE80A9CAAE9"
+					item: { count: 1, id: "rechiseled:iron_block_gears" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "57AFCF0A5F0E6696"
+					item: { count: 1, id: "rechiseled:copper_block_gears" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["43CEABAF2961F5F4"]
+			icon: {
+				id: "rechiseled:sandstone_bricks"
+			}
+			id: "43C28F162C67E1A4"
+			rewards: [
+				{
+					id: "1D670E9C09ADB719"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 32
+					id: "2D62410887E5529F"
+					item: {
+						count: 1
+						id: "minecraft:sand"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 16L
+				id: "2CAE425B1A6D4C68"
+				item: { count: 1, id: "rechiseled:sandstone_bricks" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43C28F162C67E1A4"]
+			icon: {
+				id: "rechiseled:amethyst_block_bricks"
+			}
+			id: "61687FD19516FF8D"
+			rewards: [
+				{
+					id: "5EC38276908C2E81"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 4
+					id: "4960D2BDDB628D69"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "7AB9A8B59656AF1E"
+					item: { count: 1, id: "rechiseled:amethyst_block_bricks" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7BCA38022E992381"
+					item: { count: 1, id: "rechiseled:gold_block_polished" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1E618E4A818F9C80"
+				"61687FD19516FF8D"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "rechiseled:gold_block_polished"
+			}
+			id: "71128C378BAF2D83"
+			rewards: [
+				{
+					id: "2242AE55C3849E11"
+					item: {
+						count: 1
+						id: "nxterra:bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "4B188B6FBB68A9B6"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "14E13BB4CC440564"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "685A5B438D9814F4"
+				type: "checkmark"
+			}]
+			x: 6.25d
+			y: 1.5d
+		}
+	]
+}

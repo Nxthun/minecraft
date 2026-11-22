@@ -1,0 +1,11 @@
+{
+    "name": "warden",
+    "entity": {
+        "type": "warden",
+        "distance": {
+            "max": 40,
+            "fade": 20
+        }
+    },
+    "sounds": []
+}

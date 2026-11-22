@@ -1,0 +1,307 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rechiseled_create"
+	group: "2F49404BE5395B45"
+	icon: {
+		id: "rechiseled:chisel"
+	}
+	id: "63B42F44E0A48449"
+	images: [
+		{
+			height: 6.5d
+			id: "20EC5B25D14D2102"
+			image: "nxterra:textures/quests/backdrop/rechiseled_create.png"
+			order: -1
+			rotation: 0.0d
+			width: 11.5d
+			x: 3.25d
+			y: 1.1497d
+		}
+		{
+			height: 1.5d
+			id: "22AA6C244B4CEC7B"
+			image: "nxterra:textures/quests/banner/rechiseled_create.png"
+			order: 1
+			rotation: 0.0d
+			width: 9.0d
+			x: 3.25d
+			y: -1.8248d
+		}
+	]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "rechiseledcreate:mechanical_chisel"
+			}
+			id: "5644BFD1F958873A"
+			rewards: [
+				{
+					id: "625AF384B859E2BB"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "37D2E080A2EF16BD"
+					item: {
+						count: 1
+						id: "create:andesite_casing"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "106876A7E1323658"
+				item: { count: 1, id: "rechiseledcreate:mechanical_chisel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5644BFD1F958873A"]
+			icon: {
+				id: "rechiseledcreate:andesite_cut_polished_connecting"
+			}
+			id: "5C0B5C11D4C1958A"
+			rewards: [
+				{
+					id: "5FA013C0A852260C"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 16
+					id: "1C4B2E433AA3730D"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 16L
+					id: "2A32F81A18283456"
+					item: { count: 1, id: "rechiseledcreate:andesite_cut_polished_connecting" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 16L
+					id: "254B7E9F57ECECC1"
+					item: { count: 1, id: "rechiseledcreate:andesite_cut_small_brick_connecting" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5516A951823D5CB8"]
+			icon: {
+				id: "rechiseledcreate:rose_quartz_bricks"
+			}
+			id: "12107681F74EFBE9"
+			rewards: [
+				{
+					id: "7DFC1A4ACDF761B5"
+					type: "xp"
+					xp: 125
+				}
+				{
+					count: 8
+					id: "78D8650908DB00C6"
+					item: {
+						count: 1
+						id: "create:rose_quartz"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 8L
+					id: "1B52D859D81E4756"
+					item: { count: 1, id: "rechiseledcreate:rose_quartz_bricks" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "5425CDA5A4CA3017"
+					item: { count: 1, id: "rechiseledcreate:rose_quartz_polished_block" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5C0B5C11D4C1958A"]
+			icon: {
+				id: "rechiseledcreate:oak_window_large"
+			}
+			id: "7B7FFC5E9F448BAC"
+			rewards: [
+				{
+					id: "7A9D546665555ECC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "1A99A9BEBC7706E8"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "4D631D9A41C15630"
+					item: { count: 1, id: "rechiseledcreate:oak_window_large" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "5AB088B613394491"
+					item: { count: 1, id: "rechiseledcreate:spruce_window_panes" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C0B5C11D4C1958A"]
+			icon: {
+				id: "rechiseledcreate:scorchia_cut_polished_connecting"
+			}
+			id: "5516A951823D5CB8"
+			rewards: [
+				{
+					id: "16A921B215DB1467"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "52DBB02FA26C7E73"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					id: "276218575E0761BB"
+					type: "dimension"
+				}
+				{
+					consume_items: false
+					count: 8L
+					id: "21C4F93CD2BD59D1"
+					item: { count: 1, id: "rechiseledcreate:scorchia_cut_polished_connecting" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7B7FFC5E9F448BAC"]
+			icon: {
+				id: "rechiseledcreate:deepslate_cut_polished_connecting"
+			}
+			id: "3CD52E32EFABAE86"
+			rewards: [
+				{
+					id: "116E734F547C0B77"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 32
+					id: "13225577763250BC"
+					item: {
+						count: 1
+						id: "minecraft:deepslate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 16L
+				id: "55E3D11AF443BFCF"
+				item: { count: 1, id: "rechiseledcreate:deepslate_cut_polished_connecting" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"12107681F74EFBE9"
+				"3CD52E32EFABAE86"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "create:cut_andesite_bricks"
+			}
+			id: "2D453B92B6FDE379"
+			rewards: [
+				{
+					id: "23C3D799803D1380"
+					item: {
+						count: 1
+						id: "nxterra:golden_bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "2FB13444AAB5BC6C"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "4CDE211BB629E8D1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "venture"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "26D700F8BD47EF73"
+				type: "checkmark"
+			}]
+			x: 6.25d
+			y: 1.5d
+		}
+	]
+}

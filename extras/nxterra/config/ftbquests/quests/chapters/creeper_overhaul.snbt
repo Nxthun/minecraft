@@ -1,0 +1,310 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "creeper_overhaul"
+	group: "7FE7FE7068E22B2B"
+	icon: {
+		id: "minecraft:gunpowder"
+	}
+	id: "5D6646DBD50C0C6A"
+	images: [
+		{
+			height: 7.5d
+			id: "7ACBE152CBC3785D"
+			image: "nxterra:textures/quests/backdrop/creeper_overhaul.png"
+			order: -1
+			rotation: 0.0d
+			width: 9.5d
+			x: 2.5d
+			y: 1.5727d
+		}
+		{
+			height: 1.5d
+			id: "4DF6EE4BA3E4D26E"
+			image: "nxterra:textures/quests/banner/creeper_overhaul.png"
+			order: 1
+			rotation: 0.0d
+			width: 8.5d
+			x: 2.5d
+			y: -1.8248d
+		}
+	]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:gunpowder"
+			}
+			id: "35E75AC1B2741A07"
+			rewards: [
+				{
+					id: "344A18E06291796F"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "7C73541049FFDBC5"
+					item: {
+						count: 1
+						id: "minecraft:shield"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:birch_forest"
+					id: "6B5D0113D0D3F52B"
+					type: "biome"
+				}
+				{
+					entity: "creeperoverhaul:birch_creeper"
+					id: "1BF6E6A6E112916B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["35E75AC1B2741A07"]
+			icon: {
+				id: "creeperoverhaul:tiny_cactus"
+			}
+			id: "4D2E43C0A944B0A6"
+			rewards: [
+				{
+					id: "6C1B72D3DC1FDA64"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 16
+					id: "64C27FD569BC1703"
+					item: {
+						count: 1
+						id: "minecraft:sandstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:desert"
+					id: "74877B07109BB941"
+					type: "biome"
+				}
+				{
+					entity: "creeperoverhaul:desert_creeper"
+					id: "6F280849DC798516"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4D2E43C0A944B0A6"]
+			icon: {
+				id: "minecraft:snowball"
+			}
+			id: "49204E2EA8D91E09"
+			rewards: [
+				{
+					id: "5C6A0F6811AB6824"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "130A30BFF4F7FA54"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:snowy_plains"
+					id: "75A93DC83C4F2F59"
+					type: "biome"
+				}
+				{
+					entity: "creeperoverhaul:snowy_creeper"
+					id: "6780B3B95CA47F88"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["35E75AC1B2741A07"]
+			icon: {
+				id: "minecraft:lily_pad"
+			}
+			id: "3271E1569F6D3D0F"
+			rewards: [
+				{
+					id: "198DD26D66046F3F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "36FCF585BE826FD1"
+					item: {
+						count: 1
+						id: "minecraft:lily_pad"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:swamp"
+					id: "10E1281930AEDB74"
+					type: "biome"
+				}
+				{
+					entity: "creeperoverhaul:swamp_creeper"
+					id: "20957708C00BE1EF"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3271E1569F6D3D0F"]
+			icon: {
+				id: "minecraft:sand"
+			}
+			id: "39BE87EB3FC3C17C"
+			rewards: [
+				{
+					id: "7A99998F227ECE74"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 16
+					id: "62A63118911E1407"
+					item: {
+						count: 1
+						id: "minecraft:sand"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:beach"
+					id: "76EAE437D90AC068"
+					type: "biome"
+				}
+				{
+					entity: "creeperoverhaul:beach_creeper"
+					id: "48AB541858797F4D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35E75AC1B2741A07"]
+			icon: {
+				id: "minecraft:pointed_dripstone"
+			}
+			id: "3E9FD7016305DDF7"
+			rewards: [
+				{
+					id: "2423A607A474B2EC"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 16
+					id: "54A36A28C4985542"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:dripstone_caves"
+					id: "5DABC4AFD3BE5B8F"
+					type: "biome"
+				}
+				{
+					entity: "creeperoverhaul:dripstone_creeper"
+					id: "75B6FDE39A435896"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"49204E2EA8D91E09"
+				"39BE87EB3FC3C17C"
+				"3E9FD7016305DDF7"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:tnt"
+			}
+			id: "1F71381A754A3969"
+			rewards: [
+				{
+					id: "1EB67135573ED90D"
+					item: {
+						count: 1
+						id: "nxterra:bloom_dice"
+					}
+					type: "item"
+				}
+				{
+					id: "5261BB44BEBBEA2F"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "6060A62DF1F690F3"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "settle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1B9F7DF9885B12EE"
+				type: "checkmark"
+			}]
+			x: 4.75d
+			y: 1.5d
+		}
+	]
+}

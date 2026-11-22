@@ -1,0 +1,23 @@
+{
+    "name": "cave.deep-dark",
+    "regions": [
+        "cave"
+    ],
+    "features": [
+        "sculk"
+    ],
+    "sounds": [
+        {
+            "name": "water-droplets",
+            "category": "cave",
+            "files": [
+                "nxterra_ambience:ambience.cave_drips"
+            ],
+            "length": {
+                "min": 400,
+                "max": 700
+            },
+            "volume": 0.25
+        }
+    ]
+}
