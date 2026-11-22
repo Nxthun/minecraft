@@ -1,0 +1,12 @@
+name = "Dream Displays"
+filename = "dreamdisplays-neoforge-1.21.1-1.10.10.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/4IIKQyBu/versions/eKJYfxjZ/dreamdisplays-neoforge-1.21.1-1.10.10.jar"
+hash-format = "sha512"
+hash = "e57e471e603bb3dee896800d0fb57a080dab8f4f9a5bba9cef108fcbe46f61f14b35bdec349dcd3bdcd46fb250ff2cc5138b3dd09249478405a600aacaed36e1"
+
+[update.modrinth]
+mod-id = "4IIKQyBu"
+version = "eKJYfxjZ"

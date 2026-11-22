@@ -1,0 +1,12 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "NxTerra compatibility for Blueprint's example dimension data map"
+  },
+  "filter": {
+    "block": [{
+      "namespace": "blueprint",
+      "path": "data_maps/dimension/modded_biome_slice_sizes\\.json"
+    }]
+  }
+}

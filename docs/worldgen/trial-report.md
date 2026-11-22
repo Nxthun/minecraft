@@ -81,3 +81,9 @@ The updated migrated-player rehearsal cold-started in 14 seconds. Final prefligh
 ### Seed-specific Meeting Point cache trial
 
 The game located this seed's natural Meeting Point at `-24, -1704`. A saved Overworld region confirmed a real `nomansland:meeting_point` start at chunk `-2, -107`. On a separate copy, No Man's Land's own override persisted that same site and returned it after restart. The fixed corridor reached 51 chunks after 121 seconds with the override and after 170 seconds in the unpinned tuned run. The cache run still showed an early slowdown, was stopped after a prefix of the corridor, and ran with different concurrent server workloads. No seed-specific override is included in the staged launch world.
+
+### Seed 0 release candidate
+
+The owner confirmed their progress in a signed-in Prism session on the private rehearsal and selected numeric seed `0` for the public reset. A separate fresh world verified seed `0` in the saved world data and through the server's seed command. Its spawn at `-428, 64, -5` passed the server's clearance check, and all three player saves passed migration verification against that spawn. The distinct structure counts above relate to the earlier trial seed.
+
+The release candidate uses [Dream Displays 1.10.10 for NeoForge 1.21.1](https://modrinth.com/plugin/dreamdisplays/version/eKJYfxjZ). Its new Prism import uses generational ZGC on Java 21. Prism Java arguments are instance settings, so existing instances keep their previous collector until their Java settings change.

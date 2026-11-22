@@ -7,6 +7,10 @@
     },
     {
       "rolls": 1,
+      "entries": [{"type": "minecraft:item", "name": "nxterra:collection_book"}]
+    },
+    {
+      "rolls": 1,
       "entries": [
         {"type": "minecraft:item", "name": "nxterra:bloom_dice",
          "functions": [{"function": "minecraft:set_count", "count": 3}]}

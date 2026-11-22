@@ -261,7 +261,7 @@ metafile = true
 
 [[files]]
 file = "mods/dreamdisplays.pw.toml"
-hash = "c20b52ed516d182b761a6679b0b848591e639ebd9c71d6d30d23b5f816415df9"
+hash = "808362869038906b2d0538187a310591bca8eeaef58b5621bab106b9dad9ec9d"
 metafile = true
 
 [[files]]
@@ -1685,7 +1685,7 @@ hash = "6762f9937ea5c47e2b2a27198a553e30cccfb6d2c93c322163508cb726ae09d4"
 
 [[files]]
 file = "config/structurify.json"
-hash = "8a43a8bb5bf6fa12e7e77622b25148b6f0df6dc83403e1dda2547279ff59e0dc"
+hash = "f57ab4acf89422885e9978adf3f2ab1bac10ad789ef82127c7f474c4ad85665d"
 
 [[files]]
 file = "defaultconfigs/ftbessentials-server.snbt"
@@ -1885,7 +1885,7 @@ hash = "cfdd350a2293475ad07a80507f2f78b0603ead71f325a48dbd9dcb433bd57981"
 
 [[files]]
 file = "kubejs/data/nxterra_core/loot_table/chests/welcome_camp.json"
-hash = "8fdd731cf24ddafa78ebf0a6666dcdf6d850934e4b98086a6fad96d8d16bd362"
+hash = "1882f67dd7c12534251da3044f304a5190b91cae9457e0998d71aa64d7de29f3"
 
 [[files]]
 file = "kubejs/data/spawn/loot_table/archaeology/anthill.json"
@@ -6251,3 +6251,98 @@ metafile = true
 file = "shaderpacks/complementary-reimagined.pw.toml"
 hash = "75d1d2488a0c332a9a58af7e57f980a1b006c02b3a1c580fbd50443088e4eab0"
 metafile = true
+
+[[files]]
+file = "kubejs/data/castleshift/worldgen/structure/castle.json"
+hash = "9400a6016019e3644093b1b5af2db69087966bf1fcdb8b204c608972f705a9a5"
+
+[[files]]
+file = "kubejs/data/ecologics/loot_table/blocks/pale_moss_layer.json"
+hash = "83ed8e45486eb2514b0086f67450166b2acc736cd7f6806c286c130bc6414a26"
+
+[[files]]
+file = "kubejs/data/extendedae/loot_table/blocks/ex_emc_interface.json"
+hash = "fbd3dd4dffc9b1a9beeae3bad715eb8d349144ced86dfc15f70a16904d7c895e"
+
+[[files]]
+file = "kubejs/data/forge/tags/entity_type/legendarybeast.json"
+hash = "2e208ab29cf0d1cc7a00fdd3e872354453761b9efe4a4a1475467ba873fe3559"
+
+[[files]]
+file = "kubejs/data/minecraft/advancement/wander_add_map.json"
+hash = "83ed8e45486eb2514b0086f67450166b2acc736cd7f6806c286c130bc6414a26"
+
+[[files]]
+file = "kubejs/data/minecraft/tags/entity_type/legendary_beasts.json"
+hash = "2e208ab29cf0d1cc7a00fdd3e872354453761b9efe4a4a1475467ba873fe3559"
+
+[[files]]
+file = "kubejs/data/nxterra/tags/worldgen/structure/map_epic.json"
+hash = "6b4e8145c8f40ca9efdca859c4f454657d4cd0730c7cc8d25cb05e0851bf9f49"
+
+[[files]]
+file = "kubejs/data/nxterra/tags/worldgen/structure/map_rare.json"
+hash = "c7640baab0359d0b4a631c0672d0ea74f3e66d2f0787dc834ebcc862f9b25540"
+
+[[files]]
+file = "kubejs/data/still_life/tags/block/kapok_placeable.json"
+hash = "f38286d1d852995ac1b017d60b255aaad9a8f1a74d5bc2d1e290891eb60db83f"
+
+[[files]]
+file = "kubejs/data/unusual_prehistory/loot_table/blocks/leedsichthys_chunk.json"
+hash = "8c242b22657a3528357b76a65f0561e78d9a813ed941a6fbd2b345d4ece25706"
+
+[[files]]
+file = "kubejs/data/wares/loot_table/chests/village/badlands_warehouse.json"
+hash = "4e9ea91782d77564f8fd091571dcb0d230d2e8a5d7198e0aaa7bb721753db52b"
+
+[[files]]
+file = "kubejs/data/wares/loot_table/chests/village/beach_warehouse.json"
+hash = "f085da9614c0e1cdb24b12d0b35c5986f68383509953e1780faf11f17fc76e02"
+
+[[files]]
+file = "kubejs/data/wares/loot_table/chests/village/dark_forest_warehouse.json"
+hash = "c81568da278fec90750312219af74e6e9f7b7d6bedbaf5768ccafceff616d547"
+
+[[files]]
+file = "kubejs/data/wares/loot_table/chests/village/jungle_warehouse.json"
+hash = "a40ab797eb00a3157e2a914c8e59435aebf0a33060536404d511179bc0f75852"
+
+[[files]]
+file = "kubejs/data/wares/loot_table/chests/village/mountain_warehouse.json"
+hash = "f7eb9d5c73e40ea2c8723505df1d0c08f1aa6a69c597398aac55a1cbba30490e"
+
+[[files]]
+file = "kubejs/data/wares/loot_table/chests/village/mushroom_warehouse.json"
+hash = "6dbe480fd4e59516537e843a786e10cd2dfc27a5e2c93bf01c76165d172bcd9d"
+
+[[files]]
+file = "kubejs/data/wares/loot_table/chests/village/swamp_warehouse.json"
+hash = "62428585fe86d27f5ea13fb96205b02e92bb9ab5446a06d2a462ab0d8317f918"
+
+[[files]]
+file = "kubejs/server_scripts/nxterra_structure_loot.js"
+hash = "f043ebd68f8571bc56c01f1562fd8e551bdcf07fb10ea53daf076e5f6e1b7dce"
+
+[[files]]
+file = "mods/castle-shift.pw.toml"
+hash = "bcdcb676a68fb633dfdbef90ef19cf401fdb970c804a82cdd25cbfbfbe220a51"
+metafile = true
+
+[[files]]
+file = "mods/lootjs.pw.toml"
+hash = "4d45e3db16d77de75729ad7b6fc2accc0e4476178336efc7936d0827fdbdec8b"
+metafile = true
+
+[[files]]
+file = "mods/nxterra_vanilla_crafting-1.0.0.jar"
+hash = "3bdc182e07ef28fe33d6e52f4fe5d3f98b3b04ee8af0770a5c4d7eacefe9bbfc"
+
+[[files]]
+file = "mods/repurposed-structures.pw.toml"
+hash = "dcc8d8c6577e6546a41b679b46136701a942e5f3938e9b7e7b0782ffb4a07128"
+metafile = true
+
+[[files]]
+file = "moonlight-global-datapacks/nxterra-blueprint-compatibility/pack.mcmeta"
+hash = "014217d147f8d5676af80dabf9133f3db7f81929318b731f99d9df7c99751094"

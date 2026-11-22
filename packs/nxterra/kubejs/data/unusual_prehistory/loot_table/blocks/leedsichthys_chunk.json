@@ -1,0 +1,12 @@
+{
+  "neoforge:conditions": [
+    {"type": "neoforge:item_exists", "item": "unusual_prehistory:leedsichthys_chunk"}
+  ],
+  "type": "minecraft:block",
+  "pools": [{
+    "rolls": 1,
+    "conditions": [{"condition": "minecraft:survives_explosion"}],
+    "entries": [{"type": "minecraft:item", "name": "unusual_prehistory:leedsichthys_chunk"}]
+  }],
+  "random_sequence": "unusual_prehistory:blocks/leedsichthys_chunk"
+}
