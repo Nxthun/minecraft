@@ -472,7 +472,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "1804036ece9138bc59d574e060880c2bf5d92edb31b4c867c404d0155a7b528a"
+hash = "4de3e4a1a49e332c1ad313283e0403c4273b628d634c17a9ff0c9da3d6b67f9a"
 metafile = true
 
 [[files]]
@@ -749,7 +749,7 @@ metafile = true
 
 [[files]]
 file = "mods/owo-lib.pw.toml"
-hash = "bd206f6d20276b512533c79e3e40c4d9b5bef75d23c368197c867f6b967ed744"
+hash = "6514f98b34602b789fc2dbcafe7a67468d1c94d74965a0142a79b7ab23628a9a"
 metafile = true
 
 [[files]]
