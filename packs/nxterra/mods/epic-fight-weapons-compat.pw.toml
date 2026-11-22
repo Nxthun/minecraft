@@ -1,6 +1,6 @@
 name = "Epic Fight Weapons Compat"
 filename = "efweaponscompat-1.0.0.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/Udv3YbH7/versions/B3Ks3QHg/efweaponscompat-1.0.0.jar"
