@@ -1,0 +1,13 @@
+name = "Basic Weapons"
+filename = "basicweapons-neoforge-2.1.5+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/sc2Pektv/versions/fv6Hstr7/basicweapons-neoforge-2.1.5%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "8c471decaaa89fd18e56dc783432443f1d21ebdaa00d75c1ebbf0aa764ad12f187e27315edba3c9859dc44585617d5f7dfcccd00d80bc15190cc3e864a990068"
+
+[update]
+[update.modrinth]
+mod-id = "sc2Pektv"
+version = "fv6Hstr7"

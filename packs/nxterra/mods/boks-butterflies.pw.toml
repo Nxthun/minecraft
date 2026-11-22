@@ -1,0 +1,13 @@
+name = "Bok's Banging Butterflies"
+filename = "butterflies-7.10.12.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hUw80ZZs/versions/sSFyEg7R/butterflies-7.10.12.jar"
+hash-format = "sha512"
+hash = "0e74f8e71d0f80dd5d97e6b9823905f831729a33b957b8cb90359409007478b7b7e14dc180d5c2e25cb8e060165a9c45b06b2eb8176ed47ac4327f7c82cc5ae8"
+
+[update]
+[update.modrinth]
+mod-id = "hUw80ZZs"
+version = "sSFyEg7R"

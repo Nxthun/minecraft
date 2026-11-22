@@ -1,0 +1,13 @@
+name = "Ambience Mini"
+filename = "AmbienceMini-1.21.1-2.7.12.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/TsW1jKuo/versions/a84AiwtO/AmbienceMini-1.21.1-2.7.12.jar"
+hash-format = "sha512"
+hash = "e520b8ae9294ae1e92d5d6574ca7edd6aab74e07625a892db27c41eede2ccfa5d046f6d40916ee028993b0d1139337c880682b3ffd09797c2c492342dbbb584c"
+
+[update]
+[update.modrinth]
+mod-id = "TsW1jKuo"
+version = "a84AiwtO"
