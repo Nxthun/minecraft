@@ -6,3 +6,4 @@ config/**
 !config/fancymenu/**
 !config/ftbquests/**
 !config/almostunified/**
+!config/fml.toml

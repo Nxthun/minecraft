@@ -1288,7 +1288,6 @@ hash = "bd198b5561a417771ad4452af98cda28ba5e043654b51fff5eded418d0e09b36"
 [[files]]
 file = "config/fml.toml"
 hash = "2b994f502e6d71ecd46cbf866810dfef06273895646109d3b92025c934cf1502"
-preserve = true
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
