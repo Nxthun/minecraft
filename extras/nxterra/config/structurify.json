@@ -50,6 +50,61 @@
       "enable_flatness_check": true,
       "flatness_check_mode": "AUTO",
       "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "castleshift:castle",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 12,
+      "flatness_check_allow_non_solid_blocks": false,
+      "override_global_distance_from_world_center": true,
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 5200
+    },
+    {
+      "name": "nova_structures:illager_manor",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 12,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "nova_structures:ruin_town",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 12,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "repurposed_structures:pyramid_dark_forest",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:pyramid_icy",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:pyramid_jungle",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:pyramid_ocean",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:pyramid_giant_tree_taiga",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:pyramid_flower_forest",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:temple_ocean",
+      "is_disabled": true
     }
   ],
   "structure_sets": [
@@ -103,7 +158,10 @@
     },
     {
       "name": "bosses_of_mass_destruction:lich_tower",
-      "override_global_spacing_and_separation_modifier": true
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 72,
+      "separation": 32,
+      "frequency": 0.78
     },
     {
       "name": "bosses_of_mass_destruction:obsidilith_arena",
@@ -133,7 +191,10 @@
     },
     {
       "name": "graveyard:lich_prison_structure",
-      "override_global_spacing_and_separation_modifier": true
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 84,
+      "separation": 36,
+      "frequency": 0.82
     },
     {
       "name": "iceandfire:dragon_cave",
@@ -251,11 +312,17 @@
     },
     {
       "name": "biomeswevegone:dripstone_arches",
-      "override_global_spacing_and_separation_modifier": true
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 24,
+      "separation": 8,
+      "frequency": 0.75
     },
     {
       "name": "biomeswevegone:ironwood_gour_plateau",
-      "override_global_spacing_and_separation_modifier": true
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 24,
+      "separation": 8,
+      "frequency": 0.7
     },
     {
       "name": "biomeswevegone:large_cold_lake",
@@ -263,19 +330,31 @@
     },
     {
       "name": "biomeswevegone:lush_arch",
-      "override_global_spacing_and_separation_modifier": true
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 26,
+      "separation": 9,
+      "frequency": 0.75
     },
     {
       "name": "biomeswevegone:red_rock_arches",
-      "override_global_spacing_and_separation_modifier": true
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 30,
+      "separation": 11,
+      "frequency": 0.8
     },
     {
       "name": "biomeswevegone:rugged_fossils",
-      "override_global_spacing_and_separation_modifier": true
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 28,
+      "separation": 12,
+      "frequency": 0.75
     },
     {
       "name": "biomeswevegone:sharpened_rocks",
-      "override_global_spacing_and_separation_modifier": true
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 28,
+      "separation": 10,
+      "frequency": 0.7
     },
     {
       "name": "nomansland:menhirs",
@@ -329,15 +408,31 @@
     },
     {
       "name": "windswept:pine_totem",
-      "override_global_spacing_and_separation_modifier": true
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 25,
+      "separation": 8,
+      "frequency": 0.7
     },
     {
       "name": "windswept:snowy_pine_totem",
-      "override_global_spacing_and_separation_modifier": true
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 25,
+      "separation": 8,
+      "frequency": 0.7
     },
     {
       "name": "wetland_whimsy:wetland_ruins",
-      "override_global_spacing_and_separation_modifier": true
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 22,
+      "separation": 9,
+      "frequency": 0.9,
+      "structure_weights": {
+        "wetland_whimsy:arch": 1,
+        "wetland_whimsy:pillar": 1,
+        "wetland_whimsy:wall": 1,
+        "wetland_whimsy:arena": 5,
+        "wetland_whimsy:swamp_dungeon": 4
+      }
     },
     {
       "name": "stellarity:fossils",
@@ -365,7 +460,10 @@
     },
     {
       "name": "nyctophobia:mushroom_structure",
-      "override_global_spacing_and_separation_modifier": true
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 24,
+      "separation": 8,
+      "frequency": 0.65
     },
     {
       "name": "caverns_and_chasms:tin_monoliths",
@@ -440,6 +538,215 @@
       "override_global_spacing_and_separation_modifier": true,
       "spacing": 32,
       "separation": 12
+    },
+    {
+      "name": "castleshift:castle",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 72,
+      "separation": 24,
+      "frequency": 0.35
+    },
+    {
+      "name": "nova_structures:shrine_tower",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 140,
+      "separation": 54,
+      "frequency": 0.9
+    },
+    {
+      "name": "nova_structures:illager_hideout",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 104,
+      "separation": 40,
+      "frequency": 0.88
+    },
+    {
+      "name": "nova_structures:trident_trial_monument",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 108,
+      "separation": 46,
+      "frequency": 0.85
+    },
+    {
+      "name": "repurposed_structures:ancient_cities_end",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:ancient_cities_nether",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:ancient_cities_overworld",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:bastions_overworld",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:cities_nether",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:cities_overworld",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:igloos_overworld",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:mansions_mangrove",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:mansions_overworld",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:mineshafts_end",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:mineshafts_nether",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:mineshafts_ocean",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:mineshafts_overworld",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:monuments_nether",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:monuments_overworld",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:outposts_end",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:outposts_nether",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:outposts_ocean",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:outposts_overworld",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:pyramids_end",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:pyramids_mushroom",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:pyramids_nether",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:ruined_portals_end",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:ruins_nether",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:shipwrecks_end",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:shipwrecks_nether",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:strongholds_end",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:strongholds_nether",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:temples_nether",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:villages_mushroom",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:villages_nether",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:villages_overworld",
+      "is_disabled": true
+    },
+    {
+      "name": "repurposed_structures:witch_huts_overworld",
+      "is_disabled": true
+    },
+    {
+      "name": "aquamirae:surface",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 22,
+      "separation": 8,
+      "frequency": 0.75
+    },
+    {
+      "name": "aquamirae:shipwreck",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 26,
+      "separation": 9,
+      "frequency": 0.85
+    },
+    {
+      "name": "graveyard:ruins_structure",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 24,
+      "separation": 10,
+      "frequency": 0.8
+    },
+    {
+      "name": "nova_structures:creeping_crypt",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 62,
+      "separation": 24,
+      "frequency": 0.86
+    },
+    {
+      "name": "nova_structures:undead_crypt",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 64,
+      "separation": 26,
+      "frequency": 0.85
+    },
+    {
+      "name": "nova_structures:stray_fort",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 64,
+      "separation": 24,
+      "frequency": 0.88
+    },
+    {
+      "name": "nova_structures:conduit_ruin",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 88,
+      "separation": 38,
+      "frequency": 0.85
     }
   ],
   "structure_template_pools": []

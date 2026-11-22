@@ -1,0 +1,25 @@
+modLoader = "lowcodefml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "nxterra_vanilla_crafting"
+version = "1.0.0"
+displayName = "NxTerra Vanilla Crafting"
+description = "Alt + use opens the ordinary crafting screen while normal use keeps Hands-On Vanilla."
+
+[[mixins]]
+config = "nxterra_vanilla_crafting.mixins.json"
+
+[[dependencies.nxterra_vanilla_crafting]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+side = "CLIENT"
+
+[[dependencies.nxterra_vanilla_crafting]]
+modId = "handson_vanilla"
+type = "required"
+versionRange = "[1.2.0]"
+ordering = "AFTER"
+side = "CLIENT"

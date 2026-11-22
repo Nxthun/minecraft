@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.nxterra.crafting",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["HandsOnVanillaMixin"]
+}
