@@ -395,6 +395,11 @@ hash = "ce69874826195a0aed63a54128c8656b80e564cd32db59c1f9cfe3367150fd5e"
 metafile = true
 
 [[files]]
+file = "mods/ftb-teams-neoforge-2101.1.12.pw.toml"
+hash = "e7ae955ae9137a3f617aa845271a14b6d0dc41a905191e1ef95cf0be0a6a04c3"
+metafile = true
+
+[[files]]
 file = "mods/ftb-ultimine-neoforge-2101.1.15.pw.toml"
 hash = "3529bc9c3a7b54933869be1d1d84a948d091c3d6064bbb6b17874d7c153b4dca"
 metafile = true
