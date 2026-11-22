@@ -1,9 +1,8 @@
-# Files players keep once they have them (their own settings). Everything else updates with the pack.
+# Files players keep once they have them (their own settings). Everything else updates with the pack,
+# so gameplay and menu configs stay in sync with the server.
 options.txt
 servers.dat
-config/**
-# These are part of the pack itself and always update:
-!config/fancymenu/**
-!config/ftbquests/**
-!config/almostunified/**
-!config/fml.toml
+config/DistantHorizons.toml
+config/ambience_mini-client.toml
+config/iris.properties
+config/neat-client.toml

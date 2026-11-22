@@ -1231,22 +1231,18 @@ preserve = true
 [[files]]
 file = "config/Luminous_Configuration.toml"
 hash = "908d9d05c81fa0c1493199f30b7ad7193ba428e7b255cdbc119a25a59cf69a56"
-preserve = true
 
 [[files]]
 file = "config/Luminous_Nether_Server_Configuration.toml"
 hash = "c9e160ba7b961eebf6e79bcff85538239898c65935f7659b4d41439f8e13424c"
-preserve = true
 
 [[files]]
 file = "config/accessories.json5"
 hash = "ff022e02369fe7d87db4eda00e38ea723e9867b200cb2f56bc25cec5db1d58c7"
-preserve = true
 
 [[files]]
 file = "config/adorablehamsterpets/ui.toml"
 hash = "5ab2a1104d9126c8ba5144c9ec7af2c80cc56329e545e4589457e26c81d6e66d"
-preserve = true
 
 [[files]]
 file = "config/almostunified/placeholders.json"
@@ -1264,22 +1260,18 @@ preserve = true
 [[files]]
 file = "config/bettercombat/server.json5"
 hash = "583a38aaa923f735ce09700e688b8ae63d90d4ff88d39339f71315219a991033"
-preserve = true
 
 [[files]]
 file = "config/cumulus_menus-client.toml"
 hash = "2b048cb3912b920eda7c6bc030d5c074d62b9a912ceabea39d83bb19aa18f8cb"
-preserve = true
 
 [[files]]
 file = "config/emi.css"
 hash = "e4ca714bb6758e51679a0e726469784a68d6baccf4b7be716e31feb785e5afab"
-preserve = true
 
 [[files]]
 file = "config/epicfight-common.toml"
 hash = "6830db3c4b2ff94c0e7b25df5a89562ec7d16bd601625a9653fc7e71aee5cf0f"
-preserve = true
 
 [[files]]
 file = "config/fancymenu/options.txt"
@@ -1652,32 +1644,26 @@ hash = "d2d905bdba036ba1e28dc7c1bd15c473e65aecc36ad38178375842e821f48a3d"
 [[files]]
 file = "config/gravestone-server.toml"
 hash = "01e704225afe18cedf8f1331100b8339acbc3083d086c87057c98f75e8280cb7"
-preserve = true
 
 [[files]]
 file = "config/iceandfire/iaf-client.json"
 hash = "139c77cbd5c106862de2543f2809de827b8293a0648ec0e786887285ee63ae27"
-preserve = true
 
 [[files]]
 file = "config/iceandfire/iaf-common.json"
 hash = "af0e0dc108027b5c52c0e17c2d8e4dea6309fc3759ff9047594a5a81dc82ef0f"
-preserve = true
 
 [[files]]
 file = "config/inventoryprofilesnext/integrationHints/irons_spellbooks.json"
 hash = "4856b9993f9b4f3c002b1645b94ab53d0a6a2f1c6148b199401b88f3abf0961a"
-preserve = true
 
 [[files]]
 file = "config/inventoryprofilesnext/integrationHints/nxterra_core.json"
 hash = "87718b8d80fd6afcf9a392aab54a8f65c13f573ace21ff670b4d4d09a05968da"
-preserve = true
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
 hash = "84a549883a41fab627c7949a34471ab71658ba2f86a4fead3015fbea6a165f33"
-preserve = true
 
 [[files]]
 file = "config/iris.properties"
@@ -1687,7 +1673,6 @@ preserve = true
 [[files]]
 file = "config/modernfix-mixins.properties"
 hash = "6ec016fb2b2a15619e40869b7a3679250daa96cd0d7dd545d97121e2268a3cb1"
-preserve = true
 
 [[files]]
 file = "config/neat-client.toml"
@@ -1697,12 +1682,10 @@ preserve = true
 [[files]]
 file = "config/openpartiesandclaims-server.toml"
 hash = "6762f9937ea5c47e2b2a27198a553e30cccfb6d2c93c322163508cb726ae09d4"
-preserve = true
 
 [[files]]
 file = "config/structurify.json"
 hash = "8a43a8bb5bf6fa12e7e77622b25148b6f0df6dc83403e1dda2547279ff59e0dc"
-preserve = true
 
 [[files]]
 file = "defaultconfigs/ftbessentials-server.snbt"
