@@ -706,6 +706,18 @@ hash = "d5cef080d071a3e9dcc3514417fd8eedbaa1da5c79a28a0989b2beaa7164835f"
 metafile = true
 
 [[files]]
+file = "mods/nxterra_arsenal-2.1.0.jar"
+hash = "949fe9c6eec28d094f09aefda90dd0898bd3aa54fa83c1361c319f563adf64d7"
+
+[[files]]
+file = "mods/nxterra_core-0.8.7.jar"
+hash = "981c5aa8e268763f7a1d46a8369f44d53948d966ed8026590ca96cf1d9efeb99"
+
+[[files]]
+file = "mods/nxterra_dice-2.3.1.jar"
+hash = "4ac4f9f2afc34f0a14dd99bf23ebd0f1993369f0a0032b22145e09f18c88f4dc"
+
+[[files]]
 file = "mods/nyctophobia.pw.toml"
 hash = "ec7daea7c89e4c6095b644b64eb4017732de0906708ba92e4d54484f8df83446"
 metafile = true
