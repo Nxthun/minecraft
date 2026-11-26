@@ -7067,7 +7067,7 @@ hash = "bef4d172fc1bfb34d342e79090726c4a0c272dd404783c3ea022b992e0e0415e"
 
 [[files]]
 file = "kubejs/data/fossilslegacy/tags/worldgen/biome/has_structure/lab.json"
-hash = "da190105bc91c8d1370b26d87d4f0cb2ec06a05355fdcd05590b56766c908589"
+hash = "9eafc08d17b0d97dc908986fc3742e9e843778d625a42bafef3c000626198efb"
 
 [[files]]
 file = "kubejs/data/fossilslegacy/tags/worldgen/biome/has_structure/machu_picchu.json"
@@ -7087,7 +7087,7 @@ hash = "06aa6b2df49605d8eeb9fde21acfa4d3538b46bb9371f7b5ad67f1d610983c40"
 
 [[files]]
 file = "kubejs/data/fossilslegacy/tags/worldgen/biome/has_structure/weapon_shop.json"
-hash = "da190105bc91c8d1370b26d87d4f0cb2ec06a05355fdcd05590b56766c908589"
+hash = "edc3aa8e8bc2a1dbac34a739c9237a9c1bf8b3cfb6201a92d4a57c91be82b7fb"
 
 [[files]]
 file = "kubejs/data/friendsandfoes/tags/worldgen/biome/has_structure/iceologer_cabin.json"
