@@ -50,10 +50,10 @@ function nxBcShare(event) {
   // the killer's own team is credited by FTB Quests itself; never count a team twice
   const done = []
   const killer = event.source ? event.source.player : null
-  if (killer) {
-    const own = file.getTeamData(killer)
-    if (own.isPresent()) done.push(String(own.get().getTeamId()))
-  }
+  // declared at function level: Rhino (KubeJS) throws "redeclaration of var" for a const inside an if block,
+  // which aborted the whole share whenever a player landed the killing blow (seen live 26 Nov, 14:42)
+  const own = killer ? file.getTeamData(killer) : null
+  if (own && own.isPresent()) done.push(String(own.get().getTeamId()))
 
   const r2 = NX_BOSS_CREDIT.range * NX_BOSS_CREDIT.range
   entity.level.players.forEach(player => {

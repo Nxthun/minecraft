@@ -9591,7 +9591,7 @@ hash = "b19f138e0f7ac97ff3f32ce85b970992582acb29a20c561e8ada585660a3be31"
 
 [[files]]
 file = "kubejs/server_scripts/nx_boss_credit.js"
-hash = "9c77a96c68f2527f78162eaddf923f951fdfb9d07b09e7c112926d402e19afc1"
+hash = "299ef05cb15ceee9a74885d0600f854d0c822e2dec71a6a138dd170cae3a7824"
 
 [[files]]
 file = "kubejs/server_scripts/nx_chronicle.js"
