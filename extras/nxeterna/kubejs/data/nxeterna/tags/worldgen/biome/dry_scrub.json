@@ -1,0 +1,56 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:savanna",
+    "minecraft:savanna_plateau",
+    "minecraft:windswept_savanna",
+    {
+      "id": "natures_spirit:arid_highlands",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:blooming_highlands",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:cedar_thicket",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:chaparral",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:flowering_shrubland",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:oak_savanna",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:savanna_river",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:shrubby_highlands",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:shrubland",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:woody_highlands",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:xeric_plains",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:xeric_river",
+      "required": false
+    }
+  ]
+}

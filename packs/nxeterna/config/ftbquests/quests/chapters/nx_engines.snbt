@@ -1,0 +1,795 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nx_engines"
+	group: "6BAF16D8C4F76AA3"
+	icon: {
+		id: "ae2:controller"
+	}
+	id: "3BE118AB6AA8E539"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7DB79FB152222C3D"]
+			icon: {
+				id: "mekanism:ingot_osmium"
+			}
+			id: "6E6C865BBFB4EFE6"
+			rewards: [
+				{
+					id: "5295354C3DA066EA"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "62AB03A292BFD234"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				count: 8L
+				id: "7082E4A0AA5FC374"
+				item: { count: 1, id: "mekanism:ingot_osmium" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6E6C865BBFB4EFE6"]
+			icon: {
+				id: "mekanismgenerators:heat_generator"
+			}
+			id: "0F932A45BACC89C1"
+			rewards: [
+				{
+					count: 16
+					id: "6BD0D4C210241D65"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "70CFC812A6141036"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "2A8FE6B26379501F"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "1838CA769D072626"
+				item: { count: 1, id: "mekanismgenerators:heat_generator" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0F932A45BACC89C1"]
+			icon: {
+				id: "mekanism:metallurgic_infuser"
+			}
+			id: "47CBEFA3EA7F2E9D"
+			rewards: [
+				{
+					count: 16
+					id: "1EBC0C5CC3F4D5B1"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "367DFF904F9D0FBF"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "25ED7A3588571ADE"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "4F33DA11DFC953F6"
+					item: { count: 1, id: "mekanism:metallurgic_infuser" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "52F0E0DCE09E3BA2"
+					item: { count: 1, id: "mekanism:basic_control_circuit" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "49CA5B3A585B3891"
+					item: { count: 1, id: "mekanism:ingot_steel" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["47CBEFA3EA7F2E9D"]
+			icon: {
+				id: "mekanism:enrichment_chamber"
+			}
+			id: "37620114F9356551"
+			rewards: [
+				{
+					count: 4
+					id: "30D54FB44793C014"
+					item: {
+						count: 1
+						id: "mekanism:alloy_infused"
+					}
+					type: "item"
+				}
+				{
+					id: "6A7FF7782756B29F"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "3CBC150D62B7B5CD"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "5EBB614D4E7B9228"
+				item: { count: 1, id: "mekanism:enrichment_chamber" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["37620114F9356551"]
+			icon: {
+				id: "mekanism:basic_energy_cube"
+			}
+			id: "6B8EFEDAD97BB8C4"
+			rewards: [
+				{
+					count: 16
+					id: "36BD211976FFB0C9"
+					item: {
+						count: 1
+						id: "mekanism:basic_universal_cable"
+					}
+					type: "item"
+				}
+				{
+					id: "552176C589DD20D5"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "028D490F89656B0E"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "4186216B195DB657"
+					item: { count: 1, id: "mekanism:basic_energy_cube" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "38EDF9D53327E12A"
+					item: { count: 1, id: "mekanism:basic_universal_cable" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6B8EFEDAD97BB8C4"]
+			icon: {
+				id: "mekanism:energized_smelter"
+			}
+			id: "4941861A37C8981D"
+			rewards: [
+				{
+					count: 2
+					id: "4D8FF3647F2A233B"
+					item: {
+						count: 1
+						id: "mekanism:alloy_infused"
+					}
+					type: "item"
+				}
+				{
+					id: "7D8BF01D1589A4B2"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "639D8BC3C87C6CF4"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "0BB442B3F8AF9578"
+					item: { count: 1, id: "mekanism:crusher" }
+					type: "item"
+				}
+				{
+					id: "2C296F1054B10B83"
+					item: { count: 1, id: "mekanism:energized_smelter" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4941861A37C8981D"]
+			icon: {
+				id: "mekanism:electrolytic_separator"
+			}
+			id: "542D42E49BB81DAF"
+			rewards: [
+				{
+					id: "510C5032DEF56A85"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "73CE7B9D3BD0D09F"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "6198C22CB2FDC374"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "66C4719507F3193C"
+				item: { count: 1, id: "mekanism:electrolytic_separator" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["542D42E49BB81DAF"]
+			icon: {
+				id: "mekanism:jetpack"
+			}
+			id: "68C40BAEF0ABBB28"
+			rewards: [
+				{
+					count: 2
+					id: "400021E36A29ED66"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1739A1165131BF7C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "17AFE6D240BB8EE9"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0732DB3E4CB25AFF"
+				item: { count: 1, id: "mekanism:jetpack" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["68C40BAEF0ABBB28"]
+			icon: {
+				id: "mekanism:digital_miner"
+			}
+			id: "6250D1E7AA2786A5"
+			rewards: [
+				{
+					id: "4F73E04983720055"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3BD08062EB011301"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "706400412E8F63E0"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.75d
+			tasks: [{
+				id: "3765B21DC1BEF787"
+				item: { count: 1, id: "mekanism:digital_miner" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7DB79FB152222C3D"]
+			icon: {
+				id: "ae2:meteorite_compass"
+			}
+			id: "485F979DCF8E32C9"
+			rewards: [
+				{
+					id: "36EAC18FFA4A5EC0"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "079EA331CB2C6114"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "5135884CADB81461"
+					item: { count: 1, id: "ae2:charger" }
+					type: "item"
+				}
+				{
+					id: "7451B7C5298234E5"
+					item: { count: 1, id: "ae2:meteorite_compass" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["485F979DCF8E32C9"]
+			icon: {
+				id: "ae2:silicon_press"
+			}
+			id: "18255B6D1F632272"
+			rewards: [
+				{
+					id: "3C43021EE84BD1D6"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "140900D72FF8A21A"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "562CBAC31CC519CC"
+					item: { count: 1, id: "ae2:silicon_press" }
+					type: "item"
+				}
+				{
+					id: "5A2D15519FC56DB5"
+					item: { count: 1, id: "ae2:logic_processor_press" }
+					type: "item"
+				}
+				{
+					id: "6B08F03CE600435E"
+					item: { count: 1, id: "ae2:calculation_processor_press" }
+					type: "item"
+				}
+				{
+					id: "09FDE1CEAC0B7CE0"
+					item: { count: 1, id: "ae2:engineering_processor_press" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["18255B6D1F632272"]
+			icon: {
+				id: "ae2:certus_quartz_crystal"
+			}
+			id: "0641830DE292EDBF"
+			rewards: [
+				{
+					count: 8
+					id: "5B71350AE1697AD4"
+					item: {
+						count: 1
+						id: "ae2:certus_quartz_crystal"
+					}
+					type: "item"
+				}
+				{
+					id: "44622A584DBB6933"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "06337E5CB4427191"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				count: 16L
+				id: "3F5F6DB230844436"
+				item: { count: 1, id: "ae2:certus_quartz_crystal" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0641830DE292EDBF"]
+			icon: {
+				id: "ae2:inscriber"
+			}
+			id: "4B773717209D93BE"
+			rewards: [
+				{
+					id: "47F636F5558E6F31"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1D22EA197050F26C"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "2736DDA81F97214B"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "377C742CAA33CABA"
+				item: { count: 1, id: "ae2:inscriber" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4B773717209D93BE"]
+			icon: {
+				id: "ae2:logic_processor"
+			}
+			id: "5517FF43BBA6C984"
+			rewards: [
+				{
+					count: 16
+					id: "4574BD6ACFA601CF"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "60A6B03568CEB0B6"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "195967DAD95D6EAF"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					count: 2L
+					id: "154CBC826B9EF3EB"
+					item: { count: 1, id: "ae2:logic_processor" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4B512D76FEEDC675"
+					item: { count: 1, id: "ae2:calculation_processor" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "381AB4FDA14AF176"
+					item: { count: 1, id: "ae2:engineering_processor" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5517FF43BBA6C984"]
+			icon: {
+				id: "ae2:energy_acceptor"
+			}
+			id: "39EA921CD1A18001"
+			rewards: [
+				{
+					id: "7698C046A8EACACE"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "7F80E16A85E75DCB"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "076843F4F20F4CBC"
+				item: { count: 1, id: "ae2:energy_acceptor" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["39EA921CD1A18001"]
+			icon: {
+				id: "ae2:controller"
+			}
+			id: "0999C3ACD7EC3A4F"
+			rewards: [
+				{
+					count: 2
+					id: "4157C62C6B7508C8"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "58EB17399AB969F8"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "3B4605848B5430BC"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "7EA49A46192D8FE6"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0999C3ACD7EC3A4F"]
+			icon: {
+				id: "ae2:drive"
+			}
+			id: "23AEEAA25672304F"
+			rewards: [
+				{
+					id: "7B9B434BEE49F091"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "408FADAE0958B31F"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "76DA983A5D70666B"
+					item: { count: 1, id: "ae2:drive" }
+					type: "item"
+				}
+				{
+					id: "6F06DFE6CFBE259E"
+					item: { count: 1, id: "ae2:item_storage_cell_1k" }
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["23AEEAA25672304F"]
+			icon: {
+				id: "ae2:terminal"
+			}
+			id: "0839CDE7CCE1A2A6"
+			rewards: [
+				{
+					count: 2
+					id: "4D922CA77BC9F1C1"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "193119A836253902"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "7701E0FF254DD6A5"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "40D4E4D1CA372FCE"
+				item: { count: 1, id: "ae2:terminal" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0839CDE7CCE1A2A6"]
+			icon: {
+				id: "ae2:pattern_provider"
+			}
+			id: "0461A20C931C1E96"
+			rewards: [
+				{
+					id: "6B9FB8C774491304"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "309D12C371806C69"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "222E176777ADA947"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.75d
+			tasks: [
+				{
+					id: "2170581E30B43D9F"
+					item: { count: 1, id: "ae2:pattern_provider" }
+					type: "item"
+				}
+				{
+					id: "444821CCBAFAC647"
+					item: { count: 1, id: "ae2:1k_crafting_storage" }
+					type: "item"
+				}
+			]
+			x: 27.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"6250D1E7AA2786A5"
+				"0461A20C931C1E96"
+			]
+			icon: {
+				id: "ae2:energy_acceptor"
+			}
+			id: "7D91E86E3AB0EFFF"
+			rewards: [
+				{
+					count: 2
+					id: "168B066148453934"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6C143114EEAD0A1F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "47BF35EC620EF1DB"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				icon: {
+					id: "ae2:energy_acceptor"
+				}
+				id: "1BE639063B105520"
+				type: "checkmark"
+			}]
+			x: 31.0d
+			y: 0.0d
+		}
+	]
+}

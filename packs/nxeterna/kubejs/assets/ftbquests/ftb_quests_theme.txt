@@ -1,0 +1,228 @@
+[*]
+background:          ftbquests:textures/gui/panele.png; color=#404040; tile_size=16
+extra_quest_shapes:  diamond, pentagon, hexagon, octagon, heart, gear
+
+text_color:          #FFFFFF
+hover_text_color:    #FFFFA0
+disabled_text_color: #999999
+
+widget_border:     #FFFFFF
+widget_background: #44000000
+symbol_in:         #9BC600
+symbol_out:        #408300
+
+button:                hollow_rectangle:{{widget_border}}
+panel:                 {{container_slot}}
+disabled_button:       hollow_rectangle:{{widget_border}}
+hover_button:          {{button}} + {{widget_background}}; padding=1
+context_menu:          hollow_rectangle:{{widget_border}}; round_edges + {{background}}; color=#B4B4B4; padding=1
+scroll_bar_background: {{widget_background}}
+scroll_bar:            {{button}} + {{widget_background}}; padding=1
+container_slot:        {{button}}; padding=-1
+text_box:              part:minecraft:textures/gui/container/enchanting_table.png; pos=0,185,108,19; corner=6
+
+icon:                 none
+check_icon:           builtin
+add_icon:             builtin
+alert_
+
+[6E1E09C8144AF8FE]
+background: ftbquests:textures/gui/welcome_adventure.png; color=#FFFFFF; tile_size=0
+
+[6FB794D7BF2DD57C]
+background: ftbquests:textures/gui/nether_awakening.png; color=#FFFFFF; tile_size=0
+
+[453D00A6070B302B]
+background: ftbquests:textures/gui/twilight_forest.png; color=#FFFFFF; tile_size=0
+
+[434B82B054E373EE]
+background: ftbquests:textures/gui/eternal_starlight.png; color=#FFFFFF; tile_size=0
+
+[068F735ECF9B0AC3]
+background: ftbquests:textures/gui/frozen_tides.png; color=#FFFFFF; tile_size=0
+
+[129678DF68B07C1D]
+background: ftbquests:textures/gui/the_final_preparations.png; color=#FFFFFF; tile_size=0
+
+[5B2359DC62116228]
+background: ftbquests:textures/gui/better_end.png; color=#FFFFFF; tile_size=0
+
+[308F1F57C6E33201]
+background: ftbquests:textures/gui/tutorial.png; color=#FFFFFF; tile_size=0
+
+[261B289011FBCDA0]
+background: ftbquests:textures/gui/tutorial.png; color=#FFFFFF; tile_size=0
+
+[6501498F5AA9E659]
+background: ftbquests:textures/gui/tutorial.png; color=#FFFFFF; tile_size=0
+
+[221A5B121359DB52]
+background: ftbquests:textures/gui/andesite_casing.png; color=#FFFFFF; tile_size=0
+
+[1016A9B50122D82F]
+background: ftbquests:textures/gui/andesite_casing.png; color=#FFFFFF; tile_size=0
+
+[65B8FABFC08D92F4]
+background: ftbquests:textures/gui/andesite_casing.png; color=#FFFFFF; tile_size=0
+
+[64E7F25121347AA3]
+background: ftbquests:textures/gui/andesite_casing.png; color=#FFFFFF; tile_size=0
+
+[3E11A0DA35F6498A]
+background: ftbquests:textures/gui/andesite_casing.png; color=#FFFFFF; tile_size=0
+
+[793F59280BE8E40C]
+background: ftbquests:textures/gui/andesite_casing.png; color=#FFFFFF; tile_size=0
+
+[52B43FD6353F829A]
+background: ftbquests:textures/gui/andesite_casing.png; color=#FFFFFF; tile_size=0
+
+[6E3BBA5C893145AA]
+background: ftbquests:textures/gui/andesite_casing.png; color=#FFFFFF; tile_size=0
+
+[6F505DDE19897374]
+background: ftbquests:textures/gui/andesite_casing.png; color=#FFFFFF; tile_size=0
+
+[144D85326C466CA2]
+background: ftbquests:textures/gui/andesite_casing.png; color=#FFFFFF; tile_size=0
+
+[65BDC7FEBD522551]
+background: ftbquests:textures/gui/andesite_casing.png; color=#FFFFFF; tile_size=0
+
+[03855E746F5BA78F]
+background: ftbquests:textures/gui/andesite_casing.png; color=#FFFFFF; tile_size=0
+
+[00138CED19C4A569]
+background: ftbquests:textures/gui/andesite_casing.png; color=#FFFFFF; tile_size=0
+
+[5E36C10670352558]
+background: ftbquests:textures/gui/andesite_casing.png; color=#FFFFFF; tile_size=0
+
+[64CB4BC97293FCF4]
+background: ftbquests:textures/gui/andesite_casing.png; color=#FFFFFF; tile_size=0
+
+[60E9EACFA839C530]
+background: ftbquests:textures/gui/andesite_casing.png; color=#FFFFFF; tile_size=0
+
+[53807CE99FB9BE03]
+background: ftbquests:textures/gui/andesite_casing.png; color=#FFFFFF; tile_size=0
+
+[43CF4BA83CF22415]
+background: ftbquests:textures/gui/sky.png; color=#FFFFFF; tile_size=0
+
+[1AB9C4ADDDCFAC46]
+background: ftbquests:textures/gui/sky.png; color=#FFFFFF; tile_size=0
+
+[57C4C6D814A60C6A]
+background: ftbquests:textures/gui/amethyst_nest.png; color=#FFFFFF; tile_size=0
+
+[4BE5AF574811BC75]
+background: ftbquests:textures/gui/ancient_factory.png; color=#FFFFFF; tile_size=0
+
+[7A9C678C71187497]
+background: ftbquests:textures/gui/scylla.png; color=#FFFFFF; tile_size=0
+
+[72B847BF5B95ECBA]
+background: ftbquests:textures/gui/refined_storage.png; color=#FFFFFF; tile_size=0
+
+[00847B5BB8F666A5]
+background: ftbquests:textures/gui/sophisticated.png; color=#FFFFFF; tile_size=0
+
+[7CDD5E954EAFDF13]
+background: ftbquests:textures/gui/ironspellbook.png; color=#FFFFFF; tile_size=0
+
+[298E5EB1324D5E4B]
+background: ftbquests:textures/gui/hazen_stuff.png; color=#FFFFFF; tile_size=0
+
+[6E44E1883FF6A9C4]
+background: ftbquests:textures/gui/farmer_delight.png; color=#FFFFFF; tile_size=0
+
+[3CB8D33B8D49ADC7]
+background: ftbquests:textures/gui/nether_delight.png; color=#FFFFFF; tile_size=0
+
+[2472151011D81E0E]
+background: ftbquests:textures/gui/simplyswords.png; color=#FFFFFF; tile_size=0
+
+[0AF783E94224AC94]
+background: ftbquests:textures/gui/gamedisc.png; color=#FFFFFF; tile_size=0
+
+[3EAC125139B8C9BC]
+background: ftbquests:textures/gui/artifacts.png; color=#FFFFFF; tile_size=0
+
+[6755E494773EC9E9]
+background: ftbquests:textures/gui/plushie.png; color=#FFFFFF; tile_size=0
+
+[1C3D71A4C30C5CA8]
+background: ftbquests:textures/gui/musicdisc.png; color=#FFFFFF; tile_size=0
+
+[362298EFB9C24784]
+background: ftbquests:textures/gui/eyedrop.png; color=#FFFFFF; tile_size=0
+
+[10BFEE5BAAD397C1]
+background: ftbquests:textures/gui/armoroftheages.png; color=#FFFFFF; tile_size=0
+
+[77BBD591680869D8]
+background: ftbquests:textures/gui/deepslate.png; color=#404040; tile_size=16
+
+[2854C65A85C816D4]
+background: ftbquests:textures/gui/deepslate.png; color=#404040; tile_size=16
+
+[3C0861CAF7DD43D2]
+background: ftbquests:textures/gui/deepslate.png; color=#404040; tile_size=16
+
+[3B2F0063237D513A]
+background: ftbquests:textures/gui/celestisynth.png; color=#404040; tile_size=0
+
+[670A865DAD6FB321]
+background: ftbquests:textures/gui/naturalist.png; color=#FFFFFF; tile_size=0
+
+[3DE5957FAACBA203]
+background: ftbquests:textures/gui/clockwork_template.png; color=#FFFFFF; tile_size=0
+
+[03665C8415B93F03]
+background: ftbquests:textures/gui/andesite_casing.png; color=#FFFFFF; tile_size=0
+
+[49BAE6CDDBC933D9]
+background: ftbquests:textures/gui/fantasyarmor1.png; color=#FFFFFF; tile_size=0
+
+[64FE8DDC814C2767]
+background: ftbquests:textures/gui/artiffice1.png; color=#FFFFFF; tile_size=0
+
+[43A8EC3E713713FA]
+background: ftbquests:textures/gui/scorchedguns2.png; color=#FFFFFF; tile_size=0
+
+[2387E2972C870A9B]
+background: ftbquests:textures/gui/adastra.png; color=#FFFFFF; tile_size=0
+
+[464F5E3746C73181]
+background: ftbquests:textures/gui/legendarymonsters.png; color=#FFFFFF; tile_size=0
+
+[4C4C3431F7475E83]
+background: ftbquests:textures/gui/andesite_casing.png; color=#FFFFFF; tile_size=0
+
+[0223A485334B2662]
+background: ftbquests:textures/gui/andesite_casing.png; color=#FFFFFF; tile_size=0
+
+[2BB9A3DEEE7A8815]
+background: ftbquests:textures/gui/deeperanddarker.png; color=#FFFFFF; tile_size=0
+
+[4302C468CC5388F9]
+background: ftbquests:textures/gui/nx_welcome.png; color=#FFFFFF; tile_size=0
+
+[045B2D70AFF16DCE]
+background: ftbquests:textures/gui/nx_dragons.png; color=#FFFFFF; tile_size=0
+
+[2C8C92B5D949CD40]
+background: ftbquests:textures/gui/nx_arcane.png; color=#FFFFFF; tile_size=0
+
+[0DD5CA41AC61724E]
+background: ftbquests:textures/gui/nx_homestead.png; color=#FFFFFF; tile_size=0
+
+[2403D05CB78FA230]
+background: ftbquests:textures/gui/nx_prehistoric.png; color=#FFFFFF; tile_size=0
+
+[7267780A7C4E0E9C]
+background: ftbquests:textures/gui/nx_atlas.png; color=#FFFFFF; tile_size=0
+
+[3BE118AB6AA8E539]
+background: ftbquests:textures/gui/nx_engines.png; color=#FFFFFF; tile_size=0

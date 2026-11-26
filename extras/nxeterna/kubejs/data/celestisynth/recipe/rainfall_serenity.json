@@ -1,0 +1,54 @@
+{
+  "type": "betterend:infusion",
+  "catalysts": {
+    "north_east": {
+      "item": {
+        "item": "celestisynth:celestial_netherite_ingot"
+      }
+    },
+    "north_west": {
+      "item": {
+        "item": "celestisynth:celestial_netherite_ingot"
+      }
+    },
+    "south_east": {
+      "item": {
+        "item": "celestisynth:celestial_netherite_ingot"
+      }
+    },
+    "south_west": {
+      "item": {
+        "item": "celestisynth:celestial_netherite_ingot"
+      }
+    },
+    "north": {
+      "item": {
+        "item": "celestisynth:starstruck_scrap"
+      }
+    },
+    "south": {
+      "item": {
+        "item": "celestisynth:starstruck_scrap"
+      }
+    },
+    "east": {
+      "item": {
+        "item": "celestisynth:starstruck_scrap"
+      }
+    },
+    "west": {
+      "item": {
+        "item": "celestisynth:starstruck_scrap"
+      }
+    }
+  },
+  "input": {
+    "item": {
+      "item": "eternal_starlight:glistering_bow"
+    }
+  },
+  "result": {
+    "item": "celestisynth:rainfall_serenity"
+  },
+  "time": 200
+}

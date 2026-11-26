@@ -1,0 +1,8 @@
+{
+  "type": "farmingforblockheads:market",
+  "category": "marketplace:clockwork",
+  "preset": "marketplace:clockwork_gold_35",
+  "result": {
+    "item": "clockwork:clockwork_potion_sprayer"
+  }
+}

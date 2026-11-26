@@ -1,0 +1,8 @@
+{
+  "type": "farmingforblockheads:market",
+  "category": "marketplace:hooks",
+  "preset": "marketplace:hooks_gold",
+  "result": {
+    "item": "yo_hooks:gold_grappling_hook"
+  }
+}

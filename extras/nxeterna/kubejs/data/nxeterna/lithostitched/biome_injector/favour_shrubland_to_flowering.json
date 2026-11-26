@@ -1,0 +1,13 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "targets": [
+    "natures_spirit:shrubland"
+  ],
+  "replacement": "natures_spirit:flowering_shrubland",
+  "parameters": {
+    "weirdness": {
+      "min_inclusive": 0
+    }
+  }
+}

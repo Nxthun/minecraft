@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "payment": {
+    "ingredient": {
+      "item": "magic_coins:silver_coin"
+    },
+    "count": 1
+  }
+}

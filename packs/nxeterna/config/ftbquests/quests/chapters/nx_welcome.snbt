@@ -1,0 +1,409 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nx_welcome"
+	group: "6BAF16D8C4F76AA3"
+	icon: {
+		id: "waystones:waystone"
+	}
+	id: "4302C468CC5388F9"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "7DB79FB152222C3D"
+			rewards: [
+				{
+					id: "4CE84C0EC5ECE393"
+					table_id: 2880989949424864985L
+					type: "choice"
+				}
+				{
+					id: "56D1238FAB483FD4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5FACCA5BD7BD2000"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "5D6FAB8350044FDB"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DB79FB152222C3D"]
+			id: "6126741C3DF8F213"
+			rewards: [
+				{
+					id: "12E1A49D427A451A"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "59E7F06938DF0F36"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					count: 4L
+					id: "3BE397D76F76843A"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:beds)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "16C42D7A62F0FD54"
+					item: { count: 1, id: "minecraft:crafting_table" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "643292CA97DBEBF0"
+					item: { count: 1, id: "minecraft:chest" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6126741C3DF8F213"]
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "799BFE2ED08CD176"
+			rewards: [
+				{
+					id: "53D9EDDC60103F9A"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "349BA25FEEEAEF08"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "111BEE79DC373394"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "01AE3A5FC7C3AC7D"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["799BFE2ED08CD176"]
+			id: "51A6578DC6176091"
+			rewards: [
+				{
+					count: 2
+					id: "330AE5932C9EB4B3"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "01AD9D78B0F04285"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "1783C7ED1A106598"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				icon: {
+					id: "waystones:waystone"
+				}
+				id: "432FAD81CB18621C"
+				type: "checkmark"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6126741C3DF8F213"]
+			icon: {
+				id: "minecraft:player_head"
+			}
+			id: "534E74D5F8C02352"
+			rewards: [
+				{
+					id: "1C3077DFF6928D09"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "266851E652E4F942"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "7EBD5219C47D6890"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7DB79FB152222C3D"]
+			icon: {
+				id: "ftbquests:book"
+			}
+			id: "0E3F636633A05902"
+			rewards: [
+				{
+					id: "0CC079D851073213"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "72E36AF9D8C12FC3"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "33611CCE058BCC60"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7DB79FB152222C3D"]
+			icon: {
+				id: "nxeterna_packs:pack_common"
+			}
+			id: "0ED07547CB018E2C"
+			can_repeat: true
+			repeat_cooldown: 72000
+			rewards: [
+				{
+					id: "69617452281783EB"
+					item: {
+						count: 1
+						id: "nxeterna_packs:pack_common"
+					}
+					type: "item"
+				}
+				{
+					id: "1630586FF20651AB"
+					type: "xp"
+					xp: 1
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				icon: {
+					id: "nxeterna_packs:pack_common"
+				}
+				id: "65E91596F0C9D9C1"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["51A6578DC6176091"]
+			id: "136A98E17EBE3998"
+			rewards: [
+				{
+					id: "4BD09C4D522B1C8D"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "25D1580FB5E3E96E"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "2488F98C657AA637"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 8L
+					id: "62D9D49697C483DA"
+					item: { count: 1, id: "create:andesite_alloy" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4A5599F8C92F43BA"
+					item: { count: 1, id: "create:shaft" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["51A6578DC6176091"]
+			id: "199417E8797DA48A"
+			rewards: [
+				{
+					id: "2FD78CD9B841EB91"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7548B3F3F1AE4D89"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "363ACBFA70ABF875"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3655613109478B41"
+					item: { count: 1, id: "naturescompass:naturescompass" }
+					type: "item"
+				}
+				{
+					id: "2D44799486E0BAF2"
+					item: { count: 1, id: "minecraft:spyglass" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["51A6578DC6176091"]
+			id: "6C78A1F4F5934074"
+			rewards: [
+				{
+					id: "2101F2B7630CE447"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "03BCE588A058ED35"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "689DFC0144AB3703"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "06DBF0F82256F353"
+					item: { count: 1, id: "farm_and_charm:crafting_bowl" }
+					type: "item"
+				}
+				{
+					id: "2FC057B5A7F66891"
+					item: { count: 1, id: "farm_and_charm:cutting_board" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["51A6578DC6176091"]
+			id: "78AA04CE11A574B1"
+			rewards: [
+				{
+					id: "5F09AC93D57E24EE"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "03FF288887937F9B"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "750FAC56764E32E3"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 2L
+					id: "027AE713C82C88ED"
+					item: { count: 1, id: "minecraft:lead" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "559CD8D7F6FEFC0B"
+					item: { count: 1, id: "minecraft:cooked_beef" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 4.5d
+		}
+	]
+}

@@ -1,0 +1,54 @@
+{
+  "type": "betterend:infusion",
+  "catalysts": {
+    "north_east": {
+      "item": {
+        "item": "celestisynth:celestial_netherite_ingot"
+      }
+    },
+    "north_west": {
+      "item": {
+        "item": "celestisynth:celestial_netherite_ingot"
+      }
+    },
+    "south_east": {
+      "item": {
+        "item": "celestisynth:celestial_netherite_ingot"
+      }
+    },
+    "south_west": {
+      "item": {
+        "item": "celestisynth:celestial_netherite_ingot"
+      }
+    },
+    "north": {
+      "item": {
+        "item": "celestisynth:lunar_scrap"
+      }
+    },
+    "south": {
+      "item": {
+        "item": "celestisynth:lunar_scrap"
+      }
+    },
+    "east": {
+      "item": {
+        "item": "celestisynth:lunar_scrap"
+      }
+    },
+    "west": {
+      "item": {
+        "item": "celestisynth:lunar_scrap"
+      }
+    }
+  },
+  "input": {
+    "item": {
+      "item": "eternal_starlight:energy_boomerang"
+    }
+  },
+  "result": {
+    "item": "celestisynth:crescentia"
+  },
+  "time": 200
+}

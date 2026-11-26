@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "natures_spirit:sleeted_slopes",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:snowcapped_red_peaks",
+      "required": false
+    }
+  ]
+}

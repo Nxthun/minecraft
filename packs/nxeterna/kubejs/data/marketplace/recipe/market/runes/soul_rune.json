@@ -1,0 +1,8 @@
+{
+  "type": "farmingforblockheads:market",
+  "category": "marketplace:runes",
+  "preset": "marketplace:runes",
+  "result": {
+    "item": "runes:soul_stone"
+  }
+}

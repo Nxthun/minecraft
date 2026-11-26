@@ -1,0 +1,13 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "targets": [
+    "natures_spirit:tundra"
+  ],
+  "replacement": "natures_spirit:maple_woodlands",
+  "parameters": {
+    "temperature": {
+      "min_inclusive": -0.45
+    }
+  }
+}

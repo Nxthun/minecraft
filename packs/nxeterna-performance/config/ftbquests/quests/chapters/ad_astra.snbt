@@ -1,0 +1,1818 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ad_astra"
+	group: "5D057DC6F5434AC6"
+	icon: {
+		id: "ad_astra:oxygen_distributor"
+	}
+	id: "2387E2972C870A9B"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/adastraphoto"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.44d
+			id: "11E524A464F021C5"
+			rewards: [
+				{
+					id: "5F9A11DDAD9F516D"
+					item: {
+						count: 1
+						id: "ad_astra:earth_globe"
+					}
+					type: "item"
+				}
+				{
+					id: "37730E61A17BBBC4"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "6D9116F218236CE8"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "343DEB0148D54FFE"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4485044C5D34234A"]
+			id: "4525F08145972386"
+			rewards: [
+				{
+					id: "4BB642F570FAC953"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "4E5F751E67A33D44"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "0645834DA087AFCC"
+				item: { count: 1, id: "ad_astra:steel_ingot" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4525F08145972386"]
+			id: "4907AEF702865C2E"
+			rewards: [
+				{
+					id: "1F021387089669D3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1012ECB5DAF3EF7F"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			tasks: [{
+				id: "5223AEC863944760"
+				item: { count: 1, id: "ad_astra:steel_plate" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4525F08145972386"]
+			id: "5559C74EEDAE7345"
+			rewards: [
+				{
+					id: "0E66B0311271FD16"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "77DD3E137B9E05D6"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			tasks: [{
+				id: "1A5520E22A52D998"
+				item: { count: 1, id: "ad_astra:steel_rod" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["51ACDF79638F45AA"]
+			id: "4485044C5D34234A"
+			rewards: [
+				{
+					id: "0E5FF94AAC61A466"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "72542B9588BF6DCD"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "1B10D465415DBD02"
+				item: { count: 1, id: "ad_astra:etrionic_blast_furnace" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11E524A464F021C5"]
+			id: "51ACDF79638F45AA"
+			rewards: [
+				{
+					id: "7A47BD9D652763B4"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "319C324E0FD31DAA"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "14DC7E90D564B0E8"
+				item: { count: 1, id: "ad_astra:compressor" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51ACDF79638F45AA"]
+			id: "7B6CEEC92314E209"
+			rewards: [
+				{
+					id: "0C58CDF17E322999"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4F78F8110DFD124D"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			tasks: [{
+				id: "31353E29D4A9DF5E"
+				item: { count: 1, id: "ad_astra:iron_plate" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["11E524A464F021C5"]
+			id: "67650EFBD12A6F14"
+			rewards: [
+				{
+					id: "18DD8F26E68FE6DB"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "28259E4223E62D98"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "5A525B3D91209295"
+				item: { count: 1, id: "ad_astra:calorite_ingot" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["11E524A464F021C5"]
+			id: "5D6B72E70EE1D66A"
+			rewards: [
+				{
+					id: "318BF41B5AEEC39E"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "49E3EDF19B678121"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "202AC41689C637E4"
+				item: { count: 1, id: "ad_astra:ostrum_ingot" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11E524A464F021C5"]
+			id: "2F2C009CE7CA7359"
+			rewards: [
+				{
+					id: "5259BE587598AE9C"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "6B0A5D8B6B95AE65"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "1E2FA869112AFB7B"
+				item: { count: 1, id: "ad_astra:desh_ingot" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4525F08145972386"]
+			id: "4801E986274E2425"
+			rewards: [
+				{
+					id: "21F993A3D52BB27C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "738B2498437072F0"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "6640597BA932749A"
+					item: { components: { "ad_astra:fluids": [{ amount: 1000L, id: "ad_astra:oxygen" }] }, count: 1, id: "ad_astra:gas_tank" }
+					type: "item"
+				}
+				{
+					id: "00BDC6CF6EFA1F82"
+					item: { components: { "ad_astra:fluids": [{ amount: 3000L, id: "ad_astra:oxygen" }] }, count: 1, id: "ad_astra:large_gas_tank" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["51ACDF79638F45AA"]
+			id: "68FC779E18F97FBE"
+			rewards: [
+				{
+					id: "50359F368E8B7360"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1F4C092E220A74FC"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "482E4B5A83BFBD8F"
+				item: { count: 1, id: "ad_astra:iron_rod" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4525F08145972386"]
+			id: "7E3FF7E9DFD5C7F6"
+			rewards: [
+				{
+					id: "0B3A1428120E49E5"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "05E3DF5D90BBA088"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "500F82070305CA88"
+				item: { count: 1, id: "ad_astra:rocket_fin" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E3FF7E9DFD5C7F6"]
+			id: "00850A2AA7D8C0F2"
+			rewards: [
+				{
+					id: "1A618B2C600C3808"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "413365A945DDE797"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6F9E8527EC8DB486"
+				item: { count: 1, id: "ad_astra:steel_tank" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E3FF7E9DFD5C7F6"]
+			id: "60BAE3C921DC4BE3"
+			rewards: [
+				{
+					id: "0D2E1A3580D0BB9D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "29FE8FFB3C7B0966"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1214AAF7E6F68F36"
+				item: { count: 1, id: "ad_astra:steel_engine" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"00850A2AA7D8C0F2"
+				"60BAE3C921DC4BE3"
+			]
+			id: "05B892F36462FB03"
+			rewards: [
+				{
+					id: "3ED404ACBD298B60"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "09789720D9A2A481"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "57260A388BC0C45F"
+				item: { count: 1, id: "ad_astra:rocket_nose_cone" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4EAD9AD19B96B4A6"]
+			id: "30AF064DA70DE671"
+			rewards: [
+				{
+					id: "11EE442BAA2C5701"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "3E33B79C27B1F4D8"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "16BB365858C11FD1"
+				type: "checkmark"
+			}]
+			x: 26.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05B892F36462FB03"]
+			id: "4EAD9AD19B96B4A6"
+			rewards: [
+				{
+					id: "50EB5C38A7106ACE"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "35E654B0C653B464"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "6862B0C99BCD2035"
+				item: { count: 1, id: "ad_astra:launch_pad" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30AF064DA70DE671"]
+			id: "510E8A44048319B4"
+			rewards: [
+				{
+					id: "5D07B5354D45920E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "55FA25BFED36CA3A"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "27454296ECE8C67E"
+				item: { components: { "ad_astra:fluids": [{ amount: 3000L, id: "ad_astra:fuel" }] }, count: 1, id: "ad_astra:tier_1_rocket" }
+				type: "item"
+			}]
+			x: 31.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["015A2EDA3A95435B"]
+			id: "486EFB8DE9E6398D"
+			rewards: [
+				{
+					id: "508F3A5E0EF327B9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0B483FC544D06EC6"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "6428767BA1ACB99E"
+				item: { count: 1, id: "ad_astra:desh_tank" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["015A2EDA3A95435B"]
+			id: "5077F7EDC752E883"
+			rewards: [
+				{
+					id: "5E18CC65A6046036"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2DA624A35AD4708F"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "7F2175F448770C26"
+				item: { count: 1, id: "ad_astra:desh_engine" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7FE74358006137E3"]
+			id: "1DD383ABDF2230E9"
+			rewards: [
+				{
+					id: "4C0590D7FC92A551"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4CC32138CA4EA7DA"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "3343040ED914EF81"
+				item: { count: 1, id: "ad_astra:calorite_engine" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7FE74358006137E3"]
+			id: "7FA038FCE554DCEC"
+			rewards: [
+				{
+					id: "6BB8EDA0E95AD606"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2254E916E3973026"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "4DB88E3BEA152258"
+				item: { count: 1, id: "ad_astra:calorite_tank" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4E0624A61C09E50E"]
+			id: "6668E3E1E76113DD"
+			rewards: [
+				{
+					id: "5AA48F3A2BB8AAA3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3B9377DB8C7D0E80"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "6804EE145DAB106E"
+				item: { count: 1, id: "ad_astra:ostrum_tank" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4E0624A61C09E50E"]
+			id: "1019AA21DEF6F08B"
+			rewards: [
+				{
+					id: "35907FF6FE03A11D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2F003907B4DCE787"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "5EEBCB9222D465E6"
+				item: { count: 1, id: "ad_astra:ostrum_engine" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2F2C009CE7CA7359"]
+			id: "015A2EDA3A95435B"
+			rewards: [
+				{
+					id: "39062A10789EC3E1"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "4B971401B1B665CD"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "1436C2AAA8D30CCA"
+				item: { count: 1, id: "ad_astra:desh_plate" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5D6B72E70EE1D66A"]
+			id: "4E0624A61C09E50E"
+			rewards: [
+				{
+					id: "4D776DE6F5B9F83A"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "1421DB2D14743428"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6A73D53F039B11A6"
+				item: { count: 1, id: "ad_astra:ostrum_plate" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67650EFBD12A6F14"]
+			id: "7FE74358006137E3"
+			rewards: [
+				{
+					id: "601F7B8230D43CB2"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "1149A0436BFCB67E"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2CD83DBFCDE05CFB"
+				item: { count: 1, id: "ad_astra:calorite_plate" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2F2C009CE7CA7359"]
+			id: "6ED65AB7DC251C44"
+			rewards: [
+				{
+					id: "725FEBD5A5B428B3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6DF8F812B8656C32"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "532E3CE84B831409"
+				item: { count: 1, id: "ad_astra:desh_fluid_pipe" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2F2C009CE7CA7359"]
+			id: "32DFAB16380266C2"
+			rewards: [
+				{
+					id: "4BD394132146A08D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3A288473DB09FE0C"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "28F73EE7C6BAF7B6"
+					item: { count: 1, id: "ad_astra:desh_cable" }
+					type: "item"
+				}
+				{
+					id: "0B1EF915B30028F1"
+					item: { count: 1, id: "ad_astra:fluid_pipe_duct" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5D6B72E70EE1D66A"]
+			id: "67E26DFB65364F14"
+			rewards: [
+				{
+					id: "66931C533511E77C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2AA46A5B78FB0B94"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "645EC1EBFEB7B4CE"
+				item: { count: 1, id: "ad_astra:ostrum_fluid_pipe" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E0624A61C09E50E"]
+			id: "64FFE481D72298B2"
+			rewards: [
+				{
+					id: "4E317150669BE746"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6EAA52F4A436B653"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "57F107943429F50E"
+				item: { count: 1, id: "ad_astra:cryo_freezer" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4E0624A61C09E50E"]
+			id: "6AF25D70B6FE7D2E"
+			rewards: [
+				{
+					id: "26787C4D64DCA0E0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "138B7C5C1419A4DF"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "6488D8A873ABAEDE"
+				item: { count: 1, id: "ad_astra:oxygen_sensor" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4EAD9AD19B96B4A6"]
+			id: "4DC06E689946B02F"
+			rewards: [
+				{
+					id: "6FA1D01F798AB767"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2FF180A4FA78F032"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "3A1EA4D9B5CE1C2F"
+					item: { count: 1, id: "ad_astra:steel_cable" }
+					type: "item"
+				}
+				{
+					id: "5367C16B9E5BB7B4"
+					item: { count: 1, id: "ad_astra:cable_duct" }
+					type: "item"
+				}
+			]
+			x: 20.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4EAD9AD19B96B4A6"]
+			id: "01AB239C251CF240"
+			rewards: [
+				{
+					id: "402EC787B4E99515"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6DDB78DBAD0995C1"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "358ACA6A8FDF2A5F"
+				item: { components: { "ad_astra:energy": 250000L }, count: 1, id: "ad_astra:etrionic_capacitor" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4EAD9AD19B96B4A6"]
+			id: "1C18F5A482F5DDF7"
+			rewards: [
+				{
+					id: "4596E3922F6C2FC5"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "26A4DFA67DB7F8E5"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "383182DB56D343C0"
+				item: { count: 1, id: "ad_astra:photovoltaic_etrium_cell" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4EAD9AD19B96B4A6"]
+			id: "7275A24570F4F773"
+			rewards: [
+				{
+					id: "2B8DFB6127DF7AB7"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "304ECB19F519E37A"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "27EA262602FC64C1"
+				item: { count: 1, id: "ad_astra:oxygen_loader" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["01AB239C251CF240"]
+			id: "6E4715CC4DE9B108"
+			rewards: [
+				{
+					id: "2D2763BB066BDAFD"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "149ACD2A01A71BAA"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			tasks: [{
+				id: "6B48FAB70A6EC250"
+				item: { count: 1, id: "ad_astra:gravity_normalizer" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["015A2EDA3A95435B"]
+			id: "702FF17354F8626E"
+			rewards: [
+				{
+					id: "4C6EDAE13684AB76"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "521573D03EE25DFF"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "63F80848B810EE1C"
+				item: { count: 1, id: "ad_astra:oxygen_distributor" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["015A2EDA3A95435B"]
+			id: "433391C8489D97AC"
+			rewards: [
+				{
+					id: "70FD50DC44153C9B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "42AB60C6C5E53D95"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "0E1622EA7361A4DE"
+				item: { count: 1, id: "ad_astra:water_pump" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1C18F5A482F5DDF7"]
+			id: "1A921A047C638F42"
+			rewards: [
+				{
+					id: "60748914AD68D19E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2EBFF2DA2E914A44"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "27AD704C6AF76F56"
+				item: { count: 1, id: "ad_astra:solar_panel" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"01AB239C251CF240"
+				"1C18F5A482F5DDF7"
+			]
+			id: "3293A6D408AE10E7"
+			rewards: [
+				{
+					id: "2B31F1CAA9DEF097"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2929D774065F89C7"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "4C72E070148C4CD7"
+				item: { components: { "ad_astra:energy": 2000000L }, count: 1, id: "ad_astra:energizer" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["015A2EDA3A95435B"]
+			id: "037B64E8FE0C5C2B"
+			rewards: [
+				{
+					id: "690681692D7F9FF5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "412FE92183FB5C24"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "7E9C1A5F1C6DCEEE"
+				item: { components: { "ad_astra:fluids": [{ amount: 3000L, id: "ad_astra:fuel" }] }, count: 1, id: "ad_astra:tier_2_rocket" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4E0624A61C09E50E"]
+			id: "318986279EB360F2"
+			rewards: [
+				{
+					id: "67D358BB5D162562"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "240ABD642B03F14F"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "415625C37518DF0C"
+				item: { components: { "ad_astra:fluids": [{ amount: 3000L, id: "ad_astra:fuel" }] }, count: 1, id: "ad_astra:tier_3_rocket" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7FE74358006137E3"]
+			id: "6C17D3713EE5CE91"
+			rewards: [
+				{
+					id: "71B3ACC6B2BFF2EF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6941398AAA87ACD8"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "08A23BF89EC7F477"
+				item: { components: { "ad_astra:fluids": [{ amount: 3000L, id: "ad_astra:fuel" }] }, count: 1, id: "ad_astra:tier_4_rocket" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4525F08145972386"]
+			id: "1AB48B8E5CD7586A"
+			rewards: [
+				{
+					id: "531F3097E15429AF"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7A9E50D1A9C87C84"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "4399C4C74EDD0FDD"
+				item: { count: 1, id: "ad_astra:wheel" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			id: "199C751B2C4677FF"
+			rewards: [
+				{
+					id: "1A16A0AA3B5DCC5B"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "0B5DDF3ED5B6EB89"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "36584D6A1FC5FC32"
+				item: { components: { "ad_astra:fluids": [{ amount: 3000L, id: "ad_astra:oxygen" }] }, count: 1, id: "ad_astra:zip_gun" }
+				type: "item"
+			}]
+			x: 41.0d
+			y: -2.5d
+		}
+		{
+			id: "7BC4E49390FEAA3D"
+			rewards: [
+				{
+					id: "10C96640040FBEBC"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "611B360AA1D39038"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "5C4631C0ABF314D6"
+				item: { components: { "ad_astra:fluids": [{ amount: 3000L, id: "ad_astra:fuel" }] }, count: 1, id: "ad_astra:tier_1_rover" }
+				type: "item"
+			}]
+			x: 41.0d
+			y: 2.5d
+		}
+		{
+			id: "42BA88DA8B0482A5"
+			rewards: [
+				{
+					id: "7094DC70EBB29B79"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "584DB2265CFC5B23"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "5307CA6C54793D39"
+				item: { count: 1, id: "ad_astra:space_helmet" }
+				type: "item"
+			}]
+			x: 37.0d
+			y: -6.0d
+		}
+		{
+			id: "07EAD869696E1FE6"
+			rewards: [
+				{
+					id: "45CFB494937E3E87"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "699BB4FE03E02330"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "56AC1ECBCAF5498C"
+				item: { components: { "ad_astra:fluids": [{ amount: 1000L, id: "ad_astra:oxygen" }] }, count: 1, id: "ad_astra:space_suit" }
+				type: "item"
+			}]
+			x: 36.0d
+			y: -5.0d
+		}
+		{
+			id: "678BF76F7E2BDC70"
+			rewards: [
+				{
+					id: "7E54DC3D452CD09C"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "76AAA8D4DB33B7DF"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "6C8DFF470ACD80C0"
+				item: { count: 1, id: "ad_astra:space_pants" }
+				type: "item"
+			}]
+			x: 38.0d
+			y: -5.0d
+		}
+		{
+			id: "2447659136D82C59"
+			rewards: [
+				{
+					id: "7BC4C27C3CE32711"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "1B1A9B56E9209983"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "13F34DA37CB42F76"
+				item: { count: 1, id: "ad_astra:space_boots" }
+				type: "item"
+			}]
+			x: 37.0d
+			y: -4.0d
+		}
+		{
+			id: "49D6349C930A6AB5"
+			rewards: [
+				{
+					id: "034CA981FA8400D9"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "1FC10B6033BD4F79"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "2F93A10B45C86DCA"
+				item: { components: { "ad_astra:fluids": [{ amount: 2000L, id: "ad_astra:oxygen" }] }, count: 1, id: "ad_astra:netherite_space_suit" }
+				type: "item"
+			}]
+			x: 36.0d
+			y: 0.0d
+		}
+		{
+			id: "531F4C1D44EA312E"
+			rewards: [
+				{
+					id: "52ED0AEEF11A88AC"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4A31070312858CD5"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "140E3E5C40572CF1"
+				item: { count: 1, id: "ad_astra:netherite_space_pants" }
+				type: "item"
+			}]
+			x: 38.0d
+			y: 0.0d
+		}
+		{
+			id: "0EA2AA4F643000CD"
+			rewards: [
+				{
+					id: "2D5DC15EC6CF6132"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "790E6D7356B16F64"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "2E77003EEAD53480"
+				item: { count: 1, id: "ad_astra:netherite_space_boots" }
+				type: "item"
+			}]
+			x: 37.0d
+			y: 1.0d
+		}
+		{
+			id: "7921E5812A82FA67"
+			rewards: [
+				{
+					id: "6DF0659F04DD4684"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "283EFE322A9AEB13"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "170C28A168FB07EC"
+				item: { count: 1, id: "ad_astra:netherite_space_helmet" }
+				type: "item"
+			}]
+			x: 37.0d
+			y: -1.0d
+		}
+		{
+			id: "296B558774114A63"
+			rewards: [
+				{
+					id: "529EC7B368BB9D9B"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "372475C53AB12FFD"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "4D737586B7CB44C2"
+				item: { count: 1, id: "ad_astra:jet_suit_helmet" }
+				type: "item"
+			}]
+			x: 37.0d
+			y: 4.0d
+		}
+		{
+			id: "34A22198D0F0D20E"
+			rewards: [
+				{
+					id: "1BE2D871ADDDB6DA"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "596061005ED38B9C"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "01B81B8C24C81D1E"
+				item: { components: { "ad_astra:energy": 1000000L, "ad_astra:fluids": [{ amount: 4000L, id: "ad_astra:oxygen" }] }, count: 1, id: "ad_astra:jet_suit" }
+				type: "item"
+			}]
+			x: 36.0d
+			y: 5.0d
+		}
+		{
+			id: "5B57E7839E413D85"
+			rewards: [
+				{
+					id: "776B43E2E73579A9"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "6F8C2C325EE98241"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "7F07C1D3B7682CBF"
+				item: { count: 1, id: "ad_astra:jet_suit_pants" }
+				type: "item"
+			}]
+			x: 38.0d
+			y: 5.0d
+		}
+		{
+			id: "00ACD83483075CEF"
+			rewards: [
+				{
+					id: "50B0FCB27C887091"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "317D57BD896E3CBE"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "52D4FA6B073C0979"
+				item: { count: 1, id: "ad_astra:jet_suit_boots" }
+				type: "item"
+			}]
+			x: 37.0d
+			y: 6.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "2047667EA4902021"
+			rewards: [
+				{
+					id: "29D8E6E2086C65AC"
+					item: {
+						count: 1
+						id: "ad_astra:moon_globe"
+					}
+					type: "item"
+				}
+				{
+					id: "4C6E141142143884"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "419DA9DD87E5D283"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 3.0d
+			tasks: [{
+				dimension: "ad_astra:moon"
+				icon: {
+					id: "ad_astra:moon_globe"
+				}
+				id: "014C83D172D3754F"
+				type: "dimension"
+			}]
+			x: 49.5d
+			y: -9.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "776F4D6449AA4261"
+			rewards: [
+				{
+					id: "0ECE6E2C914B9EAF"
+					item: {
+						count: 1
+						id: "ad_astra:glacio_globe"
+					}
+					type: "item"
+				}
+				{
+					id: "0532B2889A5183D1"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "17559B247EBEE8E8"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 3.0d
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				icon: {
+					id: "ad_astra:glacio_globe"
+				}
+				id: "6BBC07070F27F2E9"
+				type: "dimension"
+			}]
+			x: 49.5d
+			y: 9.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "6BC01FA60F062E86"
+			rewards: [
+				{
+					id: "27C52A3304BF1EBC"
+					item: {
+						count: 1
+						id: "ad_astra:mars_globe"
+					}
+					type: "item"
+				}
+				{
+					id: "567F8A04617C4C6E"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "7DF0680A22BDAC68"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 3.0d
+			tasks: [{
+				dimension: "ad_astra:mars"
+				icon: {
+					id: "ad_astra:mars_globe"
+				}
+				id: "6C313B695705134E"
+				type: "dimension"
+			}]
+			x: 49.5d
+			y: 4.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "7924565D4A90F447"
+			rewards: [
+				{
+					id: "126BD23358ED2605"
+					item: {
+						count: 1
+						id: "ad_astra:mercury_globe"
+					}
+					type: "item"
+				}
+				{
+					id: "2C05C430E2C34155"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "0C1ED695AA90444E"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 3.0d
+			tasks: [{
+				dimension: "ad_astra:mercury"
+				icon: {
+					id: "ad_astra:mercury_globe"
+				}
+				id: "197F9422C617C085"
+				type: "dimension"
+			}]
+			x: 49.5d
+			y: -4.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "6B463EB61EA46958"
+			rewards: [
+				{
+					id: "2D1CA86DA87B1C84"
+					item: {
+						count: 1
+						id: "ad_astra:venus_globe"
+					}
+					type: "item"
+				}
+				{
+					id: "0CD5D19227A30D18"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "1C2A0EBD910FDCC6"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 3.0d
+			tasks: [{
+				dimension: "ad_astra:venus"
+				icon: {
+					id: "ad_astra:venus_globe"
+				}
+				id: "754CD213C176636D"
+				type: "dimension"
+			}]
+			x: 49.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2047667EA4902021"
+				"7924565D4A90F447"
+				"6B463EB61EA46958"
+				"6BC01FA60F062E86"
+				"776F4D6449AA4261"
+			]
+			id: "62A298CD6041C5A8"
+			rewards: [
+				{
+					id: "6D5BF68BD008BF5E"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "7D088A60813C4E52"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "2DC9A140F70EA886"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ad_astra:flags)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 45.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4485044C5D34234A"]
+			id: "7D93BB9E463ED999"
+			rewards: [
+				{
+					id: "39622991D4CD5789"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3757144382B126A0"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "54EF5B70D7050A84"
+				item: { count: 1, id: "ad_astra:fuel_refinery" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4485044C5D34234A"]
+			id: "5315D2F9F53394A4"
+			rewards: [
+				{
+					id: "5DDCC5B43F47D0F0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "016726E59FFD9A81"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6D55DDEF059D05DF"
+				item: { count: 1, id: "ad_astra:coal_generator" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["11E524A464F021C5"]
+			id: "3720E36E6A62EF3D"
+			rewards: [
+				{
+					id: "523E843E65EEF226"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "63BD799BCE0C1BEE"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "758A79BECC98C217"
+				item: { count: 1, id: "ad_astra:radio" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["11E524A464F021C5"]
+			id: "017907DB0FDA969D"
+			rewards: [
+				{
+					id: "4162279D9E3C9D3A"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "11C87FBEEB8A2EDC"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "18943A4E35D16833"
+					item: { count: 1, id: "ad_astra:ti_69" }
+					type: "item"
+				}
+				{
+					id: "0F25A17D9CBBE297"
+					item: { count: 1, id: "ad_astra:wrench" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 1.0d
+		}
+	]
+}

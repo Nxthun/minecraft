@@ -1,0 +1,54 @@
+{
+  "type": "betterend:infusion",
+  "catalysts": {
+    "north": {
+      "item": {
+        "item": "celestisynth:supernal_netherite_ingot"
+      }
+    },
+    "north_west": {
+      "item": {
+        "item": "celestisynth:solar_crystal"
+      }
+    },
+    "west": {
+      "item": {
+        "item": "celestisynth:crimson_piece"
+      }
+    },
+    "south_west": {
+      "item": {
+        "item": "celestisynth:wintereis_shard"
+      }
+    },
+    "south": {
+      "item": {
+        "item": "celestisynth:starstruck_feather"
+      }
+    },
+    "south_east": {
+      "item": {
+        "item": "celestisynth:starstruck_scrap"
+      }
+    },
+    "east": {
+      "item": {
+        "item": "celestisynth:eyebomination"
+      }
+    },
+    "north_east": {
+      "item": {
+        "item": "celestisynth:lunar_scrap"
+      }
+    }
+  },
+  "input": {
+    "item": {
+      "item": "irons_spellbooks:ruined_book"
+    }
+  },
+  "result": {
+    "item": "celestisynth:celestial_spell_book"
+  },
+  "time": 200
+}

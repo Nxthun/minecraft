@@ -1,0 +1,18 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "targets": [
+    "minecraft:savanna",
+    "minecraft:savanna_plateau",
+    "minecraft:windswept_savanna"
+  ],
+  "replacement": "natures_spirit:lavender_fields",
+  "parameters": {
+    "weirdness": {
+      "max_inclusive": -0.0001
+    },
+    "temperature": {
+      "min_inclusive": 0.41
+    }
+  }
+}

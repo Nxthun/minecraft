@@ -1,0 +1,13 @@
+name = "Archaion: Echoes of the Fallen"
+filename = "archaion-1.21.1-1.4.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/W9McR7cY/versions/o9GnunEp/archaion-1.21.1-1.4.4.jar"
+hash-format = "sha512"
+hash = "9fe46882b39ec1409fce9ad00558e496af26172e8bb12894320b7634bc63210c3abdb8d8ed1393f4def5a37d893f5a9ae82f5a62e4f96c4c5845620fc0a21f2e"
+
+[update]
+[update.modrinth]
+mod-id = "W9McR7cY"
+version = "o9GnunEp"

@@ -1,0 +1,13 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "targets": [
+    "natures_spirit:oak_savanna"
+  ],
+  "replacement": "natures_spirit:cypress_fields",
+  "parameters": {
+    "temperature": {
+      "min_inclusive": 0.26
+    }
+  }
+}

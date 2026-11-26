@@ -1,0 +1,4830 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "octagon"
+	filename: "6fantasy_carmor"
+	group: "74C31B88DFE3D081"
+	icon: {
+		id: "fantasy_armor:moon_crystal"
+	}
+	id: "49BAE6CDDBC933D9"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependent_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/fantasyarmor"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.47d
+			id: "6D8F9DB6E34D1401"
+			rewards: [
+				{
+					id: "08C1B52EBA1BAE0D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "3F5020680F4B6AAD"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "625B9D38BE6A78A9"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "77AF9B104B17F5C3"
+			rewards: [
+				{
+					id: "29CAC19042E21015"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "1F0269349949E6B5"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "01D47E9563A80E6D"
+				item: { count: 1, id: "fantasy_armor:moon_crystal" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "25E6538BA7A66271"
+			rewards: [
+				{
+					id: "465570C8B465B65A"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "16764BF109507524"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "700F5190DBD6865C"
+				item: { count: 1, id: "fantasy_armor:eclipse_soldier_helmet" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "67B1350E992CFB66"
+			rewards: [
+				{
+					id: "2A46A5018B12AF0D"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4CEFCD865E15F650"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "6DABBA0F99198FFB"
+				item: { count: 1, id: "fantasy_armor:eclipse_soldier_chestplate" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "334FA258E5CCDBCC"
+			rewards: [
+				{
+					id: "5C686B7AFE1669BA"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "385FA65EAB2698EC"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "15887CB7D87E3301"
+				item: { count: 1, id: "fantasy_armor:eclipse_soldier_leggings" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "0CE2BA1529898B88"
+			rewards: [
+				{
+					id: "48E1D6C799ADA94B"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "6A80969C87B438BE"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "14E2E3C6275F702A"
+				item: { count: 1, id: "fantasy_armor:eclipse_soldier_boots" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "619FEE8D9D08D097"
+			rewards: [
+				{
+					id: "5B3689B98D4EAE56"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "24ACE57918AF00CA"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "5AC1752E942CD8CA"
+				item: { count: 1, id: "fantasy_armor:dragonslayer_boots" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "4362332397D7FE63"
+			rewards: [
+				{
+					id: "0D9F7313A9346355"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "0F4BFEA8AB2EF2F6"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "57E23F013FAD34B1"
+				item: { count: 1, id: "fantasy_armor:dragonslayer_leggings" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "658DEAF9AA7166CB"
+			rewards: [
+				{
+					id: "02A84E0A8F191172"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "27945C8581B5CFC4"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "7F7A19D63F2B1261"
+				item: { count: 1, id: "fantasy_armor:dragonslayer_chestplate" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "12B01C3FEBB33CE7"
+			rewards: [
+				{
+					id: "101E5125B0895DE2"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "0B5F9DCBFE9C0D65"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "01B2BA679464016F"
+				item: { count: 1, id: "fantasy_armor:dragonslayer_helmet" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "1E15B8F7E27BBADD"
+			rewards: [
+				{
+					id: "7A7EAB5DAFE0F326"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "2F087870D529A253"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "187142A0D691CEFD"
+				item: { count: 1, id: "fantasy_armor:hero_boots" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "5B0140F3369CA335"
+			rewards: [
+				{
+					id: "021FF78CCAA82D5F"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "41DA363AB2E57FF4"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "4ECD7F7B045FB1F1"
+				item: { count: 1, id: "fantasy_armor:hero_leggings" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "7EFA3EA1C31452C4"
+			rewards: [
+				{
+					id: "050990D6DC7ABEF8"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "1AF3502CEED88587"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "543E9174B2343116"
+				item: { count: 1, id: "fantasy_armor:hero_chestplate" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "633FA8CAE4DBB324"
+			rewards: [
+				{
+					id: "1227AF60C2770C54"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "64437DF3492EDECD"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0A820DE63DC25D12"
+				item: { count: 1, id: "fantasy_armor:hero_helmet" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "68447286EBEFCB0D"
+			rewards: [
+				{
+					id: "17F312FCDF3D0AD8"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "0407DD66EC3009A4"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "308E8E734BE624CE"
+				item: { count: 1, id: "fantasy_armor:golden_horns_boots" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "688C93D866B196BF"
+			rewards: [
+				{
+					id: "34718DA1B92335BE"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "0416D01863A16218"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "7A4BE00204DCD434"
+				item: { count: 1, id: "fantasy_armor:golden_horns_leggings" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "2104394B150A8E18"
+			rewards: [
+				{
+					id: "571EF17CE17A309D"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "6728EF7DBA157258"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "59BA29DA0521E324"
+				item: { count: 1, id: "fantasy_armor:golden_horns_chestplate" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "27AA78D0A5758D3C"
+			rewards: [
+				{
+					id: "1EED4D25108F762D"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "1E56E1AD3CDC4F7C"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "13E5A03BAB49C81B"
+				item: { count: 1, id: "fantasy_armor:golden_horns_helmet" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "1709F21AB3CF66B1"
+			rewards: [
+				{
+					id: "7403F1193FD0E2D0"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "07A3861A1E2B9079"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0C5E3E07CF002EF8"
+				item: { count: 1, id: "fantasy_armor:thief_boots" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "2E4E69690C168927"
+			rewards: [
+				{
+					id: "0483A47DF649A2AD"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "06F40C06C395D8A8"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "47A51D396EA90EEA"
+				item: { count: 1, id: "fantasy_armor:thief_leggings" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "5C7CA50AA26056C4"
+			rewards: [
+				{
+					id: "3C780A964AC9EDAE"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "0837E38959A3F6CB"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "4D95A0B9D6504CB0"
+				item: { count: 1, id: "fantasy_armor:thief_chestplate" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "781D50DC108AD473"
+			rewards: [
+				{
+					id: "6FCC3F81F36855CA"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "11D9FF5A7B5E6E3F"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "05F91012F3BA58D8"
+				item: { count: 1, id: "fantasy_armor:thief_helmet" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "0FBB0127C4E0172A"
+			rewards: [
+				{
+					id: "7B585396D0FA3773"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "1AEBE7663FE4A566"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "4D667F1FC06D4D47"
+				item: { count: 1, id: "fantasy_armor:wandering_wizard_boots" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "2110687F4524822E"
+			rewards: [
+				{
+					id: "188F6B89E2FF4D32"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4C813D02E0D01B12"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "3E386828DD98549D"
+				item: { count: 1, id: "fantasy_armor:wandering_wizard_leggings" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "529F1F399AA64CA1"
+			rewards: [
+				{
+					id: "5BC572AA07CD3D46"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "0814A799E0C2AEB5"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "4DC780436521F0D0"
+				item: { count: 1, id: "fantasy_armor:wandering_wizard_chestplate" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "7A26875C1B9EF77D"
+			rewards: [
+				{
+					id: "43B07D5388493B16"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "0825ADDBC82D1D74"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0F53EDF5053B96F8"
+				item: { count: 1, id: "fantasy_armor:wandering_wizard_helmet" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "5EA806D888D3034C"
+			rewards: [
+				{
+					id: "1D65272490A7D98D"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "072081894F69F294"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "50F8C61CF072B467"
+				item: { count: 1, id: "fantasy_armor:chess_board_knight_helmet" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "10B1E3C86B23E49C"
+			rewards: [
+				{
+					id: "538EEE260773BBCD"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "42D9D40917301834"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "29A00CEBB4DB8F04"
+				item: { count: 1, id: "fantasy_armor:chess_board_knight_chestplate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "520E0E99B9FE078A"
+			rewards: [
+				{
+					id: "7C31B34456BC8C77"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "409F0A60576461D9"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "085515F028453D48"
+				item: { count: 1, id: "fantasy_armor:chess_board_knight_leggings" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "04462BE793F7FFEC"
+			rewards: [
+				{
+					id: "42FDAB8ABBBFE284"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "448C1C312F0A607E"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "3366D2CA3A6EA691"
+				item: { count: 1, id: "fantasy_armor:chess_board_knight_boots" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "69B5331DB6C0F31C"
+			rewards: [
+				{
+					id: "5EA06E5DFC18B643"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4B7F306E4AD74F45"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "7956FAA0234B6D7A"
+				item: { count: 1, id: "fantasy_armor:dark_lord_helmet" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "4B17ADE74CEEFBC4"
+			rewards: [
+				{
+					id: "402052F59A6D8A04"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "397C78B06381604D"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "78DB027B2D3574F3"
+				item: { count: 1, id: "fantasy_armor:dark_lord_chestplate" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "78B6AFBF6950ABB4"
+			rewards: [
+				{
+					id: "235E5D90A133C208"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "3AA0ACA4CA6C11E5"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0874B64BCB782ADA"
+				item: { count: 1, id: "fantasy_armor:dark_lord_leggings" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "15546E97316DDCB4"
+			rewards: [
+				{
+					id: "0EA55CA41CA6FEF0"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "7874575A24D762FF"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "3BF54DCD71FE16CF"
+				item: { count: 1, id: "fantasy_armor:dark_lord_boots" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "758C4C9D6AB43372"
+			rewards: [
+				{
+					id: "500ED30512AD644E"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "5F0F9641E407BEC0"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "690BD666CFC94AFF"
+				item: { count: 1, id: "fantasy_armor:sunset_wings_helmet" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "25284B279488FC16"
+			rewards: [
+				{
+					id: "0E3081C41D235027"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "52C4141797B789DD"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "58C902E130C27951"
+				item: { count: 1, id: "fantasy_armor:sunset_wings_chestplate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "0CEE3506D48AC871"
+			rewards: [
+				{
+					id: "48B0E93289E2371D"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "0BA71845A73A3D0C"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "3EE5EF00AAFB9BEA"
+				item: { count: 1, id: "fantasy_armor:sunset_wings_leggings" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "3DA381DFFAF2EF69"
+			rewards: [
+				{
+					id: "7044FA9B5CA19253"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "7999D4875BD411BD"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0030AA1216E33DA5"
+				item: { count: 1, id: "fantasy_armor:sunset_wings_boots" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "2242B7F0BE779FC8"
+			rewards: [
+				{
+					id: "5DA41951083C8FB5"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "434052B560B1AF9A"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "1C605245B351058B"
+				item: { count: 1, id: "fantasy_armor:fog_guard_helmet" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "20FBF1818FAD7243"
+			rewards: [
+				{
+					id: "681A21067BFB4B02"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4B649F76965C9156"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "09FCC8027696A4C5"
+				item: { count: 1, id: "fantasy_armor:fog_guard_chestplate" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "103C89BADF0563B9"
+			rewards: [
+				{
+					id: "27A3809A3DFE02C7"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "568D858AA03C9A21"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "50BEED78A7E63007"
+				item: { count: 1, id: "fantasy_armor:fog_guard_leggings" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "7B554A16734C19E7"
+			rewards: [
+				{
+					id: "7219005469627CD8"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "5C96BE193A936585"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "2006550CD3D3DD41"
+				item: { count: 1, id: "fantasy_armor:fog_guard_boots" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "4FF693FF8BC2FE9C"
+			rewards: [
+				{
+					id: "6E6ACD7782212D94"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "1C97F64473D9332A"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "34005A61C660B66A"
+				item: { count: 1, id: "fantasy_armor:dark_cover_helmet" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "0BEBF1F6406F7732"
+			rewards: [
+				{
+					id: "349C84958EF58B0F"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4C93333BE3C1DF13"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "43FF1D0DFC4095B0"
+				item: { count: 1, id: "fantasy_armor:dark_cover_chestplate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "0B3AE82DBCB492D4"
+			rewards: [
+				{
+					id: "66CBD884C101D250"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "71A72A2AF5EAB2FA"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "6DA1720B854C1686"
+				item: { count: 1, id: "fantasy_armor:dark_cover_leggings" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "3F97CD9BBA624D80"
+			rewards: [
+				{
+					id: "48AC5732F9A53C95"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "16F79BA9E79FE94D"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "393CE8B63A109EFB"
+				item: { count: 1, id: "fantasy_armor:dark_cover_boots" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "3684660B396DE0E9"
+			rewards: [
+				{
+					id: "31AA07AFDFF4ED27"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "421B5058513C375E"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "70B8C5C37A24DB03"
+				item: { count: 1, id: "fantasy_armor:spark_of_dawn_boots" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "7649294AC29AE423"
+			rewards: [
+				{
+					id: "299620B367EE13E1"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "0095C2C76910745B"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "47E8F4B43E24CE95"
+				item: { count: 1, id: "fantasy_armor:spark_of_dawn_leggings" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "500D3000531CFF64"
+			rewards: [
+				{
+					id: "5CD824AC16656532"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "2072C2175DE8A496"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "1372E706E1373F4A"
+				item: { count: 1, id: "fantasy_armor:spark_of_dawn_chestplate" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "03EB2A89BE411C67"
+			rewards: [
+				{
+					id: "5ABEA82B7CD11625"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "0FE99F0F2D61D8DC"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "2018ECB3A0616187"
+				item: { count: 1, id: "fantasy_armor:spark_of_dawn_helmet" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "264B87758339CA8B"
+			rewards: [
+				{
+					id: "54749EC715B245C4"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "1FEE22DF3D8F6891"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "5989B21BF78A456A"
+				item: { count: 1, id: "fantasy_armor:golden_execution_helmet" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "1F8434A527443C06"
+			rewards: [
+				{
+					id: "00B7E9F2BADFD38F"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "53816C8EAD6DECC1"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "5E07863A7C20AF90"
+				item: { count: 1, id: "fantasy_armor:golden_execution_chestplate" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "16D8588717A7A05C"
+			rewards: [
+				{
+					id: "3B36885382995DE9"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "52EBCFCDF61DC4AF"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "5D42E5894F71B686"
+				item: { count: 1, id: "fantasy_armor:golden_execution_leggings" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "24B1A2D57290784E"
+			rewards: [
+				{
+					id: "67DE19C51043AEA9"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "131CE7BB1D3D45E4"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "445E0ADCC668AE00"
+				item: { count: 1, id: "fantasy_armor:golden_execution_boots" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "384C84A7BEC02394"
+			rewards: [
+				{
+					id: "631B88CA01C25E4F"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "69D9AB1ABE83BB64"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "45A0F4C87655158E"
+				item: { count: 1, id: "fantasy_armor:forgotten_trace_helmet" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "59460F91A5785272"
+			rewards: [
+				{
+					id: "1C508C731010CEDB"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "3C3512B5834507AF"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "31002D5286B2557E"
+				item: { count: 1, id: "fantasy_armor:forgotten_trace_chestplate" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "21374B61D0E99172"
+			rewards: [
+				{
+					id: "1D155C3EEC43BFE2"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4F042D2246C2C095"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "4B458C6F917CFB2E"
+				item: { count: 1, id: "fantasy_armor:forgotten_trace_leggings" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "478C060643BAFFB5"
+			rewards: [
+				{
+					id: "1B797F1E79CCE8AD"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "3177A7D1D6A31C72"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "53CD7562FDACE943"
+				item: { count: 1, id: "fantasy_armor:forgotten_trace_boots" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "1714EE8D6DCAD672"
+			rewards: [
+				{
+					id: "3EB1E9CD1F03978E"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "60A6513B4C174ACE"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0EE6C151E1E65E66"
+				item: { count: 1, id: "fantasy_armor:redeemer_helmet" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "1474DAB26E11814E"
+			rewards: [
+				{
+					id: "417257C53306B3F9"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "20210B55410CB165"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0928F6AE1887213D"
+				item: { count: 1, id: "fantasy_armor:redeemer_chestplate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "5F3FB2C840D86422"
+			rewards: [
+				{
+					id: "04270F390A2F4A02"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "07EC7E4AE03A1B87"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0FFF8FA38DABD10C"
+				item: { count: 1, id: "fantasy_armor:redeemer_leggings" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "0F940619AE4E4BFA"
+			rewards: [
+				{
+					id: "5909220A31DD5653"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "40914392C3923305"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0D0D4CB69A3B696D"
+				item: { count: 1, id: "fantasy_armor:redeemer_boots" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "15A08A82B01C976E"
+			rewards: [
+				{
+					id: "6A74A03C2D8D766E"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "14B188CE562C2C28"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "125D4217CF96D9A5"
+				item: { count: 1, id: "fantasy_armor:twinned_boots" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "43F0182F0AE35CA6"
+			rewards: [
+				{
+					id: "559FAAC041F8AC14"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "75E822C0E747CD7B"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "34A7CC99333D2F97"
+				item: { count: 1, id: "fantasy_armor:twinned_helmet" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "30F366CC8613BC0E"
+			rewards: [
+				{
+					id: "1DB517D815938351"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "0EF20E5CAE9086D8"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "02938BAAD71A464C"
+				item: { count: 1, id: "fantasy_armor:twinned_chestplate" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "35972E2E28AF1C86"
+			rewards: [
+				{
+					id: "5861F90AA7F4BEEC"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "3DA90B9640A301B9"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "37C0AF88F34745DB"
+				item: { count: 1, id: "fantasy_armor:twinned_leggings" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "052F302F0E0CA97D"
+			rewards: [
+				{
+					id: "7D65BAADF1126687"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "1B5CDED9E27ADE94"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0111B7C689D8CDDE"
+				item: { count: 1, id: "fantasy_armor:gilded_hunt_helmet" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "0E101A388EDAABDF"
+			rewards: [
+				{
+					id: "3A30A518938F8695"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "238377E0950563EF"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "1DC638B14010D700"
+				item: { count: 1, id: "fantasy_armor:gilded_hunt_chestplate" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "4A64995AB54347A7"
+			rewards: [
+				{
+					id: "6A025248515D37F1"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "3B84725A7BD5640D"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "551E2E7D17B43868"
+				item: { count: 1, id: "fantasy_armor:gilded_hunt_leggings" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "6A1684EAB918D3DA"
+			rewards: [
+				{
+					id: "60D2F52F303FD7EF"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "2259F68C4BC1623E"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "12C3CACB091C2729"
+				item: { count: 1, id: "fantasy_armor:gilded_hunt_boots" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "77159751E5CD5E17"
+			rewards: [
+				{
+					id: "53BEC287BDA59F42"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "57D64424890F450C"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "5EEF0ABC5B73F3B0"
+				item: { count: 1, id: "fantasy_armor:lady_maria_helmet" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "58E2E72A6DD127ED"
+			rewards: [
+				{
+					id: "57019001669BA476"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4D806EC473F7CC8D"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "55EE2C76DB376A3D"
+				item: { count: 1, id: "fantasy_armor:lady_maria_chestplate" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "25BE6E3AE0F2C144"
+			rewards: [
+				{
+					id: "26A44B5CAA9DB296"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "047805FC5617ED74"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "6E3FEEB1724F2F3B"
+				item: { count: 1, id: "fantasy_armor:lady_maria_boots" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "200138CA3AD524A2"
+			rewards: [
+				{
+					id: "78183039C644E8B5"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "5DB68C85C73DD87A"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "098BE9ADCD651736"
+				item: { count: 1, id: "fantasy_armor:lady_maria_leggings" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "27255DE18FEBA430"
+			rewards: [
+				{
+					id: "076FCB53218A47C9"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "1D2FDAF0DD26F33C"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "76ED97C7C9970A36"
+				item: { count: 1, id: "fantasy_armor:crucible_knight_helmet" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "10332DAF02B0A436"
+			rewards: [
+				{
+					id: "5B3A9450D276ADAD"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "42B22BBB78E05312"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "275C833030B91C9F"
+				item: { count: 1, id: "fantasy_armor:crucible_knight_chestplate" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "26767CF65AB371F0"
+			rewards: [
+				{
+					id: "105536CED490C49C"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "3C12887B5E7C6A3C"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "44B597E52CD2B779"
+				item: { count: 1, id: "fantasy_armor:crucible_knight_leggings" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "125B0400047BC247"
+			rewards: [
+				{
+					id: "00E15859B5E52510"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "7A8F76FE8E6F7FAA"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "3E547A5DB538AEE3"
+				item: { count: 1, id: "fantasy_armor:crucible_knight_boots" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "3FADD6710E434F6F"
+			rewards: [
+				{
+					id: "0D4AAF4F4B61BF8E"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "2922DDFC8CA77FE9"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "3FB2CFBBC49C8418"
+				item: { count: 1, id: "fantasy_armor:evening_ghost_helmet" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "35C3D153E5148584"
+			rewards: [
+				{
+					id: "78DF7E799C633B97"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "19C7AFAFFC85F4F7"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "6428A20C4DA8E1E3"
+				item: { count: 1, id: "fantasy_armor:evening_ghost_chestplate" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "31457CBE79E79970"
+			rewards: [
+				{
+					id: "2F3931167772153E"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "6519256F10EFB6A6"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "23EDE48748C10F6C"
+				item: { count: 1, id: "fantasy_armor:evening_ghost_leggings" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "3A89637A518BEF09"
+			rewards: [
+				{
+					id: "6B1C1EDC88AE9316"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4980A48DF614CC34"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "2E85A9A6D72EEEC4"
+				item: { count: 1, id: "fantasy_armor:evening_ghost_boots" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "64FC90C346A73F80"
+			rewards: [
+				{
+					id: "4279321A59259A26"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4E9E2FA8761BBEF8"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "1AC5DCF7761CDC39"
+				item: { count: 1, id: "fantasy_armor:ronin_helmet" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "4E28C20A30E243A4"
+			rewards: [
+				{
+					id: "0BAA32B2BF3CE691"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "2EBFCB970D5945A2"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "644D25D99F4B4505"
+				item: { count: 1, id: "fantasy_armor:ronin_chestplate" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "58641563FB3ED178"
+			rewards: [
+				{
+					id: "0E8796C50619F1BF"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "2C823BA615BF75FC"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "4193808BE1F6BCC0"
+				item: { count: 1, id: "fantasy_armor:ronin_leggings" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "7453DBEEC2BD2A66"
+			rewards: [
+				{
+					id: "1443F08B59B2BAC1"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4E3B440B2BDBBA05"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "4F1E9E3BB6C39AD1"
+				item: { count: 1, id: "fantasy_armor:ronin_boots" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "601D4D011FA04303"
+			rewards: [
+				{
+					id: "3AE8F2CA3F3DC36E"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "47382678A82CF5F3"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0A3DC9E11F5F00BC"
+				item: { count: 1, id: "fantasy_armor:malenia_helmet" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "1BBBA609571AED75"
+			rewards: [
+				{
+					id: "592FFDC32C49B5EA"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "040A0DBB6415EB03"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "1DA67E52B83E75BE"
+				item: { count: 1, id: "fantasy_armor:malenia_chestplate" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "621D6AF01789BB02"
+			rewards: [
+				{
+					id: "5AC6B3761453F7A8"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "678276C03AF1CA0C"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "2813D3FBFAF5F0EF"
+				item: { count: 1, id: "fantasy_armor:malenia_leggings" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "1B7467E5C55C1A23"
+			rewards: [
+				{
+					id: "4DF75E279DBCC213"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "159CF4A8AAE753AC"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "4AB4F3EC847A042B"
+				item: { count: 1, id: "fantasy_armor:malenia_boots" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "468CC4F4146B92BD"
+			rewards: [
+				{
+					id: "7F077E32DBB2F649"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "29D9F291D99E32D7"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "680A20BF620249C4"
+				item: { count: 1, id: "fantasy_armor:old_knight_helmet" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "09AC12A8D9614304"
+			rewards: [
+				{
+					id: "6637670FC16D797D"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "7C4ECB8AA25956BF"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "20ABF12B005580E9"
+				item: { count: 1, id: "fantasy_armor:old_knight_chestplate" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "30F9B127EEBF2BCA"
+			rewards: [
+				{
+					id: "325DD8AF1CE50C70"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "6C0D2F29C641A87E"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "2216186964F384D4"
+				item: { count: 1, id: "fantasy_armor:old_knight_leggings" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "3274BE29F79027D6"
+			rewards: [
+				{
+					id: "0F5C3860B86C301A"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "70D5FFFF6A73682C"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "29B727B783D7F549"
+				item: { count: 1, id: "fantasy_armor:old_knight_boots" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "6DD7916F2122FD94"
+			rewards: [
+				{
+					id: "639AAC2B1E0D661B"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "0DB6EDF44FC86EDC"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "685606EE6AAC2D9C"
+				item: { count: 1, id: "fantasy_armor:silver_knight_helmet" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "065A5EFFF37BE2E6"
+			rewards: [
+				{
+					id: "4FF9749D29838627"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "13DF25B0184DABF5"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "7CBFE31D1E68B5BE"
+				item: { count: 1, id: "fantasy_armor:silver_knight_chestplate" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "70219B9284F2DE4B"
+			rewards: [
+				{
+					id: "49C25F506011C91A"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "7B120A27CF05B653"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "38EF3630FB6FC2E3"
+				item: { count: 1, id: "fantasy_armor:silver_knight_boots" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "5B32263E784DB3AC"
+			rewards: [
+				{
+					id: "7B2FD79E9449218D"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4A548C966992A1FE"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "2C0CFA9D0DB74D16"
+				item: { count: 1, id: "fantasy_armor:silver_knight_leggings" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "4D454AF3DA5DEB53"
+			rewards: [
+				{
+					id: "497B8E8B932EFFF4"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "41D02AC4804DE579"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "201D4817E2B9A06F"
+				item: { count: 1, id: "fantasy_armor:dead_gladiator_helmet" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "7227A21A8D49E2BC"
+			rewards: [
+				{
+					id: "12266933B7A8E438"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "00D73A678E5B4EEE"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "6B4801A83C543BBF"
+				item: { count: 1, id: "fantasy_armor:dead_gladiator_chestplate" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "2082328855A7DE41"
+			rewards: [
+				{
+					id: "5201FADDE606B882"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "2ECF8D23D6DDC11E"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "600AEB7456AE784F"
+				item: { count: 1, id: "fantasy_armor:dead_gladiator_leggings" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "4E4189F88CCF5FB1"
+			rewards: [
+				{
+					id: "05F5A8D0AF8409A6"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "478EDD9941F0D548"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "77F58405876DA753"
+				item: { count: 1, id: "fantasy_armor:dead_gladiator_boots" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "288D0AA3548EFC6D"
+			rewards: [
+				{
+					id: "455A758B4B37CD44"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4F1387726E7A6289"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "08D7D0CF5CC2D477"
+				item: { count: 1, id: "fantasy_armor:flesh_of_the_feaster_helmet" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "3A02C6102CEEA236"
+			rewards: [
+				{
+					id: "511490954174CA88"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "3ABEA9190529166E"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "168B2934C9059CCB"
+				item: { count: 1, id: "fantasy_armor:flesh_of_the_feaster_chestplate" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "596DB62256AF75DF"
+			rewards: [
+				{
+					id: "343C369F269C2469"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "03E7CE4B48A3866B"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "034CBC0FC29D2509"
+				item: { count: 1, id: "fantasy_armor:flesh_of_the_feaster_leggings" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "3447FDA93BA196BD"
+			rewards: [
+				{
+					id: "2691405BEB087B3F"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "259C556ABE615B8C"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "2A5F20D223422662"
+				item: { count: 1, id: "fantasy_armor:flesh_of_the_feaster_boots" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "0F9A2AB2CBDA4387"
+			rewards: [
+				{
+					id: "39013D42F82B6948"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "5FFFB36A455A2C1F"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "195013F7BAA3D9D1"
+				item: { count: 1, id: "fantasy_armor:wind_worshipper_helmet" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "59A986880698DE46"
+			rewards: [
+				{
+					id: "4552F0527B0E72E4"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "6894ED9E07F498E5"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "629025DBE2187FE4"
+				item: { count: 1, id: "fantasy_armor:wind_worshipper_chestplate" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "2AEA1C72AA795FD2"
+			rewards: [
+				{
+					id: "7579ECD879FF4094"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "5B43EDADC13237B7"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "50731E59845AD439"
+				item: { count: 1, id: "fantasy_armor:wind_worshipper_leggings" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "7EA16AA46A2AEF9F"
+			rewards: [
+				{
+					id: "703D16429962DF36"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "365BC14348CCBC04"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "7CE1F8C8849DCACD"
+				item: { count: 1, id: "fantasy_armor:wind_worshipper_boots" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "67075063A8778FB6"
+			rewards: [
+				{
+					id: "0620BA0C0C94C8F7"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "38A422ED7FB43F3B"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "25D5BFEE54E16971"
+				item: { count: 1, id: "fantasy_armor:grave_sentinel_boots" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "5FAC2492C95B84DE"
+			rewards: [
+				{
+					id: "218628449C650B59"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "0B885474BB79DC0C"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "485AC02B980790C6"
+				item: { count: 1, id: "fantasy_armor:grave_sentinel_leggings" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "07BA52F528EB6EA2"
+			rewards: [
+				{
+					id: "5FBF11D042115441"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "2C2D880748531916"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "6BCEC46E7B95FE07"
+				item: { count: 1, id: "fantasy_armor:grave_sentinel_chestplate" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "6BDB6EEB1F734899"
+			rewards: [
+				{
+					id: "0F4D4144384FE488"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "40F1346327DF8D81"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "013620E715995A25"
+				item: { count: 1, id: "fantasy_armor:grave_sentinel_helmet" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "1D72C07FB3E1CBB7"
+			rewards: [
+				{
+					id: "514427D00A316199"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "31986D99005021C6"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0900DEA58E29647D"
+				item: { count: 1, id: "fantasy_armor:ornstein_helmet" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "2F4477180FCD2BC0"
+			rewards: [
+				{
+					id: "23A1FFFA2AF88416"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "0EC129DA4F16DC50"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "4B2606F7C0F3E46E"
+				item: { count: 1, id: "fantasy_armor:ornstein_chestplate" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "6BF4689F4CB6DFEF"
+			rewards: [
+				{
+					id: "62BB9D33AAAD711A"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "391F9AC680E1BF39"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "5CE23EF627735FD4"
+				item: { count: 1, id: "fantasy_armor:ornstein_leggings" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "20E5308BE9C516B9"
+			rewards: [
+				{
+					id: "78176E954224A5BC"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "244FCE4710403A80"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "30AD25D343C56CD3"
+				item: { count: 1, id: "fantasy_armor:ornstein_boots" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "722A39072A177F63"
+			rewards: [
+				{
+					id: "5CDB66CB18BCFE20"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "1293491C7FCBE05E"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "416C49519112E5D9"
+				item: { count: 1, id: "fantasy_armor:dawncrest_helmet" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "16F3113848C77AB7"
+			rewards: [
+				{
+					id: "0F7604EEC912C6DC"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "54DCF6C8C8E37047"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "058BB0EB30465C8E"
+				item: { count: 1, id: "fantasy_armor:dawncrest_chestplate" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "1C1241CF3E509F85"
+			rewards: [
+				{
+					id: "5C1D418AB2D4B983"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "45EBACFE0418ABCF"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "339A5D3585DD59BF"
+				item: { count: 1, id: "fantasy_armor:dawncrest_leggings" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6D8F9DB6E34D1401"]
+			id: "2D87F1081F63CC29"
+			rewards: [
+				{
+					id: "3BF2DA86C41ABB47"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "74BBFF0463C1B28D"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "016D8FFF6CBF71B7"
+				item: { count: 1, id: "fantasy_armor:dawncrest_boots" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/fantasyweapons"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.47d
+			id: "1BD46BB240A5F915"
+			rewards: [
+				{
+					id: "656B4E65DB8D60B9"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "2D78A1976ABA2826"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "6D2211C7907BBC47"
+				type: "checkmark"
+			}]
+			x: 46.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "78F54BB093267185"
+			rewards: [
+				{
+					id: "519664DEAF59A3ED"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "1B0351CF578362A5"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "75C6A31AFE6D1150"
+				item: { count: 1, id: "fantasy_weapons:blazing_stone" }
+				type: "item"
+			}]
+			x: 46.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "30E6FD3EE3D0F664"
+			rewards: [
+				{
+					id: "07DF7A13D90371ED"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "1FDA472D06754E9E"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "6632CC51EA62004E"
+				item: { count: 1, id: "fantasy_weapons:weapon_fates_beacon" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "7AE40A7CEE3E7D83"
+			rewards: [
+				{
+					id: "31C81D62EB8D923F"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "20982665C787BF4A"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "61C3DBCAFD0913E0"
+				item: { count: 1, id: "fantasy_weapons:weapon_dragonslayer_halberd" }
+				type: "item"
+			}]
+			x: 48.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "59A3609F247266BE"
+			rewards: [
+				{
+					id: "0C65DFFFECBF16D9"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "1C6129D0706C2998"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "52EE5F310D44877B"
+				item: { count: 1, id: "fantasy_weapons:weapon_eclipse_soldier_spear" }
+				type: "item"
+			}]
+			x: 40.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "40A06730CECD6A50"
+			rewards: [
+				{
+					id: "7D5B803FE9259778"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "7344323870C0EBB1"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "5CF5DD8F3BC8884E"
+				item: { count: 1, id: "fantasy_weapons:weapon_hero_claymore" }
+				type: "item"
+			}]
+			x: 36.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "6108C6EFD16B2ED5"
+			rewards: [
+				{
+					id: "450926393DCF9F2B"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "390CF3531CCE10F9"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "40C99B5745DFF5B5"
+				item: { count: 1, id: "fantasy_weapons:weapon_thief_dagger" }
+				type: "item"
+			}]
+			x: 38.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "2582E8A064C5BF6E"
+			rewards: [
+				{
+					id: "66F2CDE6BF29ED90"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "1381BD840E10698C"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "4F8D19B6CF878EB4"
+				item: { count: 1, id: "fantasy_weapons:weapon_golden_horns_battleaxe" }
+				type: "item"
+			}]
+			x: 42.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "525F7D2EE9AD235E"
+			rewards: [
+				{
+					id: "0E99315CEF660225"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "73D805CD62B77C22"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "7219588513B41EFC"
+				item: { count: 1, id: "fantasy_weapons:weapon_wandering_wizard_sword" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "4BD924D5E901E7DA"
+			rewards: [
+				{
+					id: "5B1FFA0AC002864B"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "3F1F4C79582C1053"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "23AFC165B54975AD"
+				item: { count: 1, id: "fantasy_weapons:weapon_dark_lord_sword" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "56B48301FE42384E"
+			rewards: [
+				{
+					id: "0172EBCEC029BC66"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "392DA7E4B5D826B3"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "2F9BB268040F518C"
+				item: { count: 1, id: "fantasy_weapons:weapon_sunset_wings_claymore" }
+				type: "item"
+			}]
+			x: 34.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "248ED2DB263B1BFD"
+			rewards: [
+				{
+					id: "27B4338454F37D0C"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "0D9A93C463DB5794"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "719D60379179A906"
+				item: { count: 1, id: "fantasy_weapons:weapon_chess_board_knight_polearm" }
+				type: "item"
+			}]
+			x: 50.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "542CC9051D7C0111"
+			rewards: [
+				{
+					id: "242CBAC5BBA7CCD3"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "72D2BB149141EACC"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "4E7FFFA7D19F239C"
+				item: { count: 1, id: "fantasy_weapons:weapon_hefty_club" }
+				type: "item"
+			}]
+			x: 40.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "5E6D74ECCD364A34"
+			rewards: [
+				{
+					id: "15B725C5BA16826C"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4C55A5A7A8BA20B7"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0BB84300AFA387C2"
+				item: { count: 1, id: "fantasy_weapons:weapon_golden_halberd" }
+				type: "item"
+			}]
+			x: 44.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "45C7028805BC8253"
+			rewards: [
+				{
+					id: "1EA98C0FD55F56CD"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "1B1B03D0885D8796"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0E8865D002539CF4"
+				item: { count: 1, id: "fantasy_weapons:weapon_old_broadsword" }
+				type: "item"
+			}]
+			x: 36.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "192DF1428362B548"
+			rewards: [
+				{
+					id: "76B2B45749177230"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "3756A55F628B3D86"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "6165889E218C6382"
+				item: { count: 1, id: "fantasy_weapons:weapon_old_dagger" }
+				type: "item"
+			}]
+			x: 38.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "0555BBBB3E683A0A"
+			rewards: [
+				{
+					id: "2984E9181C573FD7"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "12770342E206BEA6"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "3C8A0AE1E38B9403"
+				item: { count: 1, id: "fantasy_weapons:weapon_old_blade" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "50022BEE623DAE71"
+			rewards: [
+				{
+					id: "3EC1EA33E335DE0F"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "27C86F7F6768DD20"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "2E472BD1EA50704F"
+				item: { count: 1, id: "fantasy_weapons:weapon_kingslayer" }
+				type: "item"
+			}]
+			x: 40.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "71763BE88F222851"
+			rewards: [
+				{
+					id: "5DBD598DD8BB23B1"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4C8D151194D121FA"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "60AFCB0613C99645"
+				item: { count: 1, id: "fantasy_weapons:weapon_cursed_blade" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "7D03695667469EDB"
+			rewards: [
+				{
+					id: "210A7084C04E5CED"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "35DAA8FBF2D66790"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "14E46254039466E3"
+				item: { count: 1, id: "fantasy_weapons:weapon_fury_of_the_storm" }
+				type: "item"
+			}]
+			x: 48.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "0C467210708174BC"
+			rewards: [
+				{
+					id: "56999CD0D2DBE322"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "52F087D8638F2685"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "3B43FB535C064701"
+				item: { count: 1, id: "fantasy_weapons:weapon_dragons_doom" }
+				type: "item"
+			}]
+			x: 48.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "18FBBA5F7C0F5E94"
+			rewards: [
+				{
+					id: "22C0936B8DE6ADDB"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "50FBCFB23111F5D6"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "104AAA08D1A409F8"
+				item: { count: 1, id: "fantasy_weapons:weapon_crimson_reaper" }
+				type: "item"
+			}]
+			x: 44.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "75F9DEBFED431B85"
+			rewards: [
+				{
+					id: "54402DD228A01156"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4B9DC90623A8D8DF"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "1EF4816E533FD980"
+				item: { count: 1, id: "fantasy_weapons:weapon_sharp_sword" }
+				type: "item"
+			}]
+			x: 36.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "57128F5DDEF6E6D5"
+			rewards: [
+				{
+					id: "29BC4A51E1D095EA"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "64B80A6CB9EF965C"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "2413EFA8B9ECB2DC"
+				item: { count: 1, id: "fantasy_weapons:weapon_infected_sharp_sword" }
+				type: "item"
+			}]
+			x: 50.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "308D2BDE9EC258B9"
+			rewards: [
+				{
+					id: "7F3D778CE1298725"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4663E4F3E0029EE2"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "12DE8AA6A5253A3D"
+				item: { count: 1, id: "fantasy_weapons:weapon_sharp_curved_sword" }
+				type: "item"
+			}]
+			x: 38.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "045032CB8373AFEC"
+			rewards: [
+				{
+					id: "066D39D5252C3A7A"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "73184BFEBAA3F6D2"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "6AF7D0E4DCBE9344"
+				item: { count: 1, id: "fantasy_weapons:weapon_infected_sharp_curved_sword" }
+				type: "item"
+			}]
+			x: 42.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "71AF41E7A3A3E609"
+			rewards: [
+				{
+					id: "3847C0DE574EE5BF"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "5A070962D01BCC6C"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "59E3CBAF3CD804E6"
+				item: { count: 1, id: "fantasy_weapons:weapon_sharp_spear" }
+				type: "item"
+			}]
+			x: 46.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "3A95B77FD5F96AB2"
+			rewards: [
+				{
+					id: "79730720CCA94C38"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "2A19D87B30BC6ABA"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "4738D97683CEADF0"
+				item: { count: 1, id: "fantasy_weapons:weapon_infected_sharp_spear" }
+				type: "item"
+			}]
+			x: 52.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "6FBD0B072EABF6A2"
+			rewards: [
+				{
+					id: "3036F528667EEE69"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "24AAE3EDE16BEFB2"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "38195967611C57AB"
+				item: { count: 1, id: "fantasy_weapons:weapon_black_katana" }
+				type: "item"
+			}]
+			x: 52.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "06AACBE126563BD8"
+			rewards: [
+				{
+					id: "205E444F6455E3F2"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "11E252E115BB56BF"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "7F081A56203B4605"
+				item: { count: 1, id: "fantasy_weapons:weapon_rivers_of_blood" }
+				type: "item"
+			}]
+			x: 56.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "111B2D7F1353CA35"
+			rewards: [
+				{
+					id: "6CB023E0981CC1AC"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "607302514919D41B"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "72A4DFACADCBC8F8"
+				item: { count: 1, id: "fantasy_weapons:weapon_wakizashi" }
+				type: "item"
+			}]
+			x: 58.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "631AA1AB2A64192F"
+			rewards: [
+				{
+					id: "0659E5E738716833"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "01D6E27114987B5A"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "602BD180A9BA0E4B"
+				item: { count: 1, id: "fantasy_weapons:weapon_marai_executioner_sword" }
+				type: "item"
+			}]
+			x: 56.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "55E1FA241A453977"
+			rewards: [
+				{
+					id: "6A521BD98EF6243D"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "48CE36D8FAA70368"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "74BC21A34E8CB1A9"
+				item: { count: 1, id: "fantasy_weapons:weapon_nagakiba" }
+				type: "item"
+			}]
+			x: 54.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "0B9211929E1BB7C7"
+			rewards: [
+				{
+					id: "0F998B966728F58B"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "6637BC38BEB22A16"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "5D2118CE583A4513"
+				item: { count: 1, id: "fantasy_weapons:weapon_hand_of_malenia" }
+				type: "item"
+			}]
+			x: 58.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "4757551E8FF4AD5E"
+			rewards: [
+				{
+					id: "24E53903839B88BD"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "0BEC8D90524461EA"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "51A3C974606A0789"
+				item: { count: 1, id: "fantasy_weapons:weapon_spider_fang" }
+				type: "item"
+			}]
+			x: 52.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "6AB4BD0ABC0B6DA2"
+			rewards: [
+				{
+					id: "5E67DC5C1C9E9FAF"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "67435CE0EB27978C"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "3FFEB7065810855D"
+				item: { count: 1, id: "fantasy_weapons:weapon_volcano_flame" }
+				type: "item"
+			}]
+			x: 62.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "6D09F133B98A05F3"
+			rewards: [
+				{
+					id: "18F811940CEF6323"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "3538FD7EE926B60B"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0B1462FFED804C57"
+				item: { count: 1, id: "fantasy_weapons:weapon_savage_spear" }
+				type: "item"
+			}]
+			x: 40.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "6209F53BD684AC59"
+			rewards: [
+				{
+					id: "565BB5FFB97B2142"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "3695508EBCF323C9"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "4CFD778E515518ED"
+				item: { count: 1, id: "fantasy_weapons:weapon_savage_dagger" }
+				type: "item"
+			}]
+			x: 62.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "24442B5285F11DD6"
+			rewards: [
+				{
+					id: "6F73EB3D8FD9D309"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "6541215B4377619B"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "56FD234CC080679C"
+				item: { count: 1, id: "fantasy_weapons:weapon_savage_sword" }
+				type: "item"
+			}]
+			x: 52.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "39BAA20BE081AA10"
+			rewards: [
+				{
+					id: "61F58CAF2827DB7F"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "521999AD7AB75298"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "33BF24CDF5156B56"
+				item: { count: 1, id: "fantasy_weapons:weapon_savage_hammer" }
+				type: "item"
+			}]
+			x: 42.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "1D54E1735F0CE10D"
+			rewards: [
+				{
+					id: "3FDE8F2B07537EC1"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "11F827BEA2ECA333"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "3B8916ABF314343F"
+				item: { count: 1, id: "fantasy_weapons:weapon_fog_guard_sword" }
+				type: "item"
+			}]
+			x: 56.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "1A6077A406E95C41"
+			rewards: [
+				{
+					id: "51FEF2A14B3A75FE"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "05D3FF4B1CE106E3"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "7FC6C54093D3DACB"
+				item: { count: 1, id: "fantasy_weapons:weapon_dark_cover_sword" }
+				type: "item"
+			}]
+			x: 58.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "7E18A6BDB5D543E5"
+			rewards: [
+				{
+					id: "1752B51EEEF99FF8"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "6760AACF5C4EF649"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "6CB1C1C54390EFFF"
+				item: { count: 1, id: "fantasy_weapons:weapon_golden_execution_battleaxe" }
+				type: "item"
+			}]
+			x: 40.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "305CF2A2FFAB6DDF"
+			rewards: [
+				{
+					id: "71C8E810CDB02118"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4E273AEDCF9F4773"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0B5F3FCD1FF29A89"
+				item: { count: 1, id: "fantasy_weapons:weapon_forgotten_trace_spear" }
+				type: "item"
+			}]
+			x: 42.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "4665855DC7DF7FFE"
+			rewards: [
+				{
+					id: "1521453FEBEEE7EE"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "6BEA16CAA17B7C2A"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "1E32DD621890DB00"
+				item: { count: 1, id: "fantasy_weapons:weapon_spark_of_dawn_polearm" }
+				type: "item"
+			}]
+			x: 52.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "1B5292E7712CA1CB"
+			rewards: [
+				{
+					id: "2B2953BD617715BF"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "3F727120661E2CBC"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0DD9E0A6A802ACC9"
+				item: { count: 1, id: "fantasy_weapons:weapon_marika_hammer" }
+				type: "item"
+			}]
+			x: 52.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "1C9DCE321A723B2C"
+			rewards: [
+				{
+					id: "5329B54DB38E2D8B"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "71FA497AAE4AE1EA"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "326108A89DE698CB"
+				item: { count: 1, id: "fantasy_weapons:weapon_desert_wind" }
+				type: "item"
+			}]
+			x: 62.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "557140E9CB9E25BE"
+			rewards: [
+				{
+					id: "5F2FE90FF317767D"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "2918A6EDF49CB1E7"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "16A85437E2B12386"
+				item: { count: 1, id: "fantasy_weapons:weapon_phantom_needle" }
+				type: "item"
+			}]
+			x: 60.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "56A630B196BF5841"
+			rewards: [
+				{
+					id: "583DB6EB8B6AA8DC"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "322E0F056BF07923"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "08B00363E9B5A808"
+				item: { count: 1, id: "fantasy_weapons:weapon_estoc" }
+				type: "item"
+			}]
+			x: 58.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "68D2560124B38FC4"
+			rewards: [
+				{
+					id: "2C1912AE047A76EF"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "6DB31F226A730F36"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "1F4B1CCD8ACD2B5D"
+				item: { count: 1, id: "fantasy_weapons:weapon_fog_guard_dagger" }
+				type: "item"
+			}]
+			x: 34.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "7A5379676FC51398"
+			rewards: [
+				{
+					id: "7081E4992A90892F"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "0C823350BFBD304E"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "111B5781EF6A8E87"
+				item: { count: 1, id: "fantasy_weapons:weapon_great_katana" }
+				type: "item"
+			}]
+			x: 56.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "051F2C207D73CEEF"
+			rewards: [
+				{
+					id: "1524E5104D54005A"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "0954563522C23D06"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "6DACDA7C428CA2E2"
+				item: { count: 1, id: "fantasy_weapons:weapon_soldier_greatspear" }
+				type: "item"
+			}]
+			x: 44.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "029E5F92CC79D073"
+			rewards: [
+				{
+					id: "3EC20B225BDEA47E"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "2DC4537F50A9513B"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "32F70E9598D55847"
+				item: { count: 1, id: "fantasy_weapons:weapon_misericorde" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "175D4D1F94A6FF4B"
+			rewards: [
+				{
+					id: "14DE3F1C4514FE37"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "59213CAFD4481980"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "33FA9CA208A55694"
+				item: { count: 1, id: "fantasy_weapons:weapon_knight_greatsword" }
+				type: "item"
+			}]
+			x: 62.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "0ECE27F6D56B3103"
+			rewards: [
+				{
+					id: "593AF57902F222BA"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "6AFA3BF367F28112"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "20A527B65AF13F35"
+				item: { count: 1, id: "fantasy_weapons:weapon_banished_knight_greatsword" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "49DA7D545114237D"
+			rewards: [
+				{
+					id: "439C28EC35E9F036"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "7257A9AFC41E551A"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "342BC199CBAD0B9D"
+				item: { count: 1, id: "fantasy_weapons:weapon_dark_moon_greatsword" }
+				type: "item"
+			}]
+			x: 36.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "2B50353558215424"
+			rewards: [
+				{
+					id: "1BC7133640232ED1"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "6F6821A5CE8F92B6"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "72D5B249AD580ECB"
+				item: { count: 1, id: "fantasy_weapons:weapon_zweihander" }
+				type: "item"
+			}]
+			x: 60.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "319280C3A07C1D91"
+			rewards: [
+				{
+					id: "26B055A196AF839F"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "052C2AED4066500F"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "769313CB95495040"
+				item: { count: 1, id: "fantasy_weapons:weapon_watchdog_greatsword" }
+				type: "item"
+			}]
+			x: 60.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "12E57AC22B769F84"
+			rewards: [
+				{
+					id: "1C12DA6267628D76"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "34844E1DA17081F6"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "2B67EA15664564EA"
+				item: { count: 1, id: "fantasy_weapons:weapon_royal_greatsword" }
+				type: "item"
+			}]
+			x: 34.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "4CC101046846C344"
+			rewards: [
+				{
+					id: "2191F3B3802CFECF"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "0D0E506AD50BC21E"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "10DC40D3D0E2FCA4"
+				item: { count: 1, id: "fantasy_weapons:weapon_crucible_greatsword" }
+				type: "item"
+			}]
+			x: 34.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "5FC950B5ADC31C99"
+			rewards: [
+				{
+					id: "3618B57C512D644B"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "69A80F32A2F7ED3A"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "48FB3B73A3F72424"
+				item: { count: 1, id: "fantasy_weapons:weapon_generic_rapier" }
+				type: "item"
+			}]
+			x: 40.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "200CE605912278DE"
+			rewards: [
+				{
+					id: "7AC9B07C0F9745A0"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "008BB2D96D47FAE3"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "64B08946FDF0B413"
+				item: { count: 1, id: "fantasy_weapons:weapon_knight_halberd" }
+				type: "item"
+			}]
+			x: 46.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "68BF03E455E8A377"
+			rewards: [
+				{
+					id: "2272877EBB855A6C"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "03CD1FDF8188B796"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "6B0DCDFB8DA8DB55"
+				item: { count: 1, id: "fantasy_weapons:weapon_dancing_blade_of_ranah" }
+				type: "item"
+			}]
+			x: 52.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "7FE0BFBAF7B2E2A6"
+			rewards: [
+				{
+					id: "40483EED70EE515B"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "6C0D502D66642015"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "4073C9FF37AA008C"
+				item: { count: 1, id: "fantasy_weapons:weapon_lady_maria_blade" }
+				type: "item"
+			}]
+			x: 54.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "0240D95A77E51359"
+			rewards: [
+				{
+					id: "1B1CD11F57206EA2"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "1EEADF2D71A4A8E2"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "05509D70D8A1594F"
+				item: { count: 1, id: "fantasy_weapons:weapon_ornstein_spear" }
+				type: "item"
+			}]
+			x: 46.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "1205060DEDBBA26F"
+			rewards: [
+				{
+					id: "2E13B2B6C4170D80"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "3F0224607235FDAD"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "4473556BE0F28114"
+				item: { count: 1, id: "fantasy_weapons:weapon_grave_sentinel_halberd" }
+				type: "item"
+			}]
+			x: 44.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "23D2E9476C0FB68E"
+			rewards: [
+				{
+					id: "36D83ABB388F1141"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "549309F1178CDECE"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "26E6B0D90D0EFF4B"
+				item: { count: 1, id: "fantasy_weapons:weapon_wind_worshipper_sword" }
+				type: "item"
+			}]
+			x: 52.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "40EDD116BFF16B69"
+			rewards: [
+				{
+					id: "77124CF36FFD5794"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "0441AF73D94B8AC1"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0C5DDE63B7480CA3"
+				item: { count: 1, id: "fantasy_weapons:weapon_flesh_of_the_feaster_rapier" }
+				type: "item"
+			}]
+			x: 54.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "5B624D247F8691AC"
+			rewards: [
+				{
+					id: "4A8426462800FD29"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "228AA8158C8A3A7A"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "6654F4D50866FA90"
+				item: { count: 1, id: "fantasy_weapons:weapon_dead_gladiator_sword" }
+				type: "item"
+			}]
+			x: 60.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "431DC9CDA8CC28C2"
+			rewards: [
+				{
+					id: "3F5D6A5C90E5D37D"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "68647259BCD3477E"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "06D8CABA49E1EFB5"
+				item: { count: 1, id: "fantasy_weapons:weapon_redeemer_sword" }
+				type: "item"
+			}]
+			x: 40.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "786197DF63ECF650"
+			rewards: [
+				{
+					id: "2082E33E3D7C8CE9"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "47D02D694114C848"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "4A5253B90FF90635"
+				item: { count: 1, id: "fantasy_weapons:weapon_twinned_glaive" }
+				type: "item"
+			}]
+			x: 54.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "7E88A47DEF83106E"
+			rewards: [
+				{
+					id: "70F491FA938D65A3"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "026DBCE5BB74DE58"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "52C001B2242CCA42"
+				item: { count: 1, id: "fantasy_weapons:weapon_evening_ghost_dagger" }
+				type: "item"
+			}]
+			x: 38.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "6F10B0D6E05BD097"
+			rewards: [
+				{
+					id: "325A814500AAC8BF"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "0271C2E2C3FBFB5C"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "18A77BBF032A365F"
+				item: { count: 1, id: "fantasy_weapons:weapon_ronin_katana" }
+				type: "item"
+			}]
+			x: 40.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "7BE1B745D9B9B7A4"
+			rewards: [
+				{
+					id: "6EC0ADBBFB290F48"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "3B212CE46F61AE5D"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "74A4ED7C0EBF08DA"
+				item: { count: 1, id: "fantasy_weapons:weapon_old_knight_hammer" }
+				type: "item"
+			}]
+			x: 50.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "100B32CD52CB08D8"
+			rewards: [
+				{
+					id: "6027B8B3D11C05AE"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "09AD12A9B3CA2F5C"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "4D5376A177C83195"
+				item: { count: 1, id: "fantasy_weapons:weapon_silver_knight_sword" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "53B6E09AC90B3760"
+			rewards: [
+				{
+					id: "22A59E58EAD00467"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "3694714E03C833C3"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0566BEDDB96184A2"
+				item: { count: 1, id: "fantasy_weapons:weapon_ashen_judgment_battleaxe" }
+				type: "item"
+			}]
+			x: 46.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "4855BFF482C558E4"
+			rewards: [
+				{
+					id: "429F1301D0BD3B26"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "69E737DA61E3D6DF"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "2CD4E870AFC50C7D"
+				item: { count: 1, id: "fantasy_weapons:weapon_frostbite_axe" }
+				type: "item"
+			}]
+			x: 48.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1BD46BB240A5F915"]
+			id: "4491BDC43C2560DF"
+			rewards: [
+				{
+					id: "259C83B7ADAFD5AC"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "348A169DC81A14EF"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "1ED555601631BCD9"
+				item: { count: 1, id: "fantasy_weapons:weapon_dawncrest_glaive" }
+				type: "item"
+			}]
+			x: 50.0d
+			y: -7.0d
+		}
+	]
+}

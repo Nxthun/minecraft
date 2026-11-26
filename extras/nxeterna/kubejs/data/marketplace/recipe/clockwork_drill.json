@@ -1,0 +1,8 @@
+{
+  "type": "farmingforblockheads:market",
+  "category": "marketplace:clockwork",
+  "preset": "marketplace:clockwork_gold_25",
+  "result": {
+    "item": "clockwork:clockwork_drill"
+  }
+}

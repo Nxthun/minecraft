@@ -1,0 +1,13 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "targets": [
+    "natures_spirit:red_peaks"
+  ],
+  "replacement": "minecraft:stony_peaks",
+  "parameters": {
+    "temperature": {
+      "max_inclusive": 0.55
+    }
+  }
+}

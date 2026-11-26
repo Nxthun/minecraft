@@ -1,0 +1,441 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fcreate_frostworks"
+	group: "31899D0F978471CE"
+	icon: {
+		id: "frostworks:cold_iron_sheet"
+	}
+	id: "0223A485334B2662"
+	images: [ ]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/createfrostworks"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "722F6BD2ECD4E52C"
+			rewards: [
+				{
+					id: "5B87326A3087C4F5"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "27881B04794E3747"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "21AE7DCE490F6735"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["722F6BD2ECD4E52C"]
+			id: "4F9D0A9DC18A63A7"
+			rewards: [
+				{
+					id: "183922CC6F0B67D3"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "055CC54D28307038"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B644503E1EAD8C3"
+				item: { count: 1, id: "frostworks:compressor" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4F9D0A9DC18A63A7"]
+			id: "6436932C0AEE2307"
+			rewards: [
+				{
+					id: "2A2C4BC12BD73D6D"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "76C508728517ED54"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0900C11D2F792575"
+				item: { count: 1, id: "frostworks:cryo_infuser" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6436932C0AEE2307"]
+			id: "74C7CF80F8AAA790"
+			rewards: [
+				{
+					id: "5C05F05BB5FCFC97"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "0BDA806A5B163A01"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "045711D41FBA5291"
+				item: { count: 1, id: "frostworks:cold_dried_kelp" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6436932C0AEE2307"]
+			id: "45E68E2262EFC944"
+			rewards: [
+				{
+					id: "7257E2EB492CCDB9"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "3733E8C3DB5AD4B2"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A47CEE83E15F76E"
+				item: { count: 1, id: "frostworks:cold_iron_sheet" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"45E68E2262EFC944"
+				"74C7CF80F8AAA790"
+			]
+			id: "0FDE7415CB3031FB"
+			rewards: [
+				{
+					id: "4E36EF2DBF60630B"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "6E61204EA9858CD5"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "452441144FCC7D1C"
+				item: { count: 1, id: "frostworks:cold_wall" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0FDE7415CB3031FB"]
+			id: "556A50E8069F8830"
+			rewards: [
+				{
+					id: "7C90F367B81B8243"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "02A33250E17AFF8A"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7BEBF95356FE789F"
+				item: { count: 1, id: "frostworks:vent" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["0FDE7415CB3031FB"]
+			id: "1972556916280224"
+			rewards: [
+				{
+					id: "3D019439508A2EA9"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "01A60C39F2C7FC2B"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "007DD2ED131B9255"
+				item: { count: 1, id: "frostworks:insulated_door" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["0FDE7415CB3031FB"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0DBBE0664C568AEB"
+			rewards: [
+				{
+					id: "73D56BC7FEEE59C1"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "300E402130956ACE"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7FBCC8231D6EA734"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"0DBBE0664C568AEB"
+				"1972556916280224"
+				"556A50E8069F8830"
+			]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "289E17719116591F"
+			rewards: [
+				{
+					id: "07C2D0ACB6666EF1"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "781BDF161C6A55C0"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0F8331F655DEDF4A"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["289E17719116591F"]
+			id: "39CC34CDFF66E29E"
+			rewards: [
+				{
+					id: "7C25DDAF61782EBE"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "7827983492E9C27E"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0503D188D05C45BE"
+				item: { count: 1, id: "frostworks:reservoir" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["39CC34CDFF66E29E"]
+			id: "08EBEBDC931680BC"
+			rewards: [
+				{
+					id: "7098EA071A6B5F4B"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "17C3D71F4306E4BC"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "06CC2EDDE2A2948C"
+				item: { count: 1, id: "frostworks:column_base" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -20.0d
+		}
+		{
+			dependencies: ["08EBEBDC931680BC"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7657FBBD2FE2314A"
+			rewards: [
+				{
+					id: "35DBBACB1FBD6911"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "665F7CC23B83B476"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E4CF992D13E2FF1"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -22.5d
+		}
+		{
+			dependencies: ["15E5E1D198F6C52C"]
+			id: "1C35FF390ACCCA11"
+			rewards: [
+				{
+					id: "690FEDED192C2129"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "554E51BC5D7E4110"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7E7BE99B3E4B7937"
+				item: { count: 1, id: "frostworks:expander" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -27.5d
+		}
+		{
+			dependencies: ["7657FBBD2FE2314A"]
+			id: "15E5E1D198F6C52C"
+			rewards: [
+				{
+					id: "4EDA7D2F4FB5F189"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "08BC655426A2DAFB"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5081BE3C416059A8"
+				item: { count: 1, id: "frostworks:frosium_bucket" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -25.0d
+		}
+		{
+			dependencies: ["15E5E1D198F6C52C"]
+			id: "2E2BEED1B66087E5"
+			rewards: [
+				{
+					id: "35B39AF7F3AA0BFD"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "4C806EFC7ECBAC1F"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "51008E13FD6E0FCE"
+				item: { components: { "frostworks:chilled": { } }, count: 1, id: "minecraft:raw_iron" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -27.5d
+		}
+		{
+			dependencies: ["15E5E1D198F6C52C"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "48C33F405F6C4B2F"
+			optional: true
+			rewards: [
+				{
+					id: "155CFDF7FA3EA01D"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "508CB08150864125"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7E46F590F684D1EF"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -27.5d
+		}
+	]
+}

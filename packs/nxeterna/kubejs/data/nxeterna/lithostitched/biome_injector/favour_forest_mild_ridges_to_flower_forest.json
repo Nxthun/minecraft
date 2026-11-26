@@ -1,0 +1,17 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "targets": [
+    "minecraft:forest"
+  ],
+  "replacement": "minecraft:flower_forest",
+  "parameters": {
+    "temperature": {
+      "min_inclusive": 0.09,
+      "max_inclusive": 0.2299
+    },
+    "weirdness": {
+      "min_inclusive": 0
+    }
+  }
+}

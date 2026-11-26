@@ -1,0 +1,4047 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "scorched_guns"
+	group: "5D057DC6F5434AC6"
+	icon: {
+		components: {
+			"minecraft:custom_data": {
+				AmmoCount: 24
+			}
+		}
+		id: "scguns:scratches"
+	}
+	id: "43A8EC3E713713FA"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/scorchedgunneoforge"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.44d
+			id: "0D5E30EF72EADA58"
+			rewards: [
+				{
+					id: "4CBD77948C4F5A08"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "542500A8D711843C"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "3DDDF5B2AFE1C346"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0D5E30EF72EADA58"]
+			id: "7900747D0E4096C6"
+			rewards: [
+				{
+					id: "7579885B4734B64A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "527A5760F1138A38"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "6C8CBB52B7167E21"
+				item: { count: 1, id: "scguns:antique_blueprint" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7900747D0E4096C6"]
+			id: "12575F4A0AD7B4D2"
+			rewards: [
+				{
+					id: "353BBF8BE8631C2D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6CD145652793BC9B"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "707EF89565D5005B"
+				item: { count: 1, id: "scguns:frontier_blueprint" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["12575F4A0AD7B4D2"]
+			id: "702A8ED0B896A739"
+			rewards: [
+				{
+					id: "5AC53AB7F339CA93"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3F3259709838B895"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "40024296FA1E32E4"
+				item: { count: 1, id: "scguns:copper_blueprint" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["702A8ED0B896A739"]
+			id: "2F69BEB8E9A7A460"
+			rewards: [
+				{
+					id: "6CF2F8F1295A6F70"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "56CA23D6AB1F78B9"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5A8B0AA8BDEE8248"
+				item: { count: 1, id: "scguns:iron_blueprint" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2F69BEB8E9A7A460"]
+			id: "359BDCD1D5C334D1"
+			rewards: [
+				{
+					id: "279509E46350011A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2270C00E99E4D646"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "203A0C57051CBCF0"
+				item: { count: 1, id: "scguns:ocean_blueprint" }
+				type: "item"
+			}]
+			x: 26.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["359BDCD1D5C334D1"]
+			id: "19A8D6C3B1C9ACA0"
+			rewards: [
+				{
+					id: "48C398B72B16CDC4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "62078E1D77306B0A"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0415D25801372FF4"
+				item: { count: 1, id: "scguns:wrecker_blueprint" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7900747D0E4096C6"]
+			id: "11898F57E0389EC0"
+			rewards: [
+				{
+					id: "2F7A858D32671488"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "77D35CE9413DDBA7"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3AE72C69B0E453A1"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 1 } }, count: 1, id: "scguns:flintlock_pistol" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7900747D0E4096C6"]
+			id: "4E4B318A7AD3F3ED"
+			rewards: [
+				{
+					id: "57BA38CD8DEBE957"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "350A0885DE36D01A"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "117A5A7680D2B8BA"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 1 } }, count: 1, id: "scguns:handcannon" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7900747D0E4096C6"]
+			id: "46676D3FDD86BBEC"
+			rewards: [
+				{
+					id: "5DEF4E5F16470F1C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6684E5977A8ECDF7"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B4DAE6C516747F9"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 1 } }, count: 1, id: "scguns:musket" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7900747D0E4096C6"]
+			id: "1FA39B3332D0E0B6"
+			rewards: [
+				{
+					id: "40D48C874902F1D9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "091EECB31479BE3A"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A1F512FAA0CE0F0"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 1 } }, count: 1, id: "scguns:blunderbuss" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7900747D0E4096C6"]
+			id: "627B0FEC28669D71"
+			rewards: [
+				{
+					id: "5FA9C9D10D59BE5A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "717A808A4F78F233"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00EED0146EB707B3"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 7 } }, count: 1, id: "scguns:fencer_carabine" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7900747D0E4096C6"]
+			id: "7C83DF75A53C621F"
+			rewards: [
+				{
+					id: "19EEE360CA5BFBB6"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2A8C1959BEB81823"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "75CA7F598D0861C8"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 4 } }, count: 1, id: "scguns:fencer_thumper" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7900747D0E4096C6"]
+			id: "74EA2FC1668C211D"
+			rewards: [
+				{
+					id: "0CB36E6D26E01FDE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5DEE88A67775B02E"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7A1C5C2BCC612072"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 2 } }, count: 1, id: "scguns:doublet" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7900747D0E4096C6"]
+			id: "71FAF8DA412EEC7B"
+			rewards: [
+				{
+					id: "15AC922F9F39A608"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "567DC41BA67D5524"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0478A6255FDDA776"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 5 } }, count: 1, id: "scguns:repeating_musket" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7900747D0E4096C6"]
+			id: "549600A90F2753F3"
+			rewards: [
+				{
+					id: "40A6B181976B8974"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "056EB25808468545"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "59DAC3CE236B5F35"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 5 } }, count: 1, id: "scguns:longarm" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["12575F4A0AD7B4D2"]
+			id: "3F983B9E8D2E67D0"
+			rewards: [
+				{
+					id: "6F550988C6D9DDED"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "58286A710EFF4AC7"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "762B734F5D17FA99"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 6 } }, count: 1, id: "scguns:pax" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["12575F4A0AD7B4D2"]
+			id: "20AA617125C05B58"
+			rewards: [
+				{
+					id: "690796C3403969A4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "165B9FC1C4405B7B"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1AE9877F743F047F"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 8 } }, count: 1, id: "scguns:winnie" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["12575F4A0AD7B4D2"]
+			id: "0FEBB1DC3D1CCB61"
+			rewards: [
+				{
+					id: "4DE33E3A3F0AC1FE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7AA66384EA410E0C"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3EC21E578E71F65D"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 6 } }, count: 1, id: "scguns:winnie_millend" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["12575F4A0AD7B4D2"]
+			id: "679E761B73AD19D7"
+			rewards: [
+				{
+					id: "2FF7DAFC9F2CFCAF"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "40D620B1AEED9B0C"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6B79A844DA4B07F6"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 6 } }, count: 1, id: "scguns:callwell_conversion" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["12575F4A0AD7B4D2"]
+			id: "344CD1F90C06400F"
+			rewards: [
+				{
+					id: "566422D719311696"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "65FDB55DC491FF79"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3190CB16BD80A928"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 2 } }, count: 1, id: "scguns:callwell" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["12575F4A0AD7B4D2"]
+			id: "5502341FD4E22213"
+			rewards: [
+				{
+					id: "797166EB9DE8B046"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "73029F511A70DC6D"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "488CC92F1B3F9FBA"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 6 } }, count: 1, id: "scguns:callwell_terminal" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["12575F4A0AD7B4D2"]
+			id: "74895BA152AB08E0"
+			rewards: [
+				{
+					id: "784566EDFD86C1FE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0AB9EB5B9765F30D"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1F1BED96AAABB12C"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 1 } }, count: 1, id: "scguns:saketini" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["12575F4A0AD7B4D2"]
+			id: "492C63C49E29C4C6"
+			rewards: [
+				{
+					id: "27D05C292270BDD1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0B692737CC162DB9"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5FDA2B48E9BC3E35"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 6 } }, count: 1, id: "scguns:saketini_ironport" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["12575F4A0AD7B4D2"]
+			id: "4AEAF58621C0560D"
+			rewards: [
+				{
+					id: "79865D4615C21CDC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "74BF24290D8C95D5"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "21CEA432650B601E"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 10 } }, count: 1, id: "scguns:red_raydar" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["12575F4A0AD7B4D2"]
+			id: "0B2FFB2FDCE66023"
+			rewards: [
+				{
+					id: "3769D820D3B05020"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2C223BDD15C58722"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7415C11C701A2AF1"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 1 } }, count: 1, id: "scguns:big_bore" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7900747D0E4096C6"]
+			id: "24AD3BF951B7E4D7"
+			rewards: [
+				{
+					id: "2B921F685D8726AF"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "52413BA281ED58E7"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3C8AAAA64E54B05B"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 7 } }, count: 1, id: "scguns:laser_musket" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7900747D0E4096C6"]
+			id: "386C7F7DBC95B277"
+			rewards: [
+				{
+					id: "26562FC33C0EA019"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "31051FC62ADA7D45"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "29F611DD033118BB"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 5 } }, count: 1, id: "scguns:teslock_rifle" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["12575F4A0AD7B4D2"]
+			id: "4D30CB4E7A0DF191"
+			rewards: [
+				{
+					id: "30FCB3EB12D7A4D9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "721E661C4C687483"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "03298F8489844E03"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 2 } }, count: 1, id: "scguns:kiln_gun" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7900747D0E4096C6"]
+			id: "430B1EB6EC4260DB"
+			rewards: [
+				{
+					id: "25E4A69008952918"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "063CC41BF2D7F5B0"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "43AFC966DAA9AC31"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 7 } }, count: 1, id: "scguns:plasmabuss" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["702A8ED0B896A739"]
+			id: "4AC345CF45C86E26"
+			rewards: [
+				{
+					id: "61BA6EE08D18B72A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "52F17C2EC660947A"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5CF0E5ABC89945F4"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 8 } }, count: 1, id: "scguns:scrapper" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["702A8ED0B896A739"]
+			id: "7D0067D59ABF7ABC"
+			rewards: [
+				{
+					id: "2BA19B7F667E9371"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1BC1C3BC1FFECAD3"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2ECFD7482F0D9DB8"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 14 } }, count: 1, id: "scguns:rusty_gnat" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["702A8ED0B896A739"]
+			id: "37769E1E224389DF"
+			rewards: [
+				{
+					id: "61CF3FD91FF4808C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "27154D5682DD5F0B"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "68C78972762193F8"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 7 } }, count: 1, id: "scguns:umax_pistol" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["702A8ED0B896A739"]
+			id: "460B8612CF4B4E7D"
+			rewards: [
+				{
+					id: "6030EBA208017AF7"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "17E877B648560FFA"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "760506720D7AC6C6"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 16 } }, count: 1, id: "scguns:makeshift_rifle" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["702A8ED0B896A739"]
+			id: "11462B2DFE3C0541"
+			rewards: [
+				{
+					id: "525764F8EDBFA957"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3F7C3E01A0D0C42C"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2E30D3317DB56322"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 6 } }, count: 1, id: "scguns:boomstick" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["702A8ED0B896A739"]
+			id: "7EFBFB8CED1CD3B9"
+			rewards: [
+				{
+					id: "034A609536CC5A72"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6DA56551E0715E65"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "17145F5B1DAEFAC8"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 4 } }, count: 1, id: "scguns:bruiser" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["702A8ED0B896A739"]
+			id: "2DF9372D95C672EF"
+			rewards: [
+				{
+					id: "5BF232C8141F1DD2"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "57A42D8F2E30681E"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7C4A2888618B3452"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 7 } }, count: 1, id: "scguns:llr_director" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["702A8ED0B896A739"]
+			id: "02F1D7B458024563"
+			rewards: [
+				{
+					id: "0C5739620534150F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "467D5E342AC4C777"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B7A8922A99274C2"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 16 } }, count: 1, id: "scguns:birdfeeder" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["702A8ED0B896A739"]
+			id: "2F99BA1BCD3694A5"
+			rewards: [
+				{
+					id: "41DBBBCADDCD4DC6"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3686C84D848C699D"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7CA9D2749400C0C0"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 1 } }, count: 1, id: "scguns:whistler" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["702A8ED0B896A739"]
+			id: "4D78ED4227736CA3"
+			rewards: [
+				{
+					id: "51B247F5AD6913C6"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6C56F10295FC471D"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E7D878614F1976A"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 1 } }, count: 1, id: "scguns:blooper" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["702A8ED0B896A739"]
+			id: "5132DD932DC80C9C"
+			rewards: [
+				{
+					id: "00E40AB27EFDA9D5"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "28252835BACD15CB"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "112C3F16337527F3"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 10 } }, count: 1, id: "scguns:arc_worker" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2F69BEB8E9A7A460"]
+			id: "06F3EA7382F2F010"
+			rewards: [
+				{
+					id: "29F26B3DB0B14467"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2B987D85827893A3"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "659203889B6B4765"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 12 } }, count: 1, id: "scguns:defender_pistol" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2F69BEB8E9A7A460"]
+			id: "597A5BAF07E2CEC3"
+			rewards: [
+				{
+					id: "3ACE6CEE2B5803E1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "52AC9EF97B8C226E"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "11F833727FAB10C9"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 6 } }, count: 1, id: "scguns:trenchur" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2F69BEB8E9A7A460"]
+			id: "23CD86CD55E5ACE0"
+			rewards: [
+				{
+					id: "31A24D9A1CC77D5A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5F5771290D20A4D4"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1DED9AC42D3F6D66"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 18 } }, count: 1, id: "scguns:greaser_smg" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2F69BEB8E9A7A460"]
+			id: "3B694ACAB7F26135"
+			rewards: [
+				{
+					id: "429DC51DE12B94D8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "778A4C7E41D349FC"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1168EF89496A0AED"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 19 } }, count: 1, id: "scguns:m3_carabine" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2F69BEB8E9A7A460"]
+			id: "5F488DA84B22C081"
+			rewards: [
+				{
+					id: "32745E1CD4C5331C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5C7BDB734015268F"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "70747067CFCFA9B7"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 10 } }, count: 1, id: "scguns:m3_marksman" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2F69BEB8E9A7A460"]
+			id: "5F0D7741824000B5"
+			rewards: [
+				{
+					id: "05A22D3395323A8C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4FCE54539DE75686"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "48B290B29230F8E0"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 8 } }, count: 1, id: "scguns:combat_shotgun" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2F69BEB8E9A7A460"]
+			id: "6A35C5B9743D60EB"
+			rewards: [
+				{
+					id: "3487A080091CE4E1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0D66328267887C78"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7BD94143A52E43FB"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 8 } }, count: 1, id: "scguns:venturi" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2F69BEB8E9A7A460"]
+			id: "08DB14DDD2B8852F"
+			rewards: [
+				{
+					id: "032185A8B56C7459"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6051E4A53D08FE4B"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3BBB6B120448CF75"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 9 } }, count: 1, id: "scguns:iron_javelin" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2F69BEB8E9A7A460"]
+			id: "46E33329541B596C"
+			rewards: [
+				{
+					id: "3A963EB9238B3559"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5601CC1531701737"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6239F7950DD60FC9"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 7 } }, count: 1, id: "scguns:iron_spear" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2F69BEB8E9A7A460"]
+			id: "441F0C2814BFE977"
+			rewards: [
+				{
+					id: "30C0F39B58EDF1F8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0ED1EB40DDA54D81"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "11D07D2010D05897"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 6 } }, count: 1, id: "scguns:auvtomag" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2F69BEB8E9A7A460"]
+			id: "206BCDF6FF0ABED9"
+			rewards: [
+				{
+					id: "4FBAEA4B4E065554"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "147D757977FD516C"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "66FF9376FBADD767"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 4 } }, count: 1, id: "scguns:pulsar" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2F69BEB8E9A7A460"]
+			id: "0C1F6A7E7109CF5A"
+			rewards: [
+				{
+					id: "7EBEF4783C44E27E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "142C28BF82F7596B"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7CA3F3F4B4A8CEE7"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 6 } }, count: 1, id: "scguns:gyrojet_pistol" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2F69BEB8E9A7A460"]
+			id: "427D8F92B567B7AE"
+			rewards: [
+				{
+					id: "48C0AFFD3CE55BFD"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2D59EFFA1EAF00F7"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "785F75A15767FABB"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 1 } }, count: 1, id: "scguns:brawler" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2F69BEB8E9A7A460"]
+			id: "1B43080794BFBD51"
+			rewards: [
+				{
+					id: "0BA3882BC9C8E323"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4E91722DE0C9A2A1"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4CEFC944DA2D8B06"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 4 } }, count: 1, id: "scguns:crusader" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2F69BEB8E9A7A460"]
+			id: "2143E0ACA9E7D43B"
+			rewards: [
+				{
+					id: "604BC16739EB3D79"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1E2DBA8D2651543D"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "337F969E58BDFD7F"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 10 } }, count: 1, id: "scguns:mk43_rifle" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2F69BEB8E9A7A460"]
+			id: "370EAD13EB959128"
+			rewards: [
+				{
+					id: "47348B4E4B83B6D2"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0BFA5B8D7B73F342"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1CF84460C8248947"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 3 } }, count: 1, id: "scguns:triquetra" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2F69BEB8E9A7A460"]
+			id: "1B245D6AB2D2AB6B"
+			rewards: [
+				{
+					id: "39EA5AFB5D18B980"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0A78C860A6629F25"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1FFB091D5DA2D8A2"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 1 } }, count: 1, id: "scguns:rocket_rifle" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2F69BEB8E9A7A460"]
+			id: "4A5B0495EF9B7BBA"
+			rewards: [
+				{
+					id: "3FB45A0CE1D6F835"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6AE101ABDD735260"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5F116B0D38F9FEE6"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 3 } }, count: 1, id: "scguns:ultra_knight_hawk" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["359BDCD1D5C334D1"]
+			id: "00B86EF53124D34A"
+			rewards: [
+				{
+					id: "7587D95A649AF02C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "58E97C47A94594AC"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7BD01DB6E79BA6D5"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 10 } }, count: 1, id: "scguns:marlin" }
+				type: "item"
+			}]
+			x: 24.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["359BDCD1D5C334D1"]
+			id: "5614B13F92A1320C"
+			rewards: [
+				{
+					id: "47E577406057046A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "030BDCBB7B778D37"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "43BD004469528558"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 1 } }, count: 1, id: "scguns:bomb_lance" }
+				type: "item"
+			}]
+			x: 25.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["359BDCD1D5C334D1"]
+			id: "14B78D2A8AEB66B2"
+			rewards: [
+				{
+					id: "1CAAE00ED3CCF23F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3E600F665D222ABC"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "019FD10079AAC605"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 1 } }, count: 1, id: "scguns:hullbreaker" }
+				type: "item"
+			}]
+			x: 26.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["359BDCD1D5C334D1"]
+			id: "368D8D0A0AE60917"
+			rewards: [
+				{
+					id: "7C514491DECA27EF"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4CCA574BD6C04311"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "09DE8747B7FD7A38"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 6 } }, count: 1, id: "scguns:sequoia" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["359BDCD1D5C334D1"]
+			id: "6089F63D67B2023D"
+			rewards: [
+				{
+					id: "3F8359FC0F7C6929"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0F55BC5838470B61"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5EB1467EC0C2F144"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 4 } }, count: 1, id: "scguns:floundergat" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["359BDCD1D5C334D1"]
+			id: "264ACDAF5FA98047"
+			rewards: [
+				{
+					id: "090E19AF7486B889"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5728929BCBCCEC20"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "354C5AB13A2B7F64"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 27 } }, count: 1, id: "scguns:spirulida" }
+				type: "item"
+			}]
+			x: 26.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["359BDCD1D5C334D1"]
+			id: "48DE9D8DF73FAD1C"
+			rewards: [
+				{
+					id: "28A160A6A216ACB2"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1F92F52B27A696F8"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "23026255B31613F0"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 10 } }, count: 1, id: "scguns:hyperbaria" }
+				type: "item"
+			}]
+			x: 27.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["19A8D6C3B1C9ACA0"]
+			id: "69C3392ED2529BFD"
+			rewards: [
+				{
+					id: "0B065D5DADEC06DF"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "166518893EAA91F3"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "66D45924749FE3F3"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 8 } }, count: 1, id: "scguns:mokova" }
+				type: "item"
+			}]
+			x: 29.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["19A8D6C3B1C9ACA0"]
+			id: "435CBB9A41303FB5"
+			rewards: [
+				{
+					id: "0B435CEDD4997C79"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2F88A54A3660B2FB"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4E6AA87AA239EB46"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 19 } }, count: 1, id: "scguns:mak_mkii" }
+				type: "item"
+			}]
+			x: 30.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["19A8D6C3B1C9ACA0"]
+			id: "540095B48DC7EFF1"
+			rewards: [
+				{
+					id: "0A4A5A819F2D06A4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "16E4196B1EDE11EC"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "12447AEEB6929F57"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 1 } }, count: 1, id: "scguns:stiletto" }
+				type: "item"
+			}]
+			x: 31.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["19A8D6C3B1C9ACA0"]
+			id: "75917FC8EA12ED79"
+			rewards: [
+				{
+					id: "7347D1B56BA57B83"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0F19D464B63AE2C2"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3DAF9A443C02568F"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 12 } }, count: 1, id: "scguns:railworker" }
+				type: "item"
+			}]
+			x: 32.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["19A8D6C3B1C9ACA0"]
+			id: "1FB1DAF3DFACC5BD"
+			rewards: [
+				{
+					id: "08AE824BE2BBCEA8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "532A22F75C1F9684"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "68E15C854BFF653F"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 1 } }, count: 1, id: "scguns:whizzbanger" }
+				type: "item"
+			}]
+			x: 29.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["19A8D6C3B1C9ACA0"]
+			id: "1DD8EB42CF51ACBD"
+			rewards: [
+				{
+					id: "3F3E2ABB6E2ABF39"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "60695D2C2E4869F3"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6694391C36E062B8"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 6 } }, count: 1, id: "scguns:turnpike" }
+				type: "item"
+			}]
+			x: 30.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["19A8D6C3B1C9ACA0"]
+			id: "117EBB3CE767ECD7"
+			rewards: [
+				{
+					id: "4F4E4FF59DEC396D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "32A930BA67292034"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "63C48254AD229C8C"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 5 } }, count: 1, id: "scguns:killer_23" }
+				type: "item"
+			}]
+			x: 31.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["19A8D6C3B1C9ACA0"]
+			id: "33913775DBBB08AF"
+			rewards: [
+				{
+					id: "1DD54C0E890A32F8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "50EEA8B156DCDE27"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "372F021746B4E9E9"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 5 } }, count: 1, id: "scguns:homemaker" }
+				type: "item"
+			}]
+			x: 32.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["19A8D6C3B1C9ACA0"]
+			id: "635380EBD46B08FC"
+			rewards: [
+				{
+					id: "23B515A769AB05A3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "139A78CA80F7D2A9"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "673B2515A9FBFDF3"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 18 } }, count: 1, id: "scguns:kalaskah" }
+				type: "item"
+			}]
+			x: 29.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["19A8D6C3B1C9ACA0"]
+			id: "5F27B28224BF81B4"
+			rewards: [
+				{
+					id: "1A321897573DE188"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "43DEE5735A72671E"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "26D57EBAAA316053"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 15 } }, count: 1, id: "scguns:basker" }
+				type: "item"
+			}]
+			x: 30.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["19A8D6C3B1C9ACA0"]
+			id: "50E1AF1295CE16AA"
+			rewards: [
+				{
+					id: "01FABE036F1094F8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1758D4205F2FD32F"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3117666D895AF9FD"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 5 } }, count: 1, id: "scguns:tl_runner" }
+				type: "item"
+			}]
+			x: 31.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["19A8D6C3B1C9ACA0"]
+			id: "4E31047F2D1A8482"
+			rewards: [
+				{
+					id: "12E7B8E514537E6F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7A25187C5B41A9AE"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4B07982294DA4D7B"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 31 } }, count: 1, id: "scguns:stigg" }
+				type: "item"
+			}]
+			x: 32.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0D5E30EF72EADA58"]
+			id: "6F46DEA89D4B6382"
+			rewards: [
+				{
+					id: "3E53B6E481BC1A98"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0D2BA6450209EF92"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "318D4E22861B9182"
+				item: { count: 1, id: "scguns:diamond_steel_blueprint" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6F46DEA89D4B6382"]
+			id: "7C1E59F5D5522575"
+			rewards: [
+				{
+					id: "48C50685A3BC5C88"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "58C62C709FA5B2AE"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6A65B7C071947ABB"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 13 } }, count: 1, id: "scguns:krauser" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6F46DEA89D4B6382"]
+			id: "6D4CA804AF6CEF80"
+			rewards: [
+				{
+					id: "33B985AC5F8852D9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1054B2826694ADC5"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "40AD6BE9BA12302E"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 25 } }, count: 1, id: "scguns:soul_drummer" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6F46DEA89D4B6382"]
+			id: "7B5A32510CA12E5C"
+			rewards: [
+				{
+					id: "1DBBB83DEE753356"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "46F76CE2AD65CC94"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3DA7166EA2D56593"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 17 } }, count: 1, id: "scguns:valora" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6F46DEA89D4B6382"]
+			id: "0668F0EA6E63B7A3"
+			rewards: [
+				{
+					id: "4C601770A9EB5DDA"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "027A7FE0B26B9325"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "20A741BE22B3F980"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 5 } }, count: 1, id: "scguns:uppercut" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6F46DEA89D4B6382"]
+			id: "0C9F9980E04ADF5D"
+			rewards: [
+				{
+					id: "183E97AAD3656859"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4120EFC3CA0BE79C"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1A5038906317926D"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 6 } }, count: 1, id: "scguns:micina" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6F46DEA89D4B6382"]
+			id: "09A4B96D3282508A"
+			rewards: [
+				{
+					id: "39492E39955BB874"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7B9B620356E6ED3B"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6B229EC833F6219E"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 23 } }, count: 1, id: "scguns:prush_gun" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6F46DEA89D4B6382"]
+			id: "7B60AF895DE9FB9A"
+			rewards: [
+				{
+					id: "4CBF54B42134CF99"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4F503383E22AEC28"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5EC8276D364A92A0"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 2 } }, count: 1, id: "scguns:drill" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6F46DEA89D4B6382"]
+			id: "002D17315ACE6F70"
+			rewards: [
+				{
+					id: "0BD74752ADD39928"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1CBF921EE9971BED"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6485430B345C5EAA"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 2 } }, count: 1, id: "scguns:drill_conversion" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6F46DEA89D4B6382"]
+			id: "5982984EB8DAF506"
+			rewards: [
+				{
+					id: "310C3FE6DA600BCD"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "491C1B9F6296FB3D"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0353610BED4B24AF"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 21 } }, count: 1, id: "scguns:lockewood" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6F46DEA89D4B6382"]
+			id: "08058A4DC7D614EA"
+			rewards: [
+				{
+					id: "06DA8533DC33DC9E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3176D7FC0CBC725A"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "62657178B5FA0565"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 16 } }, count: 1, id: "scguns:rg_jigsaw" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6F46DEA89D4B6382"]
+			id: "1F3A125501A2FE9B"
+			rewards: [
+				{
+					id: "60DE10E526BDF059"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "07DF8A8C0007160C"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "20565EB788B2C678"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 28 } }, count: 1, id: "scguns:nailer" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6F46DEA89D4B6382"]
+			id: "5E5C5AF32459D3CA"
+			rewards: [
+				{
+					id: "5BAC6E9560577FFE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7D581BB3428926B6"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2523D117BF925463"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 6 } }, count: 1, id: "scguns:inertial" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6F46DEA89D4B6382"]
+			id: "204EAA64AB3E92E1"
+			rewards: [
+				{
+					id: "2CD39354F35FA5A8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0DD3F53F1DBB22FC"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "12307A6E5D36D960"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 15 } }, count: 1, id: "scguns:minksy" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6F46DEA89D4B6382"]
+			id: "58ADBC12D9E34C53"
+			rewards: [
+				{
+					id: "50FE4E69724336E8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2281D0E638CA5C16"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0386A5C49110019D"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 12 } }, count: 1, id: "scguns:mas_peddler" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6F46DEA89D4B6382"]
+			id: "4EE8B8E4B4925B5D"
+			rewards: [
+				{
+					id: "2D41DC0902737E74"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6CDA5A205D5D6FBB"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5F86C58F2F63A4D7"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 8 } }, count: 1, id: "scguns:mas_55" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6F46DEA89D4B6382"]
+			id: "7DA4DFE3C705E6C0"
+			rewards: [
+				{
+					id: "745BE15639537F6A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7251AA43B21EFFBC"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4A96B34C33C4F331"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 21 } }, count: 1, id: "scguns:inquisitor" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6F46DEA89D4B6382"]
+			id: "79119C4B4E153604"
+			rewards: [
+				{
+					id: "20C51B7254317005"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0D2CB0E2C6BCB465"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7F0E8C3ECBC63B46"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 15 } }, count: 1, id: "scguns:plasgun" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6F46DEA89D4B6382"]
+			id: "03A4E39D99F3A244"
+			rewards: [
+				{
+					id: "2D5D1B82C20627AB"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "51B51F72E312C3C7"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B5FB2A2FBE626EB"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 21 } }, count: 1, id: "scguns:cyclone" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6F46DEA89D4B6382"]
+			id: "3300115FB18FD393"
+			rewards: [
+				{
+					id: "074253ACFC189617"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "595C714D244A02C9"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5D2802F9B2C44800"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 13 } }, count: 1, id: "scguns:zilk_45" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6F46DEA89D4B6382"]
+			id: "09A71FCD16DD18E9"
+			rewards: [
+				{
+					id: "456035C39529EF7E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3813DED63861367A"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6C61E86DFDC888CF"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 6 } }, count: 1, id: "scguns:truant" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6F46DEA89D4B6382"]
+			id: "2AC240F7EC3E752F"
+			rewards: [
+				{
+					id: "7E419F9118059899"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "076408F7032DFCA3"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "34DF981776874B10"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 50 } }, count: 1, id: "scguns:shard_culler" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6F46DEA89D4B6382"]
+			id: "2F6E35260E1F5759"
+			rewards: [
+				{
+					id: "24D71D27CB4C5BAE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6F76D5D35FF6317E"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "2F35F57277697B39"
+				item: { count: 1, id: "scguns:treated_brass_blueprint" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2F6E35260E1F5759"]
+			id: "65AE96933F66068D"
+			rewards: [
+				{
+					id: "7F2F8B1FA02C0EE2"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0CA0A489C8C532C7"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6CB0DAF46BF7F189"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 8 } }, count: 1, id: "scguns:m22_waltz" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2F6E35260E1F5759"]
+			id: "662998B5E2EB2A18"
+			rewards: [
+				{
+					id: "7CBD1C8F3C679982"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3C1286CE74906643"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "055798963F0AC808"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 12 } }, count: 1, id: "scguns:waltz_conversion" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2F6E35260E1F5759"]
+			id: "2D49F7C971CD5CA1"
+			rewards: [
+				{
+					id: "15899AE3C665F8BE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "49A1CBE76403219B"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E3F832A199CCF8C"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 6 } }, count: 1, id: "scguns:osgood_50" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2F6E35260E1F5759"]
+			id: "1AEE23782C71C160"
+			rewards: [
+				{
+					id: "3721AF6847542FD9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "41AC973487A6F5C2"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6889C34A24B9B3CB"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 7 } }, count: 1, id: "scguns:grandle_og" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2F6E35260E1F5759"]
+			id: "2FAE47C7E63643F0"
+			rewards: [
+				{
+					id: "02B622499F993B68"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2F058AA572BA13C4"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2623CF3F770AF991"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 17 } }, count: 1, id: "scguns:grandle" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2F6E35260E1F5759"]
+			id: "0E5DA3165ED0869E"
+			rewards: [
+				{
+					id: "7EC732913EC79B42"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "071054A5D383A972"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A39FCC63B530724"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 46 } }, count: 1, id: "scguns:cogloader" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2F6E35260E1F5759"]
+			id: "474E2A00088E644B"
+			rewards: [
+				{
+					id: "6B87BE046B85D3DA"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "799FF94FA070F70E"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "050246067899B985"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 8 } }, count: 1, id: "scguns:gale" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2F6E35260E1F5759"]
+			id: "64993B0FAEA49FBC"
+			rewards: [
+				{
+					id: "6645152C5A08D9B8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7091F32DFC6E99AF"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4E5CFDF5BEDB0B08"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 12 } }, count: 1, id: "scguns:jr_wristbreaker" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2F6E35260E1F5759"]
+			id: "6E564647B875371F"
+			rewards: [
+				{
+					id: "57E9AC22A06248ED"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6B6543CAA56585A7"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "055E1904241EF0DA"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 12 } }, count: 1, id: "scguns:jackhammer" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2F6E35260E1F5759"]
+			id: "3D44A2F13BC3551E"
+			rewards: [
+				{
+					id: "20811B6E2B0778F9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "04DFE1660D349835"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "17D58FD596A15792"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 4 } }, count: 1, id: "scguns:hammer_gl" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2F6E35260E1F5759"]
+			id: "7ED6AE4899790EEF"
+			rewards: [
+				{
+					id: "4433A0D48DFC8A32"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "349B1E7A453F0301"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5EDD1ABD74631689"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 6 } }, count: 1, id: "scguns:howler" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2F6E35260E1F5759"]
+			id: "2E4CF2F876465FC4"
+			rewards: [
+				{
+					id: "5D35F2AAC3DE9032"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "10B10A14E91F1A54"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2504D2C6E974926E"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 9 } }, count: 1, id: "scguns:howler_conversion" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2F6E35260E1F5759"]
+			id: "732EFF04CB8279FE"
+			rewards: [
+				{
+					id: "74DAFFDD972D3A5B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "75B72810488C80F5"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7F6FCC746B74416B"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 8 } }, count: 1, id: "scguns:gauss_rifle" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2F6E35260E1F5759"]
+			id: "5C6DAA6C4BCBB521"
+			rewards: [
+				{
+					id: "61A94D3BB39FF667"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "18FC7314AF5E6F26"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4AAFB8F426A8F2A2"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 8 } }, count: 1, id: "scguns:libertas" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2F6E35260E1F5759"]
+			id: "770266BA0665F165"
+			rewards: [
+				{
+					id: "1B3192962C12CC5D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5D20D87155CF8C86"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "56A77DD04980CF86"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 8 } }, count: 1, id: "scguns:niami" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2F6E35260E1F5759"]
+			id: "566A3048639F3644"
+			rewards: [
+				{
+					id: "0C52EA91A8BDE211"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7FFF53277876CA49"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "26CF9AB1B3474B47"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 32 } }, count: 1, id: "scguns:spitfire" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2F6E35260E1F5759"]
+			id: "615B28CB6D9BD23B"
+			rewards: [
+				{
+					id: "05C28128B248A4B6"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6920DCA50787ADF6"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E511F6F4A83BE96"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 90 } }, count: 1, id: "scguns:gattaler" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2F6E35260E1F5759"]
+			id: "198E5C246DED8885"
+			rewards: [
+				{
+					id: "6434BD5D89FB5755"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4D03A45718BFA1F3"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5F49C718D2904DE7"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 35 } }, count: 1, id: "scguns:thunderhead" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2F6E35260E1F5759"]
+			id: "60782346238BE976"
+			rewards: [
+				{
+					id: "4422E0D7AA03BEBD"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "18C815DCD63526BA"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "06850DFED1AAE2A7"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 24 } }, count: 1, id: "scguns:scratches" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2F6E35260E1F5759"]
+			id: "7C3EB429FA95DF39"
+			rewards: [
+				{
+					id: "58246840139B01DD"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4E8B46227988B8C0"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5F52DF5C3FEE05E6"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 150 } }, count: 1, id: "scguns:cr4k_mining_laser" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2F6E35260E1F5759"]
+			id: "51330E71546AB092"
+			rewards: [
+				{
+					id: "7B44E35EFA28A856"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "379169705747762E"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "62EBBC14BA36B18D"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 4 } }, count: 1, id: "scguns:dozier_rl" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2F6E35260E1F5759"]
+			id: "42396EEDAE4D28FA"
+			rewards: [
+				{
+					id: "036B36E8ABFFAC1B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "572D8D07BE5A842A"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0637BD12E11EB038"
+				item: { count: 1, id: "scguns:piglin_blueprint" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["42396EEDAE4D28FA"]
+			id: "5A813E8FC6290A08"
+			rewards: [
+				{
+					id: "2E4D22A829AA37AF"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "546CDD9524E55AB9"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "57CD63B42F06CCA5"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 7 } }, count: 1, id: "scguns:pyroclastic_flow" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["42396EEDAE4D28FA"]
+			id: "6CA97DC5EDE76A68"
+			rewards: [
+				{
+					id: "3114AF073103E729"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0DE37ED680639E43"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "01B1810367CC1333"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 24 } }, count: 1, id: "scguns:freyr" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["42396EEDAE4D28FA"]
+			id: "7E5F5D1981688EF7"
+			rewards: [
+				{
+					id: "47283C69D0ED7E7A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6345CB2F189CA671"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E0BEDBBF488E9BD"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 7 } }, count: 1, id: "scguns:mangalitsa" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["42396EEDAE4D28FA"]
+			id: "7F9084BF482594D7"
+			rewards: [
+				{
+					id: "30EC326ECB9A2669"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0F297EA722063E4A"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "14077445B882D521"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 15 } }, count: 1, id: "scguns:vulcanic_repeater" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["42396EEDAE4D28FA"]
+			id: "6F06A23D7D34DBF7"
+			rewards: [
+				{
+					id: "6617AE9750FD78D4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "14372584B42B38E1"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "72B73BF92EA75A4D"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 7 } }, count: 1, id: "scguns:trotters" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["42396EEDAE4D28FA"]
+			id: "3FDD9C35869DCC3F"
+			rewards: [
+				{
+					id: "271884063D2ED479"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4FCD2582FC1654D1"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "71EA4F6D1A53CCE5"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 2 } }, count: 1, id: "scguns:super_shotgun" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["42396EEDAE4D28FA"]
+			id: "7561F89C95F89119"
+			rewards: [
+				{
+					id: "45345613F855F317"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0DC6251BF50410BA"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "1726479BE7C1CB6C"
+				item: { count: 1, id: "scguns:deep_dark_blueprint" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7561F89C95F89119"]
+			id: "4A8BDAAAB1605B81"
+			rewards: [
+				{
+					id: "301C616B8D61AB67"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "559792789A82D148"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "13EDDF0EC74F57B7"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 12 } }, count: 1, id: "scguns:whispers" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7561F89C95F89119"]
+			id: "3BDA0258FD1701DA"
+			rewards: [
+				{
+					id: "69358F1AACBBB452"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6A69D5EE3EEC14F9"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7986AD7AD9938A94"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 4 } }, count: 1, id: "scguns:echoes_2" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7561F89C95F89119"]
+			id: "0431BB6246DF8CF1"
+			rewards: [
+				{
+					id: "51700C7730620A4B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "576B750B1EAD8E9E"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6BDCF5640B71AAA2"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 8 } }, count: 1, id: "scguns:sculk_resonator" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7561F89C95F89119"]
+			id: "64C41D6013F160B1"
+			rewards: [
+				{
+					id: "47A4FA963B4D28A8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "55687208D1DC54E9"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "419F277B5AA4C27B"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 5 } }, count: 1, id: "scguns:forlorn_hope" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7561F89C95F89119"]
+			id: "5C5772E0DD9CA4D9"
+			rewards: [
+				{
+					id: "7AC33CA5A0DD9A15"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3A89E7AE67546FFD"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "33A0BFBE734EED9D"
+				item: { count: 1, id: "scguns:end_blueprint" }
+				type: "item"
+			}]
+			x: 26.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5C5772E0DD9CA4D9"]
+			id: "171B8865F2E892BB"
+			rewards: [
+				{
+					id: "16A7174CEE2D0A3F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "614506BD7CD60392"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "48B7A7B1BF66F7E4"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 15 } }, count: 1, id: "scguns:carapice" }
+				type: "item"
+			}]
+			x: 24.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5C5772E0DD9CA4D9"]
+			id: "509353741F89ABF5"
+			rewards: [
+				{
+					id: "5C5A444D7AE66F4F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7E9F072393089910"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "255171F110F1D2F6"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 14 } }, count: 1, id: "scguns:shellurker" }
+				type: "item"
+			}]
+			x: 25.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5C5772E0DD9CA4D9"]
+			id: "1484E969371557D5"
+			rewards: [
+				{
+					id: "3091CDFEDDE32128"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "06DD54F0ED74AAA0"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "57AEECFF08D6D05F"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 25 } }, count: 1, id: "scguns:weevil" }
+				type: "item"
+			}]
+			x: 26.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5C5772E0DD9CA4D9"]
+			id: "7C1E41A8B2EA09F6"
+			rewards: [
+				{
+					id: "642E75D17C817EB9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "48606B16CCDE542B"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "25970A609840FB36"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 38 } }, count: 1, id: "scguns:dark_matter" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5C5772E0DD9CA4D9"]
+			id: "7DF4925470A78F1B"
+			rewards: [
+				{
+					id: "080563A71F05649A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7D6287743D9C83A7"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "30998A7EEA6385DE"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 23 } }, count: 1, id: "scguns:lone_wonder" }
+				type: "item"
+			}]
+			x: 25.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5C5772E0DD9CA4D9"]
+			id: "24D238D393BBEFFF"
+			rewards: [
+				{
+					id: "4B1848641128F207"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6528ACB3C978A10C"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3874E05DF77DC1DE"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 17 } }, count: 1, id: "scguns:raygun" }
+				type: "item"
+			}]
+			x: 26.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5C5772E0DD9CA4D9"]
+			id: "7390FAFEAD175DA6"
+			rewards: [
+				{
+					id: "38CD4AE053F8BFB5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "527F72C1A6E923AF"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "3A6B0EF313D6462C"
+				item: { count: 1, id: "scguns:scorched_blueprint" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7390FAFEAD175DA6"]
+			id: "5D3B2074080B6CD5"
+			rewards: [
+				{
+					id: "5F9E1B07F862CD76"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5D852BE59E2E0C7C"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5EB8D4C81D62C3A6"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 14 } }, count: 1, id: "scguns:prima_materia" }
+				type: "item"
+			}]
+			x: 29.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7390FAFEAD175DA6"]
+			id: "3B06138876460BEB"
+			rewards: [
+				{
+					id: "30137100B623252A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2F2DBA676A22F721"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3E707833430D89D2"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 20 } }, count: 1, id: "scguns:rat_king_and_queen" }
+				type: "item"
+			}]
+			x: 30.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7390FAFEAD175DA6"]
+			id: "4C0FD3D3E7E6C8FB"
+			rewards: [
+				{
+					id: "1B0F22382F13E10A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "087477EF3CDA86D1"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "74914CFF7167CDA2"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 24 } }, count: 1, id: "scguns:locust" }
+				type: "item"
+			}]
+			x: 31.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7390FAFEAD175DA6"]
+			id: "02B7952915CA087C"
+			rewards: [
+				{
+					id: "5A59B894F64BFF92"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "15DA4B965D9F424E"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6728E1C3656B553C"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 18 } }, count: 1, id: "scguns:sterilizer" }
+				type: "item"
+			}]
+			x: 32.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7390FAFEAD175DA6"]
+			id: "499B19531CFF080E"
+			rewards: [
+				{
+					id: "60251E3D40B2CE69"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "652DC0A5AF1C3FD3"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2014B97F405B6731"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 6 } }, count: 1, id: "scguns:newborn_cyst" }
+				type: "item"
+			}]
+			x: 29.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7390FAFEAD175DA6"]
+			id: "64D8C3A32F206AF0"
+			rewards: [
+				{
+					id: "72D56DA515079A34"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "08FC4EC7DE4533DC"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "375BFE48F55D79E4"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 75 } }, count: 1, id: "scguns:earths_corpse" }
+				type: "item"
+			}]
+			x: 30.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7390FAFEAD175DA6"]
+			id: "5E8B959AFD4439C6"
+			rewards: [
+				{
+					id: "2157BE690651BF32"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1A3D9BF4DDCD2EF2"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7735419D328E2468"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 55 } }, count: 1, id: "scguns:flayed_god" }
+				type: "item"
+			}]
+			x: 31.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7390FAFEAD175DA6"]
+			id: "10A8CA908E5BEB2D"
+			rewards: [
+				{
+					id: "0483E7C7C66D193C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "015D6217150EF378"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6D605CF1009A1EE6"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 8 } }, count: 1, id: "scguns:nervepinch" }
+				type: "item"
+			}]
+			x: 32.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7390FAFEAD175DA6"]
+			id: "0891800778113F73"
+			rewards: [
+				{
+					id: "65A12C8E9FF48BBC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "326FC17C4C9DCAC3"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A7888DA938B0B54"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 8 } }, count: 1, id: "scguns:terra_incognita" }
+				type: "item"
+			}]
+			x: 30.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7390FAFEAD175DA6"]
+			id: "17B0056B0F4E79AF"
+			rewards: [
+				{
+					id: "5E5256D830BB3F5B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1E64B68AC4AC80B7"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "43AC077D02F1CD7E"
+				item: { components: { "minecraft:custom_data": { AmmoCount: 7 } }, count: 1, id: "scguns:astella" }
+				type: "item"
+			}]
+			x: 31.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0D5E30EF72EADA58"]
+			id: "69C2FDE96E32FA76"
+			rewards: [
+				{
+					id: "12EAC9C6D7B20461"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "762BCBFEA2DA6B92"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "073F023601CC95B8"
+				item: { count: 1, id: "scguns:reflex_sight" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0D5E30EF72EADA58"]
+			id: "09D62469C7B63B15"
+			rewards: [
+				{
+					id: "2BDC41A27E134926"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "604C4757664B0718"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "2AC8D9D1E30FFF03"
+				item: { count: 1, id: "scguns:laser_sight" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0D5E30EF72EADA58"]
+			id: "08AEF79BCAA66D55"
+			rewards: [
+				{
+					id: "282568EA0ADA0252"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "4FBF555E3CA6CC77"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "5E265A706C3A31F6"
+				item: { count: 1, id: "scguns:medium_scope" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0D5E30EF72EADA58"]
+			id: "01D236B07C78884D"
+			rewards: [
+				{
+					id: "085E0217449467C7"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "0CD28659AD402555"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "667FB2277EBA1132"
+				item: { count: 1, id: "scguns:long_scope" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0D5E30EF72EADA58"]
+			id: "616377E6DA5D8F59"
+			rewards: [
+				{
+					id: "5E489491080635F1"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "00177EE50A66F5EA"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "018363AE88950F73"
+				item: { count: 1, id: "scguns:light_stock" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0D5E30EF72EADA58"]
+			id: "64A8A222DA14CCB4"
+			rewards: [
+				{
+					id: "2511CC9A271B60E6"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "31B294A4EC201FAF"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "162DDAC9E1CF1080"
+				item: { count: 1, id: "scguns:weighted_stock" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0D5E30EF72EADA58"]
+			id: "0BC8188DCFD6B3B1"
+			rewards: [
+				{
+					id: "743351117E8A4987"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "5B92A4A77E84EB84"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "3AC72FA0604FD939"
+				item: { count: 1, id: "scguns:wooden_stock" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0D5E30EF72EADA58"]
+			id: "6E63A7BB0E30C14D"
+			rewards: [
+				{
+					id: "7FFEF6C7742153C7"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "45A67BAAD4822C98"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "5E4AF455178DF614"
+				item: { count: 1, id: "scguns:bump_stock" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0D5E30EF72EADA58"]
+			id: "554A530E69309F88"
+			rewards: [
+				{
+					id: "54FB204EEA868EFC"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "525F355922B49DF0"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "313F8D541631B5E6"
+				item: { count: 1, id: "scguns:silencer" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0D5E30EF72EADA58"]
+			id: "57ADB72591AFE953"
+			rewards: [
+				{
+					id: "593AEF25972CBD7A"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "69E031BAB216D442"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "198DC1365137EF81"
+				item: { count: 1, id: "scguns:advanced_silencer" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0D5E30EF72EADA58"]
+			id: "3AA0CB6A397AB505"
+			rewards: [
+				{
+					id: "615B6E4767E64CDF"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "65DBD85F0CF4538A"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "2CA2A82B24810A88"
+				item: { count: 1, id: "scguns:extended_barrel" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0D5E30EF72EADA58"]
+			id: "6024D539C8844730"
+			rewards: [
+				{
+					id: "404ED4BC7D6F2C32"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "07DFCD34FFB825B5"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "106630A0ED6BFD28"
+				item: { count: 1, id: "scguns:muzzle_brake" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0D5E30EF72EADA58"]
+			id: "11D06C3995D80729"
+			rewards: [
+				{
+					id: "4D73A4A70798E59D"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "45D939D0000AA908"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "47D9747E1F4A2E11"
+				item: { count: 1, id: "scguns:light_grip" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0D5E30EF72EADA58"]
+			id: "4E7DC3E6C52CF7F1"
+			rewards: [
+				{
+					id: "6B994F873B08EAAE"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "55665FD02EE00F3B"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "07DBF2FA6D15F2D9"
+				item: { count: 1, id: "scguns:vertical_grip" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0D5E30EF72EADA58"]
+			id: "49871A82C6076BB5"
+			rewards: [
+				{
+					id: "34018558A3CC2086"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "442EB392327E692E"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "40BC6C88ED5A2419"
+				item: { count: 1, id: "scguns:iron_bayonet" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0D5E30EF72EADA58"]
+			id: "72961319AEA1E4E5"
+			rewards: [
+				{
+					id: "1B896689FDC45E46"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "7A07EBE0D4BC945A"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "617936B9B5584E15"
+				item: { count: 1, id: "scguns:anthralite_bayonet" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0D5E30EF72EADA58"]
+			id: "554FB73562919278"
+			rewards: [
+				{
+					id: "4065C13B3C80E3EC"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "5BA2DD9560DF904D"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "4699EB81E9E10D5D"
+				item: { count: 1, id: "scguns:diamond_bayonet" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0D5E30EF72EADA58"]
+			id: "1A992D5ABB86FF17"
+			rewards: [
+				{
+					id: "4B6C089686ADE395"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "51F6115D9714700D"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "2B3B18E451446DF6"
+				item: { count: 1, id: "scguns:netherite_bayonet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0D5E30EF72EADA58"]
+			id: "79B73C7D2FDFD1CE"
+			rewards: [
+				{
+					id: "37125BD059CCA2AB"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "0FAEE642F539DB4F"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "575E4E916336E717"
+				item: { count: 1, id: "scguns:extended_mag" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0D5E30EF72EADA58"]
+			id: "03954EF6F4E17B56"
+			rewards: [
+				{
+					id: "222432CB98468292"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "0E09827D87F7AD5C"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "14A82F4A0A27674D"
+				item: { count: 1, id: "scguns:speed_mag" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+	]
+}

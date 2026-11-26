@@ -1,0 +1,22 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "priority": 1100,
+  "targets": [
+    "minecraft:forest",
+    "minecraft:plains",
+    "minecraft:birch_forest",
+    "minecraft:old_growth_birch_forest",
+    "minecraft:dark_forest"
+  ],
+  "replacement": "minecraft:swamp",
+  "parameters": {
+    "weirdness": {
+      "min_inclusive": -0.09,
+      "max_inclusive": 0.09
+    },
+    "nxeterna:wetland/outside_pregen": {
+      "min_inclusive": 160
+    }
+  }
+}

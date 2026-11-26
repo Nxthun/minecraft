@@ -1,0 +1,7 @@
+#The default difficulty selected for newly created worlds.
+#Allowed Values: PEACEFUL, EASY, NORMAL, HARD
+defaultDifficulty = "NORMAL"
+#Resource pack IDs to have enabled by default on the first run.
+defaultResourcePacks = ["vanilla", "fabric", "mod_resources", "moonlight:merged_pack", "mod/eternal_starlight:resourcepacks/starlight_3d_mace", "Mandala's GUI - Dark Mode Compat 0.3.2.zip", "MandalasGUI+Dakmode_1.21.8_v3.1.zip", "Mandalas GUI - Dark Mode KOTS Compat 3.6.zip", "Tuttas Retextures - Runes Edition.zip", "Better_Enderdragon.zip", "EnderEyes_26.2_v3.1.zip", "§eTorches§8-§eReimagined§0_§8[v1.8]§0.zip", "FreshAnimations_v1.10.4.zip", "FA+Player-v1.1.zip", "Better Fitting XP Mana Bar for Iron's Spells 'n Spellbooks.zip"]
+#Set to true if the difficulty for new world's should be locked to the specific default. This cannot be unlocked by players without external tools! Probably a bad idea. I don't recommend. Why am I adding this option?
+lockDifficulty = false

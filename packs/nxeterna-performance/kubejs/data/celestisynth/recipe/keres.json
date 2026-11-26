@@ -1,0 +1,54 @@
+{
+  "type": "betterend:infusion",
+  "catalysts": {
+    "north_east": {
+      "item": {
+        "item": "celestisynth:celestial_netherite_ingot"
+      }
+    },
+    "north_west": {
+      "item": {
+        "item": "celestisynth:celestial_netherite_ingot"
+      }
+    },
+    "south_east": {
+      "item": {
+        "item": "celestisynth:celestial_netherite_ingot"
+      }
+    },
+    "south_west": {
+      "item": {
+        "item": "celestisynth:celestial_netherite_ingot"
+      }
+    },
+    "north": {
+      "item": {
+        "item": "celestisynth:crimson_piece"
+      }
+    },
+    "south": {
+      "item": {
+        "item": "celestisynth:crimson_piece"
+      }
+    },
+    "east": {
+      "item": {
+        "item": "celestisynth:crimson_piece"
+      }
+    },
+    "west": {
+      "item": {
+        "item": "celestisynth:crimson_piece"
+      }
+    }
+  },
+  "input": {
+    "item": {
+      "item": "eternal_starlight:thermal_springstone_sword"
+    }
+  },
+  "result": {
+    "item": "celestisynth:keres"
+  },
+  "time": 200
+}

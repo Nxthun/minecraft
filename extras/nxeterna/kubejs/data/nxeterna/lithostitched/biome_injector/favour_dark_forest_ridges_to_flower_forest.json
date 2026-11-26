@@ -1,0 +1,16 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "targets": [
+    "minecraft:dark_forest"
+  ],
+  "replacement": "minecraft:flower_forest",
+  "parameters": {
+    "humidity": {
+      "max_inclusive": 0.4399
+    },
+    "weirdness": {
+      "min_inclusive": 0
+    }
+  }
+}

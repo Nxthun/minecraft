@@ -1,0 +1,13 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "targets": [
+    "natures_spirit:oak_savanna"
+  ],
+  "replacement": "natures_spirit:marigold_meadows",
+  "parameters": {
+    "temperature": {
+      "max_inclusive": 0.11
+    }
+  }
+}

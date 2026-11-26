@@ -1,0 +1,13 @@
+name = "BjornLib"
+filename = "bjornlib-neoforge-1.0.88-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/b4Z6J92u/versions/Q5cbiCox/bjornlib-neoforge-1.0.88-1.21.1%20%281%29.jar"
+hash-format = "sha512"
+hash = "c0b753eb67eb3410f9963fa6fcad7af478f172c72de297eb78ef80330ff75c947e870b69dbfcf297e3030494fcb8034f82f70b90c1eaf97b7be05981dc371938"
+
+[update]
+[update.modrinth]
+mod-id = "b4Z6J92u"
+version = "Q5cbiCox"

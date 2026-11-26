@@ -1,0 +1,8 @@
+{
+  "type": "farmingforblockheads:market",
+  "category": "marketplace:celestisynth",
+  "preset": "marketplace:celestisynth_armor",
+  "result": {
+    "item": "celestisynth:solar_crystal_helmet"
+  }
+}

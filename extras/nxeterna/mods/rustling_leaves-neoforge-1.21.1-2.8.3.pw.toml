@@ -1,0 +1,13 @@
+name = "rustling_leaves-neoforge-1.21.1-2.8.3.jar"
+filename = "rustling_leaves-neoforge-1.21.1-2.8.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Iawrz1d2/versions/ajAQZ1lk/rustling_leaves-neoforge-1.21.1-2.8.3.jar"
+hash-format = "sha512"
+hash = "5efb8cfd6634cfb07a0c9cd91637193416e4053db82056b681c976263965900cd59342458004380c649aaa64872c289d9d33553102f975bc485b6f1740e75145"
+
+[update]
+[update.modrinth]
+mod-id = "Iawrz1d2"
+version = "ajAQZ1lk"

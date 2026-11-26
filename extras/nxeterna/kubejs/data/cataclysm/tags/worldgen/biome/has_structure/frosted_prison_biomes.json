@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "natures_spirit:tundra",
+      "required": false
+    },
+    {
+      "id": "#nxeterna:alpine_snow",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "targets": [
+    "minecraft:forest"
+  ],
+  "replacement": "natures_spirit:aspen_forest",
+  "parameters": {
+    "temperature": {
+      "min_inclusive": -0.2199,
+      "max_inclusive": -0.11
+    }
+  }
+}

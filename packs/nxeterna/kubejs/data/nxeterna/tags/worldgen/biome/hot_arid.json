@@ -1,0 +1,61 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:badlands",
+    "minecraft:desert",
+    "minecraft:eroded_badlands",
+    "minecraft:wooded_badlands",
+    {
+      "id": "natures_spirit:arid_river",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:arid_savanna",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:blooming_dunes",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:drylands",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:dusty_slopes",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:lively_dunes",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:pink_sandy_river",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:red_peaks",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:red_sandy_river",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:sandy_river",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:scorched_dunes",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:stratified_desert",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:wooded_drylands",
+      "required": false
+    }
+  ]
+}

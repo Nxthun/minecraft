@@ -1,0 +1,23 @@
+{
+  "scguns.jei.info.copper_blueprint": "Found only in Trial Chamber vaults: 10% from a regular Vault, 25% from an Ominous Vault. Used as the final step of Copper weapon assembly and never consumed.",
+  "scguns.jei.info.iron_blueprint": "Found only in Nether Fortress chests (10% per chest). Used as the final step of Iron weapon assembly and never consumed.",
+  "scguns.jei.info.ocean_blueprint": "Found in Sunken City chests (15% per chest) and always dropped by the Leviathan. Used as the final step of Ocean weapon assembly and never consumed.",
+  "scguns.jei.info.wrecker_blueprint": "Found only in Bastion Remnant chests (5% per chest, max 1 per bastion). Used as the final step of Wrecker weapon assembly and never consumed.",
+  "scguns.jei.info.diamond_steel_blueprint": "Dropped only by Maledictus. Used as the final step of Diamond Steel weapon assembly and never consumed.",
+  "scguns.jei.info.treated_brass_blueprint": "Dropped only by Ignis. Used as the final step of Treated Brass weapon assembly and never consumed.",
+  "scguns.jei.info.piglin_blueprint": "Found only in Bastion Remnants (2% chance for the whole bastion, max 1 per bastion). Used as the final step of Piglin weapon assembly and never consumed.",
+  "scguns.jei.info.deep_dark_blueprint": "Found only in Ancient Cities (1% chance for the whole city, max 1 per city). Used as the final step of Deep Dark weapon assembly and never consumed.",
+  "scguns.jei.info.end_blueprint": "Dropped only by the Ender Guardian. Used as the final step of End weapon assembly and never consumed.",
+  "scguns.advancement.copper_blueprint.desc": "Found in a Trial Chamber vault, used for crafting Copper Firearms",
+  "scguns.advancement.iron_blueprint.desc": "Found in a Nether Fortress, used for crafting Iron Firearms",
+  "scguns.advancement.treated_brass_blueprint.desc": "Taken from Ignis, used for crafting Treated Brass Firearms",
+  "scguns.advancement.diamond_steel_blueprint.desc": "Taken from Maledictus, used for crafting Diamond Steel Firearms",
+  "scguns.advancement.piglin_blueprint.desc": "Found deep in a bastion, used for crafting Piglish Firearms",
+  "scguns.advancement.ocean_blueprint.desc": "Recovered from the Sunken City, used for crafting Oceanic Firearms",
+  "scguns.advancement.deep_dark_blueprint.desc": "Found in the depths of an Ancient City, used for crafting Deep Dark Firearms",
+  "scguns.advancement.end_blueprint.desc": "Taken from the Ender Guardian, used for crafting End Firearms",
+  "scguns.advancement.scorched_blueprint.desc": "Created by combining all the blueprints and a Nether Star, used for crafting Scorched Firearms",
+  "kubejs.jei.info.antique_blueprint": "Found only in village chests (5% per chest, max 1 per village). Used as the final step of Antique weapon assembly and never consumed.",
+  "kubejs.jei.info.frontier_blueprint": "Found only in Pillager Outposts (7% chance for the whole outpost). Used as the final step of Frontier weapon assembly and never consumed.",
+  "kubejs.jei.info.scorched_blueprint": "Made in a Create Mechanical Crafter from all 11 other blueprints and a Nether Star. Used as the final step of Scorched weapon assembly and never consumed."
+}

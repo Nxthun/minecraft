@@ -1,0 +1,8 @@
+{
+  "type": "farmingforblockheads:market",
+  "category": "marketplace:hooks",
+  "preset": "marketplace:hooks_netherite",
+  "result": {
+    "item": "yo_hooks:netherite_grappling_hook"
+  }
+}

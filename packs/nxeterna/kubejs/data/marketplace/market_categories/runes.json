@@ -1,0 +1,9 @@
+{
+  "tooltip": {
+    "text": "Runes"
+  },
+  "icon": {
+    "id": "runes:fire_stone"
+  },
+  "sortIndex": 110
+}

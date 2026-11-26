@@ -1,0 +1,54 @@
+{
+  "type": "betterend:infusion",
+  "catalysts": {
+    "north_east": {
+      "item": {
+        "item": "celestisynth:celestial_netherite_ingot"
+      }
+    },
+    "north_west": {
+      "item": {
+        "item": "celestisynth:celestial_netherite_ingot"
+      }
+    },
+    "south_east": {
+      "item": {
+        "item": "celestisynth:celestial_netherite_ingot"
+      }
+    },
+    "south_west": {
+      "item": {
+        "item": "celestisynth:celestial_netherite_ingot"
+      }
+    },
+    "north": {
+      "item": {
+        "item": "celestisynth:eyebomination"
+      }
+    },
+    "south": {
+      "item": {
+        "item": "celestisynth:eyebomination"
+      }
+    },
+    "east": {
+      "item": {
+        "item": "celestisynth:eyebomination"
+      }
+    },
+    "west": {
+      "item": {
+        "item": "celestisynth:eyebomination"
+      }
+    }
+  },
+  "input": {
+    "item": {
+      "item": "advancednetherite:netherite_emerald_axe"
+    }
+  },
+  "result": {
+    "item": "celestisynth:poltergeist"
+  },
+  "time": 200
+}

@@ -1,0 +1,14 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "targets": [
+    "natures_spirit:arid_river",
+    "natures_spirit:pink_sandy_river"
+  ],
+  "replacement": "natures_spirit:lush_river",
+  "parameters": {
+    "temperature": {
+      "max_inclusive": 0.55
+    }
+  }
+}

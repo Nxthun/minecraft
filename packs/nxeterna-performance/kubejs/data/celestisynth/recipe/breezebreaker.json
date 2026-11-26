@@ -1,0 +1,54 @@
+{
+  "type": "betterend:infusion",
+  "catalysts": {
+    "north_east": {
+      "item": {
+        "item": "celestisynth:celestial_netherite_ingot"
+      }
+    },
+    "north_west": {
+      "item": {
+        "item": "celestisynth:celestial_netherite_ingot"
+      }
+    },
+    "south_east": {
+      "item": {
+        "item": "celestisynth:celestial_netherite_ingot"
+      }
+    },
+    "south_west": {
+      "item": {
+        "item": "celestisynth:celestial_netherite_ingot"
+      }
+    },
+    "north": {
+      "item": {
+        "item": "celestisynth:starstruck_feather"
+      }
+    },
+    "south": {
+      "item": {
+        "item": "celestisynth:starstruck_feather"
+      }
+    },
+    "east": {
+      "item": {
+        "item": "celestisynth:starstruck_feather"
+      }
+    },
+    "west": {
+      "item": {
+        "item": "celestisynth:starstruck_feather"
+      }
+    }
+  },
+  "input": {
+    "item": {
+      "item": "advancednetherite:netherite_iron_sword"
+    }
+  },
+  "result": {
+    "item": "celestisynth:breezebreaker"
+  },
+  "time": 200
+}

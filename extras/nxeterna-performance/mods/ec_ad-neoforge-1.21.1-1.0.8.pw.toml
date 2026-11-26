@@ -1,0 +1,13 @@
+name = "ec_ad-neoforge-1.21.1-1.0.8.jar"
+filename = "ec_ad-neoforge-1.21.1-1.0.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/RQU6eQq9/versions/OhFiFZWb/ec_ad-neoforge-1.21.1-1.0.8.jar"
+hash-format = "sha512"
+hash = "a510b65bbb4343afc8afd7dc0e0bb7c468fabe51e258159dd1fa5ac32b4e7131ec482e99a3384131630b0eee34ab0a18ee3d6335d0013594666bec1ac63e4fcb"
+
+[update]
+[update.modrinth]
+mod-id = "RQU6eQq9"
+version = "OhFiFZWb"

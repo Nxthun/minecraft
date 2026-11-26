@@ -1,0 +1,16 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "targets": [
+    "minecraft:plains"
+  ],
+  "replacement": "natures_spirit:heather_fields",
+  "parameters": {
+    "temperature": {
+      "max_inclusive": -0.27
+    },
+    "weirdness": {
+      "max_inclusive": -0.0001
+    }
+  }
+}

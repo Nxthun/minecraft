@@ -1,0 +1,532 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nx_dragons"
+	group: "6BAF16D8C4F76AA3"
+	icon: {
+		id: "iceandfire:dragon_horn"
+	}
+	id: "045B2D70AFF16DCE"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "59FDF95920BE5EBE"
+			rewards: [
+				{
+					id: "4A5A67B5AABB99B6"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "177E720B5F653C02"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "090CD6C3497B68DA"
+				item: { count: 1, id: "iceandfire:bestiary" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "445E5264980A25E4"
+			rewards: [
+				{
+					id: "3E88F6745542A5F6"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "3E64E763CAB8FEBC"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "16C7D43532D9E5CB"
+				item: { count: 1, id: "alexsmobs:animal_dictionary" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["59FDF95920BE5EBE"]
+			icon: {
+				id: "iceandfire:dragonegg_electric"
+			}
+			id: "4EB34135DA6EB240"
+			rewards: [
+				{
+					count: 2
+					id: "438F3270226E0A3A"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3896E93565936988"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "7CE78CF53795D51B"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				structure: "iceandfire:lightning_dragon_roost"
+				icon: {
+					id: "iceandfire:dragonegg_electric"
+				}
+				id: "5224798B06D952A6"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4EB34135DA6EB240"]
+			id: "5EB07DC9EAFE8B49"
+			rewards: [
+				{
+					id: "604A4572799843AD"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "0C0653D3F8BA238D"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				count: 8L
+				icon: {
+					id: "iceandfire:dragonscales_electric"
+				}
+				id: "2699AD4893AEEF33"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(iceandfire:scales/dragon)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5EB07DC9EAFE8B49"]
+			id: "1F8AC1F8A239103C"
+			rewards: [
+				{
+					count: 3
+					id: "61CA4BEFA0DB9FCA"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "43F796EDDD8AAA3E"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "224BA792884D907B"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					count: 8L
+					id: "7CBBC95FF3855371"
+					item: { count: 1, id: "iceandfire:dragonforge_lightning_brick" }
+					type: "item"
+				}
+				{
+					id: "1B4143903B1DEC66"
+					item: { count: 1, id: "iceandfire:dragonforge_lightning_core_disabled" }
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1F8AC1F8A239103C"]
+			id: "00B7B5D412F798FA"
+			rewards: [
+				{
+					count: 3
+					id: "275DAD0E3F88441D"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "64454AA1E2E27A06"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5A313FEAD4CC3FCB"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				count: 4L
+				id: "64D45BA76DB0291B"
+				item: { count: 1, id: "iceandfire:dragonsteel_lightning_ingot" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["00B7B5D412F798FA"]
+			id: "4FD61FB9B2FC402F"
+			rewards: [
+				{
+					id: "5264910AD53220C8"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "5DF1F2757B0AFE56"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "2837E733FEF93271"
+				item: { count: 1, id: "iceandfire:dragonsteel_lightning_sword" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4EB34135DA6EB240"]
+			icon: {
+				id: "iceandfire:lightning_dragon_heart"
+			}
+			id: "62448E18C184B7E5"
+			rewards: [
+				{
+					id: "4E26A2CD6E76EC4B"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3B789B6FAAB18906"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "031B3C2DE7392C95"
+					item: { count: 1, id: "nxeterna_packs:pack_epic" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "iceandfire:lightning_dragon"
+				icon: {
+					id: "iceandfire:lightning_dragon_heart"
+				}
+				id: "0D3F10395FA88782"
+				type: "kill"
+				value: 1L
+			}]
+			x: 13.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["59FDF95920BE5EBE"]
+			id: "25E9429435F9471E"
+			rewards: [
+				{
+					id: "0358ACCCFA702588"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "187D6E175295C8CB"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				count: 8L
+				id: "02FDBC54C8B9DB7B"
+				item: { count: 1, id: "iceandfire:silver_ingot" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["445E5264980A25E4"]
+			icon: {
+				id: "iceandfire:hippogryph_egg"
+			}
+			id: "1D83907BB07D48FB"
+			rewards: [
+				{
+					count: 2
+					id: "44F452D5C32816E5"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "556DB07412B46E86"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "535607771937C6FA"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "iceandfire:iceandfire/tame_hippogryph"
+				criterion: ""
+				icon: {
+					id: "iceandfire:hippogryph_egg"
+				}
+				id: "3237697BFE5EA4B6"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1D83907BB07D48FB"]
+			icon: {
+				id: "iceandfire:pixie_dust"
+			}
+			id: "4DA48A109EDFB4D1"
+			optional: true
+			rewards: [
+				{
+					id: "663CD1374241BF7A"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "6464EA006D203F6F"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				advancement: "iceandfire:iceandfire/tame_pixie"
+				criterion: ""
+				icon: {
+					id: "iceandfire:pixie_dust"
+				}
+				id: "37B8785D4B3CB36F"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["445E5264980A25E4"]
+			id: "71DB8C06D697788A"
+			rewards: [
+				{
+					id: "7274BFEEFD338C5B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "18198E05EA3AD4EF"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "18B549895EE97787"
+				item: { count: 1, id: "alexsmobs:falconry_glove" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["59FDF95920BE5EBE"]
+			id: "39072D254346ABE7"
+			rewards: [
+				{
+					id: "2D99B7F2FBD7EA9F"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "670ACB88D1678A95"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5DB8904252F646AF"
+					item: { count: 1, id: "nxeterna_packs:pack_epic" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					structure: "mowziesmobs:wrought_chamber"
+					icon: {
+						id: "mowziesmobs:wrought_axe"
+					}
+					id: "603A6E07118CA7CC"
+					type: "structure"
+				}
+				{
+					entity: "mowziesmobs:ferrous_wroughtnaut"
+					icon: {
+						id: "mowziesmobs:wrought_helmet"
+					}
+					id: "55B9B80DE512434D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 9.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["59FDF95920BE5EBE"]
+			id: "78BD4B0FEB579457"
+			rewards: [
+				{
+					id: "329C4753DEFFA842"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6C2BB3F4AA58A6B5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1E5C2E4A4B9C7FA9"
+					item: { count: 1, id: "nxeterna_packs:pack_epic" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					structure: "mowziesmobs:umvuthana_grove"
+					icon: {
+						id: "mowziesmobs:sol_visage"
+					}
+					id: "2D5CCB6D15CF6C38"
+					type: "structure"
+				}
+				{
+					entity: "mowziesmobs:umvuthi"
+					icon: {
+						id: "mowziesmobs:sol_visage"
+					}
+					id: "6C0D937A1651BF58"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 13.5d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"4EB34135DA6EB240"
+				"78759288308A73D4"
+			]
+			id: "44114FC69085A392"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "5358ED69930A1AD2"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "44A8628D944AF877"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "7FF18877F68E3623"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				count: 2L
+				id: "326DC76B33C43109"
+				item: { count: 1, id: "farm_and_charm:roasted_chicken" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -6.5d
+		}
+	]
+}

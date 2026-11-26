@@ -1,0 +1,9 @@
+{
+  "tooltip": {
+    "text": "Clockwork"
+  },
+  "icon": {
+    "id": "clockwork:clockwork_gear"
+  },
+  "sortIndex": 130
+}

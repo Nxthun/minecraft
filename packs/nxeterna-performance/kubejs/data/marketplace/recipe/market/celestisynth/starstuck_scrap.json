@@ -1,0 +1,8 @@
+{
+  "type": "farmingforblockheads:market",
+  "category": "marketplace:celestisynth",
+  "preset": "marketplace:celestisynth_materials",
+  "result": {
+    "item": "celestisynth:starstuck_scrap"
+  }
+}

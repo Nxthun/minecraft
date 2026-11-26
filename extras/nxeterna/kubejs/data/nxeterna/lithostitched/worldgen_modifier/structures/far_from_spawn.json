@@ -1,0 +1,10 @@
+{
+  "type": "lithostitched:set_structure_spawn_condition",
+  "structures": "#nxeterna:far_from_spawn",
+  "spawn_condition": {
+    "type": "lithostitched:sample_density",
+    "density_function": "nxeterna:spawn/distance_squared",
+    "min_inclusive": 355216.0
+  },
+  "append": true
+}

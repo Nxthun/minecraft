@@ -1,0 +1,13 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "targets": [
+    "minecraft:dark_forest"
+  ],
+  "replacement": "natures_spirit:redwood_forest",
+  "parameters": {
+    "humidity": {
+      "min_inclusive": 0.44
+    }
+  }
+}

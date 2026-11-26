@@ -1,0 +1,13 @@
+name = "NxEterna"
+author = "Nxthun"
+version = "0.1.0-4243944"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "4243944b4f1004c9c0974bd3b9e7a83b44225a64e1c75264c3226fa7ceafbcbe"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.266"

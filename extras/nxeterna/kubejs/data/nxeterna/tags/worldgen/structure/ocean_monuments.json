@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "betteroceanmonuments:ocean_monument",
+      "required": false
+    },
+    {
+      "id": "nova_structures:trident_trial_monument",
+      "required": false
+    }
+  ]
+}

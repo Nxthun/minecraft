@@ -1,0 +1,16 @@
+#Clapping audio volume; also controlled by Friendly Creatures and Master sliders.
+# Default: 0.65
+# Range: 0.0 ~ 1.0
+songVolume = 0.65
+#Billboard height in blocks. Kittens render at half size.
+# Default: 1.1
+# Range: 0.25 ~ 3.0
+animationHeight = 1.1
+#Blend the cat's actual resource-pack texture into the fur. All-black cats always bypass it.
+# Default: 0.95
+# Range: 0.0 ~ 1.0
+coatBlend = 0.95
+#Maximum nearest audible cats, to keep large cat colonies manageable.
+# Default: 16
+# Range: 1 ~ 64
+maxSingingCats = 16

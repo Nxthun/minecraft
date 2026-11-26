@@ -1,0 +1,13 @@
+name = "SG-Economy API"
+filename = "sg_economy-1.0.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/pZEK2gvF/versions/bIqJ4iCW/sg_economy-1.0.4.jar"
+hash-format = "sha512"
+hash = "a16b846438549953f5f541b569f1c7a75458d42a36e6a7de685eb885fcefe22555d47252e7eaa3086034c8502b3b4983a348d433c140599cdfe5fe06b1b404a8"
+
+[update]
+[update.modrinth]
+mod-id = "pZEK2gvF"
+version = "bIqJ4iCW"

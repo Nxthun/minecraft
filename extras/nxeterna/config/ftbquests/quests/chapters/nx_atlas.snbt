@@ -1,0 +1,1948 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nx_atlas"
+	group: "6BAF16D8C4F76AA3"
+	icon: {
+		id: "naturescompass:naturescompass"
+	}
+	id: "7267780A7C4E0E9C"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7DB79FB152222C3D"]
+			icon: {
+				id: "naturescompass:naturescompass"
+			}
+			id: "3B69EB73F83FCE29"
+			rewards: [
+				{
+					id: "6B24265E583D9B8E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6F5B8FD87D3EC3FF"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "272061CC7C65C38E"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B69EB73F83FCE29"]
+			icon: {
+				id: "natures_spirit:lavender"
+			}
+			id: "27BB7A5284832DCD"
+			rewards: [
+				{
+					count: 8
+					id: "21DAEB5C95E213CF"
+					item: {
+						count: 1
+						id: "natures_spirit:lavender"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4CBE6E163FD1379E"
+					item: {
+						count: 1
+						id: "natures_spirit:cypress_sapling"
+					}
+					type: "item"
+				}
+				{
+					command: "/nx_journal give {p} 4"
+					elevate_perms: true
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "615DFD5590D908C4"
+					silent: true
+					type: "command"
+				}
+				{
+					id: "79DD76D3D6E0143A"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "4EEE922DC9D5837B"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				biome: "natures_spirit:lavender_fields"
+				icon: {
+					id: "natures_spirit:lavender"
+				}
+				id: "281390FB5938EF64"
+				type: "biome"
+			}]
+			x: 1.4d
+			y: -8.9d
+		}
+		{
+			dependencies: ["3B69EB73F83FCE29"]
+			icon: {
+				id: "natures_spirit:purple_heather"
+			}
+			id: "5E89FA09A8B8DFFC"
+			rewards: [
+				{
+					count: 4
+					id: "54C1FC0D57268D5E"
+					item: {
+						count: 1
+						id: "natures_spirit:purple_heather"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "74BB98E28659D8E2"
+					item: {
+						count: 1
+						id: "natures_spirit:white_heather"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "56B5040E56202CCB"
+					item: {
+						count: 1
+						id: "natures_spirit:larch_sapling"
+					}
+					type: "item"
+				}
+				{
+					command: "/nx_journal give {p} 15"
+					elevate_perms: true
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "7A080EEFC0B54DD6"
+					silent: true
+					type: "command"
+				}
+				{
+					id: "4DDAE8A5DE7F59E3"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "6EF3B0D5A04EBE30"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				biome: "natures_spirit:heather_fields"
+				icon: {
+					id: "natures_spirit:purple_heather"
+				}
+				id: "03D3A201CD9146C9"
+				type: "biome"
+			}]
+			x: 4.1d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3B69EB73F83FCE29"]
+			icon: {
+				id: "natures_spirit:carnation"
+			}
+			id: "6BCD1D4E1CC38964"
+			rewards: [
+				{
+					count: 8
+					id: "373EBC12A582404F"
+					item: {
+						count: 1
+						id: "natures_spirit:carnation"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "01ABB28727B68811"
+					item: {
+						count: 1
+						id: "natures_spirit:kaolin"
+					}
+					type: "item"
+				}
+				{
+					command: "/nx_journal give {p} 5"
+					elevate_perms: true
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "08FDBD66F6A2A359"
+					silent: true
+					type: "command"
+				}
+				{
+					id: "2FBDD507B716F947"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "2DCBD7D940E351E6"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				biome: "natures_spirit:carnation_fields"
+				icon: {
+					id: "natures_spirit:carnation"
+				}
+				id: "2337EB7D914389B4"
+				type: "biome"
+			}]
+			x: 6.4d
+			y: -6.4d
+		}
+		{
+			dependencies: ["3B69EB73F83FCE29"]
+			icon: {
+				id: "natures_spirit:cypress_sapling"
+			}
+			id: "2BB61CB44F099486"
+			rewards: [
+				{
+					count: 4
+					id: "28FF797447EBEAAF"
+					item: {
+						count: 1
+						id: "natures_spirit:cypress_sapling"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "47F5CCA1D5F50E10"
+					item: {
+						count: 1
+						id: "natures_spirit:olive_sapling"
+					}
+					type: "item"
+				}
+				{
+					command: "/nx_journal give {p} 6"
+					elevate_perms: true
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "6C567F3375CD0528"
+					silent: true
+					type: "command"
+				}
+				{
+					id: "60A8D6BF789E9235"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "0F171BF779A8570E"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				biome: "natures_spirit:cypress_fields"
+				icon: {
+					id: "natures_spirit:cypress_sapling"
+				}
+				id: "3ACB862108EB02B9"
+				type: "biome"
+			}]
+			x: 8.0d
+			y: -4.1d
+		}
+		{
+			dependencies: ["3B69EB73F83FCE29"]
+			icon: {
+				id: "natures_spirit:marigold"
+			}
+			id: "3AE99B4358065390"
+			rewards: [
+				{
+					count: 8
+					id: "37B71AFF1681FEF2"
+					item: {
+						count: 1
+						id: "natures_spirit:marigold"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1A9D93674ACA1D98"
+					item: {
+						count: 1
+						id: "minecraft:pumpkin_pie"
+					}
+					type: "item"
+				}
+				{
+					command: "/nx_journal give {p} 14"
+					elevate_perms: true
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "0846738C85D0F4E1"
+					silent: true
+					type: "command"
+				}
+				{
+					id: "0255271EE4FEE845"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "06F095D14D68CF7B"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				biome: "natures_spirit:marigold_meadows"
+				icon: {
+					id: "natures_spirit:marigold"
+				}
+				id: "511032ADC15D859B"
+				type: "biome"
+			}]
+			x: 8.9d
+			y: -1.4d
+		}
+		{
+			dependencies: ["3B69EB73F83FCE29"]
+			icon: {
+				id: "natures_spirit:tiger_lily"
+			}
+			id: "75B005DBD2D180FF"
+			rewards: [
+				{
+					count: 6
+					id: "472DFAE88EF1ECFD"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "209D74F6F93BE7EF"
+					item: {
+						count: 1
+						id: "natures_spirit:tiger_lily"
+					}
+					type: "item"
+				}
+				{
+					command: "/nx_journal give {p} 13"
+					elevate_perms: true
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "22F885C62940E6BF"
+					silent: true
+					type: "command"
+				}
+				{
+					id: "1AB04EEAE7AF686B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "1DDADECBAF00A7CE"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				biome: "natures_spirit:golden_wilds"
+				icon: {
+					id: "natures_spirit:tiger_lily"
+				}
+				id: "518663A84454A0C8"
+				type: "biome"
+			}]
+			x: 8.9d
+			y: 1.4d
+		}
+		{
+			dependencies: ["3B69EB73F83FCE29"]
+			icon: {
+				id: "natures_spirit:red_maple_sapling"
+			}
+			id: "2B2439E6E4A90A5E"
+			rewards: [
+				{
+					count: 2
+					id: "2CD7FEAB8EAF5CBE"
+					item: {
+						count: 1
+						id: "natures_spirit:red_maple_sapling"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "49F38FEE4B5E9FC8"
+					item: {
+						count: 1
+						id: "natures_spirit:orange_maple_sapling"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "126F270FD690DE35"
+					item: {
+						count: 1
+						id: "natures_spirit:yellow_maple_sapling"
+					}
+					type: "item"
+				}
+				{
+					command: "/nx_journal give {p} 12"
+					elevate_perms: true
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "5CFD9F31682CD757"
+					silent: true
+					type: "command"
+				}
+				{
+					id: "61F4CA063A8A96EE"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "5086B56907DF711F"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				biome: "natures_spirit:maple_woodlands"
+				icon: {
+					id: "natures_spirit:red_maple_sapling"
+				}
+				id: "54CC29F68B00FA27"
+				type: "biome"
+			}]
+			x: 8.0d
+			y: 4.1d
+		}
+		{
+			dependencies: ["3B69EB73F83FCE29"]
+			icon: {
+				id: "natures_spirit:aspen_sapling"
+			}
+			id: "622BBA77E07C01E3"
+			rewards: [
+				{
+					count: 4
+					id: "7DDC6C4578924531"
+					item: {
+						count: 1
+						id: "natures_spirit:aspen_sapling"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0DB16F0D7FE5B2FD"
+					item: {
+						count: 1
+						id: "minecraft:pumpkin"
+					}
+					type: "item"
+				}
+				{
+					command: "/nx_journal give {p} 11"
+					elevate_perms: true
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "4E970FE32A14077F"
+					silent: true
+					type: "command"
+				}
+				{
+					id: "0D7249E0D53014F9"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "120EA0F33A9E6F30"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				biome: "natures_spirit:aspen_forest"
+				icon: {
+					id: "natures_spirit:aspen_sapling"
+				}
+				id: "06AB21D1437580E5"
+				type: "biome"
+			}]
+			x: 6.4d
+			y: 6.4d
+		}
+		{
+			dependencies: ["3B69EB73F83FCE29"]
+			icon: {
+				id: "natures_spirit:redwood_sapling"
+			}
+			id: "3CC4A106622C459D"
+			rewards: [
+				{
+					count: 4
+					id: "5DD801253ADB4D7E"
+					item: {
+						count: 1
+						id: "natures_spirit:redwood_sapling"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "302C201067767536"
+					item: {
+						count: 1
+						id: "natures_spirit:bluebell"
+					}
+					type: "item"
+				}
+				{
+					command: "/nx_journal give {p} 16"
+					elevate_perms: true
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "2342F678BE6B4166"
+					silent: true
+					type: "command"
+				}
+				{
+					id: "7F265FF93945A409"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "17B071E619DEF9C6"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				biome: "natures_spirit:redwood_forest"
+				icon: {
+					id: "natures_spirit:redwood_sapling"
+				}
+				id: "453C29BC7D262AFE"
+				type: "biome"
+			}]
+			x: 4.1d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3B69EB73F83FCE29"]
+			icon: {
+				id: "natures_spirit:purple_wisteria_sapling"
+			}
+			id: "7E78230F47753495"
+			optional: true
+			rewards: [
+				{
+					id: "036D93070E0D2B52"
+					item: {
+						count: 1
+						id: "natures_spirit:white_wisteria_sapling"
+					}
+					type: "item"
+				}
+				{
+					id: "75853DE499050D43"
+					item: {
+						count: 1
+						id: "natures_spirit:blue_wisteria_sapling"
+					}
+					type: "item"
+				}
+				{
+					id: "4CD9872EF2D3F183"
+					item: {
+						count: 1
+						id: "natures_spirit:purple_wisteria_sapling"
+					}
+					type: "item"
+				}
+				{
+					id: "4876482CD9C8D6EA"
+					item: {
+						count: 1
+						id: "natures_spirit:pink_wisteria_sapling"
+					}
+					type: "item"
+				}
+				{
+					command: "/nx_journal give {p} 7"
+					elevate_perms: true
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "107BF4E32AB3FE7F"
+					silent: true
+					type: "command"
+				}
+				{
+					id: "485E22FDE09226A6"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "4116AB1BD0B14E1E"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				biome: "natures_spirit:wisteria_forest"
+				icon: {
+					id: "natures_spirit:purple_wisteria_sapling"
+				}
+				id: "1E092156D7E3C489"
+				type: "biome"
+			}]
+			x: 1.4d
+			y: 8.9d
+		}
+		{
+			dependencies: ["3B69EB73F83FCE29"]
+			icon: {
+				id: "ars_nouveau:blue_archwood_sapling"
+			}
+			id: "67D26300397B7EA3"
+			rewards: [
+				{
+					id: "62BD6D4CA1825478"
+					item: {
+						count: 1
+						id: "ars_nouveau:red_archwood_sapling"
+					}
+					type: "item"
+				}
+				{
+					id: "2E7262DB5EE29250"
+					item: {
+						count: 1
+						id: "ars_nouveau:blue_archwood_sapling"
+					}
+					type: "item"
+				}
+				{
+					id: "1A74E39B3DC1311D"
+					item: {
+						count: 1
+						id: "ars_nouveau:green_archwood_sapling"
+					}
+					type: "item"
+				}
+				{
+					id: "5538CC39CBE0177C"
+					item: {
+						count: 1
+						id: "ars_nouveau:purple_archwood_sapling"
+					}
+					type: "item"
+				}
+				{
+					command: "/nx_journal give {p} 17"
+					elevate_perms: true
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "5E8D37276224B4ED"
+					silent: true
+					type: "command"
+				}
+				{
+					id: "452BFEDEF5A93D6A"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "0361F2A274E8044A"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				biome: "ars_nouveau:archwood_forest"
+				icon: {
+					id: "ars_nouveau:blue_archwood_sapling"
+				}
+				id: "525E761DADB4C525"
+				type: "biome"
+			}]
+			x: -1.4d
+			y: 8.9d
+		}
+		{
+			dependencies: ["3B69EB73F83FCE29"]
+			icon: {
+				id: "minecraft:lily_of_the_valley"
+			}
+			id: "211B8FA323A8D0EE"
+			rewards: [
+				{
+					count: 16
+					id: "06681D3842D20F3D"
+					item: {
+						count: 1
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+				{
+					command: "/nx_journal give {p} 2"
+					elevate_perms: true
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "5408372F6777DE65"
+					silent: true
+					type: "command"
+				}
+				{
+					id: "54F302B26B653978"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "18CE3385EFCDE4EC"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				biome: "minecraft:flower_forest"
+				icon: {
+					id: "minecraft:lily_of_the_valley"
+				}
+				id: "410233FB1F192848"
+				type: "biome"
+			}]
+			x: -4.1d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3B69EB73F83FCE29"]
+			icon: {
+				id: "minecraft:cornflower"
+			}
+			id: "156D046997798893"
+			rewards: [
+				{
+					id: "652326050FC64F15"
+					item: {
+						count: 1
+						id: "minecraft:campfire"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7D3462E96E3D3096"
+					item: {
+						count: 1
+						id: "minecraft:honey_bottle"
+					}
+					type: "item"
+				}
+				{
+					command: "/nx_journal give {p} 1"
+					elevate_perms: true
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "7F123921AC77FB98"
+					silent: true
+					type: "command"
+				}
+				{
+					id: "3C8578553AB73B96"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "74D2B9A609C52D38"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				biome: "minecraft:meadow"
+				icon: {
+					id: "minecraft:cornflower"
+				}
+				id: "39D719ACADD99D32"
+				type: "biome"
+			}]
+			x: -6.4d
+			y: 6.4d
+		}
+		{
+			dependencies: ["3B69EB73F83FCE29"]
+			icon: {
+				id: "minecraft:cherry_sapling"
+			}
+			id: "4261780C6BE503A1"
+			rewards: [
+				{
+					count: 2
+					id: "212745E59E2576B2"
+					item: {
+						count: 1
+						id: "minecraft:cherry_sapling"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3F8CE4F68C5F1497"
+					item: {
+						count: 1
+						id: "minecraft:pink_petals"
+					}
+					type: "item"
+				}
+				{
+					command: "/nx_journal give {p} 3"
+					elevate_perms: true
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "48284FA353C169D0"
+					silent: true
+					type: "command"
+				}
+				{
+					id: "220EFE1C4EEE3BFD"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "5050AFF7490D5711"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				biome: "minecraft:cherry_grove"
+				icon: {
+					id: "minecraft:cherry_sapling"
+				}
+				id: "4BD8CCB259A4D07F"
+				type: "biome"
+			}]
+			x: -8.0d
+			y: 4.1d
+		}
+		{
+			dependencies: ["3B69EB73F83FCE29"]
+			icon: {
+				id: "minecraft:pink_petals"
+			}
+			id: "013FF9C27EE33FDD"
+			rewards: [
+				{
+					count: 2
+					id: "6BF093CCB286D46B"
+					item: {
+						count: 1
+						id: "natures_spirit:sugi_sapling"
+					}
+					type: "item"
+				}
+				{
+					id: "1A93A7063F9D247B"
+					item: {
+						count: 1
+						id: "minecraft:cherry_sapling"
+					}
+					type: "item"
+				}
+				{
+					command: "/nx_journal give {p} 9"
+					elevate_perms: true
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "3C5F2C903F04313C"
+					silent: true
+					type: "command"
+				}
+				{
+					id: "6C52F9FEB3527032"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "78EE3D5CECFD4B7A"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				biome: "natures_spirit:blooming_sugi_forest"
+				icon: {
+					id: "minecraft:pink_petals"
+				}
+				id: "18B0B3FF213629F3"
+				type: "biome"
+			}]
+			x: -8.9d
+			y: 1.4d
+		}
+		{
+			dependencies: ["3B69EB73F83FCE29"]
+			icon: {
+				id: "natures_spirit:sugi_sapling"
+			}
+			id: "25F5116E7EABF5A7"
+			rewards: [
+				{
+					count: 2
+					id: "48F54617760EB6A6"
+					item: {
+						count: 1
+						id: "natures_spirit:sugi_sapling"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "68E4D0CEAAECBEAE"
+					item: {
+						count: 1
+						id: "natures_spirit:sugi_planks"
+					}
+					type: "item"
+				}
+				{
+					command: "/nx_journal give {p} 8"
+					elevate_perms: true
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "7F06D1481D3233DE"
+					silent: true
+					type: "command"
+				}
+				{
+					id: "63CC623845C6C3E5"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "27902A4A126F1BC8"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				biome: "natures_spirit:sugi_forest"
+				icon: {
+					id: "natures_spirit:sugi_sapling"
+				}
+				id: "373225E36B899FF5"
+				type: "biome"
+			}]
+			x: -8.9d
+			y: -1.4d
+		}
+		{
+			dependencies: ["3B69EB73F83FCE29"]
+			icon: {
+				id: "natures_spirit:white_chalk"
+			}
+			id: "007F762D4F36187C"
+			rewards: [
+				{
+					count: 16
+					id: "6CD8A623AC3B9892"
+					item: {
+						count: 1
+						id: "natures_spirit:white_chalk"
+					}
+					type: "item"
+				}
+				{
+					command: "/nx_journal give {p} 10"
+					elevate_perms: true
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "48A9A39B17B717EE"
+					silent: true
+					type: "command"
+				}
+				{
+					id: "22C4ED0A72164F76"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "12FBE6B7C0659CF4"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				biome: "natures_spirit:white_cliffs"
+				icon: {
+					id: "natures_spirit:white_chalk"
+				}
+				id: "454882CCAF52B75D"
+				type: "biome"
+			}]
+			x: -8.0d
+			y: -4.1d
+		}
+		{
+			dependencies: ["3B69EB73F83FCE29"]
+			icon: {
+				id: "minecraft:goat_horn"
+			}
+			id: "4BC673CF4589539C"
+			rewards: [
+				{
+					count: 6
+					id: "0659D1F6BC042A39"
+					item: {
+						count: 1
+						id: "minecraft:cooked_mutton"
+					}
+					type: "item"
+				}
+				{
+					command: "/nx_journal give {p} 20"
+					elevate_perms: true
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "4343B172C1B23CEB"
+					silent: true
+					type: "command"
+				}
+				{
+					id: "21B6FF54B24B526E"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "15896F1261F91E54"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				biome: "#c:is_mountain/peak"
+				icon: {
+					id: "minecraft:goat_horn"
+				}
+				id: "2208B0727E81A22E"
+				type: "biome"
+			}]
+			x: -6.4d
+			y: -6.4d
+		}
+		{
+			dependencies: ["3B69EB73F83FCE29"]
+			icon: {
+				id: "minecraft:terracotta"
+			}
+			id: "731F84D45593633A"
+			rewards: [
+				{
+					count: 16
+					id: "488B5D4778E17190"
+					item: {
+						count: 1
+						id: "minecraft:terracotta"
+					}
+					type: "item"
+				}
+				{
+					command: "/nx_journal give {p} 19"
+					elevate_perms: true
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "7954BB1CC9D70444"
+					silent: true
+					type: "command"
+				}
+				{
+					id: "46E97015AC806040"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "313EB38ED95F157C"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				biome: "#minecraft:is_badlands"
+				icon: {
+					id: "minecraft:terracotta"
+				}
+				id: "122264F445B447D4"
+				type: "biome"
+			}]
+			x: -4.1d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3B69EB73F83FCE29"]
+			icon: {
+				id: "natures_spirit:joshua_sapling"
+			}
+			id: "3CA0B94381A2041E"
+			rewards: [
+				{
+					count: 2
+					id: "58CB37D2B17155CA"
+					item: {
+						count: 1
+						id: "natures_spirit:joshua_sapling"
+					}
+					type: "item"
+				}
+				{
+					command: "/nx_journal give {p} 18"
+					elevate_perms: true
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "3F4ECB115E47FDF9"
+					silent: true
+					type: "command"
+				}
+				{
+					id: "5EF4DA8A88CDB6BA"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "33C66C6CA942F1A2"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				biome: "natures_spirit:stratified_desert"
+				icon: {
+					id: "natures_spirit:joshua_sapling"
+				}
+				id: "41D6612B356BF07F"
+				type: "biome"
+			}]
+			x: -1.4d
+			y: -8.9d
+		}
+		{
+			dependencies: [
+				"27BB7A5284832DCD"
+				"5E89FA09A8B8DFFC"
+				"6BCD1D4E1CC38964"
+				"2BB61CB44F099486"
+				"3AE99B4358065390"
+				"75B005DBD2D180FF"
+				"2B2439E6E4A90A5E"
+				"622BBA77E07C01E3"
+				"3CC4A106622C459D"
+				"67D26300397B7EA3"
+				"211B8FA323A8D0EE"
+				"156D046997798893"
+				"4261780C6BE503A1"
+				"013FF9C27EE33FDD"
+				"25F5116E7EABF5A7"
+				"007F762D4F36187C"
+				"4BC673CF4589539C"
+				"731F84D45593633A"
+				"3CA0B94381A2041E"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "09E3EA3BA29860B0"
+			rewards: [
+				{
+					count: 3
+					id: "065EA143BBC7588D"
+					item: {
+						count: 1
+						id: "waystones:waystone"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "767F78672762D554"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					command: "/nx_journal give {p} 7"
+					elevate_perms: true
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "6294CAC45A5F7B50"
+					silent: true
+					type: "command"
+				}
+				{
+					id: "5B31B9158BD08E2D"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "3012EB091801D1FD"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "7C76772663BC916C"
+				type: "checkmark"
+			}]
+			x: 13.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3B69EB73F83FCE29"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:obsidian"
+			}
+			id: "4ED0533FE044ED54"
+			rewards: [
+				{
+					id: "4214616E38557F4D"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7A101F05BD4524D0"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "2E4C31FC0F706126"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: {
+					id: "minecraft:obsidian"
+				}
+				id: "35A5486A99A13E6D"
+				type: "dimension"
+			}]
+			x: -10.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3B69EB73F83FCE29"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:ender_eye"
+			}
+			id: "37B39A0A6F9DB9FC"
+			rewards: [
+				{
+					count: 2
+					id: "3733E57F63A2FE7E"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "424B54B10C7BDCA3"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "68CD029A0FE0D7D2"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: {
+					id: "minecraft:ender_eye"
+				}
+				id: "66EE946F7686815C"
+				type: "dimension"
+			}]
+			x: -7.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3B69EB73F83FCE29"]
+			hide_dependency_lines: true
+			icon: {
+				id: "aether:aether_portal_frame"
+			}
+			id: "6B0BFEF06E13EE52"
+			rewards: [
+				{
+					count: 4
+					id: "6F11F630F7F1E40D"
+					item: {
+						count: 1
+						id: "aether:blue_berry"
+					}
+					type: "item"
+				}
+				{
+					id: "48FA3173AB59C028"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "245DD5179A30EEC2"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				dimension: "aether:the_aether"
+				icon: {
+					id: "aether:aether_portal_frame"
+				}
+				id: "3ACD3259566C8460"
+				type: "dimension"
+			}]
+			x: -4.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3B69EB73F83FCE29"]
+			hide_dependency_lines: true
+			icon: {
+				id: "twilightforest:twilight_portal_miniature_structure"
+			}
+			id: "4770E8B61A6D04D7"
+			rewards: [
+				{
+					count: 4
+					id: "40C433BBB9A2541B"
+					item: {
+						count: 1
+						id: "twilightforest:torchberries"
+					}
+					type: "item"
+				}
+				{
+					id: "1BFB898BB2FE813C"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "2AFB6587480388A9"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				icon: {
+					id: "twilightforest:twilight_portal_miniature_structure"
+				}
+				id: "635F954C2EC12DD5"
+				type: "dimension"
+			}]
+			x: -1.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3B69EB73F83FCE29"]
+			hide_dependency_lines: true
+			icon: {
+				id: "eternal_starlight:orb_of_prophecy"
+			}
+			id: "50761CD558AA4DD2"
+			rewards: [
+				{
+					count: 2
+					id: "5CE81CDBFF9B7DA4"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4DBF84BAD6C94427"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "67B64BD5CC4B788F"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				dimension: "eternal_starlight:starlight"
+				icon: {
+					id: "eternal_starlight:orb_of_prophecy"
+				}
+				id: "17B2B683B3B9C8FD"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3B69EB73F83FCE29"]
+			hide_dependency_lines: true
+			icon: {
+				id: "deeperdarker:heart_of_the_deep"
+			}
+			id: "77A37037C8FD6A85"
+			rewards: [
+				{
+					count: 2
+					id: "1517E95E7E109F49"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0C225F8062ADEB40"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "48CEBC1E958BF9B5"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				icon: {
+					id: "deeperdarker:heart_of_the_deep"
+				}
+				id: "11A465C07E7AED95"
+				type: "dimension"
+			}]
+			x: 4.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3B69EB73F83FCE29"]
+			hide_dependency_lines: true
+			icon: {
+				id: "fossilslegacy:time_machine"
+			}
+			id: "6D94867971415974"
+			rewards: [
+				{
+					count: 2
+					id: "04D9F44632F2349E"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "04C49E9BF651BB64"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "0D15918CB075AA00"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				dimension: "fossilslegacy:prehistory"
+				icon: {
+					id: "fossilslegacy:time_machine"
+				}
+				id: "23FE0D0A60B7D3DD"
+				type: "dimension"
+			}]
+			x: 7.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3B69EB73F83FCE29"]
+			hide_dependency_lines: true
+			icon: {
+				id: "ad_astra:tier_1_rocket"
+			}
+			id: "53E5F81128CB79F6"
+			rewards: [
+				{
+					count: 4
+					id: "45C1A3A7B2A4F9E7"
+					item: {
+						count: 1
+						id: "ad_astra:cheese"
+					}
+					type: "item"
+				}
+				{
+					id: "12124CF6E9DAB248"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "2938D112C445ACE4"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				dimension: "ad_astra:moon"
+				icon: {
+					id: "ad_astra:tier_1_rocket"
+				}
+				id: "56D6E1F63D9FB703"
+				type: "dimension"
+			}]
+			x: 10.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3B69EB73F83FCE29"]
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "33181EACEF5EA0D3"
+			rewards: [
+				{
+					id: "48AFE527CD802218"
+					item: {
+						count: 1
+						id: "minecraft:spyglass"
+					}
+					type: "item"
+				}
+				{
+					id: "067B3727FE6DFCE6"
+					item: {
+						count: 1
+						id: "waystones:warp_stone"
+					}
+					type: "item"
+				}
+				{
+					id: "657348D8296FB69A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "63DB74D95836793F"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "7CDD2EB883688435"
+					item: { components: { "minecraft:custom_data": { nx_page: 1 } }, count: 1, id: "minecraft:written_book" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "4479C8C13A2A7D71"
+					item: { components: { "minecraft:custom_data": { nx_page: 2 } }, count: 1, id: "minecraft:written_book" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "08E7DA8AC550B332"
+					item: { components: { "minecraft:custom_data": { nx_page: 3 } }, count: 1, id: "minecraft:written_book" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "313B62683CFCFA4E"
+					item: { components: { "minecraft:custom_data": { nx_page: 4 } }, count: 1, id: "minecraft:written_book" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "40E3EF77630080AB"
+					item: { components: { "minecraft:custom_data": { nx_page: 5 } }, count: 1, id: "minecraft:written_book" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "4E42781BF0D3635B"
+					item: { components: { "minecraft:custom_data": { nx_page: 6 } }, count: 1, id: "minecraft:written_book" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "11C50FA7452CD47E"
+					item: { components: { "minecraft:custom_data": { nx_page: 7 } }, count: 1, id: "minecraft:written_book" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "6C22D89EC3F95B6B"
+					item: { components: { "minecraft:custom_data": { nx_page: 8 } }, count: 1, id: "minecraft:written_book" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "386F87C761F42F44"
+					item: { components: { "minecraft:custom_data": { nx_page: 9 } }, count: 1, id: "minecraft:written_book" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "24BFD4F060B58CBA"
+					item: { components: { "minecraft:custom_data": { nx_page: 10 } }, count: 1, id: "minecraft:written_book" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "2C6F5994C8FE4B4C"
+					item: { components: { "minecraft:custom_data": { nx_page: 11 } }, count: 1, id: "minecraft:written_book" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "10371BE0E43119BA"
+					item: { components: { "minecraft:custom_data": { nx_page: 12 } }, count: 1, id: "minecraft:written_book" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "0168C798A97C8426"
+					item: { components: { "minecraft:custom_data": { nx_page: 13 } }, count: 1, id: "minecraft:written_book" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "7D1436651C75CA32"
+					item: { components: { "minecraft:custom_data": { nx_page: 14 } }, count: 1, id: "minecraft:written_book" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "59D987F3B8FE0730"
+					item: { components: { "minecraft:custom_data": { nx_page: 15 } }, count: 1, id: "minecraft:written_book" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "49216BFF609DF504"
+					item: { components: { "minecraft:custom_data": { nx_page: 16 } }, count: 1, id: "minecraft:written_book" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "6A7924EDFD2943EE"
+					item: { components: { "minecraft:custom_data": { nx_page: 17 } }, count: 1, id: "minecraft:written_book" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "25D5E2F0CE9FDB43"
+					item: { components: { "minecraft:custom_data": { nx_page: 18 } }, count: 1, id: "minecraft:written_book" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "0E39E6867186E3C0"
+					item: { components: { "minecraft:custom_data": { nx_page: 19 } }, count: 1, id: "minecraft:written_book" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					icon: {
+						id: "minecraft:written_book"
+					}
+					id: "24F6083F1FAC647E"
+					item: { components: { "minecraft:custom_data": { nx_page: 20 } }, count: 1, id: "minecraft:written_book" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3B69EB73F83FCE29"]
+			id: "11C89C85532DE957"
+			rewards: [
+				{
+					count: 2
+					id: "3E09CA74353D51DB"
+					item: {
+						count: 1
+						id: "exposure:black_and_white_film"
+					}
+					type: "item"
+				}
+				{
+					id: "507388593D1751F4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "097FF2B59969D09C"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "36D12C17331DC489"
+				item: { count: 1, id: "exposure:camera" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["11C89C85532DE957"]
+			icon: {
+				id: "exposure:color_film"
+			}
+			id: "2530F99DEA8DFCCD"
+			rewards: [
+				{
+					id: "5372BB8F683954DE"
+					item: {
+						count: 1
+						id: "exposure:color_film"
+					}
+					type: "item"
+				}
+				{
+					id: "6C01A96BA4776AC4"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "581610A6A89C481F"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				icon: {
+					id: "exposure:photograph"
+				}
+				id: "6B24DA471BF2A65E"
+				type: "checkmark"
+			}]
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2530F99DEA8DFCCD"]
+			icon: {
+				id: "exposure:photograph_frame"
+			}
+			id: "6D3DB85EA0D9371D"
+			rewards: [
+				{
+					id: "688F582C8786D642"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "4B1C9322055EBAD8"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				icon: {
+					id: "exposure:photograph_frame"
+				}
+				id: "7B50FE5BC3A6D42D"
+				type: "checkmark"
+			}]
+			x: 13.5d
+			y: 4.5d
+		}
+	]
+}

@@ -10,6 +10,8 @@ Each folder in `packs/` is a [packwiz](https://packwiz.infra.link/) modpack that
 
 | Pack | Minecraft | Loader | Import URL |
 |---|---|---|---|
+| NxEterna | 1.21.1 | neoforge 21.1.266 | `https://raw.githubusercontent.com/Nxthun/minecraft/main/packs/nxeterna/nxeterna-prism.zip` |
+| NxEterna (Performance) | 1.21.1 | neoforge 21.1.266 | `https://raw.githubusercontent.com/Nxthun/minecraft/main/packs/nxeterna-performance/nxeterna-performance-prism.zip` |
 | NxTerra | 1.21.1 | neoforge 21.1.266 | `https://raw.githubusercontent.com/Nxthun/minecraft/main/packs/nxterra/nxterra-prism.zip` |
 
 ## Already have an instance?

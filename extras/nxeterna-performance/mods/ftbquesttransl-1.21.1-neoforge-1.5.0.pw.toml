@@ -1,0 +1,13 @@
+name = "FTB Quests Translator"
+filename = "ftbquesttransl-1.21.1-neoforge-1.5.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/WGYAFr0C/versions/cBR3lUhV/ftbquesttransl-1.21.1-neoforge-1.5.0.jar"
+hash-format = "sha512"
+hash = "0da82bae058b81ed89c63f336539ec8fb1f19ed214e82f23e13d5effff361ccd861a7fb29911dbe29c23e719c912b6885b4556aef8382441f244c0198cb033b6"
+
+[update]
+[update.modrinth]
+mod-id = "WGYAFr0C"
+version = "cBR3lUhV"

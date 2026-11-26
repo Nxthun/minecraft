@@ -1,0 +1,26 @@
+{
+	empty_weight: 0.0f
+	hide_tooltip: false
+	id: "27FB551848F08ED9"
+	loot_size: 1
+	order_index: 100
+	rewards: [
+		{
+			item: { components: { "minecraft:container": [ { slot: 0, item: { count: 1, id: "naturescompass:naturescompass" } }, { slot: 1, item: { count: 1, id: "create:wrench" } }, { slot: 2, item: { count: 1, id: "create:hand_crank" } }, { slot: 3, item: { count: 16, id: "create:andesite_alloy" } }, { slot: 4, item: { count: 8, id: "create:shaft" } }, { slot: 5, item: { count: 4, id: "create:cogwheel" } }, { slot: 6, item: { count: 32, id: "minecraft:torch" } } ], "minecraft:custom_name": '{"text": "Keepsake: Engineer", "italic": false, "color": "gold"}' }, count: 1, id: "minecraft:chest" }
+			type: "item"
+		}
+		{
+			item: { components: { "minecraft:container": [ { slot: 0, item: { count: 1, id: "naturescompass:naturescompass" } }, { slot: 1, item: { count: 1, id: "minecraft:spyglass" } }, { slot: 2, item: { count: 1, id: "minecraft:iron_sword" } }, { slot: 3, item: { count: 1, id: "minecraft:leather_boots" } }, { slot: 4, item: { count: 12, id: "minecraft:bread" } }, { slot: 5, item: { count: 32, id: "minecraft:torch" } } ], "minecraft:custom_name": '{"text": "Keepsake: Adventurer", "italic": false, "color": "gold"}' }, count: 1, id: "minecraft:chest" }
+			type: "item"
+		}
+		{
+			item: { components: { "minecraft:container": [ { slot: 0, item: { count: 1, id: "naturescompass:naturescompass" } }, { slot: 1, item: { count: 1, id: "minecraft:iron_hoe" } }, { slot: 2, item: { count: 1, id: "farm_and_charm:cutting_board" } }, { slot: 3, item: { count: 16, id: "minecraft:wheat_seeds" } }, { slot: 4, item: { count: 8, id: "minecraft:carrot" } }, { slot: 5, item: { count: 16, id: "minecraft:bone_meal" } } ], "minecraft:custom_name": '{"text": "Keepsake: Homesteader", "italic": false, "color": "gold"}' }, count: 1, id: "minecraft:chest" }
+			type: "item"
+		}
+		{
+			item: { components: { "minecraft:container": [ { slot: 0, item: { count: 1, id: "naturescompass:naturescompass" } }, { slot: 1, item: { count: 3, id: "minecraft:lead" } }, { slot: 2, item: { count: 12, id: "minecraft:bone" } }, { slot: 3, item: { count: 16, id: "minecraft:wheat" } }, { slot: 4, item: { count: 2, id: "minecraft:name_tag" } }, { slot: 5, item: { count: 1, id: "minecraft:saddle" } } ], "minecraft:custom_name": '{"text": "Keepsake: Tamer", "italic": false, "color": "gold"}' }, count: 1, id: "minecraft:chest" }
+			type: "item"
+		}
+	]
+	use_title: false
+}

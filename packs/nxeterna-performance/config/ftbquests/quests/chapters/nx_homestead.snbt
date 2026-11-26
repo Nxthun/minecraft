@@ -1,0 +1,593 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nx_homestead"
+	group: "6BAF16D8C4F76AA3"
+	icon: {
+		id: "farm_and_charm:stove"
+	}
+	id: "0DD5CA41AC61724E"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "032512F0148DFF41"
+			rewards: [
+				{
+					id: "29D69F329E516DD8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "788DE49D2D3DFDCD"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3F48A38381949153"
+					item: { count: 1, id: "farm_and_charm:crafting_bowl" }
+					type: "item"
+				}
+				{
+					id: "133DBAD602ADE059"
+					item: { count: 1, id: "farm_and_charm:cutting_board" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["032512F0148DFF41"]
+			id: "67FBDCC417B8A8EB"
+			rewards: [
+				{
+					id: "1F6F1D5F0906633F"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "7045670A107271FE"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					count: 4L
+					id: "31A34212512D5085"
+					item: { count: 1, id: "farm_and_charm:strawberry" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2EC00939A413CE1C"
+					item: { count: 1, id: "farm_and_charm:tomato" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "19C03D2C7B1575AA"
+					item: { count: 1, id: "farm_and_charm:onion" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["032512F0148DFF41"]
+			id: "2B7BB0F9BB364A4E"
+			rewards: [
+				{
+					id: "1182C1E56E1D3719"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "0E6A42EC6FCE1106"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3EC53C4A7781EA1C"
+					item: { count: 1, id: "farm_and_charm:stove" }
+					type: "item"
+				}
+				{
+					id: "5FDC3E890DF7C1F5"
+					item: { count: 1, id: "farm_and_charm:cooking_pot" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"67FBDCC417B8A8EB"
+				"2B7BB0F9BB364A4E"
+			]
+			id: "78759288308A73D4"
+			rewards: [
+				{
+					id: "5D12A8DBD7D26D38"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "63138CFFA0A361BC"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "3562C6C91E8DA564"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0F16F844E5ECCD05"
+					item: { count: 1, id: "farm_and_charm:simple_tomato_soup" }
+					type: "item"
+				}
+				{
+					id: "08E7E57211EA2475"
+					item: { count: 1, id: "farm_and_charm:potato_soup" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78759288308A73D4"]
+			id: "225C46645131903D"
+			rewards: [
+				{
+					id: "3B414ED7F46AAB29"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "7E7A4A3C38722B6C"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "712D5CF6DCCDBC28"
+					item: { count: 1, id: "bakery:strawberry_jam" }
+					type: "item"
+				}
+				{
+					id: "4D63CBC142D181A0"
+					item: { count: 1, id: "bakery:croissant" }
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["78759288308A73D4"]
+			id: "73035A3DB07BFF6D"
+			rewards: [
+				{
+					id: "2BDCCFA1013ED426"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "21BFC40971B57FC9"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0FE0F90B016EEB2C"
+					item: { count: 1, id: "herbalbrews:tea_kettle" }
+					type: "item"
+				}
+				{
+					id: "480C60C2BFB95F91"
+					item: { count: 1, id: "herbalbrews:lavender_tea" }
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["225C46645131903D"]
+			id: "0AE92D28782B2142"
+			rewards: [
+				{
+					id: "11466DF8576043B4"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2E36BABFB18B73E3"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "6C93A9821FD1DD74"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3E5B0E713E633334"
+					item: { count: 1, id: "vinery:apple_press" }
+					type: "item"
+				}
+				{
+					id: "4FC79F63DD71F322"
+					item: { count: 1, id: "vinery:fermentation_barrel" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["225C46645131903D"]
+			id: "5310AD1FA8FAAED3"
+			rewards: [
+				{
+					id: "79D51232A3369952"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "30E6C8DD9B55A36D"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "28834C24AB3B0E6E"
+				item: { count: 1, id: "brewery:wooden_brewingstation" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B7BB0F9BB364A4E"]
+			id: "268EAC02DCAE7B41"
+			rewards: [
+				{
+					id: "00C8A81FFDF9492C"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "586EB88C44174552"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "052D78AE27705820"
+					item: { count: 1, id: "another_furniture:oak_chair" }
+					type: "item"
+				}
+				{
+					id: "292EC2FC8E4C0971"
+					item: { count: 1, id: "another_furniture:oak_table" }
+					type: "item"
+				}
+				{
+					id: "11A7E685D7D88AB5"
+					item: { count: 1, id: "refurbished_furniture:workbench" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["268EAC02DCAE7B41"]
+			id: "5F6E75847C1548EA"
+			rewards: [
+				{
+					id: "74908F68A60CE846"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "2FEB4484FC3964E6"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					count: 8L
+					id: "4A872533FECB86FF"
+					item: { count: 1, id: "mcwroofs:oak_roof" }
+					type: "item"
+				}
+				{
+					id: "3ABC4D3B2D6663A8"
+					item: { count: 1, id: "mcwdoors:oak_barn_door" }
+					type: "item"
+				}
+				{
+					id: "47844B646BB657E4"
+					item: { count: 1, id: "mcwwindows:oak_blinds" }
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5F6E75847C1548EA"]
+			id: "31731E1DE933CD58"
+			rewards: [
+				{
+					id: "6E54CAE5E1A83DF3"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "7F3664ED730A34C3"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					count: 8L
+					id: "016617694813C373"
+					item: { count: 1, id: "mcwfences:oak_picket_fence" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4F835E52871AC918"
+					item: { count: 1, id: "mcwpaths:oak_planks_path" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "77F01CE6ACEA2DCE"
+					item: { count: 1, id: "mcwlights:oak_tiki_torch" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["032512F0148DFF41"]
+			icon: {
+				id: "adorablehamsterpets:hamster_spawn_egg"
+			}
+			id: "212891381003EE3D"
+			rewards: [
+				{
+					count: 2
+					id: "0D7A1FEFE91F5199"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1CD76427473CA4AD"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "0675DB357747F0EC"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0953315AF09047B7"
+					item: { count: 1, id: "adorablehamsterpets:hamster_guide_book" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3BCB9BEE6AD5C111"
+					item: { count: 1, id: "adorablehamsterpets:sunflower_seeds" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "adorablehamsterpets:hamster_spawn_egg"
+					}
+					id: "3F8203FA88AA79DF"
+					type: "checkmark"
+				}
+			]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["212891381003EE3D"]
+			id: "24508915A6D99F09"
+			rewards: [
+				{
+					id: "139F4BF8AB740AD1"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "3799978703607665"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					id: "5F561F6A102B67FC"
+					item: { count: 1, id: "adorablehamsterpets:hamster_bed_oak" }
+					type: "item"
+				}
+				{
+					id: "3FC5ADF46A05CF4E"
+					item: { count: 1, id: "adorablehamsterpets:hamster_food_mix" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"0AE92D28782B2142"
+				"5310AD1FA8FAAED3"
+				"73035A3DB07BFF6D"
+			]
+			icon: {
+				id: "farm_and_charm:farmers_breakfast"
+			}
+			id: "6C1C33F5C1598018"
+			rewards: [
+				{
+					id: "37517B9E2057D41C"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5872CAB8EB620199"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0C70CB08973FBD1A"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "0A786B7049CE45EA"
+					item: { count: 1, id: "farm_and_charm:potato_soup" }
+					type: "item"
+				}
+				{
+					id: "14FC4A7B5809244F"
+					item: { count: 1, id: "bakery:croissant" }
+					type: "item"
+				}
+				{
+					id: "10D06F80CBBAA02A"
+					item: { count: 1, id: "farmersdelight:chicken_soup" }
+					type: "item"
+				}
+				{
+					id: "45A4A47FCBB04620"
+					item: { count: 1, id: "culturaldelights:avocado_toast" }
+					type: "item"
+				}
+				{
+					id: "5BF3D632BF76B64B"
+					item: { count: 1, id: "brewery:pretzel" }
+					type: "item"
+				}
+				{
+					id: "4151E23638EAB251"
+					item: { count: 1, id: "herbalbrews:lavender_tea" }
+					type: "item"
+				}
+			]
+			x: 23.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"225C46645131903D"
+				"1D83907BB07D48FB"
+			]
+			id: "7DD649B2CCA6C3BA"
+			optional: true
+			rewards: [
+				{
+					id: "297D2C91777D86F2"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "72298CB8C26C76F4"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "6B215765CA621D43"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "1EBB3BA6AC2830DD"
+				item: { count: 1, id: "bakery:apple_pie" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -6.0d
+		}
+	]
+}

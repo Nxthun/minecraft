@@ -1,0 +1,54 @@
+{
+  "type": "betterend:infusion",
+  "catalysts": {
+    "north_east": {
+      "item": {
+        "item": "celestisynth:celestial_netherite_ingot"
+      }
+    },
+    "north_west": {
+      "item": {
+        "item": "celestisynth:celestial_netherite_ingot"
+      }
+    },
+    "south_east": {
+      "item": {
+        "item": "celestisynth:celestial_netherite_ingot"
+      }
+    },
+    "south_west": {
+      "item": {
+        "item": "celestisynth:celestial_netherite_ingot"
+      }
+    },
+    "north": {
+      "item": {
+        "item": "celestisynth:solar_crystal"
+      }
+    },
+    "south": {
+      "item": {
+        "item": "celestisynth:solar_crystal"
+      }
+    },
+    "east": {
+      "item": {
+        "item": "celestisynth:solar_crystal"
+      }
+    },
+    "west": {
+      "item": {
+        "item": "celestisynth:solar_crystal"
+      }
+    }
+  },
+  "input": {
+    "item": {
+      "item": "eternal_starlight:starfire_sword"
+    }
+  },
+  "result": {
+    "item": "celestisynth:solaris"
+  },
+  "time": 200
+}

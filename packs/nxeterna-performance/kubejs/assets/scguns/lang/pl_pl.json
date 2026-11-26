@@ -1,0 +1,23 @@
+{
+  "scguns.jei.info.copper_blueprint": "Do zdobycia tylko w skarbcach Trial Chambers: 10% ze zwykłego skarbca, 25% ze złowieszczego. Ostatni krok montażu broni Copper – nigdy się nie zużywa.",
+  "scguns.jei.info.iron_blueprint": "Do zdobycia tylko w skrzyniach fortec Netheru (10% na skrzynię). Ostatni krok montażu broni Iron – nigdy się nie zużywa.",
+  "scguns.jei.info.ocean_blueprint": "Do zdobycia w skrzyniach Sunken City (15% na skrzynię), zawsze wypada z Lewiatana. Ostatni krok montażu broni Ocean – nigdy się nie zużywa.",
+  "scguns.jei.info.wrecker_blueprint": "Do zdobycia tylko w skrzyniach bastionów (5% na skrzynię, maks. 1 na bastion). Ostatni krok montażu broni Wrecker – nigdy się nie zużywa.",
+  "scguns.jei.info.diamond_steel_blueprint": "Wypada tylko z Maledictusa. Ostatni krok montażu broni Diamond Steel – nigdy się nie zużywa.",
+  "scguns.jei.info.treated_brass_blueprint": "Wypada tylko z Ignisa. Ostatni krok montażu broni Treated Brass – nigdy się nie zużywa.",
+  "scguns.jei.info.piglin_blueprint": "Do zdobycia tylko w bastionach (2% szansy na cały bastion, maks. 1 na bastion). Ostatni krok montażu broni Piglin – nigdy się nie zużywa.",
+  "scguns.jei.info.deep_dark_blueprint": "Do zdobycia tylko w Ancient City (1% szansy na całe miasto, maks. 1 na miasto). Ostatni krok montażu broni Deep Dark – nigdy się nie zużywa.",
+  "scguns.jei.info.end_blueprint": "Wypada tylko z Ender Guardiana. Ostatni krok montażu broni End – nigdy się nie zużywa.",
+  "scguns.advancement.copper_blueprint.desc": "Znaleziony w skarbcu Trial Chambers, służy do tworzenia broni Copper",
+  "scguns.advancement.iron_blueprint.desc": "Znaleziony w fortecy Netheru, służy do tworzenia broni Iron",
+  "scguns.advancement.treated_brass_blueprint.desc": "Zdobyty z Ignisa, służy do tworzenia broni Treated Brass",
+  "scguns.advancement.diamond_steel_blueprint.desc": "Zdobyty z Maledictusa, służy do tworzenia broni Diamond Steel",
+  "scguns.advancement.piglin_blueprint.desc": "Znaleziony głęboko w bastionie, służy do tworzenia broni Piglin",
+  "scguns.advancement.ocean_blueprint.desc": "Wydobyty z Sunken City, służy do tworzenia broni Ocean",
+  "scguns.advancement.deep_dark_blueprint.desc": "Znaleziony w głębinach Ancient City, służy do tworzenia broni Deep Dark",
+  "scguns.advancement.end_blueprint.desc": "Zdobyty z Ender Guardiana, służy do tworzenia broni End",
+  "scguns.advancement.scorched_blueprint.desc": "Stworzony z połączenia wszystkich blueprintów i Nether Star, służy do tworzenia broni Scorched",
+  "kubejs.jei.info.antique_blueprint": "Do zdobycia tylko w skrzyniach w wioskach (5% na skrzynię, maks. 1 na wioskę). Ostatni krok montażu broni Antique – nigdy się nie zużywa.",
+  "kubejs.jei.info.frontier_blueprint": "Do zdobycia tylko w posterunkach pillagerów (7% szansy na cały posterunek). Ostatni krok montażu broni Frontier – nigdy się nie zużywa.",
+  "kubejs.jei.info.scorched_blueprint": "Tworzony w Mechanical Crafterze z Create ze wszystkich 11 pozostałych blueprintów i Nether Star. Ostatni krok montażu broni Scorched – nigdy się nie zużywa."
+}

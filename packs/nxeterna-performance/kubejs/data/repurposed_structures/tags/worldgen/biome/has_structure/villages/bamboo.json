@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "natures_spirit:bamboo_wetlands",
+      "required": false
+    }
+  ]
+}

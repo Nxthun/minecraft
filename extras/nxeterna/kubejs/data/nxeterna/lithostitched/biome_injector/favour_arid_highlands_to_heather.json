@@ -1,0 +1,13 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "targets": [
+    "natures_spirit:arid_highlands"
+  ],
+  "replacement": "natures_spirit:heather_fields",
+  "parameters": {
+    "weirdness": {
+      "min_inclusive": 0
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "tooltip": {
+    "text": "Grappling Hooks"
+  },
+  "icon": {
+    "id": "yo_hooks:iron_grappling_hook"
+  },
+  "sortIndex": 130
+}

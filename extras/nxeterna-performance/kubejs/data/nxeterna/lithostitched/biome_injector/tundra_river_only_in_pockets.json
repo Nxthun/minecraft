@@ -1,0 +1,13 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "targets": [
+    "natures_spirit:tundra_river"
+  ],
+  "replacement": "natures_spirit:taiga_river",
+  "parameters": {
+    "temperature": {
+      "min_inclusive": -0.45
+    }
+  }
+}

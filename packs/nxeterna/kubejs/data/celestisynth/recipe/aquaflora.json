@@ -1,0 +1,54 @@
+{
+  "type": "betterend:infusion",
+  "catalysts": {
+    "north_east": {
+      "item": {
+        "item": "celestisynth:celestial_netherite_ingot"
+      }
+    },
+    "north_west": {
+      "item": {
+        "item": "celestisynth:celestial_netherite_ingot"
+      }
+    },
+    "south_east": {
+      "item": {
+        "item": "celestisynth:celestial_netherite_ingot"
+      }
+    },
+    "south_west": {
+      "item": {
+        "item": "celestisynth:celestial_netherite_ingot"
+      }
+    },
+    "north": {
+      "item": {
+        "item": "celestisynth:celestial_core"
+      }
+    },
+    "south": {
+      "item": {
+        "item": "celestisynth:celestial_core"
+      }
+    },
+    "east": {
+      "item": {
+        "item": "celestisynth:celestial_core"
+      }
+    },
+    "west": {
+      "item": {
+        "item": "celestisynth:celestial_core"
+      }
+    }
+  },
+  "input": {
+    "item": {
+      "item": "eternal_starlight:rage_of_stars"
+    }
+  },
+  "result": {
+    "item": "celestisynth:aquaflora"
+  },
+  "time": 200
+}

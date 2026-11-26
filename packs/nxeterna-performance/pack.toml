@@ -1,0 +1,13 @@
+name = "NxEterna (Performance)"
+author = "Nxthun"
+version = "0.1.0-737e0e3"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "737e0e3aa7bd756b41c4b6879c310e89257f96cbfbc4c4e109e8509180fc7bfa"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.266"

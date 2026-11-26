@@ -1,0 +1,13 @@
+name = "Tuttas Retextures - Runes Edition"
+filename = "Tuttas Retextures - Runes Edition.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/RxBBz2NH/versions/fVYuheFl/Tuttas%20Retextures%20-%20Runes%20Edition.zip"
+hash-format = "sha512"
+hash = "b5e9e4be5d2f65568555d1ac98edd7468bebde2b9a495b420b93d991ad7fd0c77dbb4a410311d0474337e9320e4eb82bbb80bd17264e6a8d880a3ca2b0c94fb7"
+
+[update]
+[update.modrinth]
+mod-id = "RxBBz2NH"
+version = "fVYuheFl"

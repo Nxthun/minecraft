@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "natures_spirit:boreal_taiga",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:snowy_fir_forest",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:snowy_redwood_forest",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:tundra",
+      "required": false
+    },
+    {
+      "id": "#nxeterna:alpine_snow",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,528 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nx_prehistoric"
+	group: "6BAF16D8C4F76AA3"
+	icon: {
+		id: "fossilslegacy:tyrannosaurus_dna"
+	}
+	id: "2403D05CB78FA230"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "fossilslegacy:fossil"
+			}
+			id: "5A7D182BC30E91BA"
+			rewards: [
+				{
+					id: "0E3253E4EB5B8632"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "7054A493E53DF200"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					count: 4L
+					id: "7C4A6E73B76D326B"
+					item: { count: 1, id: "fossilslegacy:fossil" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "48F12CEAAE00EA2D"
+					item: { count: 1, id: "fossilslegacy:relic_scrap" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A7D182BC30E91BA"]
+			id: "344C70B424103D4B"
+			rewards: [
+				{
+					id: "644C7DDFAF912203"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "600909E7CCF437B9"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "48AFBAEF2D92AD51"
+				item: { count: 1, id: "fossilslegacy:analyzer" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["344C70B424103D4B"]
+			id: "39C241727D59AA0B"
+			rewards: [
+				{
+					id: "39F608C0959C7445"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "42FA6AEEEE9FA856"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				icon: {
+					id: "fossilslegacy:tyrannosaurus_dna"
+				}
+				id: "62F7EDE5E32DB529"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(fossilslegacy:dna)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39C241727D59AA0B"]
+			id: "784530247CEAEF80"
+			rewards: [
+				{
+					id: "23DF6E3718B5C053"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "54166C61F8FC911C"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "31B1F49B7E84D697"
+				item: { count: 1, id: "fossilslegacy:dinopedia" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["39C241727D59AA0B"]
+			id: "6E3282AAA404F577"
+			rewards: [
+				{
+					id: "5B44BD49E1D3E490"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3A24D7380DB677A2"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "60B7942B96F7BF48"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "32323DDBAB236CDF"
+				item: { count: 1, id: "fossilslegacy:white_cultivator" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E3282AAA404F577"]
+			id: "3301C98D43CABE29"
+			rewards: [
+				{
+					count: 2
+					id: "01D954B58A051F98"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "166255154BEBEB43"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "2D3DCEDEB1F2668C"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "1694390799B9691A"
+				item: { count: 1, id: "fossilslegacy:triceratops_egg" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3301C98D43CABE29"]
+			icon: {
+				id: "fossilslegacy:triceratops_spawn_egg"
+			}
+			id: "1CEC5FC9D518916B"
+			rewards: [
+				{
+					count: 2
+					id: "3210F4B8301D9436"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "69DD7A3C4FE99C28"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "154C3D6BF9EEF318"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				icon: {
+					id: "fossilslegacy:triceratops_spawn_egg"
+				}
+				id: "356B8E90F6772E6E"
+				type: "checkmark"
+			}]
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CEC5FC9D518916B"]
+			id: "01785DB8DB28A23B"
+			rewards: [
+				{
+					id: "25996693AD8A920D"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "216542ED3DEC4093"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "107D2EED77F3EBDF"
+				item: { count: 1, id: "fossilslegacy:feeder" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1CEC5FC9D518916B"]
+			icon: {
+				id: "fossilslegacy:dinopedia"
+			}
+			id: "1C1F2E7A1EECA2B3"
+			rewards: [
+				{
+					count: 3
+					id: "6DAAFAA908AC99ED"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0D5E199E529EBDAA"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "1579994F893029FD"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				icon: {
+					id: "fossilslegacy:dinopedia"
+				}
+				id: "2308A990C9FD65C7"
+				type: "checkmark"
+			}]
+			x: 22.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1C1F2E7A1EECA2B3"]
+			icon: {
+				id: "minecraft:saddle"
+			}
+			id: "51ED5B7E9B42DB4D"
+			rewards: [
+				{
+					id: "77AE59F9A6A37497"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6418C6183FB45C29"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "7BCC9A9D04AE66D6"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				icon: {
+					id: "minecraft:saddle"
+				}
+				id: "63C65DBE00E6B403"
+				type: "checkmark"
+			}]
+			x: 27.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1C1F2E7A1EECA2B3"]
+			icon: {
+				id: "fossilslegacy:pteranodon_spawn_egg"
+			}
+			id: "4D429729D570971A"
+			rewards: [
+				{
+					id: "7827271AD62A2DE4"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5EF5F72FF77A4BAF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4E9D5F7AD945C200"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0FFDD4E1D25FE7D9"
+					item: { count: 1, id: "fossilslegacy:pteranodon_egg" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "fossilslegacy:pteranodon_spawn_egg"
+					}
+					id: "019B52429A083032"
+					type: "checkmark"
+				}
+			]
+			x: 27.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5A7D182BC30E91BA"]
+			id: "2D89D275FD4A3AFB"
+			optional: true
+			rewards: [
+				{
+					id: "62FEB7CACD1C43AB"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "5C8BF8CD8F3BE6C8"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "1DC187328971D783"
+				item: { count: 1, id: "fossilslegacy:ancient_helmet" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			id: "2A4DDD6A68C52B4B"
+			rewards: [
+				{
+					id: "62C69B4A1EF84ADF"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "09A5388FF1399A36"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "2E07E68BDB0C477E"
+				item: { count: 1, id: "ec_ad:guidebook" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2A4DDD6A68C52B4B"]
+			icon: {
+				id: "ec_ad:lushsaur_egg"
+			}
+			id: "2FA84B99B230A309"
+			rewards: [
+				{
+					id: "210BDDBB6F9CE504"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7F242031EBB6BE85"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "118EE9922CA40948"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					structure: "ec_ad:lushsaur"
+					icon: {
+						id: "ec_ad:lushsaur_egg"
+					}
+					id: "1EF388CC70363588"
+					type: "structure"
+				}
+				{
+					advancement: "ec_ad:tame_lushsaur"
+					criterion: ""
+					icon: {
+						id: "ec_ad:lushsaur_egg"
+					}
+					id: "29B715582BB0CE67"
+					type: "advancement"
+				}
+			]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"3301C98D43CABE29"
+				"67FBDCC417B8A8EB"
+			]
+			id: "5372D24856B4F6E8"
+			optional: true
+			rewards: [
+				{
+					id: "12E6A6E1DF646D62"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "47AF682BAB317538"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "2A03885948080F54"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					count: 8L
+					id: "3D843E5A4EDC741E"
+					item: { count: 1, id: "farm_and_charm:tomato" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "125F9CD8F3990C6D"
+					item: { count: 1, id: "farm_and_charm:strawberry" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: -3.0d
+		}
+	]
+}

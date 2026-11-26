@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "payment": {
+    "ingredient": {
+      "item": "magic_coins:crystal_coin"
+    },
+    "count": 1
+  }
+}

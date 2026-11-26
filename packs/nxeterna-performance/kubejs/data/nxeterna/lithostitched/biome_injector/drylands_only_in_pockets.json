@@ -1,0 +1,13 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "targets": [
+    "natures_spirit:wooded_drylands"
+  ],
+  "replacement": "natures_spirit:sparse_tropical_woods",
+  "parameters": {
+    "temperature": {
+      "max_inclusive": 0.55
+    }
+  }
+}

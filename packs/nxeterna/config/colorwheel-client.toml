@@ -1,0 +1,7 @@
+#Should display a message when an incompatible shaderpack is used.
+#NxEterna: off. The pack ships Bliss, which Colorwheel does not support; Create then renders the plain way, which looks right.
+alertIncompatiblePack = false
+#Should display a message when a broken shaderpack is used.
+alertBrokenPack = true
+#Should fallback mode be used for non supported shaderpacks.
+enableFallbackMode = false

@@ -1,0 +1,354 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ecreate_deep_dark"
+	group: "31899D0F978471CE"
+	icon: {
+		id: "create_deep_dark:echo_ingot"
+	}
+	id: "4C4C3431F7475E83"
+	images: [ ]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/createdeepdark"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "60FB64082F2B44F4"
+			rewards: [
+				{
+					id: "5B1A989B7F524D2D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "2DAF9DF29A25E227"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "28171579FECEE388"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["60FB64082F2B44F4"]
+			id: "1BEACDC243E3686B"
+			rewards: [
+				{
+					id: "06F20B47793A2970"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "64BCBD4A9B88F516"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4CFF0159BC7B8684"
+				item: { count: 1, id: "create_deep_dark:sculk_flour" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["60FB64082F2B44F4"]
+			id: "4C5AB45F2F2B5203"
+			rewards: [
+				{
+					id: "1D73B0EBB39CDBDC"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "1C9FADFDAF9096C8"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "036BEC70064F60BA"
+				item: { count: 1, id: "create_deep_dark:molten_echo_bucket" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1BEACDC243E3686B"]
+			id: "13682853E6FEAC2C"
+			rewards: [
+				{
+					id: "6CECB752010A5EBD"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "068886BE047E61A8"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "64046591E37273D3"
+				item: { count: 1, id: "create_deep_dark:echo_cake_base" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"13682853E6FEAC2C"
+				"4C5AB45F2F2B5203"
+			]
+			id: "1D60B59F8EFB38C8"
+			rewards: [
+				{
+					id: "3A98215F84C87814"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "02228F7948FDE9B7"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7BB4525AFB8745E7"
+				item: { count: 1, id: "create_deep_dark:echo_cake" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7AB0615D281911F9"]
+			id: "366A265B21995A13"
+			rewards: [
+				{
+					id: "3DDF72F3FE1C44DC"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "698E1B491ABE2B9B"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2D4A6C6269262FBB"
+				item: { count: 1, id: "create_deep_dark:echo_ingot" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4C5AB45F2F2B5203"]
+			id: "7AB0615D281911F9"
+			rewards: [
+				{
+					id: "04A281A228739848"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "7A6BEADD9F82ED18"
+					item: { count: 1, id: "nxeterna_packs:pack_epic" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "3E3C76014F6EBCF3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["366A265B21995A13"]
+			id: "22CA6A2B4506EF13"
+			rewards: [
+				{
+					id: "170F9FE9D7D0CDB5"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "58918CA4ABCF6B8F"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "67233D51B025F3F2"
+				item: { count: 1, id: "create_deep_dark:echo_upgrade_smithing_template" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["366A265B21995A13"]
+			id: "39ABC6185E33FDEB"
+			rewards: [
+				{
+					id: "188AE462BBDA7D96"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "3A491EC167CAADA4"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7A583463E94ABE73"
+				item: { count: 1, id: "create_deep_dark:echo_block" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["025824B032AF9A51"]
+			id: "77FF9FBFB29FB308"
+			rewards: [
+				{
+					id: "5A0015357FC2E3EF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "43CE53B866E12D76"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "771925C81E2B035C"
+				item: { count: 1, id: "create_deep_dark:echo_sword" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4F72B7007616E3E4"]
+			id: "5CD5FBB3EC711353"
+			rewards: [
+				{
+					id: "6EE939ABBC3147EB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "13962182571A148F"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3A4F69ED171F8056"
+				item: { count: 1, id: "create_deep_dark:echo_armor_helmet" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["366A265B21995A13"]
+			id: "4F72B7007616E3E4"
+			rewards: [
+				{
+					id: "0F8717B51AA0CD55"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4AA4CF5662D41754"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "099A0BF605E3C31A"
+				item: { count: 1, id: "create_deep_dark:echo_armor_chestplate" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5CD5FBB3EC711353"
+				"67A2AE69F1463F15"
+			]
+			id: "025824B032AF9A51"
+			rewards: [
+				{
+					id: "1A92037253497306"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "58929B137277AA15"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2A3BEEBA342C9495"
+				item: { count: 1, id: "create_deep_dark:echo_armor_leggings" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4F72B7007616E3E4"]
+			id: "67A2AE69F1463F15"
+			rewards: [
+				{
+					id: "451793BCEFCB0DA3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3DDE1BF48377D930"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "36CE325728D9D03B"
+				item: { count: 1, id: "create_deep_dark:echo_armor_boots" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+	]
+}

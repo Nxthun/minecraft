@@ -1,0 +1,16 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "targets": [
+    "minecraft:plains"
+  ],
+  "replacement": "natures_spirit:marigold_meadows",
+  "parameters": {
+    "temperature": {
+      "max_inclusive": -0.27
+    },
+    "weirdness": {
+      "min_inclusive": 0
+    }
+  }
+}

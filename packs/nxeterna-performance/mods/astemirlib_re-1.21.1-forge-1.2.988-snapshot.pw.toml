@@ -1,0 +1,13 @@
+name = "astemirlib_re-1.21.1-forge-1.2.988-SNAPSHOT.jar"
+filename = "astemirlib_re-1.21.1-forge-1.2.988-SNAPSHOT.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/xMZpvyiF/versions/sRcfgtNX/astemirlib_re-1.21.1-forge-1.2.988-SNAPSHOT.jar"
+hash-format = "sha512"
+hash = "65ff041217891d7a3cf5716fb853280a3cf7e1eaa410907d46c91ad4de2e5f2ec8a8cec8f6c69ab0fd2848600a478d0f868ba4433ff6fbe82b3b50743f78a552"
+
+[update]
+[update.modrinth]
+mod-id = "xMZpvyiF"
+version = "sRcfgtNX"

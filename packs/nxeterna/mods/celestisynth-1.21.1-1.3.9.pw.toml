@@ -1,0 +1,13 @@
+name = "Celestisynth [Official Neoforge Port]"
+filename = "celestisynth-1.21.1-1.3.9.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7y3FXt8C/versions/CTt6ln76/celestisynth-1.21.1-1.3.9.jar"
+hash-format = "sha512"
+hash = "6348b55dd8b3f5388e6cb00e3bee479b54f8d1876da0c795958c5dcfd6a279356b33877827b22f0158ae0174ce4131a1ab5eaf0632cb9d203fc75ff9ebf8018b"
+
+[update]
+[update.modrinth]
+mod-id = "7y3FXt8C"
+version = "CTt6ln76"

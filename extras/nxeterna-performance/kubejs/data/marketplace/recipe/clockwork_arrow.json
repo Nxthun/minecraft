@@ -1,0 +1,8 @@
+{
+  "type": "farmingforblockheads:market",
+  "category": "marketplace:clockwork",
+  "preset": "marketplace:clockwork_silver_1",
+  "result": {
+    "item": "clockwork:clockwork_arrow"
+  }
+}

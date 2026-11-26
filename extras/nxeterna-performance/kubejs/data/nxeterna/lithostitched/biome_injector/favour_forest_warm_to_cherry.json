@@ -1,0 +1,13 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "targets": [
+    "minecraft:forest"
+  ],
+  "replacement": "minecraft:cherry_grove",
+  "parameters": {
+    "temperature": {
+      "min_inclusive": 0.23
+    }
+  }
+}

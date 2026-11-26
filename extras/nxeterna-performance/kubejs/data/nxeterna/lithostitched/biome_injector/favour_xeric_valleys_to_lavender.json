@@ -1,0 +1,13 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "targets": [
+    "natures_spirit:xeric_plains"
+  ],
+  "replacement": "natures_spirit:lavender_fields",
+  "parameters": {
+    "weirdness": {
+      "max_inclusive": -0.0001
+    }
+  }
+}

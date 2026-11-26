@@ -1,0 +1,407 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nx_arcane"
+	group: "6BAF16D8C4F76AA3"
+	icon: {
+		id: "ars_nouveau:novice_spell_book"
+	}
+	id: "2C8C92B5D949CD40"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "102B9FEF87817187"
+			rewards: [
+				{
+					id: "22533AA718A0B1B1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "32A0AB9FF5CBF1A0"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "2B88C317586FD241"
+				item: { count: 1, id: "ars_nouveau:worn_notebook" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["102B9FEF87817187"]
+			id: "3DBE284A86DDAC39"
+			rewards: [
+				{
+					id: "1DC6349D3286204A"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "099E662808ABB3E5"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "17B0DF6B1EA1A147"
+				item: { count: 1, id: "ars_nouveau:novice_spell_book" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DBE284A86DDAC39"]
+			id: "06EA80A5319247B2"
+			rewards: [
+				{
+					id: "4BF8A59318B540EA"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "2E11E7BA731718C0"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				count: 4L
+				icon: {
+					id: "ars_nouveau:blue_archwood_log"
+				}
+				id: "6E6DFD89F9EE5E3A"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:logs/archwood)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["06EA80A5319247B2"]
+			id: "423A7AD9810D781C"
+			rewards: [
+				{
+					id: "220E5EEDAE17290B"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6F5987F04272B65A"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "28A87B5718633ED7"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "7D129E37738C6F16"
+				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["423A7AD9810D781C"]
+			id: "4FE7D06676227619"
+			rewards: [
+				{
+					id: "5BCC711C12A35EBD"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "340E3F4287BD4017"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				count: 4L
+				id: "5041361062BA534F"
+				item: { count: 1, id: "ars_nouveau:source_gem" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3DBE284A86DDAC39"]
+			id: "75A2B200F21F65BF"
+			rewards: [
+				{
+					id: "60EA3ADB506D1B20"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "3ABDB4F67755FB66"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "36735CAFC8C4830A"
+				item: { count: 1, id: "ars_nouveau:scribes_table" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"75A2B200F21F65BF"
+				"4FE7D06676227619"
+			]
+			id: "6CE765AB441CB8FA"
+			rewards: [
+				{
+					count: 2
+					id: "348BB5F99799AD4B"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "15E291E62A188F97"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3D6E2257BEBD4858"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "44DCB4ED06236817"
+					item: { count: 1, id: "ars_nouveau:glyph_projectile" }
+					type: "item"
+				}
+				{
+					id: "6CE0169D479D7001"
+					item: { count: 1, id: "ars_nouveau:glyph_touch" }
+					type: "item"
+				}
+				{
+					id: "531D9DF9467BF972"
+					item: { count: 1, id: "ars_nouveau:glyph_harm" }
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3DBE284A86DDAC39"]
+			icon: {
+				id: "aether:aether_portal_frame"
+			}
+			id: "0028D0DC6485348A"
+			rewards: [
+				{
+					count: 2
+					id: "3A62F7665ACD098F"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6B4C6D1985D3041C"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "26674C9A533BC849"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				dimension: "aether:the_aether"
+				icon: {
+					id: "aether:aether_portal_frame"
+				}
+				id: "7F2D5D242256D9E4"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0028D0DC6485348A"]
+			id: "12063A04A43A9722"
+			rewards: [
+				{
+					id: "17FA115E1E3BAF36"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "39E7E1273C0383DA"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: {
+					id: "minecraft:grass_block"
+				}
+				id: "332BA018E112E745"
+				type: "dimension"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0028D0DC6485348A"]
+			id: "54B3F0AFB80F759B"
+			rewards: [
+				{
+					id: "2D8F9E365B009F11"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "3B8A572B2916E076"
+					item: { count: 1, id: "nxeterna_packs:pack_common" }
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "2919F6BDC8EC8AC3"
+				item: { count: 1, id: "aether:zanite_pickaxe" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["54B3F0AFB80F759B"]
+			icon: {
+				id: "aether:bronze_dungeon_key"
+			}
+			id: "6C75C6D6C7B43D8A"
+			rewards: [
+				{
+					id: "17F7DB0D506CCD1C"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7BD0B22D170C2217"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "563718B3FA18FA33"
+					item: { count: 1, id: "nxeterna_packs:pack_epic" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					structure: "aether:bronze_dungeon"
+					icon: {
+						id: "aether:bronze_dungeon_key"
+					}
+					id: "1B4A027A3C5A5A51"
+					type: "structure"
+				}
+				{
+					entity: "aether:slider"
+					icon: {
+						id: "aether:carved_stone"
+					}
+					id: "69FB14DD2FA70294"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 13.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"6CE765AB441CB8FA"
+				"67FBDCC417B8A8EB"
+			]
+			id: "2AA8522277ED926A"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "353667322CD62BB0"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "12A4DFF53DC69483"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "772D5D6743542923"
+					item: { count: 1, id: "nxeterna_packs:pack_rare" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "50776C603CCDD845"
+				item: { count: 1, id: "ars_nouveau:agronomic_sourcelink" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+	]
+}

@@ -1,0 +1,13 @@
+name = "Clockwork"
+filename = "clockwork-neoforge-1.21.1-1.1.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/h3OPQqBm/versions/h8mXZDkx/clockwork-neoforge-1.21.1-1.1.5.jar"
+hash-format = "sha512"
+hash = "9d650b5f7807799369309f7b9065babea803c9269964c3697605b92ef574a72d393c1ee63c27b4574a6c8e754092839fb610ca69f3ae2440f4be671d6754396c"
+
+[update]
+[update.modrinth]
+mod-id = "h3OPQqBm"
+version = "h8mXZDkx"

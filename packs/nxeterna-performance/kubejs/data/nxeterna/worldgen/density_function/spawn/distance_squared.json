@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:square",
+    "argument": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "lithostitched:axis",
+        "axis": "x"
+      },
+      "argument2": 1032.0
+    }
+  },
+  "argument2": {
+    "type": "minecraft:square",
+    "argument": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "lithostitched:axis",
+        "axis": "z"
+      },
+      "argument2": -696.0
+    }
+  }
+}

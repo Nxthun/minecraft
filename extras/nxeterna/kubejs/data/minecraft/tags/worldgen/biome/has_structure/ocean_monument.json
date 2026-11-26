@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecraft:ocean",
+      "required": false
+    },
+    {
+      "id": "minecraft:cold_ocean",
+      "required": false
+    },
+    {
+      "id": "minecraft:lukewarm_ocean",
+      "required": false
+    },
+    {
+      "id": "minecraft:warm_ocean",
+      "required": false
+    }
+  ]
+}
