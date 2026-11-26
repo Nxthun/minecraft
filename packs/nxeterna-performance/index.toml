@@ -10921,8 +10921,8 @@ file = "mods/nxeterna_packs-1.2.1.jar"
 hash = "968c718c1f66b45976c069c17cb7f24493f91c2b5d7f065fdb24bfdefbed229f"
 
 [[files]]
-file = "mods/nxeterna_relics-1.4.2.jar"
-hash = "841552ac1b8fcb3a931ee923aed51071cd93a27c003bdfaaa8a4394870055229"
+file = "mods/nxeterna_relics-1.5.4.jar"
+hash = "3b7f5df364fe757dbc9c33ee395cde958b407f6011137067784359f2f41f2611"
 
 [[files]]
 file = "mods/observable-5.4.4.pw.toml"
