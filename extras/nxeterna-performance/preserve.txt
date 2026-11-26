@@ -1,7 +1,6 @@
 # Files players keep once they have them (their own settings). Everything else updates with the pack.
 options.txt
 servers.dat
-config/DistantHorizons.toml
 config/iris.properties
 config/sodium-options.json
 config/voicechat/voicechat-client.properties

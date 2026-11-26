@@ -6,8 +6,7 @@ hash = "6d46bdc090d4bb9bdfb660be4ca94075dc08e09d5fed84108eba92a422a23c49"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "10335e0b7de87528e786ae1ecffee56b73cbba01afae7fe531d1a47d3af0a517"
-preserve = true
+hash = "456ca5e9cb98bf482cbf0dc5bcec5c49f906b9f054e4a09fdfe656b60d07b79a"
 
 [[files]]
 file = "config/Dusty Decorations Config.toml"
@@ -1067,7 +1066,7 @@ hash = "730b13a15e01a03825fc40477758799ed8801c783d9cf829867c43c1b08f7ad9"
 
 [[files]]
 file = "config/betterdays-common.toml"
-hash = "00550d68f59a61c6c32284e3aef07fa9e8ad75786da1a59f18b55570d35e42c6"
+hash = "ec50f1665d851282c3733f7d0f260452ccf55f83aeac4cda56395f26e91b5c13"
 
 [[files]]
 file = "config/betterend/biomes_toggle.json"
@@ -3060,7 +3059,7 @@ hash = "7482b228a8ab42eea959c3e516f1853a211202615cc133780b0171b88f7e367a"
 
 [[files]]
 file = "config/supplementaries-common.toml"
-hash = "73341571dc7b26b2d66fac1d52570dd8bf572880fd0aef26bc7fb94fa86508cd"
+hash = "cae6ab675b3d835722db72bf3e0f5a8eaea3168c64a8aa5aa5aaddf3ee9ad2ee"
 
 [[files]]
 file = "config/terrablender.toml"

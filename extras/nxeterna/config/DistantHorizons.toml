@@ -14,5 +14,6 @@
 			# NxEterna: no chat lines about the Java garbage collector or about other mods on every join.
 			# The pack runs G1 on purpose (measured memory use); players cannot act on these.
 			logGarbageCollectorWarning = false
+			showGarbageCollectorWarning = false
 			showModCompatibilityWarningsOnStartup = false
 			showSlowWorldGenSettingWarnings = false

@@ -1,12 +1,12 @@
 name = "NxEterna (Performance)"
 author = "Nxthun"
-version = "0.1.0-737e0e3"
+version = "0.1.0-14e529a"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "737e0e3aa7bd756b41c4b6879c310e89257f96cbfbc4c4e109e8509180fc7bfa"
+hash = "14e529a6f941515c6cab23e4f736848e0ace575db18cceb24299f59b01659b28"
 
 [versions]
 minecraft = "1.21.1"
